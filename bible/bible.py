@@ -33,9 +33,15 @@ class Bible(commands.Cog):
             book = book.capitalize()
             # map books
             book, display_name = normalize_book_name(book)
+            have_chapter_and_verse = False
             chapter_verse = res[1]
-            chapter, verse = chapter_verse.split(':')
-            chapter = int(chapter)
+            if (':' in chapter_verse):
+                chapter, verse = chapter_verse.split(':')
+                chapter = int(chapter)
+                verse = int(verse)
+                have_chapter_and_verse = True
+            else:
+                chapter = int(chapter_verse)
         except:
             await ctx.send("Invalid argument: message " + message + " book: " + book)
             return
@@ -80,7 +86,7 @@ class Bible(commands.Cog):
                                         description += str(box(text="- " + note["note"], lang="diff") + "\n\n")
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n\n", "\n", "**"]):
-                    verbose_title = display_name + " - Authorized (King James) Version (AKJV)"
+                    verbose_title = display_name + " " + chapter_verse + " - Authorized (King James) Version (AKJV)"
                     embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
@@ -249,6 +255,14 @@ class Bible(commands.Cog):
 def normalize_book_name(book: str):
     display_name = book
     match book:
+        case "Psalm":
+            book_name = "Psalms"
+            display_name = "Psalms"
+        case "Revelations":
+            book_name = "Revelation"
+            display_name = "Revelation"
+        case "Songofsolomon":
+            display_name = "Songs of Solomon"
         case "Songsofsolomon":
             book_name = "Songofsolomon"
             display_name = "Songs of Solomon"
