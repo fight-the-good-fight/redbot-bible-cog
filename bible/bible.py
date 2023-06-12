@@ -225,8 +225,8 @@ class Bible(commands.Cog):
                     for verse in verses:
                         verse_num = verse["verse"]
                         verse_text = verse["text"]
-                        matched = re.search(r"\b" + arg.lower() + "\b", verse_text.lower())
-                        if matched:
+                        matched = re.search(r"\b(" + arg.lower() + ")\b", verse_text.lower())
+                        if not matched == None:
                             description += f"**{book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
 
         if description == "":
