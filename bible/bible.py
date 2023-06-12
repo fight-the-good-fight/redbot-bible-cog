@@ -22,18 +22,22 @@ class Bible(commands.Cog):
         pass
 
     @bible.command()
-    async def lookup(self, ctx: commands.Context, book: str, arg: str):
+    async def lookup(self, ctx: commands.Context, *, message: str):
         """Searches for a verse or chapter in the bible"""
         try:
+            # split on last space
+            res = message.rsplit(' ', 1)
+            book = res[0]
             book = book.strip()
             book = book.replace(" ", "")
             book = book.capitalize()
             # map books
             book, display_name = normalize_book_name(book)
-            chapter, verse = arg.split(':')
+            chapter_verse = res[1]
+            chapter, verse = chapter_verse.split(':')
             chapter = int(chapter)
         except:
-            await ctx.send("Invalid argument: book " + book + "arg: " + arg)
+            await ctx.send("Invalid argument: message " + message + " book: " + book)
             return
 
         try:
