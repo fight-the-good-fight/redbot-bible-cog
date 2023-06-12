@@ -252,6 +252,8 @@ def normalize_book_name(book: str):
         case "Songsofsolomon":
             book_name = "Songofsolomon"
             display_name = "Songs of Solomon"
+        case "Songofsolomon":
+            display_name = "Songs of Solomon"
         case "Songofsongs":
             book_name = "Songofsolomon"
             display_name = "Songs of Solomon"
