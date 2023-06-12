@@ -38,7 +38,6 @@ class Bible(commands.Cog):
             if (':' in chapter_verse):
                 chapter, verse = chapter_verse.split(':')
                 chapter = int(chapter)
-                verse = int(verse)
                 have_chapter_and_verse = True
             else:
                 chapter = int(chapter_verse)
