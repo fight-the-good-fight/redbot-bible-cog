@@ -1,1 +1,3 @@
 future
+redbot
+discord

@@ -26,7 +26,10 @@ class Bible(commands.Cog):
         """Searches for a verse or chapter in the bible"""
         try:
             book = book.strip()
+            book = book.replace(" ", "")
             book = book.capitalize()
+            # map books
+            book = normalize_book_name(book)
             chapter, verse = arg.split(':')
             chapter = int(chapter)
         except:
@@ -237,3 +240,13 @@ class Bible(commands.Cog):
         else:
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
+
+def normalize_book_name(book: str):
+    match book:
+        case "Songsofsolomon":
+            book_name = "Songofsolomon"
+        case "Songofsongs":
+            book_name = "Songofsolomon"
+        case _:
+            book_name = book
+    return book_name
