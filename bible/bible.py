@@ -45,18 +45,19 @@ class Bible(commands.Cog):
             await ctx.send("Invalid argument: message " + message + " book: " + book)
             return
 
-        try:
-            verse_min , verse_max = verse.split('-')
-            verse_min = int(verse_min)
-            verse_max = int(verse_max)
-
-        except:
+        if have_chapter_and_verse:
             try:
-                verse_min = int(verse)
-                verse_max = int(verse)
-            except ValueError:
-                await ctx.send("Invalid argument: verse range ", verse)
-                return
+                verse_min , verse_max = verse.split('-')
+                verse_min = int(verse_min)
+                verse_max = int(verse_max)
+
+            except:
+                try:
+                    verse_min = int(verse)
+                    verse_max = int(verse)
+                except ValueError:
+                    await ctx.send("Invalid argument: verse range ", verse)
+                    return
 
         path = bundled_data_path(self) / "bible"
 
@@ -68,6 +69,11 @@ class Bible(commands.Cog):
                 chapters = data["chapters"]
                 chapter = chapters[chapter-1]
                 description = ""
+
+                if not have_chapter_and_verse:
+                    # display all verses
+                    verse_min = 0
+                    verse_max = len(chapter["verses"]) - 1
 
                 try:
                     chapter.get("verses")[verse_min-1:verse_max]
