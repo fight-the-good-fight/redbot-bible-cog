@@ -72,7 +72,7 @@ class Bible(commands.Cog):
 
                 if not have_chapter_and_verse:
                     # display all verses
-                    verse_min = 0
+                    verse_min = 1
                     verse_max = len(chapter["verses"]) - 1
 
                 try:
