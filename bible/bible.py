@@ -76,7 +76,8 @@ class Bible(commands.Cog):
                                         description += str(box(text="- " + note["note"], lang="diff") + "\n\n")
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n\n", "\n", "**"]):
-                    embed = discord.Embed(title=display_name, description=descript, color=discord.Color.green())
+                    verbose_title = display_name + " - Authorized (King James) Version (AKJV)"
+                    embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
