@@ -71,7 +71,7 @@ class Bible(commands.Cog):
                     return
 
                 for verse in chapter.get("verses")[verse_min-1:verse_max]:
-                    description += f"[{verse['verse']}]" + verse['text'] + "\n"
+                    description += f"[{verse['verse']}] " + verse['text'] + "\n"
                     async with self.config.Notes() as notes:
                         for note in notes:
                             if note["book"] == book_name:
