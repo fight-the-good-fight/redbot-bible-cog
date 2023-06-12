@@ -30,9 +30,9 @@ class Bible(commands.Cog):
             chapter, verse = arg.split(':')
             chapter = int(chapter)
         except:
-            await ctx.send("Invalid argument")
+            await ctx.send("Invalid argument: book ", book)
             return
-        
+
         try:
             verse_min , verse_max = verse.split('-')
             verse_min = int(verse_min)
@@ -43,7 +43,7 @@ class Bible(commands.Cog):
                 verse_min = int(verse)
                 verse_max = int(verse)
             except ValueError:
-                await ctx.send("Invalid argument")
+                await ctx.send("Invalid argument: verse range ", verse)
                 return
 
         path = bundled_data_path(self) / "bible"
@@ -60,7 +60,7 @@ class Bible(commands.Cog):
                 try:
                     chapter.get("verses")[verse_min-1:verse_max]
                 except IndexError:
-                    await ctx.send("Verse not found")
+                    await ctx.send("Verse not found: ", verse)
                     return
 
                 for verse in chapter.get("verses")[verse_min-1:verse_max]:
@@ -79,7 +79,7 @@ class Bible(commands.Cog):
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
         except FileNotFoundError:
-            await ctx.send("Book not found")
+            await ctx.send("Book not found: ", book)
 
     @commands.group()
     async def memory(self, ctx: commands.Context):
@@ -114,7 +114,7 @@ class Bible(commands.Cog):
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def remove(self, ctx: commands.Context, number: int):
         """Removes a note to a verse or chapter"""
-    
+
         async with self.config.Notes() as notes:
             notes_copy = notes
 
@@ -142,7 +142,7 @@ class Bible(commands.Cog):
         if book is not None:
             book = book.strip()
             book = book.capitalize()
-        
+
         if arg is not None:
             chapter, verse = arg.split(':')
             chapter = int(chapter) if chapter else None
@@ -161,7 +161,7 @@ class Bible(commands.Cog):
                 for note in notes:
                     if note["book"] == book:
                         description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
-        
+
         elif book is not None and arg is not None:
             if chapter is not None and verse is None:
                 async with self.config.Notes() as notes:
