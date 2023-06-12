@@ -29,7 +29,7 @@ class Bible(commands.Cog):
             book = book.replace(" ", "")
             book = book.capitalize()
             # map books
-            book = normalize_book_name(book)
+            book, display_name = normalize_book_name(book)
             chapter, verse = arg.split(':')
             chapter = int(chapter)
         except:
@@ -76,7 +76,7 @@ class Bible(commands.Cog):
                                         description += str(box(text="- " + note["note"], lang="diff") + "\n\n")
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n\n", "\n", "**"]):
-                    embed = discord.Embed(title=book_name, description=descript, color=discord.Color.green())
+                    embed = discord.Embed(title=display_name, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
@@ -242,11 +242,15 @@ class Bible(commands.Cog):
             raise error
 
 def normalize_book_name(book: str):
+    display_name = book
     match book:
         case "Songsofsolomon":
             book_name = "Songofsolomon"
+            display_name = "Songs of Solomon"
         case "Songofsongs":
             book_name = "Songofsolomon"
+            display_name = "Songs of Solomon"
         case _:
             book_name = book
-    return book_name
+            display_name = book
+    return book_name, display_name
