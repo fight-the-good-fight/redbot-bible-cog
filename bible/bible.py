@@ -33,7 +33,7 @@ class Bible(commands.Cog):
             chapter, verse = arg.split(':')
             chapter = int(chapter)
         except:
-            await ctx.send("Invalid argument: book ", book)
+            await ctx.send("Invalid argument: book " + book + "arg: " + arg)
             return
 
         try:
