@@ -1,6 +1,7 @@
 import discord
 import os
 import json
+import re
 from redbot.core import commands, Config
 from typing import Union
 from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
@@ -224,7 +225,8 @@ class Bible(commands.Cog):
                     for verse in verses:
                         verse_num = verse["verse"]
                         verse_text = verse["text"]
-                        if arg.lower() in verse_text.lower():
+                        matched = re.search("^" + arg.lower() + "*$", verse_text.lower())
+                        if matched:
                             description += f"**{book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
 
         if description == "":
