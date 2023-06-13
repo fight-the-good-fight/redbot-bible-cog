@@ -31,9 +31,8 @@ class Bible(commands.Cog):
             book = res[0]
             book = book.strip()
             book = book.replace(" ", "")
-            book = book.capitalize()
-            # map books
-            book, display_name = normalize_book_name(book)
+            # format and map books
+            book, display_name, display_extras = normalize_book_name(book)
             have_chapter_and_verse = False
             chapter_verse = res[1]
             if (':' in chapter_verse):
@@ -92,7 +91,7 @@ class Bible(commands.Cog):
                                         description += str(box(text="- " + note["note"], lang="diff") + "\n\n")
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n\n", "\n", "**"]):
-                    verbose_title = display_name + " " + chapter_verse + " - Authorized (King James) Version (AKJV)"
+                    verbose_title = display_name + " " + chapter_verse + " - " + display_extras
                     embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
@@ -295,25 +294,30 @@ class Bible(commands.Cog):
             raise error
 
 def normalize_book_name(book: str):
+    display_extras = "Authorized (King James) Version (AKJV)"
     display_name = book
+    book = book.lower()
     match book:
-        case "Psalm":
-            book_name = "Psalms"
+        case "enoch":
+            book_name = "enoch"
+            display_name = "Enoch"
+            display_extras = "Apocrypha"
+        case "psalm":
+            book_name = "psalms"
             display_name = "Psalms"
-        case "Revelations":
-            book_name = "Revelation"
+        case "revelations":
+            book_name = "revelation"
             display_name = "Revelation"
-        case "Songofsolomon":
+        case "songofsolomon":
+            book_name = "songofsolomon"
             display_name = "Songs of Solomon"
-        case "Songsofsolomon":
-            book_name = "Songofsolomon"
+        case "songsofsolomon":
+            book_name = "songofsolomon"
             display_name = "Songs of Solomon"
-        case "Songofsolomon":
-            display_name = "Songs of Solomon"
-        case "Songofsongs":
-            book_name = "Songofsolomon"
+        case "songofsongs":
+            book_name = "songofsolomon"
             display_name = "Songs of Solomon"
         case _:
             book_name = book
             display_name = book
-    return book_name, display_name
+    return book_name, display_name, display_extras
