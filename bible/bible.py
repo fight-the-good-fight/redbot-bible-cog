@@ -318,6 +318,6 @@ def normalize_book_name(book: str):
             book_name = "songofsolomon"
             display_name = "Songs of Solomon"
         case _:
+            display_name = book_name
             book_name = book
-            display_name = book
     return book_name, display_name, display_extras
