@@ -29,10 +29,8 @@ class Bible(commands.Cog):
             # split on last space
             res = message.rsplit(' ', 1)
             book = res[0]
-            book = book.strip()
-            book = book.replace(" ", "")
-            # format and map books
-            book, display_name, display_extras = normalize_book_name(book)
+            # format and map books to filename
+            book_filename, display_name, display_extras = normalize_book_name(book_filename)
             have_chapter_and_verse = False
             chapter_verse = res[1]
             if (':' in chapter_verse):
@@ -42,7 +40,7 @@ class Bible(commands.Cog):
             else:
                 chapter = int(chapter_verse)
         except:
-            await ctx.send("Invalid argument: message " + message + " book: " + book)
+            await ctx.send("Invalid argument: message " + message + " book: " + book_filename)
             return
 
         if have_chapter_and_verse:
@@ -62,7 +60,7 @@ class Bible(commands.Cog):
         path = bundled_data_path(self) / "bible"
 
         try:
-            with open(os.path.join(path, book + '.json')) as json_file:
+            with open(os.path.join(path, book_filename)) as json_file:
                 data = json.load(json_file)
                 embeds = []
                 book_name = data["book"]
@@ -98,7 +96,7 @@ class Bible(commands.Cog):
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
         except FileNotFoundError:
-            await ctx.send("Book not found: ", book)
+            await ctx.send("Book not found: ", book_filename)
 
     @commands.group()
     async def memory(self, ctx: commands.Context):
@@ -294,12 +292,13 @@ class Bible(commands.Cog):
             raise error
 
 def normalize_book_name(book: str):
+    book_name = book.strip()
+    book_name = book_name.replace(" ", "")
+    book_name = book_name.lower()
     display_extras = "Authorized (King James) Version (AKJV)"
     display_name = book
-    book = book.lower()
-    match book:
+    match book_name:
         case "enoch":
-            book_name = "enoch"
             display_name = "Enoch"
             display_extras = "Apocrypha"
         case "psalm":
@@ -318,6 +317,6 @@ def normalize_book_name(book: str):
             book_name = "songofsolomon"
             display_name = "Songs of Solomon"
         case _:
-            display_name = book_name
-            book_name = book
+            display_name = book
+    book_name += ".json"
     return book_name, display_name, display_extras
