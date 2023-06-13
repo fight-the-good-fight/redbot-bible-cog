@@ -30,7 +30,7 @@ class Bible(commands.Cog):
             res = message.rsplit(' ', 1)
             book = res[0]
             # format and map books to filename
-            book_filename, display_name, display_extras = normalize_book_name(book_filename)
+            book_filename, display_name, display_extras = normalize_book_name(book)
             have_chapter_and_verse = False
             chapter_verse = res[1]
             if (':' in chapter_verse):
