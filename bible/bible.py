@@ -111,8 +111,7 @@ class Bible(commands.Cog):
     async def add(self, ctx: commands.Context, book: str, arg: str , *, note: str):
         """Adds a note to a verse or chapter"""
 
-        book = book.strip()
-        book = book.capitalize()
+        _, display_name, _ = normalize_book_name(book)
         chapter, verse = arg.split(':')
         chapter = int(chapter)
 
@@ -123,11 +122,11 @@ class Bible(commands.Cog):
             await ctx.send("Verse not found")
 
         async with self.config.Notes() as notes:
-            notes_copy = notes 
+            notes_copy = notes
             for i, note_data in enumerate(notes_copy, start=1):
                 note_data["number"] = i
                 #notes.append(note)
-            notes.append({"number": len(notes)+1, "book": book, "chapter": chapter, "verse": verse, "note": note})
+            notes.append({"number": len(notes)+1, "book": display_name, "chapter": chapter, "verse": verse, "note": note})
         await ctx.send("Note added")
 
     @memory.command(name="remove")
@@ -160,8 +159,7 @@ class Bible(commands.Cog):
         embeds= []
 
         if book is not None:
-            book = book.strip()
-            book = book.capitalize()
+            _, display_name, _ = normalize_book_name(book)
 
         if arg is not None:
             chapter, verse = arg.split(':')
@@ -171,27 +169,27 @@ class Bible(commands.Cog):
             chapter = None
             verse = None
 
-        if book is None and arg is None:
+        if display_name is None and arg is None:
             async with self.config.Notes() as notes:
                 for note in notes:
                     description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
-        elif book is not None and arg is None:
+        elif display_name is not None and arg is None:
             async with self.config.Notes() as notes:
                 for note in notes:
-                    if note["book"] == book:
+                    if note["book"] == display_name:
                         description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
-        elif book is not None and arg is not None:
+        elif display_name is not None and arg is not None:
             if chapter is not None and verse is None:
                 async with self.config.Notes() as notes:
                     for note in notes:
-                        if note["book"] == book and note["chapter"] == chapter:
+                        if note["book"] == display_name and note["chapter"] == chapter:
                             description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n"
             elif chapter is not None and verse is not None:
                 async with self.config.Notes() as notes:
                     for note in notes:
-                        if note["book"] == book and note["chapter"] == chapter and note["verse"] == verse:
+                        if note["book"] == display_name and note["chapter"] == chapter and note["verse"] == verse:
                             description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n"
 
         if description == "":
