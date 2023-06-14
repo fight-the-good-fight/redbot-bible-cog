@@ -2,7 +2,7 @@ import discord
 import os
 import json
 import re
-from redbot.core import commands, Config
+from redbot.core import commands, app_commands, Config
 from typing import Union
 from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
 from redbot.core.utils.chat_formatting import pagify, box
@@ -17,12 +17,12 @@ class Bible(commands.Cog):
         }
         self.config.register_global(**default_global)
 
-    @commands.group()
+    @commands.hybrid_group(name="bible")
     async def bible(self, ctx: commands.Context):
         """Searches for a verse or chapter in the bible"""
         pass
 
-    @bible.command()
+    @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Searches for a verse or chapter in the bible"""
         try:
@@ -98,12 +98,12 @@ class Bible(commands.Cog):
         except FileNotFoundError:
             await ctx.send("Book not found: ", book_filename)
 
-    @commands.group()
+    @commands.hybrid_group(name="memory")
     async def memory(self, ctx: commands.Context):
         """Manage for each verse or chapter of the bible"""
         pass
 
-    @memory.command()
+    @memory.command(name="add")
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def add(self, ctx: commands.Context, book: str, arg: str , *, note: str):
         """Adds a note to a verse or chapter"""
@@ -127,7 +127,7 @@ class Bible(commands.Cog):
             notes.append({"number": len(notes)+1, "book": book, "chapter": chapter, "verse": verse, "note": note})
         await ctx.send("Note added")
 
-    @memory.command()
+    @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def remove(self, ctx: commands.Context, number: int):
         """Removes a note to a verse or chapter"""
@@ -149,7 +149,7 @@ class Bible(commands.Cog):
             for i, note_data in enumerate(notes_copy, start=1):
                 note_data["number"] = i
 
-    @memory.command()
+    @memory.command(name="list")
     async def list(self, ctx: commands.Context, book: Union[str, None] = None, arg: Union[str, None] = None):
         """Lists all notes or notes for a verse or chapter"""
 
@@ -203,7 +203,7 @@ class Bible(commands.Cog):
 
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
-    @bible.command()
+    @bible.command(name="search")
     async def search(self, ctx: commands.Context, *, arg: str):
         """Searches for a verse or chapter"""
 
@@ -238,7 +238,7 @@ class Bible(commands.Cog):
 
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
-    @bible.command()
+    @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
         """Searches for a verse or chapter without case sensitivity"""
 
