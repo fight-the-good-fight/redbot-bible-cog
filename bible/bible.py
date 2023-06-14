@@ -86,9 +86,9 @@ class Bible(commands.Cog):
                             if note["book"] == book_name:
                                 if str(note["chapter"]) == str(chapter["chapter"]):# Compare with chapter index
                                     if str(note["verse"]) == str(verse["verse"]):
-                                        description += str(box(text="- " + note["note"], lang="diff") + "\n")
+                                        description += str(box(text="- " + note["note"], lang="diff"))
 
-                for descript in pagify(description, page_length=3950, delims=["```", "\n\n", "\n", "**"]):
+                for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n", "**"]):
                     verbose_title = display_name + " " + chapter_verse + " - " + display_extras
                     embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
