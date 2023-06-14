@@ -208,6 +208,9 @@ class Bible(commands.Cog):
     async def search(self, ctx: commands.Context, *, arg: str):
         """Searches for a verse or chapter"""
 
+        # remove leading and ending quotes
+        arg = re.sub(r'^"|"$', '', arg)
+
         folder_path = bundled_data_path(self) / "bible"
         description = ""
         embeds = []
