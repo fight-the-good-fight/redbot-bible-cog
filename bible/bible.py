@@ -24,7 +24,7 @@ class Bible(commands.Cog):
 
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
-        """Searches for a verse or chapter in the bible"""
+        """Displays a chapter for a book, or a specific verse, or a range of verses"""
         try:
             # split on last space
             res = message.rsplit(' ', 1)
@@ -132,7 +132,7 @@ class Bible(commands.Cog):
     @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def remove(self, ctx: commands.Context, number: int):
-        """Removes a note to a verse or chapter"""
+        """Removes a note associated with a verse or chapter"""
 
         async with self.config.Notes() as notes:
             notes_copy = notes
@@ -153,7 +153,7 @@ class Bible(commands.Cog):
 
     @memory.command(name="list")
     async def list(self, ctx: commands.Context, book: Union[str, None] = None, arg: Union[str, None] = None):
-        """Lists all notes or notes for a verse or chapter"""
+        """Lists all notes for a verse or chapter"""
 
         description = ""
         embeds= []
@@ -206,7 +206,7 @@ class Bible(commands.Cog):
 
     @bible.command(name="search")
     async def search(self, ctx: commands.Context, *, arg: str):
-        """Searches for a verse or chapter"""
+        """Searches for matching text across all books (case sensitive)"""
 
         # remove leading and ending quotes
         arg = re.sub(r'^"|"$', '', arg)
@@ -244,7 +244,10 @@ class Bible(commands.Cog):
 
     @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
-        """Searches for a verse or chapter without case sensitivity"""
+        """Searches for matching text across all books (case insensitive)"""
+
+        # remove leading and ending quotes
+        arg = re.sub(r'^"|"$', '', arg)
 
         folder_path = bundled_data_path(self) / "bible"
         description = ""
