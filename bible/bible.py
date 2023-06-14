@@ -64,6 +64,9 @@ class Bible(commands.Cog):
                 data = json.load(json_file)
                 embeds = []
                 book_name = data["book"]
+                # format the name again once we have the file open
+                _, display_name, display_extras = normalize_book_name(book_name)
+
                 chapters = data["chapters"]
                 chapter = chapters[chapter-1]
                 description = ""
