@@ -157,7 +157,7 @@ class Bible(commands.Cog):
 
         description = ""
         embeds= []
-
+        display_name = None
         if book is not None:
             _, display_name, _ = normalize_book_name(book)
 
