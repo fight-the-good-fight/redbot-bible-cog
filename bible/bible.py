@@ -185,20 +185,20 @@ class Bible(commands.Cog):
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter:
-                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n"
+                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
             elif chapter is not None and verse is not None:
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter and note["verse"] == verse:
-                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n"
+                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         if description == "":
             await ctx.send("No notes found")
         else:
             PageNumber = 1
-            for descript in pagify(description, page_length=3900, delims=["\n\n"]):
+            for descript in pagify(description, page_length=2000, delims=["\n\n"]):
                 embed = discord.Embed(title="Notes", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=3900, delims=["\n\n"])))))
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=2000, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
