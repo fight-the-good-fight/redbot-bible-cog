@@ -196,9 +196,9 @@ class Bible(commands.Cog):
             await ctx.send("No notes found")
         else:
             PageNumber = 1
-            for descript in pagify(description, page_length=2000, delims=["\n\n"]):
+            for descript in pagify(description, page_length=3000, delims=["\n\n"]):
                 embed = discord.Embed(title="Notes", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=2000, delims=["\n\n"])))))
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=3000, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
