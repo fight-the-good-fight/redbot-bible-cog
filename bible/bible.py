@@ -172,26 +172,25 @@ class Bible(commands.Cog):
         if display_name is None and arg is None:
             async with self.config.Notes() as notes:
                 for note in notes:
-                    # note_number = note['number']
                     description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         elif display_name is not None and arg is None:
             async with self.config.Notes() as notes:
                 for note in notes:
                     if note["book"] == display_name:
-                        description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                        description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         elif display_name is not None and arg is not None:
             if chapter is not None and verse is None:
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter:
-                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                            description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
             elif chapter is not None and verse is not None:
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter and note["verse"] == verse:
-                            description += f"**{note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                            description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         if description == "":
             await ctx.send("No notes found")
@@ -229,7 +228,7 @@ class Bible(commands.Cog):
                         verse_text = verse["text"]
                         matched = re.search("\\b(" + arg + ")\\b", verse_text)
                         if matched is not None:
-                            description += f"**{book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
+                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
 
         if description == "":
             await ctx.send("No matches found")
@@ -267,7 +266,7 @@ class Bible(commands.Cog):
                         verse_text = verse["text"]
                         matched = re.search("\\b(" + arg.lower() + ")\\b", verse_text.lower())
                         if matched is not None:
-                            description += f"**{book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
+                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
 
         if description == "":
             await ctx.send("No matches found")
