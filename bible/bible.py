@@ -172,8 +172,8 @@ class Bible(commands.Cog):
         if display_name is None and arg is None:
             async with self.config.Notes() as notes:
                 for note in notes:
-                    note_number = note['number']
-                    description += f"** {note_number}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\nNote Number: {note['number']}\n```\n\n"
+                    # note_number = note['number']
+                    description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         elif display_name is not None and arg is None:
             async with self.config.Notes() as notes:
