@@ -102,7 +102,7 @@ class Bible(commands.Cog):
                                 if str(note["chapter"]) == str(chapter["chapter"]):
                                     if str(note["verse"]) == str(verse["verse"]):
                                         description += str(box(text="- " +
-                                                        note["note"], lang="diff"))
+                                                        note["note"], lang="diff")) + "\n"
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
                     verbose_title = display_name + " " + chapter_verse + " - " + display_extras
