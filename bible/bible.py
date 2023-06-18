@@ -200,19 +200,19 @@ class Bible(commands.Cog):
             async with self.config.Notes() as notes:
                 for note in notes:
                     if note["book"] == display_name:
-                        description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                        description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         elif display_name is not None and arg is not None:
             if chapter is not None and verse is None:
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter:
-                            description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                            description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
             elif chapter is not None and verse is not None:
                 async with self.config.Notes() as notes:
                     for note in notes:
                         if note["book"] == display_name and note["chapter"] == chapter and note["verse"] == verse:
-                            description += f"** {note['number']}. {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                            description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         if description == "":
             await ctx.send("No notes found")
