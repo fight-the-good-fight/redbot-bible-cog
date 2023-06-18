@@ -122,9 +122,13 @@ class Bible(commands.Cog):
 
     @memory.command(name="add")
     @commands.cooldown(1, 1, commands.BucketType.guild)
-    async def add(self, ctx: commands.Context, book: str, arg: str, *, note: str):
+    async def add(self, ctx: commands.Context, message: str):
         """Adds a note to a verse or chapter"""
 
+        parse_add = re.compile(r"(.*)\s(\d:\d)\s(.*)")
+        book = parse_add.match(message).group(1)
+        chapter_and_verse = parse_add.match(message).group(2)
+        note = parse_add.match(message).group(3)
         book_info = get_book_info(book)
         if book_info is None:
             await ctx.send("Book not found: " + book)
@@ -132,7 +136,7 @@ class Bible(commands.Cog):
 
         display_name = book_info['matched']['name']
 
-        chapter, verse = arg.split(':')
+        chapter, verse = chapter_and_verse.split(':')
         chapter = int(chapter)
 
         try:
