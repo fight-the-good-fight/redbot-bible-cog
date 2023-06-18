@@ -104,7 +104,7 @@ class Bible(commands.Cog):
                                         description += str(box(text="- " +
                                                         note["note"], lang="diff"))
 
-                for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n", "**"]):
+                for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
                     verbose_title = display_name + " " + chapter_verse + " - " + display_extras
                     embed = discord.Embed(
                         title=verbose_title, description=descript, color=discord.Color.green())
