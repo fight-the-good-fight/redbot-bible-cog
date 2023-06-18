@@ -148,7 +148,7 @@ class Bible(commands.Cog):
                 # notes.append(note)
             notes.append({"number": len(notes)+1, "book": display_name,
                         "chapter": chapter, "verse": verse, "note": note})
-        await ctx.send("Note added for " + display_name + " " + chapter + ":" + verse)
+        await ctx.send("Note added for " + display_name + " " + str(chapter) + ":" + str(verse))
 
     @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
