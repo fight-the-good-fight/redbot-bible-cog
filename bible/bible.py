@@ -8,6 +8,7 @@ from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
 from redbot.core.utils.chat_formatting import pagify, box
 from redbot.core.data_manager import bundled_data_path
 
+
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
@@ -30,7 +31,15 @@ class Bible(commands.Cog):
             res = message.rsplit(' ', 1)
             book = res[0]
             # format and map books to filename
-            book_filename, display_name, display_extras = normalize_book_name(book)
+            book_info = get_book_info(book)
+            if book_info is None:
+                await ctx.send("Invalid argument: message " + message + " book: " + book)
+                return
+
+            book_filename = book_info['filename']
+            display_name = book_info['matched']['name']
+            display_extras = book_info['extras']
+
             have_chapter_and_verse = False
             chapter_verse = res[1]
             if (':' in chapter_verse):
@@ -45,7 +54,7 @@ class Bible(commands.Cog):
 
         if have_chapter_and_verse:
             try:
-                verse_min , verse_max = verse.split('-')
+                verse_min, verse_max = verse.split('-')
                 verse_min = int(verse_min)
                 verse_max = int(verse_max)
 
@@ -64,8 +73,9 @@ class Bible(commands.Cog):
                 data = json.load(json_file)
                 embeds = []
                 book_name = data["book"]
-                # format the name again once we have the file open
-                _, display_name, display_extras = normalize_book_name(book_name)
+                book_info = get_book_info(book)
+                display_name = book_info['matched']['name']
+                display_extras = ' '.join(book_info['extras'])
 
                 chapters = data["chapters"]
                 chapter = chapters[chapter-1]
@@ -83,17 +93,21 @@ class Bible(commands.Cog):
                     return
 
                 for verse in chapter.get("verses")[verse_min-1:verse_max]:
-                    description += f"[{verse['verse']}] " + verse['text'] + "\n"
+                    description += f"[{verse['verse']}] " + \
+                        verse['text'] + "\n"
                     async with self.config.Notes() as notes:
                         for note in notes:
                             if note["book"] == book_name:
-                                if str(note["chapter"]) == str(chapter["chapter"]):# Compare with chapter index
+                                # Compare with chapter index
+                                if str(note["chapter"]) == str(chapter["chapter"]):
                                     if str(note["verse"]) == str(verse["verse"]):
-                                        description += str(box(text="- " + note["note"], lang="diff"))
+                                        description += str(box(text="- " +
+                                                        note["note"], lang="diff"))
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n", "**"]):
                     verbose_title = display_name + " " + chapter_verse + " - " + display_extras
-                    embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
+                    embed = discord.Embed(
+                        title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
@@ -108,10 +122,16 @@ class Bible(commands.Cog):
 
     @memory.command(name="add")
     @commands.cooldown(1, 1, commands.BucketType.guild)
-    async def add(self, ctx: commands.Context, book: str, arg: str , *, note: str):
+    async def add(self, ctx: commands.Context, book: str, arg: str, *, note: str):
         """Adds a note to a verse or chapter"""
 
-        _, display_name, _ = normalize_book_name(book)
+        book_info = get_book_info(book)
+        if book_info is None:
+            await ctx.send("Book not found: " + book)
+            return
+
+        display_name = book_info['matched']['name']
+
         chapter, verse = arg.split(':')
         chapter = int(chapter)
 
@@ -125,9 +145,10 @@ class Bible(commands.Cog):
             notes_copy = notes
             for i, note_data in enumerate(notes_copy, start=1):
                 note_data["number"] = i
-                #notes.append(note)
-            notes.append({"number": len(notes)+1, "book": display_name, "chapter": chapter, "verse": verse, "note": note})
-        await ctx.send("Note added")
+                # notes.append(note)
+            notes.append({"number": len(notes)+1, "book": display_name,
+                        "chapter": chapter, "verse": verse, "note": note})
+        await ctx.send("Note added for " + display_name + " " + chapter + ":" + verse)
 
     @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
@@ -156,10 +177,11 @@ class Bible(commands.Cog):
         """Lists all notes for a verse or chapter"""
 
         description = ""
-        embeds= []
+        embeds = []
         display_name = None
         if book is not None:
-            _, display_name, _ = normalize_book_name(book)
+            book_info = get_book_info(book)
+            display_name = book_info['matched']['name']
 
         if arg is not None:
             chapter, verse = arg.split(':')
@@ -197,8 +219,10 @@ class Bible(commands.Cog):
         else:
             PageNumber = 1
             for descript in pagify(description, page_length=3000, delims=["\n\n"]):
-                embed = discord.Embed(title="Notes", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=3000, delims=["\n\n"])))))
+                embed = discord.Embed(
+                    title="Notes", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3000, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
@@ -235,8 +259,10 @@ class Bible(commands.Cog):
         else:
             PageNumber = 1
             for descript in pagify(description, page_length=3950, delims=["\n\n"]):
-                embed = discord.Embed(title="Search", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=3900, delims=["\n\n"])))))
+                embed = discord.Embed(
+                    title="Search", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
@@ -264,7 +290,8 @@ class Bible(commands.Cog):
                     for verse in verses:
                         verse_num = verse["verse"]
                         verse_text = verse["text"]
-                        matched = re.search("\\b(" + arg.lower() + ")\\b", verse_text.lower())
+                        matched = re.search(
+                            "\\b(" + arg.lower() + ")\\b", verse_text.lower())
                         if matched is not None:
                             description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
 
@@ -273,8 +300,10 @@ class Bible(commands.Cog):
         else:
             PageNumber = 1
             for descript in pagify(description, page_length=3950, delims=["\n\n"]):
-                embed = discord.Embed(title="Search: Case Insensitive", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(list(pagify(description, page_length=3900, delims=["\n\n"])))))
+                embed = discord.Embed(
+                    title="Search: Case Insensitive", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
@@ -298,32 +327,154 @@ class Bible(commands.Cog):
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
 
-def normalize_book_name(book: str):
+
+def match_book(book: str):
+    # search OT
+    for key in books_old_testament:
+        if key == book:
+            return books_old_testament[key]
+    # search NT
+    for key in books_new_testament:
+        if key == book:
+            return books_new_testament[key]
+    # search Apocrypha
+    for key in books_apocrypha:
+        if key == book:
+            return books_apocrypha[key]
+    return None
+
+def fix_book_name(book: str):
     book_name = book.strip()
-    book_name = book_name.replace(" ", "")
+    book_name = book_name.replace(' ', '')
     book_name = book_name.lower()
-    display_extras = "Authorized (King James) Version (AKJV)"
-    display_name = book
     match book_name:
-        case "enoch":
-            display_name = "Enoch"
-            display_extras = "Apocrypha"
-        case "psalm":
-            book_name = "psalms"
-            display_name = "Psalms"
-        case "revelations":
-            book_name = "revelation"
-            display_name = "Revelation"
-        case "songofsolomon":
-            book_name = "songofsolomon"
-            display_name = "Songs of Solomon"
-        case "songsofsolomon":
-            book_name = "songofsolomon"
-            display_name = "Songs of Solomon"
-        case "songofsongs":
-            book_name = "songofsolomon"
-            display_name = "Songs of Solomon"
-        case _:
-            display_name = book
-    book_name += ".json"
-    return book_name, display_name, display_extras
+        case 'psalm':
+            book_name = 'psalms'
+        case 'revelations':
+            book_name = 'revelation'
+        case 'songsofsolomon':
+            book_name = 'songofsolomon'
+        case 'songofsongs':
+            book_name = 'songofsolomon'
+    return book_name
+
+#
+# Returns
+# - a single lowercase path that will match the case-sensitive file for the specified book
+# - a name to be used in display output
+# - the Category of the book specified (OT, NT, NC)
+# - the name of the translation or collection of books
+#
+
+def get_book_info(book: str):
+    book_name = book.strip()
+    book_name = book_name.replace(' ', '')
+    book_name = book_name.lower()
+    book_name = fix_book_name(book_name)
+    matched_book = match_book(book_name)
+    if matched_book is not None:
+        book_filename = book_name + '.json'
+        display_extras = get_book_extras(matched_book)
+        return {
+            'book': book_name,
+            'filename': book_filename,
+            'extras': display_extras,
+            'matched': matched_book
+        }
+    return None
+
+
+def get_book_extras(matched_book: dict):
+    extras = []
+    if matched_book['order'] <= 66:
+        extras.append(book_editions[0])
+    if matched_book['order'] > 66:
+        extras.append(book_editions[1])
+    return extras
+
+
+book_editions = [
+    'Authorized (King James) Version (AKJV)',
+    'Apocrypha'
+]
+
+book_categories = [
+    'Old Testament',
+    'New Testament',
+]
+# ordered list of books of the bible
+books_old_testament = {
+    'genesis': {'name': 'Genesis', 'order': 1},
+    'exodus':  {'name': 'Exodus', 'order': 2},
+    'leviticus': {'name': 'Leviticus', 'order': 3},
+    'numbers': {'name': 'Numbers', 'order': 4},
+    'deuteronomy': {'name': 'Deuteronomy', 'order': 5},
+    'joshua': {'name': 'Joshua', 'order': 6},
+    'judges': {'name': 'Judges', 'order': 7},
+    'ruth': {'name': 'Ruth', 'order': 8},
+    '1samuel': {'name': '1 Samuel', 'order': 9},
+    '2samuel': {'name': '2 Samuel', 'order': 10},
+    '1kings': {'name': '1 Kings', 'order': 11},
+    '2kings': {'name': '2 Kings', 'order': 12},
+    '1chronicles': {'name': '1 Chronicles', 'order': 13},
+    '2chronicles': {'name': '2 Chronicles', 'order': 14},
+    'ezra': {'name': 'Ezra', 'order': 15},
+    'nehemiah': {'name': 'Nehemiah', 'order': 16},
+    'esther': {'name': 'Esther', 'order': 17},
+    'job': {'name': 'Job', 'order': 18},
+    'psalms': {'name': 'Psalms', 'order': 19},
+    'proverbs': {'name': 'Proverbs', 'order': 20},
+    'ecclesiastes': {'name': 'Ecclesiastes', 'order': 21},
+    'songofsolomon': {'name': 'Song of Solomon', 'order': 22},
+    'isaiah': {'name': 'Isaiah', 'order': 23},
+    'jeremiah': {'name': 'Jeremiah', 'order': 24},
+    'lamentations': {'name': 'Lamentations', 'order': 25},
+    'ezekiel': {'name': 'Ezekiel', 'order': 26},
+    'daniel': {'name': 'Daniel', 'order': 27},
+    'hosea': {'name': 'Hosea', 'order': 28},
+    'joel': {'name': 'Joel', 'order': 29},
+    'amos': {'name': 'Amos', 'order': 30},
+    'obadiah': {'name': 'Obadiah', 'order': 31},
+    'jonah': {'name': 'Jonah', 'order': 32},
+    'micah': {'name': 'Micah', 'order': 33},
+    'nahum': {'name': 'Nahum', 'order': 34},
+    'habakkuk': {'name': 'Habakkuk', 'order': 35},
+    'zephaniah': {'name': 'Zephaniah', 'order': 36},
+    'haggai': {'name': 'Haggai', 'order': 37},
+    'zechariah': {'name': 'Zechariah', 'order': 38},
+    'malachi': {'name': 'Malachi', 'order': 39},
+}
+
+books_new_testament = {
+    'matthew': {'name': 'Matthew', 'order': 40},
+    'mark': {'name': 'Mark', 'order': 41},
+    'luke': {'name': 'Luke', 'order': 42},
+    'john': {'name': 'John', 'order': 43},
+    'acts': {'name': 'Acts', 'order': 44},
+    'romans': {'name': 'Romans', 'order': 45},
+    '1corinthians': {'name': '1 Corinthians', 'order': 46},
+    '2corinthians': {'name': '2 Corinthians', 'order': 47},
+    'galatians': {'name': 'Galatians', 'order': 48},
+    'ephesians': {'name': 'Ephesians','order':  49},
+    'philippians': {'name': 'Philippians', 'order': 50},
+    'Colossians': {'name': 'colossians', 'order': 51},
+    '1thessalonians': {'name': '1 Thessalonians', 'order': 52},
+    '2thessalonians': {'name': '2 Thessalonians','order':  53},
+    '1timothy': {'name': '1 Timothy', 'order': 54},
+    '2timothy': {'name': '2 Timothy', 'order': 55},
+    'titus': {'name': 'titus', 'order': 56},
+    'philemon': {'name': 'Philemon', 'order': 57},
+    'hebrews': {'name': 'Hebrews', 'order': 58},
+    'james': {'name': 'James', 'order': 59},
+    '1peter': {'name': '1 Peter', 'order': 60},
+    '2peter': {'name': '2 Peter', 'order': 61},
+    '1john': {'name': '1 John', 'order': 62},
+    '2john': {'name': '2 John', 'order': 63},
+    '3john': {'name': '3 John', 'order': 64},
+    'jude': {'name': 'Jude', 'order': 65},
+    'revelation': {'name': 'Revelation', 'order': 66},
+}
+
+books_apocrypha = {
+    'enoch': {'name': 'Enoch', 'order': 67},
+}
