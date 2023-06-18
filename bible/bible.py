@@ -122,7 +122,7 @@ class Bible(commands.Cog):
 
     @memory.command(name="add")
     @commands.cooldown(1, 1, commands.BucketType.guild)
-    async def add(self, ctx: commands.Context, message: str):
+    async def add(self, ctx: commands.Context, *, message: str):
         """Adds a note to a verse or chapter"""
 
         parse_add = re.compile(r"(.*)\s(\d:\d)\s(.*)")
