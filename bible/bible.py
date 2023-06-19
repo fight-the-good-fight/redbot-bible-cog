@@ -125,7 +125,7 @@ class Bible(commands.Cog):
     async def add(self, ctx: commands.Context, *, message: str):
         """Adds a note to a verse or chapter"""
 
-        parse_add = re.compile(r"(.*)\s(\d:\d)\s(.*)")
+        parse_add = re.compile(r"(.*)\s(\d+:\d+)\s(.*)")
         book = parse_add.match(message).group(1)
         chapter_and_verse = parse_add.match(message).group(2)
         note = parse_add.match(message).group(3)
