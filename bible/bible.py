@@ -66,7 +66,7 @@ class Bible(commands.Cog):
                     await ctx.send("Invalid argument: verse range ", verse)
                     return
 
-        path = bundled_data_path(self) / "bible"
+        path = bundled_data_path(self) / "akjv"
 
         try:
             with open(os.path.join(path, book_filename)) as json_file:
@@ -370,14 +370,14 @@ def fix_book_name(book: str):
 # - the name of the translation or collection of books
 #
 
-def get_book_info(book: str):
+def get_book_info(book: str, translation: str = 'akjv'):
     book_name = book.strip()
     book_name = book_name.replace(' ', '')
     book_name = book_name.lower()
     book_name = fix_book_name(book_name)
     matched_book = match_book(book_name)
     if matched_book is not None:
-        book_filename = book_name + '.json'
+        book_filename = translation + '/' + book_name + '.json'
         display_extras = get_book_extras(matched_book)
         return {
             'book': book_name,
