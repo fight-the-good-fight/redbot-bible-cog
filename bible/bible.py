@@ -45,7 +45,7 @@ class Bible(commands.Cog):
             # format and map books to filename
             book_info = get_book_info(book, translation)
             if book_info is None:
-                await ctx.send("Invalid argument: message " + message + " book: " + book + " detected: " + detected_translation)
+                await ctx.send("Invalid argument: message " + message + " book: " + book + " detected: " + str(detected_translation))
                 return
 
             book_filename = book_info['filename']
