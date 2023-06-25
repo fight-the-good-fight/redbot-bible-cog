@@ -32,6 +32,7 @@ class Bible(commands.Cog):
             translation = 'akjv'
             # split on last space, this can contain a chapter:verse chapter, or translation
             if has_translation(message):
+                await ctx.send("translation detected at end of message: " + message)
                 translation = detect_translation(message)
                 # truncate translation from message
                 message = message.rsplit(' ', 1)[0]
