@@ -360,12 +360,8 @@ def detect_translation(message: str):
     return translation
 
 def has_translation(message: str):
-    # split the message, and check the end
-    parts = message.split(' ')
-    if len(parts) > 1:
-        ending = parts[len(parts)-1]
-        if detect_translation(ending) is not None:
-            return True
+    if detect_translation(message) is not None:
+        return True
     return False
 
 def match_book(book: str):
