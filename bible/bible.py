@@ -349,7 +349,7 @@ class Bible(commands.Cog):
 def detect_translation(message: str):
     translation = None
     parse_translation = re.compile(r'\s(\w+)$')
-    if parse_translation.search(message):
+    if parse_translation.search(message) is not None:
         check_translation = parse_translation.match(message).group[1]
         match check_translation.lower():
             case 'bsb':
