@@ -30,20 +30,22 @@ class Bible(commands.Cog):
 
         try:
             translation = 'akjv'
+            detected_translation = False
             # split on last space, this can contain a chapter:verse chapter, or translation
             if has_translation(message):
                 translation = detect_translation(message)
-                await ctx.send("translation detected: " + translation)
+                detected_translation = True
+                #await ctx.send("translation detected: " + translation)
                 # truncate translation from message
                 message = message.rsplit(' ', 1)[0]
-                await ctx.send("translation detected, truncated message to: " + message)
+                #await ctx.send("translation detected, truncated message to: " + message)
 
             res = message.rsplit(' ', 1)
             book = res[0]
             # format and map books to filename
             book_info = get_book_info(book, translation)
             if book_info is None:
-                await ctx.send("Invalid argument: message " + message + " book: " + book)
+                await ctx.send("Invalid argument: message " + message + " book: " + book + " detected: " + detected_translation)
                 return
 
             book_filename = book_info['filename']
