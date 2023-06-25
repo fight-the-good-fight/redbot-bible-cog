@@ -350,7 +350,7 @@ def detect_translation(message: str):
     translation = None
     parse_translation = re.compile(r'\s(\w+)$')
     if parse_translation.search(message) is not None:
-        check_translation = parse_translation.match(message).group[1]
+        check_translation = parse_translation.search(message)[1]
         match check_translation.lower():
             case 'bsb':
                 translation = 'bsb'
