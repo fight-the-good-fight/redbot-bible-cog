@@ -33,6 +33,7 @@ class Bible(commands.Cog):
             # split on last space, this can contain a chapter:verse chapter, or translation
             if has_translation(message):
                 translation = detect_translation(message)
+                await ctx.send("translation detected: " + translation)
                 # truncate translation from message
                 message = message.rsplit(' ', 1)[0]
                 await ctx.send("translation detected, truncated message to: " + message)
