@@ -240,7 +240,8 @@ class Bible(commands.Cog):
         # remove leading and ending quotes
         arg = re.sub(r'^"|"$', '', arg)
 
-        folder_path = bundled_data_path(self) / "bible"
+        translation = 'akjv'
+        folder_path = os.path.join(bundled_data_path(self), translation)
         description = ""
         embeds = []
 
@@ -280,7 +281,8 @@ class Bible(commands.Cog):
         # remove leading and ending quotes
         arg = re.sub(r'^"|"$', '', arg)
 
-        folder_path = bundled_data_path(self) / "bible"
+        translation = 'akjv'
+        folder_path = os.path.join(bundled_data_path(self), translation)
         description = ""
         embeds = []
 
@@ -378,7 +380,7 @@ def get_book_info(book: str, translation: str = 'akjv'):
     book_name = fix_book_name(book_name)
     matched_book = match_book(book_name)
     if matched_book is not None:
-        book_filename = translation + '/' + book_name + '.json'
+        book_filename = os.path.join(translation, book_name + '.json')
         display_extras = get_book_extras(matched_book)
         return {
             'book': book_name,
