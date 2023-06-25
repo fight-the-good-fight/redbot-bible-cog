@@ -32,10 +32,10 @@ class Bible(commands.Cog):
             translation = 'akjv'
             # split on last space, this can contain a chapter:verse chapter, or translation
             if has_translation(message):
-                await ctx.send("translation detected at end of message: " + message)
                 translation = detect_translation(message)
                 # truncate translation from message
                 message = message.rsplit(' ', 1)[0]
+                await ctx.send("translation detected, truncated message to: " + message)
 
             res = message.rsplit(' ', 1)
             book = res[0]
@@ -344,7 +344,7 @@ class Bible(commands.Cog):
             raise error
 
 def detect_translation(message: str):
-    translation = 'akjv'
+    translation = None
     parse_translation = re.compile(r'\s(\w+)$')
     if parse_translation.search(message):
         check_translation = parse_translation.match(message).group[1]
@@ -361,7 +361,7 @@ def has_translation(message: str):
     parts = message.split(' ')
     if len(parts) > 1:
         ending = parts[len(parts)-1]
-        if detect_translation(ending):
+        if detect_translation(ending) is not None:
             return True
     return False
 
