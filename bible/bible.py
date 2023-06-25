@@ -30,8 +30,9 @@ class Bible(commands.Cog):
             # split on last space
             res = message.rsplit(' ', 1)
             book = res[0]
+            translation = detect_translation(res[1])
             # format and map books to filename
-            book_info = get_book_info(book)
+            book_info = get_book_info(book, translation)
             if book_info is None:
                 await ctx.send("Invalid argument: message " + message + " book: " + book)
                 return
@@ -334,6 +335,18 @@ class Bible(commands.Cog):
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
 
+def detect_translation(message: str):
+    translation = 'akjv'
+    parse_translation = re.compile(r'\s(\w+)$')
+    if parse_translation.search(message):
+        check_translation = parse_translation.match(message).group[1]
+        match check_translation.lower():
+            case 'bsb':
+                translation = 'bsb'
+            case 'kjv':
+                translation = 'akjv'
+
+    return translation
 
 def match_book(book: str):
     # search OT
