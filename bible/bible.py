@@ -356,9 +356,10 @@ def detect_translation(message: str):
 def has_translation(message: str):
     # split the message, and check the end
     parts = message.split(' ')
-    ending = parts[len(parts -1)]
-    if detect_translation(ending):
-        return True
+    if len(parts) > 1:
+        ending = parts[len(parts)-1]
+        if detect_translation(ending):
+            return True
     return False
 
 def match_book(book: str):
