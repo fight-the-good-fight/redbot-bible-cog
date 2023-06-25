@@ -26,6 +26,8 @@ class Bible(commands.Cog):
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
+        check_path = bundled_data_path(self)
+
         try:
             translation = 'akjv'
             # split on last space, this can contain a chapter:verse chapter, or translation
@@ -55,7 +57,7 @@ class Bible(commands.Cog):
             else:
                 chapter = int(chapter_verse)
         except:
-            await ctx.send("Invalid argument: message " + message + " book: " + book_filename)
+            await ctx.send("Invalid argument: message " + message + " check_path " + check_path)
             return
 
         if have_chapter_and_verse:
