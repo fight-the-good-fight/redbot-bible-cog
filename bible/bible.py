@@ -27,10 +27,15 @@ class Bible(commands.Cog):
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
         try:
-            # split on last space
+            translation = 'akjv'
+            # split on last space, this can contain a chapter:verse chapter, or translation
+            if has_translation(message):
+                translation = detect_translation(message)
+                # truncate translation from message
+                message = message.rsplit(' ', 1)[0]
+
             res = message.rsplit(' ', 1)
             book = res[0]
-            translation = detect_translation(res[1])
             # format and map books to filename
             book_info = get_book_info(book, translation)
             if book_info is None:
@@ -347,6 +352,14 @@ def detect_translation(message: str):
                 translation = 'akjv'
 
     return translation
+
+def has_translation(message: str):
+    # split the message, and check the end
+    parts = message.split(' ')
+    ending = parts[len(parts -1)]
+    if detect_translation(ending):
+        return True
+    return False
 
 def match_book(book: str):
     # search OT
