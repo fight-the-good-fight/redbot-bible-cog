@@ -66,7 +66,8 @@ class Bible(commands.Cog):
                     await ctx.send("Invalid argument: verse range ", verse)
                     return
 
-        path = bundled_data_path(self) / "akjv"
+        # this is the path to data, the book_filename contains the translation subpath
+        path = bundled_data_path(self)
 
         try:
             with open(os.path.join(path, book_filename)) as json_file:
