@@ -117,7 +117,7 @@ class Bible(commands.Cog):
                     # index 3 is the first first in a chapter
                     range_min = verse_min + 2
                     range_max = verse_max + 2
-                    description += json.dumps(chapter.get("contents")[range_min]) + "\n"
+                    #description += json.dumps(chapter.get("contents")[range_min]) + "\n"
                     verses = chapter.get("contents")[range_min:range_max]
                     #description += verses[0] + "\n"
                     chapterNumber = chapter.get("chapterNumber")
