@@ -127,7 +127,7 @@ class Bible(commands.Cog):
                     if usfmFormat:
                         description += json.dumps(verse) + "\n"
                         verseNumber = "1" # verse['verseNumber']
-                        verseText = verse['verseText']
+                        verseText = "test" # verse['verseText']
                     else:
                         verseNumber = str(verse["verse"])
                         verseText = verse['text']
