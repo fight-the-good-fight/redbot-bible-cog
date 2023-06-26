@@ -31,14 +31,12 @@ class Bible(commands.Cog):
         try:
             translation = 'akjv'
             detected_translation = False
-            # split on last space, this can contain a chapter:verse chapter, or translation
+            # detect if the message ends with a specific translation
             if has_translation(message):
                 translation = detect_translation(message)
                 detected_translation = True
-                #await ctx.send("translation detected: " + translation)
                 # truncate translation from message
                 message = message.rsplit(' ', 1)[0]
-                #await ctx.send("translation detected, truncated message to: " + message)
 
             res = message.rsplit(' ', 1)
             book = res[0]
@@ -85,8 +83,9 @@ class Bible(commands.Cog):
             with open(os.path.join(path, book_filename)) as json_file:
                 data = json.load(json_file)
                 embeds = []
-                book_name = data["book"]
-                book_info = get_book_info(book)
+                #book_name = get_book_name_from_json(data)
+                book_name = book_info['book']
+                #book_info = get_book_info(book)
                 display_name = book_info['matched']['name']
                 display_extras = ' '.join(book_info['extras'])
 
@@ -99,21 +98,40 @@ class Bible(commands.Cog):
                     verse_min = 1
                     verse_max = len(chapter["verses"]) - 1
 
+                # check if the range is valid
                 try:
-                    chapter.get("verses")[verse_min-1:verse_max]
+                    if 'verses' in chapter:
+                        chapter.get("verses")[verse_min-1:verse_max]
                 except IndexError:
                     await ctx.send("Verse not found: ", verse)
                     return
 
-                for verse in chapter.get("verses")[verse_min-1:verse_max]:
-                    description += f"[{verse['verse']}] " + \
-                        verse['text'] + "\n"
+                # the format between the akjv and the USFM json is different
+                usfmFormat = False
+                if 'verses' in chapter:
+                    # non-usfm formatted file
+                    verses = chapter.get("verses")[verse_min-1:verse_max]
+                    chapterNumber = str(chapter["chapter"])
+                if 'contents' in chapter:
+                    verses = chapter.get("contents")[verse_min+2:verse_max]
+                    usfmFormat = True
+                    chapterNumber = str(chapter["chapter"])
+
+                for verse in verses:
+                    if usfmFormat:
+                        description = f"[{verse['verseNumber']}] " + \
+                            verse['verseText'] + "\n"
+                        verseNumber = verse['verseNumber']
+                    else:
+                        verseNumber = str(verse["verse"])
+                        description += f"[{verse['verse']}] " + \
+                            verse['text'] + "\n"
                     async with self.config.Notes() as notes:
                         for note in notes:
                             if note["book"] == book_name:
                                 # Compare with chapter index
-                                if str(note["chapter"]) == str(chapter["chapter"]):
-                                    if str(note["verse"]) == str(verse["verse"]):
+                                if str(note["chapter"]) == chapterNumber:
+                                    if str(note["verse"]) == verseNumber:
                                         description += str(box(text="- " +
                                                         note["note"], lang="diff")) + "\n"
 
@@ -345,6 +363,26 @@ class Bible(commands.Cog):
         else:
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
+
+
+def get_book_extras_from_json(path: str, data, translation: str = 'akjv'):
+    book_name = data['book']
+    matched_book = match_book(book_name)
+    if matched_book is not None:
+        book_filename = os.path.join(translation, book_name + '.json')
+        # read json, pull out the description
+        with open(os.path.join(path, book_filename)) as json_file:
+            data = json.load(json_file)
+            isString = isinstance(data['book'], str)
+            if isString:
+                display_extras = get_book_extras(matched_book)
+            else:
+                display_extras = [
+                    data['book']['description']
+                ]
+                #display_extras = data['book']['meta'][0]['h'] + data['book']['description']
+
+    return display_extras
 
 def detect_translation(message: str):
     translation = None
