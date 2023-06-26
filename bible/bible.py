@@ -117,11 +117,8 @@ class Bible(commands.Cog):
                     # index 3 is the first first in a chapter
                     range_min = verse_min + 2
                     range_max = verse_max + 3
-                    #description += json.dumps(chapter.get("contents")[range_min]) + "\n"
                     verses = chapter.get("contents")[range_min:range_max]
-                    #description += "verses json:" + json.dumps(verses) + "\n"
                     chapterNumber = chapter.get("chapterNumber")
-                    #description += "chapterNumber: " + chapterNumber + "\n"
 
                 for verse in verses:
                     if usfmFormat:
@@ -383,7 +380,7 @@ def get_book_extras_from_json(path: str, data, translation: str = 'akjv'):
             data = json.load(json_file)
             isString = isinstance(data['book'], str)
             if isString:
-                display_extras = get_book_extras(matched_book)
+                display_extras = get_book_extras(matched_book, translation)
             else:
                 display_extras = [
                     data['book']['description']
@@ -456,7 +453,7 @@ def get_book_info(book: str, translation: str = 'akjv'):
     matched_book = match_book(book_name)
     if matched_book is not None:
         book_filename = os.path.join(translation, book_name + '.json')
-        display_extras = get_book_extras(matched_book)
+        display_extras = get_book_extras(matched_book, translation)
         return {
             'book': book_name,
             'filename': book_filename,
@@ -466,18 +463,18 @@ def get_book_info(book: str, translation: str = 'akjv'):
     return None
 
 
-def get_book_extras(matched_book: dict):
+def get_book_extras(matched_book: dict, translation: str = 'akjv'):
     extras = []
     if matched_book['order'] <= 66:
-        extras.append(book_editions[0])
+        translation_name = translation_names.get(translation)
+        extras.append(translation_name)
     if matched_book['order'] > 66:
-        extras.append(book_editions[1])
+        extras.append('Apocrypha')
     return extras
 
-
-book_editions = [
-    'Authorized (King James) Version (AKJV)',
-    'Apocrypha'
+translation_names = [
+    { 'akjv': 'Authorized (King James) Version (AKJV)'},
+    { 'bsb': 'Berean Study Bible'}
 ]
 
 book_categories = [
