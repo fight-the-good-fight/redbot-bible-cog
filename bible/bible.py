@@ -114,9 +114,9 @@ class Bible(commands.Cog):
                     chapterNumber = str(chapter["chapter"])
                 if 'contents' in chapter:
                     usfmFormat = True
-                    description += "usfmFormatted content\n"
+                    description += chapter + "\n"
                     verses = chapter.get("contents")[3:3]
-                    description += verses[0] + "\n"
+                    #description += verses[0] + "\n"
                     chapterNumber = chapter.get("chapterNumber")
                     description += "chapterNumber: " + chapterNumber + "\n"
 
