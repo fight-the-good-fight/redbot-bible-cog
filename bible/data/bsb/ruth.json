@@ -1,0 +1,1503 @@
+{
+  "book": {
+    "bookCode": "RUT",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Ruth"
+      },
+      {
+        "toc1": [
+          "Ruth"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Ruth"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Naomi Becomes a Widow"
+            ]
+          },
+          {
+            "r": [
+              "(1 Timothy 5:3–16)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "In the days when the judges ruled, there was a famine in the land. And a certain man from Bethlehem in Judah, with his wife and two sons, went to reside in the land of Moab.",
+          "contents": [
+            "In the days when the judges ruled, there was a famine in the land. And a certain man from Bethlehem in Judah, with his wife and two sons, went to reside in the land of Moab."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The man’s name was Elimelech, his wife’s name was Naomi, and the names of his two sons were Mahlon and Chilion. They were Ephrathites from Bethlehem in Judah, and they entered the land of Moab and settled there.",
+          "contents": [
+            "The man’s name was Elimelech, his wife’s name was Naomi, and the names of his two sons were Mahlon and Chilion. They were Ephrathites from Bethlehem in Judah, and they entered the land of Moab and settled there.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Then Naomi’s husband Elimelech died, and she was left with her two sons,",
+          "contents": [
+            "Then Naomi’s husband Elimelech died, and she was left with her two sons,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "who took Moabite women as their wives, one named Orpah and the other named Ruth. And after they had lived in Moab about ten years,",
+          "contents": [
+            "who took Moabite women as their wives, one named Orpah and the other named Ruth.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "And after they had lived in Moab about ten years,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "both Mahlon and Chilion also died, and Naomi was left without her two sons and without her husband.",
+          "contents": [
+            "both Mahlon and Chilion also died, and Naomi was left without her two sons and without her husband.",
+            [
+              {
+                "s1": [
+                  "Ruth’s Loyalty to Naomi"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "When Naomi heard in Moab that the LORD had attended to His people by providing them with food, she and her daughters-in-law prepared to leave the land of Moab.",
+          "contents": [
+            "When Naomi heard in Moab that the LORD had attended to His people by providing them with food, she and her daughters-in-law prepared to leave the land of Moab."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Accompanied by her two daughters-in-law, she left the place where she had been living and set out on the road leading back to the land of Judah.",
+          "contents": [
+            "Accompanied by her two daughters-in-law, she left the place where she had been living and set out on the road leading back to the land of Judah.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Then Naomi said to her two daughters-in-law, “Go back, each of you to your mother’s home. May the LORD show you loving devotion, as you have shown to your dead and to me.",
+          "contents": [
+            "Then Naomi said to her two daughters-in-law, “Go back, each of you to your mother’s home. May the LORD show you loving devotion,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:8"
+                },
+                {
+                  "ft": "Forms of the Hebrew chesed are translated here and in most cases throughout the Scriptures as loving devotion; the range of meaning includes love, goodness, kindness, faithfulness, and mercy, as well as loyalty to a covenant."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "as you have shown to your dead and to me."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "May the LORD enable each of you to find rest in the home of your new husband.” And she kissed them as they wept aloud",
+          "contents": [
+            "May the LORD enable each of you to find rest in the home of your new husband.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "And she kissed them as they wept aloud"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "and said, “Surely we will return with you to your people.”",
+          "contents": [
+            "and said, “Surely we will return with you to your people.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "But Naomi replied, “Return home, my daughters. Why would you go with me? Are there still sons in my womb to become your husbands?",
+          "contents": [
+            "But Naomi replied, “Return home, my daughters. Why would you go with me? Are there still sons in my womb to become your husbands?"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Return home, my daughters. Go on, for I am too old to have another husband. Even if I thought there was hope for me to have a husband tonight and to bear sons,",
+          "contents": [
+            "Return home, my daughters. Go on, for I am too old to have another husband. Even if I thought there was hope for me to have a husband tonight and to bear sons,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "would you wait for them to grow up? Would you refrain from having husbands? No, my daughters, it grieves me very much for your sakes that the hand of the LORD has gone out against me.”",
+          "contents": [
+            "would you wait for them to grow up? Would you refrain from having husbands? No, my daughters, it grieves me very much for your sakes that the hand of the LORD has gone out against me.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Again they wept aloud, and Orpah kissed her mother-in-law goodbye, but Ruth clung to her.",
+          "contents": [
+            "Again they wept aloud, and Orpah kissed her mother-in-law goodbye, but Ruth clung to her.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "“Look,” said Naomi, “your sister-in-law has gone back to her people and her gods; follow her back home.”",
+          "contents": [
+            "“Look,” said Naomi, “your sister-in-law has gone back to her people and her gods; follow her back home.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "But Ruth replied: “Do not urge me to leave you or to turn from following you. For wherever you go, I will go, and wherever you live, I will live; your people will be my people, and your God will be my God.",
+          "contents": [
+            "But Ruth replied:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“Do not urge me to leave you",
+            {
+              "q2": null
+            },
+            "or to turn from following you.",
+            {
+              "q1": null
+            },
+            "For wherever you go, I will go,",
+            {
+              "q2": null
+            },
+            "and wherever you live, I will live;",
+            {
+              "q1": null
+            },
+            "your people will be my people,",
+            {
+              "q2": null
+            },
+            "and your God will be my God.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Where you die, I will die, and there I will be buried. May the LORD punish me, and ever so severely, if anything but death separates you and me.”",
+          "contents": [
+            "Where you die, I will die,",
+            {
+              "q2": null
+            },
+            "and there I will be buried.",
+            {
+              "q1": null
+            },
+            "May the LORD punish me,",
+            {
+              "q2": null
+            },
+            "and ever so severely,",
+            {
+              "q1": null
+            },
+            "if anything but death",
+            {
+              "q2": null
+            },
+            "separates you and me.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "When Naomi saw that Ruth was determined to go with her, she stopped trying to persuade her.",
+          "contents": [
+            "When Naomi saw that Ruth was determined to go with her, she stopped trying to persuade her.",
+            [
+              {
+                "s1": [
+                  "The Return to Bethlehem"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "So Naomi and Ruth traveled until they came to Bethlehem. When they entered Bethlehem, the whole city was stirred because of them, and the women of the city exclaimed, “Can this be Naomi?”",
+          "contents": [
+            "So Naomi and Ruth traveled until they came to Bethlehem. When they entered Bethlehem, the whole city was stirred because of them, and the women of the city exclaimed, “Can this be Naomi?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "“Do not call me Naomi,” she replied. “Call me Mara, because the Almighty has dealt quite bitterly with me.",
+          "contents": [
+            "“Do not call me Naomi,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:20"
+                },
+                {
+                  "ft": "Naomi means pleasant."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "” she replied. “Call me Mara,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:20"
+                },
+                {
+                  "ft": "Mara means bitter."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "because the Almighty",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:20"
+                },
+                {
+                  "ft": "Hebrew Shaddai; also in verse 21"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "has dealt quite bitterly with me."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "I went away full, but the LORD has brought me back empty. Why call me Naomi? After all, the LORD has testified against me, and the Almighty has afflicted me.”",
+          "contents": [
+            "I went away full, but the LORD has brought me back empty. Why call me Naomi? After all, the LORD has testified against me, and the Almighty has afflicted me.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "So Naomi returned from the land of Moab with her daughter-in-law Ruth the Moabitess. And they arrived in Bethlehem at the beginning of the barley harvest.",
+          "contents": [
+            "So Naomi returned from the land of Moab with her daughter-in-law Ruth the Moabitess. And they arrived in Bethlehem at the beginning of the barley harvest."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Boaz Meets Ruth"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now Naomi had a relative on her husband’s side, a prominent man of noble character from the clan of Elimelech, whose name was Boaz.",
+          "contents": [
+            "Now Naomi had a relative on her husband’s side, a prominent man of noble character from the clan of Elimelech, whose name was Boaz.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "And Ruth the Moabitess said to Naomi, “Please let me go into the fields and glean heads of grain after someone in whose sight I may find favor.” “Go ahead, my daughter,” Naomi replied.",
+          "contents": [
+            "And Ruth the Moabitess said to Naomi, “Please let me go into the fields and glean heads of grain after someone in whose sight I may find favor.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "“Go ahead, my daughter,” Naomi replied.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "So Ruth departed and went out into the field and gleaned after the harvesters. And she happened to come to the part of the field belonging to Boaz, who was from the clan of Elimelech.",
+          "contents": [
+            "So Ruth departed and went out into the field and gleaned after the harvesters. And she happened to come to the part of the field belonging to Boaz, who was from the clan of Elimelech.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Just then Boaz arrived from Bethlehem and said to the harvesters, “The LORD be with you.” “The LORD bless you,” they replied.",
+          "contents": [
+            "Just then Boaz arrived from Bethlehem and said to the harvesters, “The LORD be with you.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "“The LORD bless you,” they replied.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "And Boaz asked the foreman of his harvesters, “Whose young woman is this?”",
+          "contents": [
+            "And Boaz asked the foreman of his harvesters, “Whose young woman is this?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The foreman answered, “She is the Moabitess who returned with Naomi from the land of Moab.",
+          "contents": [
+            "The foreman answered, “She is the Moabitess who returned with Naomi from the land of Moab."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "She has said, ‘Please let me glean and gather among the sheaves after the harvesters.’ So she came out and has continued from morning until now, except that she rested a short time in the shelter.”",
+          "contents": [
+            "She has said, ‘Please let me glean and gather among the sheaves after the harvesters.’ So she came out and has continued from morning until now, except that she rested a short time in the shelter.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Then Boaz said to Ruth, “Listen, my daughter. Do not go and glean in another field, and do not go away from this place, but stay here close to my servant girls.",
+          "contents": [
+            "Then Boaz said to Ruth, “Listen, my daughter. Do not go and glean in another field, and do not go away from this place, but stay here close to my servant girls."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Let your eyes be on the field they are harvesting, and follow along after these girls. Indeed, I have ordered the young men not to touch you. And when you are thirsty, go and drink from the jars the young men have filled.”",
+          "contents": [
+            "Let your eyes be on the field they are harvesting, and follow along after these girls. Indeed, I have ordered the young men not to touch you. And when you are thirsty, go and drink from the jars the young men have filled.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "At this, she fell on her face, bowing low to the ground, and said to him, “Why have I found such favor in your eyes that you should take notice of me, even though I am a foreigner?”",
+          "contents": [
+            "At this, she fell on her face, bowing low to the ground, and said to him, “Why have I found such favor in your eyes that you should take notice of me, even though I am a foreigner?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Boaz replied, “I have been made fully aware of all you have done for your mother-in-law since the death of your husband, how you left your father and mother and the land of your birth, and how you came to a people you did not know before.",
+          "contents": [
+            "Boaz replied, “I have been made fully aware of all you have done for your mother-in-law since the death of your husband, how you left your father and mother and the land of your birth, and how you came to a people you did not know before."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "May the LORD repay your work, and may you receive a rich reward from the LORD, the God of Israel, under whose wings you have taken refuge.”",
+          "contents": [
+            "May the LORD repay your work, and may you receive a rich reward from the LORD, the God of Israel, under whose wings you have taken refuge.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "“My lord,” she said, “may I continue to find favor in your eyes, for you have comforted and spoken kindly to your maidservant, though I am not like one of your servant girls.”",
+          "contents": [
+            "“My lord,” she said, “may I continue to find favor in your eyes, for you have comforted and spoken kindly to your maidservant, though I am not like one of your servant girls.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "At mealtime Boaz said to her, “Come over here; have some bread and dip it into the vinegar sauce.” So she sat down beside the harvesters, and he offered her roasted grain, and she ate and was satisfied and had some left over.",
+          "contents": [
+            "At mealtime Boaz said to her, “Come over here; have some bread and dip it into the vinegar sauce.” So she sat down beside the harvesters, and he offered her roasted grain, and she ate and was satisfied and had some left over.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "When Ruth got up to glean, Boaz ordered his young men, “Even if she gathers among the sheaves, do not insult her.",
+          "contents": [
+            "When Ruth got up to glean, Boaz ordered his young men, “Even if she gathers among the sheaves, do not insult her."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Rather, pull out for her some stalks from the bundles and leave them for her to gather. Do not rebuke her.”",
+          "contents": [
+            "Rather, pull out for her some stalks from the bundles and leave them for her to gather. Do not rebuke her.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "So Ruth gathered grain in the field until evening. And when she beat out what she had gleaned, it was about an ephah of barley.",
+          "contents": [
+            "So Ruth gathered grain in the field until evening. And when she beat out what she had gleaned, it was about an ephah of barley.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:17"
+                },
+                {
+                  "ft": "An ephah is approximately 20 dry quarts or 22 liters (probably about 29 pounds or 13.2 kilograms of barley)."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "She picked up the grain and went into the town, where her mother-in-law saw what she had gleaned. And she brought out what she had saved from her meal and gave it to Naomi.",
+          "contents": [
+            "She picked up the grain and went into the town, where her mother-in-law saw what she had gleaned. And she brought out what she had saved from her meal and gave it to Naomi.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Then her mother-in-law asked her, “Where did you glean today, and where did you work? Blessed be the man who noticed you.” So she told her mother-in-law where she had worked. “The name of the man I worked with today is Boaz,” she said.",
+          "contents": [
+            "Then her mother-in-law asked her, “Where did you glean today, and where did you work? Blessed be the man who noticed you.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "So she told her mother-in-law where she had worked. “The name of the man I worked with today is Boaz,” she said.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Then Naomi said to her daughter-in-law, “May he be blessed by the LORD, who has not withdrawn His kindness from the living or the dead.” Naomi continued, “The man is a close relative. He is one of our kinsman-redeemers.”",
+          "contents": [
+            "Then Naomi said to her daughter-in-law, “May he be blessed by the LORD, who has not withdrawn His kindness from the living or the dead.” Naomi continued, “The man is a close relative. He is one of our kinsman-redeemers.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:20"
+                },
+                {
+                  "ft": "The Hebrew word for kinsman-redeemer or guardian-redeemer is a legal term for the kinsman who redeems or vindicates a relative; see Leviticus 25:25–55."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Then Ruth the Moabitess said, “He also told me, ‘Stay with my young men until they have finished gathering all my harvest.’”",
+          "contents": [
+            "Then Ruth the Moabitess said, “He also told me, ‘Stay with my young men until they have finished gathering all my harvest.’”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "And Naomi said to her daughter-in-law Ruth, “My daughter, it is good for you to work with his young women, so that nothing will happen to you in another field.”",
+          "contents": [
+            "And Naomi said to her daughter-in-law Ruth, “My daughter, it is good for you to work with his young women, so that nothing will happen to you in another field.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "So Ruth stayed close to the servant girls of Boaz to glean grain until the barley and wheat harvests were finished. And she lived with her mother-in-law.",
+          "contents": [
+            "So Ruth stayed close to the servant girls of Boaz to glean grain until the barley and wheat harvests were finished. And she lived with her mother-in-law."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Ruth’s Redemption Assured"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "One day Ruth’s mother-in-law Naomi said to her, “My daughter, should I not seek a resting place for you, that it may be well with you?",
+          "contents": [
+            "One day Ruth’s mother-in-law Naomi said to her, “My daughter, should I not seek a resting place for you, that it may be well with you?"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Now is not Boaz, with whose servant girls you have been working, a relative of ours? In fact, tonight he is winnowing barley on the threshing floor.",
+          "contents": [
+            "Now is not Boaz, with whose servant girls you have been working, a relative of ours? In fact, tonight he is winnowing barley on the threshing floor."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Therefore wash yourself, put on perfume, and wear your best clothes. Go down to the threshing floor, but do not let the man know you are there until he has finished eating and drinking.",
+          "contents": [
+            "Therefore wash yourself, put on perfume, and wear your best clothes. Go down to the threshing floor, but do not let the man know you are there until he has finished eating and drinking."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "When he lies down, note the place where he lies. Then go in and uncover his feet, and lie down, and he will explain to you what you should do.”",
+          "contents": [
+            "When he lies down, note the place where he lies. Then go in and uncover his feet, and lie down, and he will explain to you what you should do.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "“I will do everything you say,” Ruth answered.",
+          "contents": [
+            "“I will do everything you say,” Ruth answered."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "So she went down to the threshing floor and did everything her mother-in-law had instructed her to do.",
+          "contents": [
+            "So she went down to the threshing floor and did everything her mother-in-law had instructed her to do.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "After Boaz had finished eating and drinking and was in good spirits, he went to lie down at the end of the heap of grain. Then Ruth went in secretly, uncovered his feet, and lay down.",
+          "contents": [
+            "After Boaz had finished eating and drinking and was in good spirits, he went to lie down at the end of the heap of grain. Then Ruth went in secretly, uncovered his feet, and lay down.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "At midnight, Boaz was startled, turned over, and there lying at his feet was a woman!",
+          "contents": [
+            "At midnight, Boaz was startled, turned over, and there lying at his feet was a woman!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "“Who are you?” he asked. “I am your servant Ruth,” she replied. “Spread the corner of your garment over me, for you are a kinsman-redeemer.”",
+          "contents": [
+            "“Who are you?” he asked.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "“I am your servant Ruth,” she replied. “Spread the corner of your garment",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:9"
+                },
+                {
+                  "ft": "Or Spread your wing; the word for wing can also mean corner of a garment; see Ruth 2:12."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "over me, for you are a kinsman-redeemer.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:9"
+                },
+                {
+                  "ft": "The Hebrew word for kinsman-redeemer or guardian-redeemer is a legal term for the kinsman who redeems or vindicates a relative; similarly in verses 12 and 13; see Leviticus 25:25–55."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Then Boaz said, “May the LORD bless you, my daughter. You have shown more kindness now than before, because you have not run after the younger men, whether rich or poor.",
+          "contents": [
+            "Then Boaz said, “May the LORD bless you, my daughter. You have shown more kindness now than before, because you have not run after the younger men, whether rich or poor."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "And now do not be afraid, my daughter. I will do for you whatever you request, since all my fellow townspeople know that you are a woman of noble character.",
+          "contents": [
+            "And now do not be afraid, my daughter. I will do for you whatever you request, since all my fellow townspeople know that you are a woman of noble character."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Yes, it is true that I am a kinsman-redeemer, but there is a redeemer nearer than I.",
+          "contents": [
+            "Yes, it is true that I am a kinsman-redeemer, but there is a redeemer nearer than I.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:12"
+                },
+                {
+                  "ft": "That is, more closely related"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Stay here tonight, and in the morning, if he wants to redeem you, good. Let him redeem you. But if he does not want to redeem you, as surely as the LORD lives, I will. Now lie here until morning.”",
+          "contents": [
+            "Stay here tonight, and in the morning, if he wants to redeem you, good. Let him redeem you. But if he does not want to redeem you, as surely as the LORD lives, I will. Now lie here until morning.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "So she lay down at his feet until morning, but she got up before anyone else could recognize her. Then Boaz said, “Do not let it be known that a woman came to the threshing floor.”",
+          "contents": [
+            "So she lay down at his feet until morning, but she got up before anyone else could recognize her.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Then Boaz said, “Do not let it be known that a woman came to the threshing floor.”"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And he told her, “Bring the shawl you are wearing and hold it out.” When she did so, he shoveled six measures of barley into her shawl. Then he went into the city.",
+          "contents": [
+            "And he told her, “Bring the shawl you are wearing and hold it out.” When she did so, he shoveled six measures of barley",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:15"
+                },
+                {
+                  "ft": "Possibly six seahs (two ephahs), or approximately 39.6 dry quarts or 43.8 liters (about 58 pounds or 26.3 kilograms of barley)"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "into her shawl. Then he went",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:15"
+                },
+                {
+                  "ft": "Most Hebrew manuscripts; many Hebrew manuscripts, Vulgate, and Syriac she went"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "into the city.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "When Ruth returned to her mother-in-law, Naomi asked her, “How did it go, my daughter?” Then Ruth told her all that Boaz had done for her.",
+          "contents": [
+            "When Ruth returned to her mother-in-law, Naomi asked her, “How did it go, my daughter?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Then Ruth told her all that Boaz had done for her."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "And she said, “He gave me these six measures of barley, for he said, ‘Do not go back to your mother-in-law empty-handed.’”",
+          "contents": [
+            "And she said, “He gave me these six measures of barley, for he said, ‘Do not go back to your mother-in-law empty-handed.’”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "“Wait, my daughter,” said Naomi, “until you find out how things go, for he will not rest unless he has resolved the matter today.”",
+          "contents": [
+            "“Wait, my daughter,” said Naomi, “until you find out how things go, for he will not rest unless he has resolved the matter today.”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Boaz Redeems Ruth"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Meanwhile, Boaz went to the gate and sat down there. Soon the kinsman-redeemer of whom he had spoken came along, and Boaz said, “Come over here, my friend, and sit down.” So he went over and sat down.",
+          "contents": [
+            "Meanwhile, Boaz went to the gate and sat down there. Soon the kinsman-redeemer",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:1"
+                },
+                {
+                  "ft": "The Hebrew word for kinsman-redeemer or guardian-redeemer is a legal term for the kinsman who redeems or vindicates a relative; also in verses 3, 6, 8, and 14; see Leviticus 25:25–55."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of whom he had spoken came along, and Boaz said, “Come over here, my friend, and sit down.” So he went over and sat down.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Then Boaz took ten of the elders of the city and said, “Sit here,” and they did so.",
+          "contents": [
+            "Then Boaz took ten of the elders of the city and said, “Sit here,” and they did so.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "And he said to the kinsman-redeemer, “Naomi, who has returned from the land of Moab, is selling the piece of land that belonged to our brother Elimelech.",
+          "contents": [
+            "And he said to the kinsman-redeemer, “Naomi, who has returned from the land of Moab, is selling the piece of land that belonged to our brother Elimelech."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I thought I should inform you that you may buy it back in the presence of those seated here and in the presence of the elders of my people. If you want to redeem it, do so. But if you will not redeem it, tell me so I may know, because there is no one but you to redeem it, and I am next after you.” “I will redeem it,” he replied.",
+          "contents": [
+            "I thought I should inform you that you may buy it back in the presence of those seated here and in the presence of the elders of my people. If you want to redeem it, do so. But if you",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:4"
+                },
+                {
+                  "ft": "Many Hebrew manuscripts, LXX, Vulgate, and Syriac; most Hebrew manuscripts he"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will not redeem it, tell me so I may know, because there is no one but you to redeem it, and I am next after you.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "“I will redeem it,” he replied.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Then Boaz said, “On the day you buy the land from Naomi and also from Ruth the Moabitess, you must also acquire the widow of the deceased in order to raise up the name of the deceased on his inheritance.”",
+          "contents": [
+            "Then Boaz said, “On the day you buy the land from Naomi and also from Ruth the Moabitess, you must also acquire the widow of the deceased in order to raise up the name of the deceased on his inheritance.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The kinsman-redeemer replied, “I cannot redeem it myself, or I would jeopardize my own inheritance. Take my right of redemption, because I cannot redeem it.”",
+          "contents": [
+            "The kinsman-redeemer replied, “I cannot redeem it myself, or I would jeopardize my own inheritance. Take my right of redemption, because I cannot redeem it.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Now in former times in Israel, concerning the redemption or exchange of property, to make any matter legally binding a man would remove his sandal and give it to the other party, and this was a confirmation in Israel.",
+          "contents": [
+            "Now in former times in Israel, concerning the redemption or exchange of property, to make any matter legally binding a man would remove his sandal and give it to the other party, and this was a confirmation in Israel."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "So the kinsman-redeemer removed his sandal and said to Boaz, “Buy it for yourself.”",
+          "contents": [
+            "So the kinsman-redeemer removed his sandal and said to Boaz, “Buy it for yourself.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "At this, Boaz said to the elders and all the people, “You are witnesses today that I am buying from Naomi all that belonged to Elimelech, Chilion, and Mahlon.",
+          "contents": [
+            "At this, Boaz said to the elders and all the people, “You are witnesses today that I am buying from Naomi all that belonged to Elimelech, Chilion, and Mahlon."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Moreover, I have acquired Ruth the Moabitess, Mahlon’s widow, as my wife, to raise up the name of the deceased through his inheritance, so that his name will not disappear from among his brothers or from the gate of his home. You are witnesses today.”",
+          "contents": [
+            "Moreover, I have acquired Ruth the Moabitess, Mahlon’s widow, as my wife, to raise up the name of the deceased through his inheritance, so that his name will not disappear from among his brothers or from the gate of his home. You are witnesses today.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "“We are witnesses,” said the elders and all the people at the gate. “May the LORD make the woman entering your home like Rachel and Leah, who together built up the house of Israel. May you be prosperous in Ephrathah and famous in Bethlehem.",
+          "contents": [
+            "“We are witnesses,” said the elders and all the people at the gate. “May the LORD make the woman entering your home like Rachel and Leah, who together built up the house of Israel. May you be prosperous in Ephrathah and famous in Bethlehem."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "And may your house become like the house of Perez, whom Tamar bore to Judah, because of the offspring the LORD will give you by this young woman.”",
+          "contents": [
+            "And may your house become like the house of Perez, whom Tamar bore to Judah, because of the offspring the LORD will give you by this young woman.”",
+            [
+              {
+                "s1": [
+                  "Boaz Marries Ruth"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "So Boaz took Ruth, and she became his wife. And when he had relations with her, the LORD enabled her to conceive, and she gave birth to a son.",
+          "contents": [
+            "So Boaz took Ruth, and she became his wife. And when he had relations with her, the LORD enabled her to conceive, and she gave birth to a son.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Then the women said to Naomi, “Blessed be the LORD, who has not left you this day without a kinsman-redeemer. May his name become famous in Israel.",
+          "contents": [
+            "Then the women said to Naomi, “Blessed be the LORD, who has not left you this day without a kinsman-redeemer. May his name become famous in Israel."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "He will renew your life and sustain you in your old age. For your daughter-in-law, who loves you and is better to you than seven sons, has given him birth.”",
+          "contents": [
+            "He will renew your life and sustain you in your old age. For your daughter-in-law, who loves you and is better to you than seven sons, has given him birth.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "And Naomi took the child, placed him on her lap, and became a nurse to him.",
+          "contents": [
+            "And Naomi took the child, placed him on her lap, and became a nurse to him."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "The neighbor women said, “A son has been born to Naomi,” and they named him Obed. He became the father of Jesse, the father of David.",
+          "contents": [
+            "The neighbor women said, “A son has been born to Naomi,” and they named him Obed. He became the father of Jesse, the father of David.",
+            [
+              {
+                "s1": [
+                  "The Line of David"
+                ]
+              },
+              {
+                "r": [
+                  "(Matthew 1:1–17; Luke 3:23–38)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Now these are the generations of Perez: Perez was the father of Hezron, 1",
+          "contents": [
+            "Now these are the generations of Perez:",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "Perez was the father of Hezron,"
+                  ]
+                }
+              ]
+            },
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "1"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Hezron was the father of Ram, Ram was the father of Amminadab, 1",
+          "contents": [
+            "Hezron was the father of Ram,",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "Ram was the father of Amminadab,"
+                  ]
+                }
+              ]
+            },
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "1"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Amminadab was the father of Nahshon, Nahshon was the father of Salmon, 1",
+          "contents": [
+            "Amminadab was the father of Nahshon,",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "Nahshon was the father of Salmon,"
+                  ]
+                }
+              ]
+            },
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:20"
+                },
+                {
+                  "ft": "A few Hebrew manuscripts, some LXX manuscripts, and Vulgate (see also verse 21 and LXX of 1 Chronicles 2:11); most Hebrew manuscripts Salma"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "1"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Salmon was the father of Boaz, Boaz was the father of Obed, 1",
+          "contents": [
+            "Salmon was the father of Boaz,",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "Boaz was the father of Obed,"
+                  ]
+                }
+              ]
+            },
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "1"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Obed was the father of Jesse, and Jesse was the father of David.",
+          "contents": [
+            "Obed was the father of Jesse,",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "and Jesse was the father of David."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "\\li used without content",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
