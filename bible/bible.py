@@ -113,19 +113,20 @@ class Bible(commands.Cog):
                     verses = chapter.get("verses")[verse_min-1:verse_max]
                     chapterNumber = str(chapter["chapter"])
                 if 'contents' in chapter:
-                    verses = chapter.get("contents")[verse_min+2:verse_max]
                     usfmFormat = True
-                    chapterNumber = str(chapter["chapterNumber"])
+                    verses = chapter.get("contents")[3:3]
+                    chapterNumber = chapter.get("chapterNumber")
 
                 for verse in verses:
                     if usfmFormat:
-                        description = f"[{verse['verseNumber']}] " + \
-                            verse['verseText'] + "\n"
                         verseNumber = verse['verseNumber']
+                        verseText = verse['verseText']
                     else:
                         verseNumber = str(verse["verse"])
-                        description += f"[{verse['verse']}] " + \
-                            verse['text'] + "\n"
+                        verseText = verse['text']
+
+                    description += f"[{verseNumber}] {verseText}\n"
+
                     async with self.config.Notes() as notes:
                         for note in notes:
                             if note["book"] == book_name:
