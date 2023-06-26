@@ -119,15 +119,15 @@ class Bible(commands.Cog):
                     range_max = verse_max + 3
                     #description += json.dumps(chapter.get("contents")[range_min]) + "\n"
                     verses = chapter.get("contents")[range_min:range_max]
-                    description += "verses json:" + json.dumps(verses) + "\n"
+                    #description += "verses json:" + json.dumps(verses) + "\n"
                     chapterNumber = chapter.get("chapterNumber")
                     #description += "chapterNumber: " + chapterNumber + "\n"
 
                 for verse in verses:
                     if usfmFormat:
-                        description += "verse json:" + json.dumps(verse) + "\n"
-                        verseNumber = "1" # verse['verseNumber']
-                        verseText = "test" # verse['verseText']
+                        #description += "verse json:" + json.dumps(verse) + "\n"
+                        verseNumber = verse.get('verseNumber')
+                        verseText = verse.get('verseText')
                     else:
                         verseNumber = str(verse["verse"])
                         verseText = verse['text']
