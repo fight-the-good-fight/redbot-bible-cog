@@ -114,11 +114,14 @@ class Bible(commands.Cog):
                     chapterNumber = str(chapter["chapter"])
                 if 'contents' in chapter:
                     usfmFormat = True
-                    description += json.dumps(chapter.get("contents")[3]) + "\n"
-                    verses = chapter.get("contents")[3:3]
+                    # index 3 is the first first in a chapter
+                    range_min = verse_min + 3
+                    range_max = verse_max + 3
+                    description += json.dumps(chapter.get("contents")[range_min]) + "\n"
+                    verses = chapter.get("contents")[range_min:range_max]
                     #description += verses[0] + "\n"
                     chapterNumber = chapter.get("chapterNumber")
-                    description += "chapterNumber: " + chapterNumber + "\n"
+                    #description += "chapterNumber: " + chapterNumber + "\n"
 
                 for verse in verses:
                     if usfmFormat:
