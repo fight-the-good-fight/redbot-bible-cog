@@ -1,0 +1,2065 @@
+{
+  "book": {
+    "bookCode": "JOL",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Joel"
+      },
+      {
+        "toc1": [
+          "Joel"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Joel"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Invasion of Locusts"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is the word of the LORD that came to Joel son of Pethuel:",
+          "contents": [
+            "This is the word of the LORD that came to Joel son of Pethuel:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Hear this, O elders; and give ear, all who dwell in the land. Has anything like this ever happened in your days or in the days of your fathers?",
+          "contents": [
+            "Hear this, O elders;",
+            {
+              "q2": null
+            },
+            "and give ear, all who dwell in the land.",
+            {
+              "q1": null
+            },
+            "Has anything like this ever happened in your days",
+            {
+              "q2": null
+            },
+            "or in the days of your fathers?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Tell it to your children; let your children tell it to their children, and their children to the next generation.",
+          "contents": [
+            "Tell it to your children;",
+            {
+              "q2": null
+            },
+            "let your children tell it to their children,",
+            {
+              "q2": null
+            },
+            "and their children to the next generation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "What the devouring locust has left, the swarming locust has eaten; what the swarming locust has left, the young locust has eaten; and what the young locust has left, the destroying locust has eaten.",
+          "contents": [
+            "What the devouring locust has left,",
+            {
+              "q2": null
+            },
+            "the swarming locust has eaten;",
+            {
+              "q1": null
+            },
+            "what the swarming locust has left,",
+            {
+              "q2": null
+            },
+            "the young locust has eaten;",
+            {
+              "q1": null
+            },
+            "and what the young locust has left,",
+            {
+              "q2": null
+            },
+            "the destroying locust has eaten.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:4"
+                },
+                {
+                  "ft": "The precise identification of the four kinds of locusts mentioned here is uncertain."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Wake up, you drunkards, and weep; wail, all you drinkers of wine, because of the sweet wine, for it has been cut off from your mouth.",
+          "contents": [
+            "Wake up, you drunkards, and weep;",
+            {
+              "q2": null
+            },
+            "wail, all you drinkers of wine,",
+            {
+              "q1": null
+            },
+            "because of the sweet wine,",
+            {
+              "q2": null
+            },
+            "for it has been cut off from your mouth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For a nation has invaded My land, powerful and without number; its teeth are the teeth of a lion, and its fangs are the fangs of a lioness.",
+          "contents": [
+            "For a nation has invaded My land,",
+            {
+              "q2": null
+            },
+            "powerful and without number;",
+            {
+              "q1": null
+            },
+            "its teeth are the teeth of a lion,",
+            {
+              "q2": null
+            },
+            "and its fangs are the fangs of a lioness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "It has laid waste My grapevine and splintered My fig tree. It has stripped off the bark and thrown it away; the branches have turned white.",
+          "contents": [
+            "It has laid waste My grapevine",
+            {
+              "q2": null
+            },
+            "and splintered My fig tree.",
+            {
+              "q1": null
+            },
+            "It has stripped off the bark and thrown it away;",
+            {
+              "q2": null
+            },
+            "the branches have turned white.",
+            [
+              {
+                "s1": [
+                  "A Call to Mourning"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Wail like a virgin dressed in sackcloth, grieving for the husband of her youth.",
+          "contents": [
+            "Wail like a virgin dressed in sackcloth,",
+            {
+              "q2": null
+            },
+            "grieving for the husband of her youth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Grain and drink offerings have been cut off from the house of the LORD; the priests are in mourning, those who minister before the LORD.",
+          "contents": [
+            "Grain and drink offerings have been cut off",
+            {
+              "q2": null
+            },
+            "from the house of the LORD;",
+            {
+              "q1": null
+            },
+            "the priests are in mourning,",
+            {
+              "q2": null
+            },
+            "those who minister before the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The field is ruined; the land mourns. For the grain is destroyed, the new wine is dried up, and the oil fails.",
+          "contents": [
+            "The field is ruined;",
+            {
+              "q2": null
+            },
+            "the land mourns.",
+            {
+              "q1": null
+            },
+            "For the grain is destroyed,",
+            {
+              "q2": null
+            },
+            "the new wine is dried up, and the oil fails.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Be dismayed, O farmers, wail, O vinedressers, over the wheat and barley, because the harvest of the field has perished.",
+          "contents": [
+            "Be dismayed, O farmers,",
+            {
+              "q2": null
+            },
+            "wail, O vinedressers,",
+            {
+              "q1": null
+            },
+            "over the wheat and barley,",
+            {
+              "q2": null
+            },
+            "because the harvest of the field has perished.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The grapevine is dried up, and the fig tree is withered; the pomegranate, palm, and apple—all the trees of the orchard—are withered. Surely the joy of mankind has dried up.",
+          "contents": [
+            "The grapevine is dried up,",
+            {
+              "q2": null
+            },
+            "and the fig tree is withered;",
+            {
+              "q1": null
+            },
+            "the pomegranate, palm, and apple—",
+            {
+              "q2": null
+            },
+            "all the trees of the orchard—are withered.",
+            {
+              "q2": null
+            },
+            "Surely the joy of mankind has dried up.",
+            [
+              {
+                "s1": [
+                  "A Call to Repentance"
+                ]
+              },
+              {
+                "r": [
+                  "(Amos 5:4–15; Zephaniah 2:1–3; Luke 13:1–5)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Put on sackcloth and lament, O priests; wail, O ministers of the altar. Come, spend the night in sackcloth, O ministers of my God, because the grain and drink offerings are withheld from the house of your God.",
+          "contents": [
+            "Put on sackcloth and lament, O priests;",
+            {
+              "q2": null
+            },
+            "wail, O ministers of the altar.",
+            {
+              "q1": null
+            },
+            "Come, spend the night in sackcloth,",
+            {
+              "q2": null
+            },
+            "O ministers of my God,",
+            {
+              "q1": null
+            },
+            "because the grain and drink offerings",
+            {
+              "q2": null
+            },
+            "are withheld from the house of your God.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Consecrate a fast; proclaim a solemn assembly! Gather the elders and all the residents of the land to the house of the LORD your God, and cry out to the LORD.",
+          "contents": [
+            "Consecrate a fast;",
+            {
+              "q2": null
+            },
+            "proclaim a solemn assembly!",
+            {
+              "q1": null
+            },
+            "Gather the elders",
+            {
+              "q2": null
+            },
+            "and all the residents of the land",
+            {
+              "q1": null
+            },
+            "to the house of the LORD your God,",
+            {
+              "q2": null
+            },
+            "and cry out to the LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Alas for the day! For the Day of the LORD is near, and it will come as destruction from the Almighty.",
+          "contents": [
+            "Alas for the day!",
+            {
+              "q2": null
+            },
+            "For the Day of the LORD is near,",
+            {
+              "q1": null
+            },
+            "and it will come",
+            {
+              "q2": null
+            },
+            "as destruction from the Almighty.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:15"
+                },
+                {
+                  "ft": "Hebrew Shaddai"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Has not the food been cut off before our very eyes—joy and gladness from the house of our God?",
+          "contents": [
+            "Has not the food been cut off",
+            {
+              "q2": null
+            },
+            "before our very eyes—",
+            {
+              "q1": null
+            },
+            "joy and gladness",
+            {
+              "q2": null
+            },
+            "from the house of our God?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "The seeds lie shriveled beneath the clods; the storehouses are in ruins; the granaries are broken down, for the grain has withered away.",
+          "contents": [
+            "The seeds lie shriveled beneath the clods;",
+            {
+              "q2": null
+            },
+            "the storehouses are in ruins;",
+            {
+              "q1": null
+            },
+            "the granaries are broken down,",
+            {
+              "q2": null
+            },
+            "for the grain has withered away.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "How the cattle groan! The herds wander in confusion because they have no pasture. Even the flocks of sheep are suffering.",
+          "contents": [
+            "How the cattle groan!",
+            {
+              "q2": null
+            },
+            "The herds wander in confusion",
+            {
+              "q1": null
+            },
+            "because they have no pasture.",
+            {
+              "q2": null
+            },
+            "Even the flocks of sheep are suffering.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "To You, O LORD, I call, for fire has consumed the open pastures and flames have scorched all the trees of the field.",
+          "contents": [
+            "To You, O LORD, I call,",
+            {
+              "q2": null
+            },
+            "for fire has consumed the open pastures",
+            {
+              "q2": null
+            },
+            "and flames have scorched all the trees of the field.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Even the beasts of the field pant for You, for the streams of water have dried up, and fire has consumed the open pastures.",
+          "contents": [
+            "Even the beasts of the field pant for You,",
+            {
+              "q2": null
+            },
+            "for the streams of water have dried up,",
+            {
+              "q2": null
+            },
+            "and fire has consumed the open pastures."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Army of Locusts"
+            ]
+          },
+          {
+            "r": [
+              "(Amos 7:1–9)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Blow the ram’s horn in Zion; sound the alarm on My holy mountain! Let all who dwell in the land tremble, for the Day of the LORD is coming; indeed, it is near—",
+          "contents": [
+            "Blow the ram’s horn in Zion;",
+            {
+              "q2": null
+            },
+            "sound the alarm on My holy mountain!",
+            {
+              "q1": null
+            },
+            "Let all who dwell in the land tremble,",
+            {
+              "q2": null
+            },
+            "for the Day of the LORD is coming;",
+            {
+              "q2": null
+            },
+            "indeed, it is near—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "a day of darkness and gloom, a day of clouds and blackness. Like the dawn overspreading the mountains a great and strong army appears, such as never was of old, nor will ever be in ages to come.",
+          "contents": [
+            "a day of darkness and gloom,",
+            {
+              "q2": null
+            },
+            "a day of clouds and blackness.",
+            {
+              "q1": null
+            },
+            "Like the dawn overspreading the mountains",
+            {
+              "q2": null
+            },
+            "a great and strong army appears,",
+            {
+              "q1": null
+            },
+            "such as never was of old,",
+            {
+              "q2": null
+            },
+            "nor will ever be in ages to come.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Before them a fire devours, and behind them a flame scorches. The land before them is like the Garden of Eden, but behind them, it is like a desert wasteland—surely nothing will escape them.",
+          "contents": [
+            "Before them a fire devours,",
+            {
+              "q2": null
+            },
+            "and behind them a flame scorches.",
+            {
+              "q1": null
+            },
+            "The land before them is like the Garden of Eden,",
+            {
+              "q2": null
+            },
+            "but behind them, it is like a desert wasteland—",
+            {
+              "q2": null
+            },
+            "surely nothing will escape them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Their appearance is like that of horses, and they gallop like swift steeds.",
+          "contents": [
+            "Their appearance is like that of horses,",
+            {
+              "q2": null
+            },
+            "and they gallop like swift steeds.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:4"
+                },
+                {
+                  "ft": "Or like charioteers or like cavalry"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "With a sound like that of chariots they bound over the mountaintops, like the crackling of fire consuming stubble, like a mighty army deployed for battle.",
+          "contents": [
+            "With a sound like that of chariots",
+            {
+              "q2": null
+            },
+            "they bound over the mountaintops,",
+            {
+              "q1": null
+            },
+            "like the crackling of fire consuming stubble,",
+            {
+              "q2": null
+            },
+            "like a mighty army deployed for battle.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Nations writhe in horror before them; every face turns pale.",
+          "contents": [
+            "Nations writhe in horror before them;",
+            {
+              "q2": null
+            },
+            "every face turns pale.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "They charge like mighty men; they scale the walls like men of war. Each one marches in formation, not swerving from the course.",
+          "contents": [
+            "They charge like mighty men;",
+            {
+              "q2": null
+            },
+            "they scale the walls like men of war.",
+            {
+              "q1": null
+            },
+            "Each one marches in formation,",
+            {
+              "q2": null
+            },
+            "not swerving from the course.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "They do not jostle one another; each proceeds in his path. They burst through the defenses, never breaking ranks.",
+          "contents": [
+            "They do not jostle one another;",
+            {
+              "q2": null
+            },
+            "each proceeds in his path.",
+            {
+              "q1": null
+            },
+            "They burst through the defenses,",
+            {
+              "q2": null
+            },
+            "never breaking ranks.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "They storm the city; they run along the wall; they climb into houses, entering through windows like thieves.",
+          "contents": [
+            "They storm the city;",
+            {
+              "q2": null
+            },
+            "they run along the wall;",
+            {
+              "q1": null
+            },
+            "they climb into houses,",
+            {
+              "q2": null
+            },
+            "entering through windows like thieves.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Before them the earth quakes; the heavens tremble. The sun and moon grow dark, and the stars lose their brightness.",
+          "contents": [
+            "Before them the earth quakes;",
+            {
+              "q2": null
+            },
+            "the heavens tremble.",
+            {
+              "q1": null
+            },
+            "The sun and moon grow dark,",
+            {
+              "q2": null
+            },
+            "and the stars lose their brightness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "The LORD raises His voice in the presence of His army. Indeed, His camp is very large, for mighty are those who obey His command. For the Day of the LORD is great and very dreadful. Who can endure it?",
+          "contents": [
+            "The LORD raises His voice",
+            {
+              "q2": null
+            },
+            "in the presence of His army.",
+            {
+              "q1": null
+            },
+            "Indeed, His camp is very large,",
+            {
+              "q2": null
+            },
+            "for mighty are those who obey His command.",
+            {
+              "q1": null
+            },
+            "For the Day of the LORD is great and very dreadful.",
+            {
+              "q2": null
+            },
+            "Who can endure it?",
+            [
+              {
+                "s1": [
+                  "Return with All Your Heart"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "“Yet even now,” declares the LORD, “return to Me with all your heart, with fasting, weeping, and mourning.”",
+          "contents": [
+            "“Yet even now,”",
+            {
+              "q2": null
+            },
+            "declares the LORD,",
+            {
+              "q1": null
+            },
+            "“return to Me with all your heart,",
+            {
+              "q2": null
+            },
+            "with fasting, weeping, and mourning.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "So rend your hearts and not your garments, and return to the LORD your God. For He is gracious and compassionate, slow to anger, abounding in loving devotion. And He relents from sending disaster.",
+          "contents": [
+            "So rend your hearts and not your garments,",
+            {
+              "q2": null
+            },
+            "and return to the LORD your God.",
+            {
+              "q1": null
+            },
+            "For He is gracious and compassionate,",
+            {
+              "q2": null
+            },
+            "slow to anger, abounding in loving devotion.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:13"
+                },
+                {
+                  "ft": "Forms of the Hebrew chesed are translated here and in most cases throughout the Scriptures as loving devotion; the range of meaning includes love, goodness, kindness, faithfulness, and mercy, as well as loyalty to a covenant."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "And He relents from sending disaster.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Who knows? He may turn and relent and leave a blessing behind Him—grain and drink offerings for the LORD your God.",
+          "contents": [
+            "Who knows? He may turn and relent",
+            {
+              "q2": null
+            },
+            "and leave a blessing behind Him—",
+            {
+              "q1": null
+            },
+            "grain and drink offerings",
+            {
+              "q2": null
+            },
+            "for the LORD your God.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Blow the ram’s horn in Zion, consecrate a fast, proclaim a sacred assembly.",
+          "contents": [
+            "Blow the ram’s horn in Zion,",
+            {
+              "q2": null
+            },
+            "consecrate a fast,",
+            {
+              "q2": null
+            },
+            "proclaim a sacred assembly.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Gather the people, sanctify the congregation, assemble the aged, gather the children, even those nursing at the breast. Let the bridegroom leave his room, and the bride her chamber.",
+          "contents": [
+            "Gather the people, sanctify the congregation,",
+            {
+              "q2": null
+            },
+            "assemble the aged, gather the children,",
+            {
+              "q2": null
+            },
+            "even those nursing at the breast.",
+            {
+              "q1": null
+            },
+            "Let the bridegroom leave his room,",
+            {
+              "q2": null
+            },
+            "and the bride her chamber.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Let the priests who minister before the LORD weep between the portico and the altar, saying, “Spare Your people, O LORD, and do not make Your heritage a reproach, an object of scorn among the nations. Why should they say among the peoples, ‘Where is their God?’”",
+          "contents": [
+            "Let the priests who minister before the LORD",
+            {
+              "q2": null
+            },
+            "weep between the portico and the altar,",
+            {
+              "q1": null
+            },
+            "saying, “Spare Your people, O LORD,",
+            {
+              "q2": null
+            },
+            "and do not make Your heritage a reproach,",
+            {
+              "q2": null
+            },
+            "an object of scorn among the nations.",
+            {
+              "q1": null
+            },
+            "Why should they say among the peoples,",
+            {
+              "q2": null
+            },
+            "‘Where is their God?’”",
+            [
+              {
+                "s1": [
+                  "Restoration Promised"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Then the LORD became jealous for His land, and He spared His people.",
+          "contents": [
+            "Then the LORD became jealous for His land,",
+            {
+              "q2": null
+            },
+            "and He spared His people.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "And the LORD answered His people: “Behold, I will send you grain, new wine, and oil, and by them you will be satisfied. I will never again make you a reproach among the nations.",
+          "contents": [
+            "And the LORD answered His people:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“Behold, I will send you",
+            {
+              "q2": null
+            },
+            "grain, new wine, and oil,",
+            {
+              "q2": null
+            },
+            "and by them you will be satisfied.",
+            {
+              "q1": null
+            },
+            "I will never again make you",
+            {
+              "q2": null
+            },
+            "a reproach among the nations.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "The northern army I will drive away from you, banishing it to a barren and desolate land, its front ranks into the Eastern Sea, and its rear guard into the Western Sea. And its stench will rise; its foul odor will ascend. For He has done great things.",
+          "contents": [
+            "The northern army I will drive away from you,",
+            {
+              "q2": null
+            },
+            "banishing it to a barren and desolate land,",
+            {
+              "q1": null
+            },
+            "its front ranks into the Eastern Sea,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:20"
+                },
+                {
+                  "ft": "That is, the Dead Sea"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and its rear guard into the Western Sea.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:20"
+                },
+                {
+                  "ft": "That is, the Mediterranean Sea, also called the Great Sea"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "And its stench will rise;",
+            {
+              "q2": null
+            },
+            "its foul odor will ascend.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "For He has done great things.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Do not be afraid, O land; rejoice and be glad, for the LORD has done great things.",
+          "contents": [
+            "Do not be afraid, O land;",
+            {
+              "q2": null
+            },
+            "rejoice and be glad,",
+            {
+              "q2": null
+            },
+            "for the LORD has done great things.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Do not be afraid, O beasts of the field, for the open pastures have turned green, the trees bear their fruit, and the fig tree and vine yield their best.",
+          "contents": [
+            "Do not be afraid, O beasts of the field,",
+            {
+              "q2": null
+            },
+            "for the open pastures have turned green,",
+            {
+              "q1": null
+            },
+            "the trees bear their fruit,",
+            {
+              "q2": null
+            },
+            "and the fig tree and vine yield their best.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:22"
+                },
+                {
+                  "ft": "Literally their strength"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Be glad, O children of Zion, and rejoice in the LORD your God, for He has given you the autumn rains for your vindication. He sends you showers, both autumn and spring rains, as before.",
+          "contents": [
+            "Be glad, O children of Zion,",
+            {
+              "q2": null
+            },
+            "and rejoice in the LORD your God,",
+            {
+              "q1": null
+            },
+            "for He has given you the autumn rains",
+            {
+              "q2": null
+            },
+            "for your vindication.",
+            {
+              "q1": null
+            },
+            "He sends you showers,",
+            {
+              "q2": null
+            },
+            "both autumn and spring rains, as before.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "The threshing floors will be full of grain, and the vats will overflow with new wine and oil.",
+          "contents": [
+            "The threshing floors will be full of grain,",
+            {
+              "q2": null
+            },
+            "and the vats will overflow with new wine and oil.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "I will repay you for the years eaten by locusts—the swarming locust, the young locust, the destroying locust, and the devouring locust—My great army that I sent against you.",
+          "contents": [
+            "I will repay you for the years eaten by locusts—",
+            {
+              "q2": null
+            },
+            "the swarming locust, the young locust,",
+            {
+              "q1": null
+            },
+            "the destroying locust, and the devouring locust",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:25"
+                },
+                {
+                  "ft": "The precise identification of the four kinds of insects mentioned here is uncertain."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "—",
+            {
+              "q2": null
+            },
+            "My great army that I sent against you.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "You will have plenty to eat, until you are satisfied. You will praise the name of the LORD your God, who has worked wonders for you. My people will never again be put to shame.",
+          "contents": [
+            "You will have plenty to eat,",
+            {
+              "q2": null
+            },
+            "until you are satisfied.",
+            {
+              "q1": null
+            },
+            "You will praise the name of the LORD your God,",
+            {
+              "q2": null
+            },
+            "who has worked wonders for you.",
+            {
+              "q1": null
+            },
+            "My people will never again",
+            {
+              "q2": null
+            },
+            "be put to shame.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "Then you will know that I am present in Israel and that I am the LORD your God, and there is no other. My people will never again be put to shame.",
+          "contents": [
+            "Then you will know that I am present in Israel",
+            {
+              "q2": null
+            },
+            "and that I am the LORD your God,",
+            {
+              "q2": null
+            },
+            "and there is no other.",
+            {
+              "q1": null
+            },
+            "My people will never again",
+            {
+              "q2": null
+            },
+            "be put to shame.",
+            [
+              {
+                "s1": [
+                  "I Will Pour Out My Spirit"
+                ]
+              },
+              {
+                "r": [
+                  "(Acts 2:14–36)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "And afterward, I will pour out My Spirit on all people. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions.",
+          "contents": [
+            "And afterward, I will pour out My Spirit on all people.",
+            {
+              "q2": null
+            },
+            "Your sons and daughters will prophesy,",
+            {
+              "q1": null
+            },
+            "your old men will dream dreams,",
+            {
+              "q2": null
+            },
+            "your young men will see visions.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Even on My menservants and maidservants, I will pour out My Spirit in those days.",
+          "contents": [
+            "Even on My menservants and maidservants,",
+            {
+              "q2": null
+            },
+            "I will pour out My Spirit in those days.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "I will show wonders in the heavens and on the earth, blood and fire and columns of smoke.",
+          "contents": [
+            "I will show wonders in the heavens and on the earth,",
+            {
+              "q2": null
+            },
+            "blood and fire and columns",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:30"
+                },
+                {
+                  "ft": "LXX clouds or billows"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of smoke.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "The sun will be turned to darkness and the moon to blood before the coming of the great and awesome Day of the LORD.",
+          "contents": [
+            "The sun will be turned to darkness",
+            {
+              "q2": null
+            },
+            "and the moon to blood",
+            {
+              "q2": null
+            },
+            "before the coming of the great and awesome",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:31"
+                },
+                {
+                  "ft": "Or dreadful; LXX glorious"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Day of the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "And everyone who calls on the name of the LORD will be saved; for on Mount Zion and in Jerusalem there will be deliverance, as the LORD has promised, among the remnant called by the LORD.",
+          "contents": [
+            "And everyone who calls on the name of the LORD",
+            {
+              "q2": null
+            },
+            "will be saved;",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:32"
+                },
+                {
+                  "ft": "Cited in Acts 2:17–21 and Romans 10:13"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "for on Mount Zion and in Jerusalem",
+            {
+              "q2": null
+            },
+            "there will be deliverance, as the LORD has promised,",
+            {
+              "q2": null
+            },
+            "among the remnant called by the LORD."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The LORD Judges the Nations"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "“Yes, in those days and at that time, when I restore Judah and Jerusalem from captivity,",
+          "contents": [
+            "“Yes, in those days and at that time,",
+            {
+              "q2": null
+            },
+            "when I restore Judah and Jerusalem from captivity,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:1"
+                },
+                {
+                  "ft": "Or restore the fortunes of Judah and Jerusalem"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I will gather all the nations and bring them down to the Valley of Jehoshaphat. There I will enter into judgment against them concerning My people, My inheritance, Israel, whom they have scattered among the nations as they divided up My land.",
+          "contents": [
+            "I will gather all the nations",
+            {
+              "q2": null
+            },
+            "and bring them down to the Valley of Jehoshaphat.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:2"
+                },
+                {
+                  "ft": "Jehoshaphat means the LORD judges; also in verse 12."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "There I will enter into judgment against them",
+            {
+              "q2": null
+            },
+            "concerning My people, My inheritance, Israel,",
+            {
+              "q1": null
+            },
+            "whom they have scattered among the nations",
+            {
+              "q2": null
+            },
+            "as they divided up My land.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "They cast lots for My people; they bartered a boy for a prostitute and sold a girl for wine to drink.",
+          "contents": [
+            "They cast lots for My people;",
+            {
+              "q2": null
+            },
+            "they bartered a boy for a prostitute",
+            {
+              "q2": null
+            },
+            "and sold a girl for wine to drink.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Now what do you have against Me, O Tyre, Sidon, and all the regions of Philistia? Are you rendering against Me a recompense? If you retaliate against Me, I will swiftly and speedily return your recompense upon your heads.",
+          "contents": [
+            "Now what do you have against Me, O Tyre, Sidon, and all the regions of Philistia? Are you rendering against Me a recompense? If you retaliate against Me, I will swiftly and speedily return your recompense upon your heads."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For you took My silver and gold and carried off My finest treasures to your temples.",
+          "contents": [
+            "For you took My silver and gold and carried off My finest treasures to your temples.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:5"
+                },
+                {
+                  "ft": "Or palaces"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "You sold the people of Judah and Jerusalem to the Greeks, to send them far from their homeland.",
+          "contents": [
+            "You sold the people of Judah and Jerusalem to the Greeks,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:6"
+                },
+                {
+                  "ft": "Or to the peoples of Javan"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "to send them far from their homeland.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Behold, I will rouse them from the places to which you sold them; I will return your recompense upon your heads.",
+          "contents": [
+            "Behold, I will rouse them from the places to which you sold them; I will return your recompense upon your heads."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "I will sell your sons and daughters into the hands of the people of Judah, and they will sell them to the Sabeans—to a distant nation.” Indeed, the LORD has spoken.",
+          "contents": [
+            "I will sell your sons and daughters into the hands of the people of Judah, and they will sell them to the Sabeans—to a distant nation.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Indeed, the LORD has spoken.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Proclaim this among the nations: “Prepare for war; rouse the mighty men; let all the men of war advance and attack!",
+          "contents": [
+            "Proclaim this among the nations:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“Prepare for war;",
+            {
+              "q2": null
+            },
+            "rouse the mighty men;",
+            {
+              "q1": null
+            },
+            "let all the men of war",
+            {
+              "q2": null
+            },
+            "advance and attack!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Beat your plowshares into swords and your pruning hooks into spears. Let the weak say, ‘I am strong!’",
+          "contents": [
+            "Beat your plowshares into swords",
+            {
+              "q2": null
+            },
+            "and your pruning hooks into spears.",
+            {
+              "q2": null
+            },
+            "Let the weak say, ‘I am strong!’",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Come quickly, all you surrounding nations, and gather yourselves. Bring down Your mighty ones, O LORD.",
+          "contents": [
+            "Come quickly, all you surrounding nations,",
+            {
+              "q2": null
+            },
+            "and gather yourselves.",
+            {
+              "q1": null
+            },
+            "Bring down Your mighty ones,",
+            {
+              "q2": null
+            },
+            "O LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Let the nations be roused and advance to the Valley of Jehoshaphat, for there I will sit down to judge all the nations on every side.",
+          "contents": [
+            "Let the nations be roused",
+            {
+              "q2": null
+            },
+            "and advance to the Valley of Jehoshaphat,",
+            {
+              "q1": null
+            },
+            "for there I will sit down",
+            {
+              "q2": null
+            },
+            "to judge all the nations on every side.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Swing the sickle, for the harvest is ripe. Come, trample the grapes, for the winepress is full; the wine vats overflow because their wickedness is great.",
+          "contents": [
+            "Swing the sickle,",
+            {
+              "q2": null
+            },
+            "for the harvest is ripe.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:13"
+                },
+                {
+                  "ft": "LXX the harvest has come; see also Mark 4:29."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Come, trample the grapes,",
+            {
+              "q2": null
+            },
+            "for the winepress is full;",
+            {
+              "q1": null
+            },
+            "the wine vats overflow",
+            {
+              "q2": null
+            },
+            "because their wickedness is great.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Multitudes, multitudes in the valley of decision! For the Day of the LORD is near in the valley of decision.",
+          "contents": [
+            "Multitudes, multitudes",
+            {
+              "q2": null
+            },
+            "in the valley of decision!",
+            {
+              "q1": null
+            },
+            "For the Day of the LORD is near",
+            {
+              "q2": null
+            },
+            "in the valley of decision.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "The sun and moon will grow dark, and the stars will no longer shine.",
+          "contents": [
+            "The sun and moon will grow dark,",
+            {
+              "q2": null
+            },
+            "and the stars will no longer shine.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "The LORD will roar from Zion and raise His voice from Jerusalem; heaven and earth will tremble. But the LORD will be a refuge for His people, a stronghold for the people of Israel.",
+          "contents": [
+            "The LORD will roar from Zion",
+            {
+              "q2": null
+            },
+            "and raise His voice from Jerusalem;",
+            {
+              "q2": null
+            },
+            "heaven and earth will tremble.",
+            {
+              "q1": null
+            },
+            "But the LORD will be a refuge for His people,",
+            {
+              "q2": null
+            },
+            "a stronghold for the people of Israel.",
+            [
+              {
+                "s1": [
+                  "Blessings for God’s People"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Then you will know that I am the LORD your God, who dwells in Zion, My holy mountain. Jerusalem will be holy, never again to be overrun by foreigners.",
+          "contents": [
+            "Then you will know that I am the LORD your God,",
+            {
+              "q2": null
+            },
+            "who dwells in Zion, My holy mountain.",
+            {
+              "q1": null
+            },
+            "Jerusalem will be holy,",
+            {
+              "q2": null
+            },
+            "never again to be overrun by foreigners.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And in that day the mountains will drip with sweet wine, and the hills will flow with milk. All the streams of Judah will run with water, and a spring will flow from the house of the LORD to water the Valley of Acacias.",
+          "contents": [
+            "And in that day the mountains will drip with sweet wine,",
+            {
+              "q2": null
+            },
+            "and the hills will flow with milk.",
+            {
+              "q1": null
+            },
+            "All the streams of Judah will run with water,",
+            {
+              "q2": null
+            },
+            "and a spring will flow from the house of the LORD",
+            {
+              "q2": null
+            },
+            "to water the Valley of Acacias.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:18"
+                },
+                {
+                  "ft": "Or Valley of Shittim"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Egypt will become desolate, and Edom a desert wasteland, because of the violence done to the people of Judah, in whose land they shed innocent blood.",
+          "contents": [
+            "Egypt will become desolate,",
+            {
+              "q2": null
+            },
+            "and Edom a desert wasteland,",
+            {
+              "q1": null
+            },
+            "because of the violence done to the people of Judah,",
+            {
+              "q2": null
+            },
+            "in whose land they shed innocent blood.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "But Judah will be inhabited forever, and Jerusalem from generation to generation.",
+          "contents": [
+            "But Judah will be inhabited forever,",
+            {
+              "q2": null
+            },
+            "and Jerusalem from generation to generation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For I will avenge their blood, which I have not yet avenged.” For the LORD dwells in Zion.",
+          "contents": [
+            "For I will avenge their blood,",
+            {
+              "q2": null
+            },
+            "which I have not yet avenged.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:21"
+                },
+                {
+                  "ft": "Or For I will pardon their bloodguilt, which I have not yet pardoned."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "”",
+            {
+              "qr": null
+            },
+            "For the LORD dwells in Zion."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

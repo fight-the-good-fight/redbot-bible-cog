@@ -1,0 +1,5639 @@
+{
+  "book": {
+    "bookCode": "HOS",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Hosea"
+      },
+      {
+        "toc1": [
+          "Hosea"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Hosea"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Hosea’s Wife and Children"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is the word of the LORD that came to Hosea son of Beeri in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and of Jeroboam son of Jehoash, king of Israel.",
+          "contents": [
+            "This is the word of the LORD that came to Hosea son of Beeri in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and of Jeroboam son of Jehoash,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "Hebrew Joash, a variant of Jehoash"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "king of Israel.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "When the LORD first spoke through Hosea, He told him, “Go, take a prostitute as your wife and have children of adultery, because this land is flagrantly prostituting itself by departing from the LORD.”",
+          "contents": [
+            "When the LORD first spoke through Hosea, He told him, “Go, take a prostitute as your wife and have children of adultery, because this land is flagrantly prostituting itself by departing from the LORD.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "So Hosea went and married Gomer daughter of Diblaim, and she conceived and bore him a son.",
+          "contents": [
+            "So Hosea went and married Gomer daughter of Diblaim, and she conceived and bore him a son.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Then the LORD said to Hosea, “Name him Jezreel, for soon I will bring the bloodshed of Jezreel upon the house of Jehu, and I will put an end to the kingdom of Israel.",
+          "contents": [
+            "Then the LORD said to Hosea, “Name him Jezreel,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:4"
+                },
+                {
+                  "ft": "Jezreel means God sows; also in verse 11."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for soon I will bring the bloodshed of Jezreel upon the house of Jehu, and I will put an end to the kingdom of Israel."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "And on that day I will break the bow of Israel in the Valley of Jezreel.”",
+          "contents": [
+            "And on that day I will break the bow of Israel in the Valley of Jezreel.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Gomer again conceived and gave birth to a daughter, and the LORD said to Hosea, “Name her Lo-ruhamah, for I will no longer have compassion on the house of Israel, that I should ever forgive them.",
+          "contents": [
+            "Gomer again conceived and gave birth to a daughter, and the LORD said to Hosea, “Name her Lo-ruhamah,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:6"
+                },
+                {
+                  "ft": "Lo-ruhamah means she has not received mercy."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for I will no longer have compassion on the house of Israel, that I should ever forgive them."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Yet I will have compassion on the house of Judah, and I will save them—not by bow or sword or war, not by horses and cavalry, but by the LORD their God.”",
+          "contents": [
+            "Yet I will have compassion on the house of Judah, and I will save them—not by bow or sword or war, not by horses and cavalry, but by the LORD their God.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "After she had weaned Lo-ruhamah, Gomer conceived and gave birth to a son.",
+          "contents": [
+            "After she had weaned Lo-ruhamah, Gomer conceived and gave birth to a son."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And the LORD said, “Name him Lo-ammi, for you are not My people, and I am not your God.",
+          "contents": [
+            "And the LORD said, “Name him Lo-ammi,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:9"
+                },
+                {
+                  "ft": "Lo-ammi means not My people."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for you are not My people, and I am not your God.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:9"
+                },
+                {
+                  "ft": "Hebrew I am not yours"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Yet the number of the Israelites will be like the sand of the sea, which cannot be measured or counted. And it will happen that in the very place where it was said to them, ‘You are not My people,’ they will be called ‘sons of the living God.’",
+          "contents": [
+            "Yet the number of the Israelites will be like the sand of the sea, which cannot be measured or counted. And it will happen that in the very place where it was said to them, ‘You are not My people,’ they will be called ‘sons of the living God.’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:10"
+                },
+                {
+                  "ft": "Cited in Romans 9:26"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Then the people of Judah and of Israel will be gathered together, and they will appoint for themselves one leader, and will go up out of the land. For great will be the day of Jezreel.",
+          "contents": [
+            "Then the people of Judah and of Israel will be gathered together, and they will appoint for themselves one leader, and will go up out of the land. For great will be the day of Jezreel."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Israel’s Adultery Rebuked"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "“Say of your brothers, ‘My people,’ and of your sisters, ‘My loved one.’",
+          "contents": [
+            "“Say of your brothers, ‘My people,’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:1"
+                },
+                {
+                  "ft": "Hebrew Ammi"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and of your sisters, ‘My loved one.’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:1"
+                },
+                {
+                  "ft": "Or Mercy is shown; Hebrew Ruhamah, which means she has received mercy"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Rebuke your mother, rebuke her, for she is not My wife, and I am not her husband. Let her remove the adultery from her face and the unfaithfulness from between her breasts.",
+          "contents": [
+            "Rebuke your mother,",
+            {
+              "q2": null
+            },
+            "rebuke her,",
+            {
+              "q1": null
+            },
+            "for she is not My wife,",
+            {
+              "q2": null
+            },
+            "and I am not her husband.",
+            {
+              "q1": null
+            },
+            "Let her remove the adultery from her face",
+            {
+              "q2": null
+            },
+            "and the unfaithfulness from between her breasts.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Otherwise, I will strip her naked and expose her like the day of her birth. I will make her like a desert and turn her into a parched land, and I will let her die of thirst.",
+          "contents": [
+            "Otherwise, I will strip her naked",
+            {
+              "q2": null
+            },
+            "and expose her like the day of her birth.",
+            {
+              "q1": null
+            },
+            "I will make her like a desert",
+            {
+              "q2": null
+            },
+            "and turn her into a parched land,",
+            {
+              "q2": null
+            },
+            "and I will let her die of thirst.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I will have no compassion on her children, because they are the children of adultery.",
+          "contents": [
+            "I will have no compassion on her children,",
+            {
+              "q2": null
+            },
+            "because they are the children of adultery.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For their mother has played the harlot and has conceived them in disgrace. For she thought, ‘I will go after my lovers, who give me bread and water, wool and linen, oil and drink.’",
+          "contents": [
+            "For their mother has played the harlot",
+            {
+              "q2": null
+            },
+            "and has conceived them in disgrace.",
+            {
+              "q1": null
+            },
+            "For she thought,",
+            {
+              "q2": null
+            },
+            "‘I will go after my lovers,",
+            {
+              "q1": null
+            },
+            "who give me bread and water,",
+            {
+              "q2": null
+            },
+            "wool and linen, oil and drink.’",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Therefore, behold, I will hedge up her path with thorns; I will enclose her with a wall, so she cannot find her way.",
+          "contents": [
+            "Therefore, behold,",
+            {
+              "q2": null
+            },
+            "I will hedge up her path",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:6"
+                },
+                {
+                  "ft": "Hebrew your path"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "with thorns;",
+            {
+              "q1": null
+            },
+            "I will enclose her with a wall,",
+            {
+              "q2": null
+            },
+            "so she cannot find her way.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "She will pursue her lovers but not catch them; she will seek them but not find them. Then she will say, ‘I will return to my first husband, for then I was better off than now.’",
+          "contents": [
+            "She will pursue her lovers but not catch them;",
+            {
+              "q2": null
+            },
+            "she will seek them but not find them.",
+            {
+              "q1": null
+            },
+            "Then she will say,",
+            {
+              "q2": null
+            },
+            "‘I will return to my first husband,",
+            {
+              "q2": null
+            },
+            "for then I was better off than now.’",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For she does not acknowledge that it was I who gave her grain, new wine, and oil, who lavished on her silver and gold—which they crafted for Baal.",
+          "contents": [
+            "For she does not acknowledge",
+            {
+              "q2": null
+            },
+            "that it was I who gave her grain,",
+            {
+              "q2": null
+            },
+            "new wine, and oil,",
+            {
+              "q1": null
+            },
+            "who lavished on her silver and gold—",
+            {
+              "q2": null
+            },
+            "which they crafted for Baal.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Therefore I will take back My grain in its time and My new wine in its season; I will take away My wool and linen, which were given to cover her nakedness.",
+          "contents": [
+            "Therefore I will take back My grain in its time",
+            {
+              "q2": null
+            },
+            "and My new wine in its season;",
+            {
+              "q1": null
+            },
+            "I will take away My wool and linen,",
+            {
+              "q2": null
+            },
+            "which were given to cover her nakedness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "And then I will expose her lewdness in the sight of her lovers, and no one will deliver her out of My hands.",
+          "contents": [
+            "And then I will expose her lewdness",
+            {
+              "q2": null
+            },
+            "in the sight of her lovers,",
+            {
+              "q1": null
+            },
+            "and no one will deliver her",
+            {
+              "q2": null
+            },
+            "out of My hands.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "I will put an end to all her exultation: her feasts, New Moons, and Sabbaths—all her appointed feasts.",
+          "contents": [
+            "I will put an end to all her exultation:",
+            {
+              "q2": null
+            },
+            "her feasts, New Moons, and Sabbaths—",
+            {
+              "q2": null
+            },
+            "all her appointed feasts.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "I will destroy her vines and fig trees, which she thinks are the wages paid by her lovers. So I will make them into a thicket, and the beasts of the field will devour them.",
+          "contents": [
+            "I will destroy her vines and fig trees,",
+            {
+              "q2": null
+            },
+            "which she thinks are the wages paid by her lovers.",
+            {
+              "q1": null
+            },
+            "So I will make them into a thicket,",
+            {
+              "q2": null
+            },
+            "and the beasts of the field will devour them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I will punish her for the days of the Baals when she burned incense to them, when she decked herself with rings and jewelry, and went after her lovers. But Me she forgot,” declares the LORD.",
+          "contents": [
+            "I will punish her for the days of the Baals",
+            {
+              "q2": null
+            },
+            "when she burned incense to them,",
+            {
+              "q1": null
+            },
+            "when she decked herself with rings and jewelry,",
+            {
+              "q2": null
+            },
+            "and went after her lovers.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "But Me she forgot,”",
+            {
+              "qr": null
+            },
+            "declares the LORD.",
+            [
+              {
+                "s1": [
+                  "God’s Mercy to Israel"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "“Therefore, behold, I will allure her and lead her to the wilderness, and speak to her tenderly.",
+          "contents": [
+            "“Therefore, behold, I will allure her",
+            {
+              "q2": null
+            },
+            "and lead her to the wilderness,",
+            {
+              "q2": null
+            },
+            "and speak to her tenderly.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "There I will give back her vineyards and make the Valley of Achor into a gateway of hope. There she will respond as she did in the days of her youth, as in the day she came up out of Egypt.",
+          "contents": [
+            "There I will give back her vineyards",
+            {
+              "q2": null
+            },
+            "and make the Valley of Achor",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:15"
+                },
+                {
+                  "ft": "Achor means trouble."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "into a gateway of hope.",
+            {
+              "q1": null
+            },
+            "There she will respond as she did",
+            {
+              "q2": null
+            },
+            "in the days of her youth,",
+            {
+              "q2": null
+            },
+            "as in the day she came up out of Egypt.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "In that day,” declares the LORD, “you will call Me ‘my Husband,’ and no longer call Me ‘my Master.’",
+          "contents": [
+            "In that day,”",
+            {
+              "q2": null
+            },
+            "declares the LORD,",
+            {
+              "q1": null
+            },
+            "“you will call Me ‘my Husband,’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:16"
+                },
+                {
+                  "ft": "Hebrew my Ishi"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and no longer call Me ‘my Master.’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:16"
+                },
+                {
+                  "ft": "Hebrew my Baal"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For I will remove from her lips the names of the Baals; no longer will their names be invoked.",
+          "contents": [
+            "For I will remove from her lips the names of the Baals;",
+            {
+              "q2": null
+            },
+            "no longer will their names be invoked.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "On that day I will make a covenant for them with the beasts of the field and the birds of the air and the creatures that crawl on the ground. And I will abolish bow and sword and weapons of war in the land, and will make them lie down in safety.",
+          "contents": [
+            "On that day I will make a covenant for them",
+            {
+              "q2": null
+            },
+            "with the beasts of the field and the birds of the air",
+            {
+              "q2": null
+            },
+            "and the creatures that crawl on the ground.",
+            {
+              "q1": null
+            },
+            "And I will abolish bow and sword",
+            {
+              "q2": null
+            },
+            "and weapons of war in the land,",
+            {
+              "q2": null
+            },
+            "and will make them lie down in safety.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "So I will betroth you to Me forever; I will betroth you in righteousness and justice, in loving devotion and compassion.",
+          "contents": [
+            "So I will betroth you to Me forever;",
+            {
+              "q2": null
+            },
+            "I will betroth you in righteousness and justice,",
+            {
+              "q2": null
+            },
+            "in loving devotion",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:19"
+                },
+                {
+                  "ft": "Forms of the Hebrew chesed are translated here and in most cases throughout the Scriptures as loving devotion; the range of meaning includes love, goodness, kindness, faithfulness, and mercy, as well as loyalty to a covenant."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and compassion.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "And I will betroth you in faithfulness, and you will know the LORD.”",
+          "contents": [
+            "And I will betroth you in faithfulness,",
+            {
+              "q2": null
+            },
+            "and you will know the LORD.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "“On that day I will respond—” declares the LORD—“I will respond to the heavens, and they will respond to the earth.",
+          "contents": [
+            "“On that day I will respond—”",
+            {
+              "q2": null
+            },
+            "declares the LORD—",
+            {
+              "q1": null
+            },
+            "“I will respond to the heavens,",
+            {
+              "q2": null
+            },
+            "and they will respond to the earth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "And the earth will respond to the grain, to the new wine and oil, and they will respond to Jezreel.",
+          "contents": [
+            "And the earth will respond to the grain,",
+            {
+              "q2": null
+            },
+            "to the new wine and oil,",
+            {
+              "q2": null
+            },
+            "and they will respond to Jezreel.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:22"
+                },
+                {
+                  "ft": "Jezreel means God sows."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "And I will sow her as My own in the land, and I will have compassion on ‘No Compassion.’ I will say to those called ‘Not My People,’ ‘You are My people,’ and they will say, ‘You are my God.’”",
+          "contents": [
+            "And I will sow her as My own in the land,",
+            {
+              "q2": null
+            },
+            "and I will have compassion on ‘No Compassion.’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:23"
+                },
+                {
+                  "ft": "Hebrew Lo-ruhamah; LXX I will love her who was not loved"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "I will say to those called ‘Not My People,’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:23"
+                },
+                {
+                  "ft": "Hebrew Lo-ammi"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "‘You are My people,’",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:23"
+                },
+                {
+                  "ft": "Cited in Romans 9:25 and 1 Peter 2:10"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "and they will say,",
+            {
+              "q2": null
+            },
+            "‘You are my God.’”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Hosea Redeems His Wife"
+            ]
+          },
+          {
+            "r": [
+              "(Zechariah 2:6–13)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Then the LORD said to me, “Go show love to your wife again, though she is loved by another and is an adulteress. Love her as the LORD loves the Israelites, though they turn to other gods and offer raisin cakes to idols.”",
+          "contents": [
+            "Then the LORD said to me, “Go show love to your wife again, though she is loved by another",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:1"
+                },
+                {
+                  "ft": "Or Go show love to a woman who is loved by another"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and is an adulteress. Love her as the LORD loves the Israelites, though they turn to other gods and offer raisin cakes to idols.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:1"
+                },
+                {
+                  "ft": "Literally and love raisin cakes"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "So I bought her for fifteen shekels of silver and a homer and a lethech of barley.",
+          "contents": [
+            "So I bought her for fifteen shekels of silver",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:2"
+                },
+                {
+                  "ft": "15 shekels is approximately 6 ounces or 171 grams of silver."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and a homer and a lethech of barley.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:2"
+                },
+                {
+                  "ft": "Or a homer and a half of barley; that is, a total of approximately 9.36 bushels or 330 liters (probably about 436 pounds or 198 kilograms of barley); LXX a homer of barley and a wineskin full of wine"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Then I said to her, “You must live with me for many days; you must not be promiscuous or belong to another, and I will do the same for you.”",
+          "contents": [
+            "Then I said to her, “You must live with me for many days; you must not be promiscuous or belong to another, and I will do the same for you.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For the Israelites must live many days without king or prince, without sacrifice or sacred pillar, and without ephod or idol.",
+          "contents": [
+            "For the Israelites must live many days without king or prince, without sacrifice or sacred pillar, and without ephod or idol."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Afterward, the people of Israel will return and seek the LORD their God and David their king. They will come trembling to the LORD and to His goodness in the last days.",
+          "contents": [
+            "Afterward, the people of Israel will return and seek the LORD their God and David their king. They will come trembling to the LORD and to His goodness in the last days."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "God’s Case against His People"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Hear the word of the LORD, O children of Israel, for the LORD has a case against the people of the land: “There is no truth, no loving devotion, and no knowledge of God in the land!",
+          "contents": [
+            "Hear the word of the LORD,",
+            {
+              "q2": null
+            },
+            "O children of Israel,",
+            {
+              "q1": null
+            },
+            "for the LORD has a case",
+            {
+              "q2": null
+            },
+            "against the people of the land:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“There is no truth, no loving devotion,",
+            {
+              "q2": null
+            },
+            "and no knowledge of God in the land!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Cursing and lying, murder and stealing, and adultery are rampant; one act of bloodshed follows another.",
+          "contents": [
+            "Cursing and lying,",
+            {
+              "q2": null
+            },
+            "murder and stealing,",
+            {
+              "q1": null
+            },
+            "and adultery are rampant;",
+            {
+              "q2": null
+            },
+            "one act of bloodshed follows another.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Therefore the land mourns, and all who dwell in it will waste away with the beasts of the field and the birds of the air; even the fish of the sea disappear.",
+          "contents": [
+            "Therefore the land mourns,",
+            {
+              "q2": null
+            },
+            "and all who dwell in it will waste away",
+            {
+              "q1": null
+            },
+            "with the beasts of the field and the birds of the air;",
+            {
+              "q2": null
+            },
+            "even the fish of the sea disappear.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "But let no man contend; let no man offer reproof; for your people are like those who contend with a priest.",
+          "contents": [
+            "But let no man contend;",
+            {
+              "q2": null
+            },
+            "let no man offer reproof;",
+            {
+              "q1": null
+            },
+            "for your people are like those",
+            {
+              "q2": null
+            },
+            "who contend with a priest.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:4"
+                },
+                {
+                  "ft": "Or for My case is against you, O priests"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "You will stumble by day, and the prophet will stumble with you by night; so I will destroy your mother—",
+          "contents": [
+            "You will stumble by day,",
+            {
+              "q2": null
+            },
+            "and the prophet will stumble with you by night;",
+            {
+              "q2": null
+            },
+            "so I will destroy your mother—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "My people are destroyed for lack of knowledge. Because you have rejected knowledge, I will also reject you as My priests. Since you have forgotten the law of your God, I will also forget your children.",
+          "contents": [
+            "My people are destroyed",
+            {
+              "q2": null
+            },
+            "for lack of knowledge.",
+            {
+              "q1": null
+            },
+            "Because you have rejected knowledge,",
+            {
+              "q2": null
+            },
+            "I will also reject you as My priests.",
+            {
+              "q1": null
+            },
+            "Since you have forgotten the law of your God,",
+            {
+              "q2": null
+            },
+            "I will also forget your children.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "The more they multiplied, the more they sinned against Me; they exchanged their Glory for a thing of disgrace.",
+          "contents": [
+            "The more they multiplied,",
+            {
+              "q2": null
+            },
+            "the more they sinned against Me;",
+            {
+              "q1": null
+            },
+            "they exchanged their Glory",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:7"
+                },
+                {
+                  "ft": "Or they exchanged their glorious God (Syriac); MT I will exchange their glory"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "for a thing of disgrace.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "They feed on the sins of My people and set their hearts on iniquity.",
+          "contents": [
+            "They feed on the sins",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:8"
+                },
+                {
+                  "ft": "Or the sin offerings"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of My people",
+            {
+              "q2": null
+            },
+            "and set their hearts on iniquity.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And it shall be like people, like priest. I will punish both of them for their ways and repay them for their deeds.",
+          "contents": [
+            "And it shall be",
+            {
+              "q2": null
+            },
+            "like people, like priest.",
+            {
+              "q1": null
+            },
+            "I will punish both of them for their ways",
+            {
+              "q2": null
+            },
+            "and repay them for their deeds.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "They will eat but not be satisfied; they will be promiscuous but not multiply. For they have stopped obeying the LORD.",
+          "contents": [
+            "They will eat but not be satisfied;",
+            {
+              "q2": null
+            },
+            "they will be promiscuous but not multiply.",
+            {
+              "q2": null
+            },
+            "For they have stopped obeying the LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Promiscuity, wine, and new wine take away understanding.",
+          "contents": [
+            "Promiscuity, wine, and new wine",
+            {
+              "q2": null
+            },
+            "take away understanding.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "My people consult their wooden idols, and their divining rods inform them. For a spirit of prostitution leads them astray and they have played the harlot against their God.",
+          "contents": [
+            "My people consult their wooden idols,",
+            {
+              "q2": null
+            },
+            "and their divining rods inform them.",
+            {
+              "q1": null
+            },
+            "For a spirit of prostitution leads them astray",
+            {
+              "q2": null
+            },
+            "and they have played the harlot against their God.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "They sacrifice on the mountaintops and burn offerings on the hills, under oak, poplar, and terebinth, because their shade is pleasant. And so your daughters turn to prostitution and your daughters-in-law to adultery.",
+          "contents": [
+            "They sacrifice on the mountaintops",
+            {
+              "q2": null
+            },
+            "and burn offerings on the hills,",
+            {
+              "q1": null
+            },
+            "under oak, poplar, and terebinth,",
+            {
+              "q2": null
+            },
+            "because their shade is pleasant.",
+            {
+              "q1": null
+            },
+            "And so your daughters turn to prostitution",
+            {
+              "q2": null
+            },
+            "and your daughters-in-law to adultery.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I will not punish your daughters when they prostitute themselves, nor your daughters-in-law when they commit adultery. For the men themselves go off with prostitutes and offer sacrifices with shrine prostitutes. So a people without understanding will come to ruin.",
+          "contents": [
+            "I will not punish your daughters",
+            {
+              "q2": null
+            },
+            "when they prostitute themselves,",
+            {
+              "q1": null
+            },
+            "nor your daughters-in-law",
+            {
+              "q2": null
+            },
+            "when they commit adultery.",
+            {
+              "q1": null
+            },
+            "For the men themselves go off with prostitutes",
+            {
+              "q2": null
+            },
+            "and offer sacrifices with shrine prostitutes.",
+            {
+              "q1": null
+            },
+            "So a people without understanding",
+            {
+              "q2": null
+            },
+            "will come to ruin.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Though you prostitute yourself, O Israel, may Judah avoid such guilt! Do not journey to Gilgal, do not go up to Beth-aven, and do not swear on oath, ‘As surely as the LORD lives!’",
+          "contents": [
+            "Though you prostitute yourself, O Israel,",
+            {
+              "q2": null
+            },
+            "may Judah avoid such guilt!",
+            {
+              "q1": null
+            },
+            "Do not journey to Gilgal,",
+            {
+              "q2": null
+            },
+            "do not go up to Beth-aven,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:15"
+                },
+                {
+                  "ft": "Beth-aven means house of wickedness. This is a derogatory term for Bethel, which means house of God; see 1 Kings 12:28–29."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "and do not swear on oath,",
+            {
+              "q2": null
+            },
+            "‘As surely as the LORD lives!’",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For Israel is as obstinate as a stubborn heifer. Can the LORD now shepherd them like lambs in an open meadow?",
+          "contents": [
+            "For Israel is as obstinate",
+            {
+              "q2": null
+            },
+            "as a stubborn heifer.",
+            {
+              "q1": null
+            },
+            "Can the LORD now shepherd them",
+            {
+              "q2": null
+            },
+            "like lambs in an open meadow?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Ephraim is joined to idols; leave him alone!",
+          "contents": [
+            "Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:17"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "is joined to idols;",
+            {
+              "q2": null
+            },
+            "leave him alone!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "When their liquor is gone, they turn to prostitution; their rulers dearly love disgrace.",
+          "contents": [
+            "When their liquor is gone,",
+            {
+              "q2": null
+            },
+            "they turn to prostitution;",
+            {
+              "q2": null
+            },
+            "their rulers",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:18"
+                },
+                {
+                  "ft": "Hebrew her shields"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "dearly love disgrace.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "The whirlwind has wrapped them in its wings, and their sacrifices will bring them shame.",
+          "contents": [
+            "The whirlwind has wrapped them",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:19"
+                },
+                {
+                  "ft": "Hebrew has wrapped her"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "in its wings,",
+            {
+              "q2": null
+            },
+            "and their sacrifices will bring them shame."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Judgment on Israel and Judah"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "“Hear this, O priests! Take heed, O house of Israel! Give ear, O royal house! For this judgment is against you because you have been a snare at Mizpah, a net spread out on Tabor.",
+          "contents": [
+            "“Hear this, O priests!",
+            {
+              "q2": null
+            },
+            "Take heed, O house of Israel!",
+            {
+              "q2": null
+            },
+            "Give ear, O royal house!",
+            {
+              "q1": null
+            },
+            "For this judgment is against you",
+            {
+              "q2": null
+            },
+            "because you have been a snare at Mizpah,",
+            {
+              "q2": null
+            },
+            "a net spread out on Tabor.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The rebels are deep in slaughter; but I will chastise them all.",
+          "contents": [
+            "The rebels are deep in slaughter;",
+            {
+              "q2": null
+            },
+            "but I will chastise them all.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I know all about Ephraim, and Israel is not hidden from Me. For now, O Ephraim, you have turned to prostitution; Israel is defiled.",
+          "contents": [
+            "I know all about Ephraim,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:3"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verses 5, 9, 11, 12, 13, and 14"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and Israel is not hidden from Me.",
+            {
+              "q1": null
+            },
+            "For now, O Ephraim,",
+            {
+              "q2": null
+            },
+            "you have turned to prostitution;",
+            {
+              "q2": null
+            },
+            "Israel is defiled.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Their deeds do not permit them to return to their God, for a spirit of prostitution is within them, and they do not know the LORD.",
+          "contents": [
+            "Their deeds do not permit them",
+            {
+              "q2": null
+            },
+            "to return to their God,",
+            {
+              "q1": null
+            },
+            "for a spirit of prostitution is within them,",
+            {
+              "q2": null
+            },
+            "and they do not know the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Israel’s arrogance testifies against them; Israel and Ephraim stumble in their iniquity; even Judah stumbles with them.",
+          "contents": [
+            "Israel’s arrogance testifies against them;",
+            {
+              "q2": null
+            },
+            "Israel and Ephraim stumble in their iniquity;",
+            {
+              "q2": null
+            },
+            "even Judah stumbles with them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "They go with their flocks and herds to seek the LORD, but they do not find Him; He has withdrawn Himself from them.",
+          "contents": [
+            "They go with their flocks and herds",
+            {
+              "q2": null
+            },
+            "to seek the LORD,",
+            {
+              "q1": null
+            },
+            "but they do not find Him;",
+            {
+              "q2": null
+            },
+            "He has withdrawn Himself from them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "They have been unfaithful to the LORD; for they have borne illegitimate children. Now the New Moon will devour them along with their land.",
+          "contents": [
+            "They have been unfaithful to the LORD;",
+            {
+              "q2": null
+            },
+            "for they have borne illegitimate children.",
+            {
+              "q1": null
+            },
+            "Now the New Moon",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:7"
+                },
+                {
+                  "ft": "Or their New Moon feast or the coming month"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will devour them",
+            {
+              "q2": null
+            },
+            "along with their land.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Blow the ram’s horn in Gibeah, the trumpet in Ramah; raise the battle cry in Beth-aven: Lead on, O Benjamin!",
+          "contents": [
+            "Blow the ram’s horn in Gibeah,",
+            {
+              "q2": null
+            },
+            "the trumpet in Ramah;",
+            {
+              "q1": null
+            },
+            "raise the battle cry in Beth-aven:",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:8"
+                },
+                {
+                  "ft": "Beth-aven means house of wickedness. This is a derogatory term for Bethel, which means house of God; see 1 Kings 12:28–29."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "Lead on, O Benjamin!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Ephraim will be laid waste on the day of rebuke. Among the tribes of Israel I proclaim what is certain.",
+          "contents": [
+            "Ephraim will be laid waste",
+            {
+              "q2": null
+            },
+            "on the day of rebuke.",
+            {
+              "q1": null
+            },
+            "Among the tribes of Israel",
+            {
+              "q2": null
+            },
+            "I proclaim what is certain.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The princes of Judah are like those who move boundary stones; I will pour out My fury upon them like water.",
+          "contents": [
+            "The princes of Judah",
+            {
+              "q2": null
+            },
+            "are like those who move boundary stones;",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:10"
+                },
+                {
+                  "ft": "See Proverbs 22:28 and Proverbs 23:10."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "I will pour out My fury",
+            {
+              "q2": null
+            },
+            "upon them like water.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Ephraim is oppressed, crushed in judgment, for he is determined to follow worthless idols.",
+          "contents": [
+            "Ephraim is oppressed, crushed in judgment,",
+            {
+              "q2": null
+            },
+            "for he is determined to follow worthless idols.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:11"
+                },
+                {
+                  "ft": "Or to follow human precepts"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "So I am like a moth to Ephraim, and like decay to the house of Judah.",
+          "contents": [
+            "So I am like a moth to Ephraim,",
+            {
+              "q2": null
+            },
+            "and like decay to the house of Judah.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "When Ephraim saw his sickness and Judah his wound, then Ephraim turned to Assyria and sent to the great king. But he cannot cure you or heal your wound.",
+          "contents": [
+            "When Ephraim saw his sickness",
+            {
+              "q2": null
+            },
+            "and Judah his wound,",
+            {
+              "q1": null
+            },
+            "then Ephraim turned to Assyria",
+            {
+              "q2": null
+            },
+            "and sent to the great king.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:13"
+                },
+                {
+                  "ft": "Or to King Jareb"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "But he cannot cure you",
+            {
+              "q2": null
+            },
+            "or heal your wound.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For I am like a lion to Ephraim and like a young lion to the house of Judah. I, even I, will tear them to pieces and then go away. I will carry them off where no one can rescue them.",
+          "contents": [
+            "For I am like a lion to Ephraim",
+            {
+              "q2": null
+            },
+            "and like a young lion to the house of Judah.",
+            {
+              "q1": null
+            },
+            "I, even I, will tear them to pieces",
+            {
+              "q2": null
+            },
+            "and then go away.",
+            {
+              "q1": null
+            },
+            "I will carry them off",
+            {
+              "q2": null
+            },
+            "where no one can rescue them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Then I will return to My place until they admit their guilt and seek My face; in their affliction they will earnestly seek Me.”",
+          "contents": [
+            "Then I will return to My place",
+            {
+              "q2": null
+            },
+            "until they admit their guilt and seek My face;",
+            {
+              "q2": null
+            },
+            "in their affliction they will earnestly seek Me.”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Unrepentance of Israel and Judah"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Come, let us return to the LORD. For He has torn us to pieces, but He will heal us; He has wounded us, but He will bind up our wounds.",
+          "contents": [
+            "Come, let us return to the LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "For He has torn us to pieces,",
+            {
+              "q2": null
+            },
+            "but He will heal us;",
+            {
+              "q1": null
+            },
+            "He has wounded us,",
+            {
+              "q2": null
+            },
+            "but He will bind up our wounds.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "After two days He will revive us; on the third day He will raise us up, that we may live in His presence.",
+          "contents": [
+            "After two days He will revive us;",
+            {
+              "q2": null
+            },
+            "on the third day He will raise us up,",
+            {
+              "q2": null
+            },
+            "that we may live in His presence.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "So let us know—let us press on to know the LORD. As surely as the sun rises, He will appear; He will come to us like the rain, like the spring showers that water the earth.",
+          "contents": [
+            "So let us know—",
+            {
+              "q2": null
+            },
+            "let us press on to know the LORD.",
+            {
+              "q1": null
+            },
+            "As surely as the sun rises,",
+            {
+              "q2": null
+            },
+            "He will appear;",
+            {
+              "q1": null
+            },
+            "He will come to us like the rain,",
+            {
+              "q2": null
+            },
+            "like the spring showers that water the earth.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "What shall I do with you, O Ephraim? What shall I do with you, O Judah? For your loyalty is like a morning mist, like the early dew that vanishes.",
+          "contents": [
+            "What shall I do with you, O Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:4"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verse 10"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "?",
+            {
+              "q2": null
+            },
+            "What shall I do with you, O Judah?",
+            {
+              "q1": null
+            },
+            "For your loyalty is like a morning mist,",
+            {
+              "q2": null
+            },
+            "like the early dew that vanishes.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Therefore I have hewn them by the prophets; I have slain them by the words of My mouth, and My judgments go forth like lightning.",
+          "contents": [
+            "Therefore I have hewn them by the prophets;",
+            {
+              "q2": null
+            },
+            "I have slain them by the words of My mouth,",
+            {
+              "q2": null
+            },
+            "and My judgments go forth like lightning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For I desire mercy, not sacrifice, and the knowledge of God rather than burnt offerings.",
+          "contents": [
+            "For I desire mercy, not sacrifice,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:6"
+                },
+                {
+                  "ft": "Cited in Matthew 9:13 and Matthew 12:7"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and the knowledge of God",
+            {
+              "q2": null
+            },
+            "rather than burnt offerings.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "But they, like Adam, have transgressed the covenant; there they were unfaithful to Me.",
+          "contents": [
+            "But they, like Adam, have transgressed",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:7"
+                },
+                {
+                  "ft": "Or As at Adam, they have transgressed"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "the covenant;",
+            {
+              "q2": null
+            },
+            "there they were unfaithful to Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Gilead is a city of evildoers, tracked with footprints of blood.",
+          "contents": [
+            "Gilead is a city of evildoers,",
+            {
+              "q2": null
+            },
+            "tracked with footprints of blood.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Like raiders who lie in ambush, so does a band of priests; they murder on the way to Shechem; surely they have committed atrocities.",
+          "contents": [
+            "Like raiders who lie in ambush,",
+            {
+              "q2": null
+            },
+            "so does a band of priests;",
+            {
+              "q1": null
+            },
+            "they murder on the way to Shechem;",
+            {
+              "q2": null
+            },
+            "surely they have committed atrocities.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "In the house of Israel I have seen a horrible thing: Ephraim practices prostitution there, and Israel is defiled.",
+          "contents": [
+            "In the house of Israel",
+            {
+              "q2": null
+            },
+            "I have seen a horrible thing:",
+            {
+              "q1": null
+            },
+            "Ephraim practices prostitution there,",
+            {
+              "q2": null
+            },
+            "and Israel is defiled.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Also for you, O Judah, a harvest is appointed, when I restore My people from captivity.",
+          "contents": [
+            "Also for you, O Judah,",
+            {
+              "q2": null
+            },
+            "a harvest is appointed,",
+            {
+              "q1": null
+            },
+            "when I restore",
+            {
+              "q2": null
+            },
+            "My people from captivity.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:11"
+                },
+                {
+                  "ft": "Or restore the fortunes of My people"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "7",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Ephraim’s Iniquity"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "When I heal Israel, the iniquity of Ephraim will be exposed, as well as the crimes of Samaria. For they practice deceit and thieves break in; bandits raid in the streets.",
+          "contents": [
+            "When I heal Israel,",
+            {
+              "q2": null
+            },
+            "the iniquity of Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:1"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verses 8 and 11"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will be exposed,",
+            {
+              "q2": null
+            },
+            "as well as the crimes of Samaria.",
+            {
+              "q1": null
+            },
+            "For they practice deceit and thieves break in;",
+            {
+              "q2": null
+            },
+            "bandits raid in the streets.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "But they fail to consider in their hearts that I remember all their evil. Now their deeds are all around them; they are before My face.",
+          "contents": [
+            "But they fail to consider in their hearts",
+            {
+              "q2": null
+            },
+            "that I remember all their evil.",
+            {
+              "q1": null
+            },
+            "Now their deeds are all around them;",
+            {
+              "q2": null
+            },
+            "they are before My face.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "They delight the king with their evil, and the princes with their lies.",
+          "contents": [
+            "They delight the king with their evil,",
+            {
+              "q2": null
+            },
+            "and the princes with their lies.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "They are all adulterers, like an oven heated by a baker who needs not stoke the fire from the kneading to the rising of the dough.",
+          "contents": [
+            "They are all adulterers,",
+            {
+              "q2": null
+            },
+            "like an oven heated by a baker",
+            {
+              "q1": null
+            },
+            "who needs not stoke the fire",
+            {
+              "q2": null
+            },
+            "from the kneading to the rising of the dough.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The princes are inflamed with wine on the day of our king; so he joins hands with those who mock him.",
+          "contents": [
+            "The princes are inflamed with wine",
+            {
+              "q2": null
+            },
+            "on the day of our king;",
+            {
+              "q1": null
+            },
+            "so he joins hands",
+            {
+              "q2": null
+            },
+            "with those who mock him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For they prepare their heart like an oven while they lie in wait; all night their anger smolders; in the morning it blazes like a flaming fire.",
+          "contents": [
+            "For they prepare their heart like an oven",
+            {
+              "q2": null
+            },
+            "while they lie in wait;",
+            {
+              "q1": null
+            },
+            "all night their anger smolders;",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:6"
+                },
+                {
+                  "ft": "Literally their baker sleeps"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "in the morning it blazes like a flaming fire.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "All of them are hot as an oven, and they devour their rulers. All their kings fall; not one of them calls upon Me.",
+          "contents": [
+            "All of them are hot as an oven,",
+            {
+              "q2": null
+            },
+            "and they devour their rulers.",
+            {
+              "q1": null
+            },
+            "All their kings fall;",
+            {
+              "q2": null
+            },
+            "not one of them calls upon Me.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ephraim mixes with the nations; Ephraim is an unturned cake.",
+          "contents": [
+            "Ephraim mixes with the nations;",
+            {
+              "q2": null
+            },
+            "Ephraim is an unturned cake.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Foreigners consume his strength, but he does not notice. Even his hair is streaked with gray, but he does not know.",
+          "contents": [
+            "Foreigners consume his strength,",
+            {
+              "q2": null
+            },
+            "but he does not notice.",
+            {
+              "q1": null
+            },
+            "Even his hair is streaked with gray,",
+            {
+              "q2": null
+            },
+            "but he does not know.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Israel’s arrogance testifies against them, yet they do not return to the LORD their God; despite all this, they do not seek Him.",
+          "contents": [
+            "Israel’s arrogance testifies against them,",
+            {
+              "q2": null
+            },
+            "yet they do not return to the LORD their God;",
+            {
+              "q2": null
+            },
+            "despite all this, they do not seek Him.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "So Ephraim has become like a silly, senseless dove—calling out to Egypt, then turning to Assyria.",
+          "contents": [
+            "So Ephraim has become like a silly, senseless dove—",
+            {
+              "q2": null
+            },
+            "calling out to Egypt, then turning to Assyria.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "As they go, I will spread My net over them; I will bring them down like birds of the air. I will chastise them when I hear them flocking together.",
+          "contents": [
+            "As they go, I will spread My net over them;",
+            {
+              "q2": null
+            },
+            "I will bring them down like birds of the air.",
+            {
+              "q1": null
+            },
+            "I will chastise them",
+            {
+              "q2": null
+            },
+            "when I hear them flocking together.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:12"
+                },
+                {
+                  "ft": "Or I will chastise them according to what was reported against them in the assembly."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Woe to them, for they have strayed from Me! Destruction to them, for they have rebelled against Me! Though I would redeem them, they speak lies against Me.",
+          "contents": [
+            "Woe to them, for they have strayed from Me!",
+            {
+              "q2": null
+            },
+            "Destruction to them, for they have rebelled against Me!",
+            {
+              "q1": null
+            },
+            "Though I would redeem them,",
+            {
+              "q2": null
+            },
+            "they speak lies against Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "They do not cry out to Me from their hearts when they wail upon their beds. They slash themselves for grain and new wine, but turn away from Me.",
+          "contents": [
+            "They do not cry out to Me from their hearts",
+            {
+              "q2": null
+            },
+            "when they wail upon their beds.",
+            {
+              "q1": null
+            },
+            "They slash themselves",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:14"
+                },
+                {
+                  "ft": "Some Hebrew manuscripts and LXX; see 1 Kings 18:28. Most Hebrew manuscripts They gather together"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for grain and new wine,",
+            {
+              "q2": null
+            },
+            "but turn away from Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Although I trained and strengthened their arms, they plot evil against Me.",
+          "contents": [
+            "Although I trained and strengthened their arms,",
+            {
+              "q2": null
+            },
+            "they plot evil against Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "They turn, but not to the Most High; they are like a faulty bow. Their leaders will fall by the sword for the cursing of their tongue; for this they will be ridiculed in the land of Egypt.",
+          "contents": [
+            "They turn, but not to the Most High;",
+            {
+              "q2": null
+            },
+            "they are like a faulty bow.",
+            {
+              "q1": null
+            },
+            "Their leaders will fall by the sword",
+            {
+              "q2": null
+            },
+            "for the cursing of their tongue;",
+            {
+              "q1": null
+            },
+            "for this they will be ridiculed",
+            {
+              "q2": null
+            },
+            "in the land of Egypt."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "8",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Israel Will Reap the Whirlwind"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Put the ram’s horn to your lips! An eagle looms over the house of the LORD, because the people have transgressed My covenant and rebelled against My law.",
+          "contents": [
+            "Put the ram’s horn to your lips!",
+            {
+              "q2": null
+            },
+            "An eagle looms over the house of the LORD,",
+            {
+              "q1": null
+            },
+            "because the people have transgressed My covenant",
+            {
+              "q2": null
+            },
+            "and rebelled against My law.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Israel cries out to Me, “O our God, we know You!”",
+          "contents": [
+            "Israel cries out to Me,",
+            {
+              "q2": null
+            },
+            "“O our God, we know You!”",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "But Israel has rejected good; an enemy will pursue him.",
+          "contents": [
+            "But Israel has rejected good;",
+            {
+              "q2": null
+            },
+            "an enemy will pursue him.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "They set up kings, but not by Me. They make princes, but without My approval. With their silver and gold they make themselves idols, to their own destruction.",
+          "contents": [
+            "They set up kings, but not by Me.",
+            {
+              "q2": null
+            },
+            "They make princes, but without My approval.",
+            {
+              "q1": null
+            },
+            "With their silver and gold they make themselves idols,",
+            {
+              "q2": null
+            },
+            "to their own destruction.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "He has rejected your calf, O Samaria. My anger burns against them. How long will they be incapable of innocence?",
+          "contents": [
+            "He has rejected your calf,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:5"
+                },
+                {
+                  "ft": "Or calf idol; see 1 Kings 12:29."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "O Samaria.",
+            {
+              "q2": null
+            },
+            "My anger burns against them.",
+            {
+              "q1": null
+            },
+            "How long will they be",
+            {
+              "q2": null
+            },
+            "incapable of innocence?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For this thing is from Israel—a craftsman made it, and it is not God. It will be broken to pieces, that calf of Samaria.",
+          "contents": [
+            "For this thing is from Israel—",
+            {
+              "q2": null
+            },
+            "a craftsman made it, and it is not God.",
+            {
+              "q1": null
+            },
+            "It will be broken to pieces,",
+            {
+              "q2": null
+            },
+            "that calf of Samaria.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For they sow the wind, and they shall reap the whirlwind. There is no standing grain; what sprouts fails to yield flour. Even if it should produce, the foreigners would swallow it up.",
+          "contents": [
+            "For they sow the wind,",
+            {
+              "q2": null
+            },
+            "and they shall reap the whirlwind.",
+            {
+              "q1": null
+            },
+            "There is no standing grain;",
+            {
+              "q2": null
+            },
+            "what sprouts fails to yield flour.",
+            {
+              "q1": null
+            },
+            "Even if it should produce,",
+            {
+              "q2": null
+            },
+            "the foreigners would swallow it up.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Israel is swallowed up! Now they are among the nations like a worthless vessel.",
+          "contents": [
+            "Israel is swallowed up!",
+            {
+              "q2": null
+            },
+            "Now they are among the nations",
+            {
+              "q2": null
+            },
+            "like a worthless vessel.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For they have gone up to Assyria like a wild donkey on its own. Ephraim has hired lovers.",
+          "contents": [
+            "For they have gone up to Assyria",
+            {
+              "q2": null
+            },
+            "like a wild donkey on its own.",
+            {
+              "q2": null
+            },
+            "Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:9"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verse 11"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "has hired lovers.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Though they hire allies among the nations, I will now round them up, and they will begin to diminish under the oppression of the king of princes.",
+          "contents": [
+            "Though they hire allies among the nations,",
+            {
+              "q2": null
+            },
+            "I will now round them up,",
+            {
+              "q1": null
+            },
+            "and they will begin to diminish",
+            {
+              "q2": null
+            },
+            "under the oppression of the king of princes.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Though Ephraim multiplied the altars for sin, they became his altars for sinning.",
+          "contents": [
+            "Though Ephraim multiplied the altars for sin,",
+            {
+              "q2": null
+            },
+            "they became his altars for sinning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Though I wrote for them the great things of My law, they regarded them as something strange.",
+          "contents": [
+            "Though I wrote for them the great things of My law,",
+            {
+              "q2": null
+            },
+            "they regarded them as something strange.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Though they offer sacrifices as gifts to Me, and though they eat the meat, the LORD does not accept them. Now He will remember their iniquity and punish their sins: They will return to Egypt.",
+          "contents": [
+            "Though they offer sacrifices as gifts to Me,",
+            {
+              "q2": null
+            },
+            "and though they eat the meat,",
+            {
+              "q2": null
+            },
+            "the LORD does not accept them.",
+            {
+              "q1": null
+            },
+            "Now He will remember their iniquity and punish their sins:",
+            {
+              "q2": null
+            },
+            "They will return to Egypt.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Israel has forgotten his Maker and built palaces; Judah has multiplied its fortified cities. But I will send fire upon their cities, and it will consume their citadels.",
+          "contents": [
+            "Israel has forgotten his Maker and built palaces;",
+            {
+              "q2": null
+            },
+            "Judah has multiplied its fortified cities.",
+            {
+              "q1": null
+            },
+            "But I will send fire upon their cities,",
+            {
+              "q2": null
+            },
+            "and it will consume their citadels."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "9",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Israel’s Punishment"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Do not rejoice, O Israel, with exultation like the nations, for you have played the harlot against your God; you have made love for hire on every threshing floor.",
+          "contents": [
+            "Do not rejoice, O Israel,",
+            {
+              "q2": null
+            },
+            "with exultation like the nations,",
+            {
+              "q1": null
+            },
+            "for you have played the harlot against your God;",
+            {
+              "q2": null
+            },
+            "you have made love for hire on every threshing floor.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The threshing floor and winepress will not feed them, and the new wine will fail them.",
+          "contents": [
+            "The threshing floor and winepress will not feed them,",
+            {
+              "q2": null
+            },
+            "and the new wine will fail them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "They will not remain in the land of the LORD; Ephraim will return to Egypt and eat unclean food in Assyria.",
+          "contents": [
+            "They will not remain",
+            {
+              "q2": null
+            },
+            "in the land of the LORD;",
+            {
+              "q1": null
+            },
+            "Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:3"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; similarly in verses 8, 11, 13, and 16"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will return to Egypt",
+            {
+              "q2": null
+            },
+            "and eat unclean food in Assyria.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "They will not pour out wine offerings to the LORD, and their sacrifices will not please Him, but will be to them like the bread of mourners; all who eat will be defiled. For their bread will be for themselves; it will not enter the house of the LORD.",
+          "contents": [
+            "They will not pour out wine offerings to the LORD,",
+            {
+              "q2": null
+            },
+            "and their sacrifices will not please Him,",
+            {
+              "q1": null
+            },
+            "but will be to them like the bread of mourners;",
+            {
+              "q2": null
+            },
+            "all who eat will be defiled.",
+            {
+              "q1": null
+            },
+            "For their bread will be for themselves;",
+            {
+              "q2": null
+            },
+            "it will not enter the house of the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "What will you do on the appointed day, on the day of the LORD’s feast?",
+          "contents": [
+            "What will you do on the appointed day,",
+            {
+              "q2": null
+            },
+            "on the day of the LORD’s feast?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For even if they flee destruction, Egypt will gather them and Memphis will bury them. Their precious silver will be taken over by thistles, and thorns will overrun their tents.",
+          "contents": [
+            "For even if they flee destruction,",
+            {
+              "q2": null
+            },
+            "Egypt will gather them",
+            {
+              "q2": null
+            },
+            "and Memphis will bury them.",
+            {
+              "q1": null
+            },
+            "Their precious silver will be taken over by thistles,",
+            {
+              "q2": null
+            },
+            "and thorns will overrun their tents.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "The days of punishment have come; the days of retribution have arrived—let Israel know it. The prophet is called a fool, and the inspired man insane, because of the greatness of your iniquity and hostility.",
+          "contents": [
+            "The days of punishment have come;",
+            {
+              "q2": null
+            },
+            "the days of retribution have arrived—",
+            {
+              "q2": null
+            },
+            "let Israel know it.",
+            {
+              "q1": null
+            },
+            "The prophet is called a fool,",
+            {
+              "q2": null
+            },
+            "and the inspired man insane,",
+            {
+              "q1": null
+            },
+            "because of the greatness",
+            {
+              "q2": null
+            },
+            "of your iniquity and hostility.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "The prophet is Ephraim’s watchman, along with my God, yet the snare of the fowler lies on all his paths. Hostility is in the house of his God!",
+          "contents": [
+            "The prophet is Ephraim’s watchman,",
+            {
+              "q2": null
+            },
+            "along with my God,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:8"
+                },
+                {
+                  "ft": "Or The prophet is the watchman over Ephraim, the people of my God"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "yet the snare of the fowler lies on all his paths.",
+            {
+              "q2": null
+            },
+            "Hostility is in the house of his God!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "They have deeply corrupted themselves as in the days of Gibeah; He will remember their guilt; He will punish their sins.",
+          "contents": [
+            "They have deeply corrupted themselves",
+            {
+              "q2": null
+            },
+            "as in the days of Gibeah;",
+            {
+              "q1": null
+            },
+            "He will remember their guilt;",
+            {
+              "q2": null
+            },
+            "He will punish their sins.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "I found Israel like grapes in the wilderness. I saw your fathers as the firstfruits of the fig tree in its first season. But they went to Baal-peor, and consecrated themselves to Shame; so they became as detestable as the thing they loved.",
+          "contents": [
+            "I found Israel like grapes in the wilderness.",
+            {
+              "q2": null
+            },
+            "I saw your fathers as the firstfruits",
+            {
+              "q2": null
+            },
+            "of the fig tree in its first season.",
+            {
+              "q1": null
+            },
+            "But they went to Baal-peor,",
+            {
+              "q2": null
+            },
+            "and consecrated themselves to Shame;",
+            {
+              "q1": null
+            },
+            "so they became as detestable",
+            {
+              "q2": null
+            },
+            "as the thing they loved.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Ephraim’s glory will fly away like a bird, with no birth, no pregnancy, and no conception.",
+          "contents": [
+            "Ephraim’s glory will fly away like a bird,",
+            {
+              "q2": null
+            },
+            "with no birth, no pregnancy, and no conception.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Even if they raise their children, I will bereave them of each one. Yes, woe be to them when I turn away from them!",
+          "contents": [
+            "Even if they raise their children,",
+            {
+              "q2": null
+            },
+            "I will bereave them of each one.",
+            {
+              "q1": null
+            },
+            "Yes, woe be to them",
+            {
+              "q2": null
+            },
+            "when I turn away from them!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I have seen Ephraim, like Tyre, planted in a meadow. But Ephraim will bring out his children for slaughter.",
+          "contents": [
+            "I have seen Ephraim, like Tyre,",
+            {
+              "q2": null
+            },
+            "planted in a meadow.",
+            {
+              "q1": null
+            },
+            "But Ephraim will bring out",
+            {
+              "q2": null
+            },
+            "his children for slaughter.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Give them, O LORD—what will You give? Give them wombs that miscarry and breasts that dry up!",
+          "contents": [
+            "Give them, O LORD—",
+            {
+              "q2": null
+            },
+            "what will You give?",
+            {
+              "q1": null
+            },
+            "Give them wombs that miscarry",
+            {
+              "q2": null
+            },
+            "and breasts that dry up!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "All their evil appears at Gilgal, for there I hated them. I will drive them from My house for the wickedness of their deeds. I will no longer love them; all their leaders are rebellious.",
+          "contents": [
+            "All their evil appears at Gilgal,",
+            {
+              "q2": null
+            },
+            "for there I hated them.",
+            {
+              "q1": null
+            },
+            "I will drive them from My house",
+            {
+              "q2": null
+            },
+            "for the wickedness of their deeds.",
+            {
+              "q1": null
+            },
+            "I will no longer love them;",
+            {
+              "q2": null
+            },
+            "all their leaders are rebellious.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Ephraim is struck down; their root is withered; they cannot bear fruit. Even if they bear children, I will slay the darlings of their wombs.",
+          "contents": [
+            "Ephraim is struck down;",
+            {
+              "q2": null
+            },
+            "their root is withered;",
+            {
+              "q2": null
+            },
+            "they cannot bear fruit.",
+            {
+              "q1": null
+            },
+            "Even if they bear children,",
+            {
+              "q2": null
+            },
+            "I will slay the darlings of their wombs.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "My God will reject them because they have not obeyed Him; and they shall be wanderers among the nations.",
+          "contents": [
+            "My God will reject them",
+            {
+              "q2": null
+            },
+            "because they have not obeyed Him;",
+            {
+              "q1": null
+            },
+            "and they shall be wanderers",
+            {
+              "q2": null
+            },
+            "among the nations."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "10",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Retribution for Israel’s Sin"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Israel was a luxuriant vine, yielding fruit for himself. The more his fruit increased, the more he increased the altars. The better his land produced, the better he made the sacred pillars.",
+          "contents": [
+            "Israel was a luxuriant vine,",
+            {
+              "q2": null
+            },
+            "yielding fruit for himself.",
+            {
+              "q1": null
+            },
+            "The more his fruit increased,",
+            {
+              "q2": null
+            },
+            "the more he increased the altars.",
+            {
+              "q1": null
+            },
+            "The better his land produced,",
+            {
+              "q2": null
+            },
+            "the better he made the sacred pillars.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Their hearts are devious; now they must bear their guilt. The LORD will break down their altars and demolish their sacred pillars.",
+          "contents": [
+            "Their hearts are devious;",
+            {
+              "q2": null
+            },
+            "now they must bear their guilt.",
+            {
+              "q1": null
+            },
+            "The LORD will break down their altars",
+            {
+              "q2": null
+            },
+            "and demolish their sacred pillars.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Surely now they will say, “We have no king, for we do not revere the LORD. What can a king do for us?”",
+          "contents": [
+            "Surely now they will say,",
+            {
+              "q2": null
+            },
+            "“We have no king,",
+            {
+              "q1": null
+            },
+            "for we do not revere the LORD.",
+            {
+              "q2": null
+            },
+            "What can a king do for us?”",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "They speak mere words; with false oaths they make covenants. So judgment springs up like poisonous weeds in the furrows of a field.",
+          "contents": [
+            "They speak mere words;",
+            {
+              "q2": null
+            },
+            "with false oaths they make covenants.",
+            {
+              "q1": null
+            },
+            "So judgment springs up",
+            {
+              "q2": null
+            },
+            "like poisonous weeds in the furrows of a field.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The people of Samaria will fear for the calf of Beth-aven. Indeed, its people will mourn with its idolatrous priests—those who rejoiced in its glory—for it has been taken from them into exile.",
+          "contents": [
+            "The people of Samaria will fear",
+            {
+              "q2": null
+            },
+            "for the calf of Beth-aven.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:5"
+                },
+                {
+                  "ft": "Beth-aven means house of wickedness. This is a derogatory term for Bethel, which means house of God; see 1 Kings 12:28–29."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Indeed, its people will mourn",
+            {
+              "q2": null
+            },
+            "with its idolatrous priests—",
+            {
+              "q1": null
+            },
+            "those who rejoiced in its glory—",
+            {
+              "q2": null
+            },
+            "for it has been taken from them into exile.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Yes, it will be carried to Assyria as tribute to the great king. Ephraim will be seized with shame; Israel will be ashamed of its wooden idols.",
+          "contents": [
+            "Yes, it will be carried to Assyria",
+            {
+              "q2": null
+            },
+            "as tribute to the great king.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:6"
+                },
+                {
+                  "ft": "Or to King Jareb"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:6"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verse 11"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will be seized with shame;",
+            {
+              "q2": null
+            },
+            "Israel will be ashamed of its wooden idols.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:6"
+                },
+                {
+                  "ft": "Or of its own counsel"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Samaria will be carried off with her king like a twig on the surface of the water.",
+          "contents": [
+            "Samaria will be carried off with her king",
+            {
+              "q2": null
+            },
+            "like a twig on the surface of the water.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "The high places of Aven will be destroyed—it is the sin of Israel; thorns and thistles will overgrow their altars. Then they will say to the mountains, “Cover us!” and to the hills, “Fall on us!”",
+          "contents": [
+            "The high places of Aven",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:8"
+                },
+                {
+                  "ft": "Or of wickedness; Aven is a reference to Beth-aven (a derogatory term for Bethel); see verse 5."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will be destroyed—",
+            {
+              "q2": null
+            },
+            "it is the sin of Israel;",
+            {
+              "q2": null
+            },
+            "thorns and thistles will overgrow their altars.",
+            {
+              "q1": null
+            },
+            "Then they will say to the mountains, “Cover us!”",
+            {
+              "q2": null
+            },
+            "and to the hills, “Fall on us!”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:8"
+                },
+                {
+                  "ft": "Cited in Luke 23:30; see also Revelation 6:16."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Since the days of Gibeah you have sinned, O Israel, and there you have remained. Did not the battle in Gibeah overtake the sons of iniquity?",
+          "contents": [
+            "Since the days of Gibeah you have sinned, O Israel,",
+            {
+              "q2": null
+            },
+            "and there you have remained.",
+            {
+              "q1": null
+            },
+            "Did not the battle in Gibeah",
+            {
+              "q2": null
+            },
+            "overtake the sons of iniquity?",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:9"
+                },
+                {
+                  "ft": "Or Did not the battle overtake the sons of iniquity in Gibeah?"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "I will chasten them when I please; nations will be gathered against them to put them in bondage for their double transgression.",
+          "contents": [
+            "I will chasten them when I please;",
+            {
+              "q2": null
+            },
+            "nations will be gathered against them",
+            {
+              "q1": null
+            },
+            "to put them in bondage",
+            {
+              "q2": null
+            },
+            "for their double transgression.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Ephraim is a well-trained heifer that loves to thresh; but I will place a yoke on her fair neck. I will harness Ephraim, Judah will plow, and Jacob will break the hard ground.",
+          "contents": [
+            "Ephraim is a well-trained heifer that loves to thresh;",
+            {
+              "q2": null
+            },
+            "but I will place a yoke on her fair neck.",
+            {
+              "q1": null
+            },
+            "I will harness Ephraim, Judah will plow,",
+            {
+              "q2": null
+            },
+            "and Jacob will break the hard ground.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Sow for yourselves righteousness and reap the fruit of loving devotion; break up your unplowed ground. For it is time to seek the LORD until He comes and sends righteousness upon you like rain.",
+          "contents": [
+            "Sow for yourselves righteousness",
+            {
+              "q2": null
+            },
+            "and reap the fruit of loving devotion;",
+            {
+              "q2": null
+            },
+            "break up your unplowed ground.",
+            {
+              "q1": null
+            },
+            "For it is time to seek the LORD",
+            {
+              "q2": null
+            },
+            "until He comes and sends righteousness",
+            {
+              "q2": null
+            },
+            "upon you like rain.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "You have plowed wickedness and reaped injustice; you have eaten the fruit of lies. Because you have trusted in your own way and in the multitude of your mighty men,",
+          "contents": [
+            "You have plowed wickedness and reaped injustice;",
+            {
+              "q2": null
+            },
+            "you have eaten the fruit of lies.",
+            {
+              "q1": null
+            },
+            "Because you have trusted in your own way",
+            {
+              "q2": null
+            },
+            "and in the multitude of your mighty men,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "the roar of battle will rise against your people, so that all your fortresses will be demolished as Shalman devastated Beth-arbel in the day of battle, when mothers were dashed to pieces along with their children.",
+          "contents": [
+            "the roar of battle will rise against your people,",
+            {
+              "q2": null
+            },
+            "so that all your fortresses will be demolished",
+            {
+              "q1": null
+            },
+            "as Shalman devastated Beth-arbel",
+            {
+              "q2": null
+            },
+            "in the day of battle,",
+            {
+              "q1": null
+            },
+            "when mothers were dashed to pieces",
+            {
+              "q2": null
+            },
+            "along with their children.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Thus it will be done to you, O Bethel, because of your great wickedness. When the day dawns, the king of Israel will be utterly cut off.",
+          "contents": [
+            "Thus it will be done to you, O Bethel,",
+            {
+              "q2": null
+            },
+            "because of your great wickedness.",
+            {
+              "q1": null
+            },
+            "When the day dawns,",
+            {
+              "q2": null
+            },
+            "the king of Israel will be utterly cut off."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "11",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Out of Egypt I Called My Son"
+            ]
+          },
+          {
+            "r": [
+              "(Matthew 2:13–15)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "When Israel was a child, I loved him, and out of Egypt I called My son.",
+          "contents": [
+            "When Israel was a child, I loved him,",
+            {
+              "q2": null
+            },
+            "and out of Egypt I called My son.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:1"
+                },
+                {
+                  "ft": "Cited in Matthew 2:15"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "But the more I called Israel, the farther they departed from Me. They sacrificed to the Baals and burned incense to carved images.",
+          "contents": [
+            "But the more I called Israel,",
+            {
+              "q2": null
+            },
+            "the farther they departed from Me.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:2"
+                },
+                {
+                  "ft": "LXX; Hebrew The more they called them, the more they went from them."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "They sacrificed to the Baals",
+            {
+              "q2": null
+            },
+            "and burned incense to carved images.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "It was I who taught Ephraim to walk, taking them in My arms, but they never realized that it was I who healed them.",
+          "contents": [
+            "It was I who taught Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:3"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verses 8, 9, and 12"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "to walk,",
+            {
+              "q2": null
+            },
+            "taking them in My arms,",
+            {
+              "q1": null
+            },
+            "but they never realized",
+            {
+              "q2": null
+            },
+            "that it was I who healed them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I led them with cords of kindness, with ropes of love; I lifted the yoke from their necks and bent down to feed them.",
+          "contents": [
+            "I led them with cords of kindness,",
+            {
+              "q2": null
+            },
+            "with ropes of love;",
+            {
+              "q1": null
+            },
+            "I lifted the yoke from their necks",
+            {
+              "q2": null
+            },
+            "and bent down to feed them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Will they not return to the land of Egypt and be ruled by Assyria because they refused to repent?",
+          "contents": [
+            "Will they not return to the land of Egypt",
+            {
+              "q2": null
+            },
+            "and be ruled by Assyria",
+            {
+              "q2": null
+            },
+            "because they refused to repent?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "A sword will flash through their cities; it will destroy the bars of their gates and consume them in their own plans.",
+          "contents": [
+            "A sword will flash through their cities;",
+            {
+              "q2": null
+            },
+            "it will destroy the bars of their gates",
+            {
+              "q2": null
+            },
+            "and consume them in their own plans.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "My people are bent on turning from Me. Though they call to the Most High, He will by no means exalt them.",
+          "contents": [
+            "My people are bent on turning from Me.",
+            {
+              "q2": null
+            },
+            "Though they call to the Most High,",
+            {
+              "q2": null
+            },
+            "He will by no means exalt them.",
+            [
+              {
+                "s1": [
+                  "God’s Love for Israel"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "How could I give you up, O Ephraim? How could I surrender you, O Israel? How could I make you like Admah? How could I treat you like Zeboiim? My heart is turned within Me; My compassion is stirred!",
+          "contents": [
+            "How could I give you up, O Ephraim?",
+            {
+              "q2": null
+            },
+            "How could I surrender you, O Israel?",
+            {
+              "q1": null
+            },
+            "How could I make you like Admah?",
+            {
+              "q2": null
+            },
+            "How could I treat you like Zeboiim?",
+            {
+              "q1": null
+            },
+            "My heart is turned within Me;",
+            {
+              "q2": null
+            },
+            "My compassion is stirred!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "I will not execute the full fury of My anger; I will not turn back to destroy Ephraim. For I am God and not man—the Holy One among you—and I will not come in wrath.",
+          "contents": [
+            "I will not execute the full fury of My anger;",
+            {
+              "q2": null
+            },
+            "I will not turn back to destroy Ephraim.",
+            {
+              "q1": null
+            },
+            "For I am God and not man—",
+            {
+              "q2": null
+            },
+            "the Holy One among you—",
+            {
+              "q2": null
+            },
+            "and I will not come in wrath.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "They will walk after the LORD; He will roar like a lion. When He roars, His children will come trembling from the west.",
+          "contents": [
+            "They will walk after the LORD;",
+            {
+              "q2": null
+            },
+            "He will roar like a lion.",
+            {
+              "q1": null
+            },
+            "When He roars,",
+            {
+              "q2": null
+            },
+            "His children will come trembling from the west.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "They will come trembling like birds from Egypt and like doves from the land of Assyria. Then I will settle them in their homes, declares the LORD.",
+          "contents": [
+            "They will come trembling like birds from Egypt",
+            {
+              "q2": null
+            },
+            "and like doves from the land of Assyria.",
+            {
+              "q1": null
+            },
+            "Then I will settle them in their homes,",
+            {
+              "q2": null
+            },
+            "declares the LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Ephraim surrounds Me with lies, the house of Israel with deceit; but Judah still walks with God and is faithful to the Holy One.",
+          "contents": [
+            "Ephraim surrounds Me with lies,",
+            {
+              "q2": null
+            },
+            "the house of Israel with deceit;",
+            {
+              "q1": null
+            },
+            "but Judah still walks with God",
+            {
+              "q2": null
+            },
+            "and is faithful to the Holy One.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:12"
+                },
+                {
+                  "ft": "Or and Judah is unruly against God, the faithful Holy One"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "12",
+      "contents": [
+        [
+          {
+            "s1": [
+              "A Reproof of Ephraim, Judah, and Jacob"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Ephraim chases the wind and pursues the east wind all day long; he multiplies lies and violence; he makes a covenant with Assyria and sends olive oil to Egypt.",
+          "contents": [
+            "Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:1"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verses 8 and 14"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "chases the wind",
+            {
+              "q2": null
+            },
+            "and pursues the east wind all day long;",
+            {
+              "q2": null
+            },
+            "he multiplies lies and violence;",
+            {
+              "q1": null
+            },
+            "he makes a covenant with Assyria",
+            {
+              "q2": null
+            },
+            "and sends olive oil to Egypt.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The LORD also brings a charge against Judah. He will punish Jacob according to his ways and repay him according to his deeds.",
+          "contents": [
+            "The LORD also brings a charge against Judah.",
+            {
+              "q2": null
+            },
+            "He will punish Jacob",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:2"
+                },
+                {
+                  "ft": "Jacob means he grasps the heel or he deceives."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "according to his ways",
+            {
+              "q2": null
+            },
+            "and repay him according to his deeds.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "In the womb he grasped his brother’s heel, and in his vigor he wrestled with God.",
+          "contents": [
+            "In the womb he grasped his brother’s heel,",
+            {
+              "q2": null
+            },
+            "and in his vigor he wrestled with God.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Yes, he struggled with the angel and prevailed; he wept and sought His favor; he found Him at Bethel and spoke with Him there—",
+          "contents": [
+            "Yes, he struggled with the angel",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:4"
+                },
+                {
+                  "ft": "Or Angel"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and prevailed;",
+            {
+              "q2": null
+            },
+            "he wept and sought His favor;",
+            {
+              "q1": null
+            },
+            "he found Him at Bethel",
+            {
+              "q2": null
+            },
+            "and spoke with Him there",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:4"
+                },
+                {
+                  "ft": "LXX and Syriac; MT and there He spoke with us"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "the LORD is the God of Hosts—the LORD is His name of renown.",
+          "contents": [
+            "the LORD is the God of Hosts—",
+            {
+              "q2": null
+            },
+            "the LORD is His name of renown.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "But you must return to your God, maintaining love and justice, and always waiting on your God.",
+          "contents": [
+            "But you must return to your God,",
+            {
+              "q2": null
+            },
+            "maintaining love and justice,",
+            {
+              "q2": null
+            },
+            "and always waiting on your God.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "A merchant loves to defraud with dishonest scales in his hands.",
+          "contents": [
+            "A merchant loves to defraud",
+            {
+              "q2": null
+            },
+            "with dishonest scales in his hands.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "And Ephraim boasts: “How rich I have become! I have found wealth for myself. In all my labors, they can find in me no iniquity that is sinful.”",
+          "contents": [
+            "And Ephraim boasts: “How rich I have become!",
+            {
+              "q2": null
+            },
+            "I have found wealth for myself.",
+            {
+              "q1": null
+            },
+            "In all my labors, they can find in me",
+            {
+              "q2": null
+            },
+            "no iniquity that is sinful.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "But I am the LORD your God ever since the land of Egypt. I will again make you dwell in tents, as in the days of the appointed feast.",
+          "contents": [
+            "But I am the LORD your God",
+            {
+              "q2": null
+            },
+            "ever since the land of Egypt.",
+            {
+              "q1": null
+            },
+            "I will again make you dwell in tents,",
+            {
+              "q2": null
+            },
+            "as in the days of the appointed feast.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "I spoke through the prophets and multiplied their visions; I gave parables through the prophets.",
+          "contents": [
+            "I spoke through the prophets",
+            {
+              "q2": null
+            },
+            "and multiplied their visions;",
+            {
+              "q2": null
+            },
+            "I gave parables through the prophets.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Is there iniquity in Gilead? They will surely come to nothing. Do they sacrifice bulls in Gilgal? Indeed, their altars will be heaps of stones in the furrows of the field.",
+          "contents": [
+            "Is there iniquity in Gilead?",
+            {
+              "q2": null
+            },
+            "They will surely come to nothing.",
+            {
+              "q1": null
+            },
+            "Do they sacrifice bulls in Gilgal?",
+            {
+              "q2": null
+            },
+            "Indeed, their altars will be heaps of stones",
+            {
+              "q2": null
+            },
+            "in the furrows of the field.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Jacob fled to the land of Aram and Israel worked for a wife—for a wife he tended sheep.",
+          "contents": [
+            "Jacob fled to the land of Aram",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:12"
+                },
+                {
+                  "ft": "That is, northwest Mesopotamia"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and Israel worked for a wife—",
+            {
+              "q2": null
+            },
+            "for a wife he tended sheep.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "But by a prophet the LORD brought Israel out of Egypt, and by a prophet he was preserved.",
+          "contents": [
+            "But by a prophet the LORD brought Israel out of Egypt,",
+            {
+              "q2": null
+            },
+            "and by a prophet he was preserved.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Ephraim has provoked bitter anger, so his Lord will leave his bloodguilt upon him and repay him for his contempt.",
+          "contents": [
+            "Ephraim has provoked bitter anger,",
+            {
+              "q2": null
+            },
+            "so his Lord will leave his bloodguilt upon him",
+            {
+              "q2": null
+            },
+            "and repay him for his contempt."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "13",
+      "contents": [
+        [
+          {
+            "s1": [
+              "God’s Anger against Israel"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "When Ephraim spoke, there was trembling; he was exalted in Israel. But he incurred guilt through Baal, and he died.",
+          "contents": [
+            "When Ephraim",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:1"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel; also in verse 12"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "spoke, there was trembling;",
+            {
+              "q2": null
+            },
+            "he was exalted in Israel.",
+            {
+              "q1": null
+            },
+            "But he incurred guilt through Baal,",
+            {
+              "q2": null
+            },
+            "and he died.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Now they sin more and more and make for themselves cast images, idols skillfully made from their silver, all of them the work of craftsmen. People say of them, “They offer human sacrifice and kiss the calves!”",
+          "contents": [
+            "Now they sin more and more",
+            {
+              "q2": null
+            },
+            "and make for themselves cast images,",
+            {
+              "q1": null
+            },
+            "idols skillfully made from their silver,",
+            {
+              "q2": null
+            },
+            "all of them the work of craftsmen.",
+            {
+              "q1": null
+            },
+            "People say of them,",
+            {
+              "q2": null
+            },
+            "“They offer human sacrifice",
+            {
+              "q2": null
+            },
+            "and kiss the calves!”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:2"
+                },
+                {
+                  "ft": "Or “The men who sacrifice kiss the calves!” See 1 Kings 19:18."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Therefore they will be like the morning mist, like the early dew that vanishes, like chaff blown from a threshing floor, like smoke through an open window.",
+          "contents": [
+            "Therefore they will be like the morning mist,",
+            {
+              "q2": null
+            },
+            "like the early dew that vanishes,",
+            {
+              "q1": null
+            },
+            "like chaff blown from a threshing floor,",
+            {
+              "q2": null
+            },
+            "like smoke through an open window.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Yet I am the LORD your God ever since the land of Egypt; you know no God but Me, for there is no Savior besides Me.",
+          "contents": [
+            "Yet I am the LORD your God",
+            {
+              "q2": null
+            },
+            "ever since the land of Egypt;",
+            {
+              "q1": null
+            },
+            "you know no God but Me,",
+            {
+              "q2": null
+            },
+            "for there is no Savior besides Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I knew you in the wilderness, in the land of drought.",
+          "contents": [
+            "I knew you in the wilderness,",
+            {
+              "q2": null
+            },
+            "in the land of drought.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "When they had pasture, they became satisfied; when they were satisfied, their hearts became proud, and as a result they forgot Me.",
+          "contents": [
+            "When they had pasture,",
+            {
+              "q2": null
+            },
+            "they became satisfied;",
+            {
+              "q1": null
+            },
+            "when they were satisfied,",
+            {
+              "q2": null
+            },
+            "their hearts became proud,",
+            {
+              "q2": null
+            },
+            "and as a result they forgot Me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "So like a lion I will pounce on them; like a leopard I will lurk by the path.",
+          "contents": [
+            "So like a lion I will pounce on them;",
+            {
+              "q2": null
+            },
+            "like a leopard I will lurk by the path.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Like a bear robbed of her cubs I will attack them, and I will tear open their chests. There I will devour them like a lion, like a wild beast would tear them apart.",
+          "contents": [
+            "Like a bear robbed of her cubs I will attack them,",
+            {
+              "q2": null
+            },
+            "and I will tear open their chests.",
+            {
+              "q1": null
+            },
+            "There I will devour them like a lion,",
+            {
+              "q2": null
+            },
+            "like a wild beast would tear them apart.",
+            [
+              {
+                "s1": [
+                  "Death and Resurrection"
+                ]
+              },
+              {
+                "r": [
+                  "(1 Corinthians 15:50–58)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "You are destroyed, O Israel, because you are against Me—against your helper.",
+          "contents": [
+            "You are destroyed, O Israel,",
+            {
+              "q2": null
+            },
+            "because you are against Me—",
+            {
+              "q2": null
+            },
+            "against your helper.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Where is your king now to save you in all your cities, and the rulers to whom you said, “Give me a king and princes”?",
+          "contents": [
+            "Where is your king now",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:10"
+                },
+                {
+                  "ft": "Or Shall I be your King now"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "to save you in all your cities,",
+            {
+              "q1": null
+            },
+            "and the rulers to whom you said,",
+            {
+              "q2": null
+            },
+            "“Give me a king and princes”?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "So in My anger I gave you a king, and in My wrath I took him away.",
+          "contents": [
+            "So in My anger I gave you a king,",
+            {
+              "q2": null
+            },
+            "and in My wrath I took him away.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The iniquity of Ephraim is bound up; his sin is stored up.",
+          "contents": [
+            "The iniquity of Ephraim is bound up;",
+            {
+              "q2": null
+            },
+            "his sin is stored up.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Labor pains come upon him, but he is an unwise son. When the time arrives, he fails to present himself at the opening of the womb.",
+          "contents": [
+            "Labor pains come upon him,",
+            {
+              "q2": null
+            },
+            "but he is an unwise son.",
+            {
+              "q1": null
+            },
+            "When the time arrives,",
+            {
+              "q2": null
+            },
+            "he fails to present himself at the opening of the womb.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I will ransom them from the power of Sheol; I will redeem them from Death. Where, O Death, are your plagues? Where, O Sheol, is your sting? Compassion is hidden from My eyes.",
+          "contents": [
+            "I will ransom them from the power of Sheol;",
+            {
+              "q2": null
+            },
+            "I will redeem them from Death.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:14"
+                },
+                {
+                  "ft": "Or Shall I ransom them from the power of Sheol? Shall I redeem them from Death?"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Where, O Death, are your plagues?",
+            {
+              "q2": null
+            },
+            "Where, O Sheol, is your sting?",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:14"
+                },
+                {
+                  "ft": "LXX Where, O Death, is your penalty? Where, O Hades, is your sting? Cited in 1 Corinthians 15:55"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "Compassion is hidden from My eyes.",
+            [
+              {
+                "s1": [
+                  "Judgment on Samaria"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Although he flourishes among his brothers, an east wind will come—a wind from the LORD rising up from the desert. His fountain will fail, and his spring will run dry. The wind will plunder his treasury of every precious article.",
+          "contents": [
+            "Although he flourishes among his brothers,",
+            {
+              "q2": null
+            },
+            "an east wind will come—",
+            {
+              "q1": null
+            },
+            "a wind from the LORD",
+            {
+              "q2": null
+            },
+            "rising up from the desert.",
+            {
+              "q1": null
+            },
+            "His fountain will fail,",
+            {
+              "q2": null
+            },
+            "and his spring will run dry.",
+            {
+              "q1": null
+            },
+            "The wind will plunder his treasury",
+            {
+              "q2": null
+            },
+            "of every precious article.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Samaria will bear her guilt because she has rebelled against her God. They will fall by the sword; their little ones will be dashed to pieces, and their pregnant women ripped open.",
+          "contents": [
+            "Samaria will bear her guilt",
+            {
+              "q2": null
+            },
+            "because she has rebelled against her God.",
+            {
+              "q1": null
+            },
+            "They will fall by the sword;",
+            {
+              "q2": null
+            },
+            "their little ones will be dashed to pieces,",
+            {
+              "q2": null
+            },
+            "and their pregnant women ripped open."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "14",
+      "contents": [
+        [
+          {
+            "s1": [
+              "A Call to Repentance"
+            ]
+          },
+          {
+            "r": [
+              "(Jeremiah 3:11–25; Zechariah 1:1–6)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Return, O Israel, to the LORD your God, for you have stumbled by your iniquity.",
+          "contents": [
+            "Return, O Israel, to the LORD your God,",
+            {
+              "q2": null
+            },
+            "for you have stumbled by your iniquity.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Bring your confessions and return to the LORD. Say to Him: “Take away all our iniquity and receive us graciously, that we may present the fruit of our lips.",
+          "contents": [
+            "Bring your confessions",
+            {
+              "q2": null
+            },
+            "and return to the LORD.",
+            {
+              "q1": null
+            },
+            "Say to Him: “Take away all our iniquity",
+            {
+              "q2": null
+            },
+            "and receive us graciously,",
+            {
+              "q1": null
+            },
+            "that we may present",
+            {
+              "q2": null
+            },
+            "the fruit of our lips.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "14:2"
+                },
+                {
+                  "ft": "LXX and Syriac; Hebrew that we may present our lips as sacrificial bulls"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Assyria will not save us, nor will we ride on horses. We will never again say, ‘Our gods!’ to the work of our own hands. For in You the fatherless find compassion.”",
+          "contents": [
+            "Assyria will not save us,",
+            {
+              "q2": null
+            },
+            "nor will we ride on horses.",
+            {
+              "q1": null
+            },
+            "We will never again say, ‘Our gods!’",
+            {
+              "q2": null
+            },
+            "to the work of our own hands.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "For in You the fatherless find compassion.”",
+            [
+              {
+                "s1": [
+                  "A Promise of God’s Blessing"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I will heal their apostasy; I will freely love them, for My anger has turned away from them.",
+          "contents": [
+            "I will heal their apostasy;",
+            {
+              "q2": null
+            },
+            "I will freely love them,",
+            {
+              "q2": null
+            },
+            "for My anger has turned away from them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I will be like the dew to Israel; he will blossom like the lily and take root like the cedars of Lebanon.",
+          "contents": [
+            "I will be like the dew to Israel;",
+            {
+              "q2": null
+            },
+            "he will blossom like the lily",
+            {
+              "q2": null
+            },
+            "and take root like the cedars of Lebanon.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "His shoots will sprout, and his splendor will be like the olive tree, his fragrance like the cedars of Lebanon.",
+          "contents": [
+            "His shoots will sprout,",
+            {
+              "q2": null
+            },
+            "and his splendor will be like the olive tree,",
+            {
+              "q2": null
+            },
+            "his fragrance like the cedars of Lebanon.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "They will return and dwell in his shade; they will grow grain and blossom like the vine. His renown will be like the wine of Lebanon.",
+          "contents": [
+            "They will return and dwell in his shade;",
+            {
+              "q2": null
+            },
+            "they will grow grain and blossom like the vine.",
+            {
+              "q2": null
+            },
+            "His renown will be like the wine of Lebanon.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "O Ephraim, what have I to do anymore with idols? It is I who answer and watch over him. I am like a flourishing cypress; your fruit comes from Me.",
+          "contents": [
+            "O Ephraim,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "14:8"
+                },
+                {
+                  "ft": "That is, the northern kingdom of Israel"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "what have I to do",
+            {
+              "q2": null
+            },
+            "anymore with idols?",
+            {
+              "q1": null
+            },
+            "It is I who answer and watch over him.",
+            {
+              "q2": null
+            },
+            "I am like a flourishing cypress;",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "14:8"
+                },
+                {
+                  "ft": "Or pine or juniper or fir"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "your fruit comes from Me.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Whoever is wise, let him understand these things; whoever is discerning, let him know them. For the ways of the LORD are right, and the righteous walk in them but the rebellious stumble in them.",
+          "contents": [
+            "Whoever is wise, let him understand these things;",
+            {
+              "q2": null
+            },
+            "whoever is discerning, let him know them.",
+            {
+              "q1": null
+            },
+            "For the ways of the LORD are right,",
+            {
+              "q2": null
+            },
+            "and the righteous walk in them",
+            {
+              "q2": null
+            },
+            "but the rebellious stumble in them."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

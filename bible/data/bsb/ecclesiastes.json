@@ -1,0 +1,3510 @@
+{
+  "book": {
+    "bookCode": "ECC",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Ecclesiastes"
+      },
+      {
+        "toc1": [
+          "Ecclesiastes"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Ecclesiastes"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Everything Is Futile"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "These are the words of the Teacher, the son of David, king in Jerusalem:",
+          "contents": [
+            "These are the words of the Teacher,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "Or the Convener or the Preacher or the leader of the assembly; Hebrew Qoheleth is rendered as the Teacher throughout Ecclesiastes."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "the son of David, king in Jerusalem:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "“Futility of futilities,” says the Teacher, “futility of futilities! Everything is futile!”",
+          "contents": [
+            "“Futility",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:2"
+                },
+                {
+                  "ft": "Literally vapor or breath; the Hebrew words translated in Ecclesiastes as forms of futile or fleeting can also be translated as vanity or meaningless."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of futilities,”",
+            {
+              "q2": null
+            },
+            "says the Teacher,",
+            {
+              "q1": null
+            },
+            "“futility of futilities!",
+            {
+              "q2": null
+            },
+            "Everything is futile!”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "What does a man gain from all his labor, at which he toils under the sun?",
+          "contents": [
+            "What does a man gain from all his labor,",
+            {
+              "q2": null
+            },
+            "at which he toils under the sun?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Generations come and generations go, but the earth remains forever.",
+          "contents": [
+            "Generations come and generations go,",
+            {
+              "q2": null
+            },
+            "but the earth remains forever.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The sun rises and the sun sets; it hurries back to where it rises.",
+          "contents": [
+            "The sun rises and the sun sets;",
+            {
+              "q2": null
+            },
+            "it hurries back to where it rises.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The wind blows southward, then turns northward; round and round it swirls, ever returning on its course.",
+          "contents": [
+            "The wind blows southward,",
+            {
+              "q2": null
+            },
+            "then turns northward;",
+            {
+              "q1": null
+            },
+            "round and round it swirls,",
+            {
+              "q2": null
+            },
+            "ever returning on its course.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "All the rivers flow into the sea, yet the sea is never full; to the place from which the streams come, there again they flow.",
+          "contents": [
+            "All the rivers flow into the sea,",
+            {
+              "q2": null
+            },
+            "yet the sea is never full;",
+            {
+              "q1": null
+            },
+            "to the place from which the streams come,",
+            {
+              "q2": null
+            },
+            "there again they flow.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "All things are wearisome, more than one can describe; the eye is not satisfied with seeing, nor the ear content with hearing.",
+          "contents": [
+            "All things are wearisome,",
+            {
+              "q2": null
+            },
+            "more than one can describe;",
+            {
+              "q1": null
+            },
+            "the eye is not satisfied with seeing,",
+            {
+              "q2": null
+            },
+            "nor the ear content with hearing.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "What has been will be again, and what has been done will be done again; there is nothing new under the sun.",
+          "contents": [
+            "What has been will be again,",
+            {
+              "q2": null
+            },
+            "and what has been done will be done again;",
+            {
+              "q2": null
+            },
+            "there is nothing new under the sun.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Is there a case where one can say, “Look, this is new”? It has already existed in the ages before us.",
+          "contents": [
+            "Is there a case where one can say,",
+            {
+              "q2": null
+            },
+            "“Look, this is new”?",
+            {
+              "q1": null
+            },
+            "It has already existed",
+            {
+              "q2": null
+            },
+            "in the ages before us.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "There is no remembrance of those who came before, and those yet to come will not be remembered by those who follow after.",
+          "contents": [
+            "There is no remembrance",
+            {
+              "q2": null
+            },
+            "of those who came before,",
+            {
+              "q1": null
+            },
+            "and those yet to come will not be remembered",
+            {
+              "q2": null
+            },
+            "by those who follow after.",
+            [
+              {
+                "s1": [
+                  "With Wisdom Comes Sorrow"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "I, the Teacher, was king over Israel in Jerusalem.",
+          "contents": [
+            "I, the Teacher, was king over Israel in Jerusalem."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "And I set my mind to seek and explore by wisdom all that is done under heaven. What a heavy burden God has laid upon the sons of men to occupy them!",
+          "contents": [
+            "And I set my mind to seek and explore by wisdom all that is done under heaven. What a heavy burden God has laid upon the sons of men to occupy them!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I have seen all the things that are done under the sun, and have found them all to be futile, a pursuit of the wind.",
+          "contents": [
+            "I have seen all the things that are done under the sun, and have found them all to be futile, a pursuit of the wind.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "What is crooked cannot be straightened, and what is lacking cannot be counted.",
+          "contents": [
+            "What is crooked cannot be straightened,",
+            {
+              "q2": null
+            },
+            "and what is lacking cannot be counted.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "I said to myself, “Behold, I have grown and increased in wisdom beyond all those before me who were over Jerusalem, and my mind has observed a wealth of wisdom and knowledge.”",
+          "contents": [
+            "I said to myself, “Behold, I have grown and increased in wisdom beyond all those before me who were over Jerusalem, and my mind has observed a wealth of wisdom and knowledge.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "So I set my mind to know wisdom and madness and folly; I learned that this, too, is a pursuit of the wind.",
+          "contents": [
+            "So I set my mind to know wisdom and madness and folly; I learned that this, too, is a pursuit of the wind.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For with much wisdom comes much sorrow, and as knowledge grows, grief increases.",
+          "contents": [
+            "For with much wisdom comes much sorrow,",
+            {
+              "q2": null
+            },
+            "and as knowledge grows, grief increases."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Futility of Pleasure"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I said to myself, “Come now, I will test you with pleasure; enjoy what is good!” But it proved to be futile.",
+          "contents": [
+            "I said to myself, “Come now, I will test you with pleasure; enjoy what is good!”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "But it proved to be futile.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I said of laughter, “It is folly,” and of pleasure, “What does it accomplish?”",
+          "contents": [
+            "I said of laughter, “It is folly,” and of pleasure, “What does it accomplish?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I sought to cheer my body with wine and to embrace folly—my mind still guiding me with wisdom—until I could see what was worthwhile for men to do under heaven during the few days of their lives.",
+          "contents": [
+            "I sought to cheer my body with wine and to embrace folly—my mind still guiding me with wisdom—until I could see what was worthwhile for men to do under heaven during the few days of their lives.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I expanded my pursuits. I built houses and planted vineyards for myself.",
+          "contents": [
+            "I expanded my pursuits. I built houses and planted vineyards for myself."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I made gardens and parks for myself, where I planted all kinds of fruit trees.",
+          "contents": [
+            "I made gardens and parks for myself, where I planted all kinds of fruit trees."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "I built reservoirs to water my groves of flourishing trees.",
+          "contents": [
+            "I built reservoirs to water my groves of flourishing trees.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "I acquired menservants and maidservants, and servants were born in my house. I also owned more herds and flocks than anyone in Jerusalem before me,",
+          "contents": [
+            "I acquired menservants and maidservants, and servants were born in my house. I also owned more herds and flocks than anyone in Jerusalem before me,"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "and I accumulated for myself silver and gold and the treasure of kings and provinces. I gathered to myself male and female singers, and the delights of the sons of men—many concubines.",
+          "contents": [
+            "and I accumulated for myself silver and gold and the treasure of kings and provinces. I gathered to myself male and female singers, and the delights of the sons of men—many concubines.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "So I became great and surpassed all in Jerusalem who had preceded me; and my wisdom remained with me.",
+          "contents": [
+            "So I became great and surpassed all in Jerusalem who had preceded me; and my wisdom remained with me."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Anything my eyes desired, I did not deny myself. I refused my heart no pleasure. For my heart took delight in all my work, and this was the reward for all my labor.",
+          "contents": [
+            "Anything my eyes desired, I did not deny myself. I refused my heart no pleasure. For my heart took delight in all my work, and this was the reward for all my labor.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Yet when I considered all the works that my hands had accomplished and what I had toiled to achieve, I found everything to be futile, a pursuit of the wind; there was nothing to be gained under the sun.",
+          "contents": [
+            "Yet when I considered all the works that my hands had accomplished and what I had toiled to achieve, I found everything to be futile, a pursuit of the wind; there was nothing to be gained under the sun.",
+            [
+              {
+                "s1": [
+                  "The Wise and the Foolish"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Then I turned to consider wisdom and madness and folly; for what more can the king’s successor do than what has already been accomplished?",
+          "contents": [
+            "Then I turned to consider wisdom and madness and folly; for what more can the king’s successor do than what has already been accomplished?"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "And I saw that wisdom exceeds folly, just as light exceeds darkness:",
+          "contents": [
+            "And I saw that wisdom exceeds folly, just as light exceeds darkness:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The wise man has eyes in his head, but the fool walks in darkness. Yet I also came to realize that one fate overcomes them both.",
+          "contents": [
+            "The wise man has eyes in his head,",
+            {
+              "q2": null
+            },
+            "but the fool walks in darkness.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Yet I also came to realize that one fate overcomes them both."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "So I said to myself, “The fate of the fool will also befall me. What then have I gained by being wise?” And I said to myself that this too is futile.",
+          "contents": [
+            "So I said to myself, “The fate of the fool will also befall me. What then have I gained by being wise?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "And I said to myself that this too is futile.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For there is no lasting remembrance of the wise, just as with the fool, seeing that both will be forgotten in the days to come. Alas, the wise man will die just like the fool!",
+          "contents": [
+            "For there is no lasting remembrance of the wise, just as with the fool, seeing that both will be forgotten in the days to come. Alas, the wise man will die just like the fool!"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "So I hated life, because the work that is done under the sun was grievous to me. For everything is futile and a pursuit of the wind.",
+          "contents": [
+            "So I hated life, because the work that is done under the sun was grievous to me. For everything is futile and a pursuit of the wind.",
+            [
+              {
+                "s1": [
+                  "The Futility of Work"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "I hated all for which I had toiled under the sun, because I must leave it to the man who comes after me.",
+          "contents": [
+            "I hated all for which I had toiled under the sun, because I must leave it to the man who comes after me."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "And who knows whether that man will be wise or foolish? Yet he will take over all the labor at which I have worked skillfully under the sun. This too is futile.",
+          "contents": [
+            "And who knows whether that man will be wise or foolish? Yet he will take over all the labor at which I have worked skillfully under the sun. This too is futile.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "So my heart began to despair over all the labor that I had done under the sun.",
+          "contents": [
+            "So my heart began to despair over all the labor that I had done under the sun."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "When there is a man who has labored with wisdom, knowledge, and skill, and he must give his portion to a man who has not worked for it, this too is futile and a great evil.",
+          "contents": [
+            "When there is a man who has labored with wisdom, knowledge, and skill, and he must give his portion to a man who has not worked for it, this too is futile and a great evil."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "For what does a man get for all the toil and striving with which he labors under the sun?",
+          "contents": [
+            "For what does a man get for all the toil and striving with which he labors under the sun?"
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Indeed, all his days are filled with grief, and his task is sorrowful; even at night, his mind does not rest. This too is futile.",
+          "contents": [
+            "Indeed, all his days are filled with grief, and his task is sorrowful; even at night, his mind does not rest. This too is futile.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Nothing is better for a man than to eat and drink and enjoy his work. I have also seen that this is from the hand of God.",
+          "contents": [
+            "Nothing is better for a man than to eat and drink and enjoy his work. I have also seen that this is from the hand of God."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "For apart from Him, who can eat and who can find enjoyment?",
+          "contents": [
+            "For apart from Him,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:25"
+                },
+                {
+                  "ft": "Some Hebrew manuscripts, LXX, Syriac; most Hebrew manuscripts apart from me or more than I"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "who can eat and who can find enjoyment?"
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "To the man who is pleasing in His sight, He gives wisdom and knowledge and joy, but to the sinner He assigns the task of gathering and accumulating that which he will hand over to one who pleases God. This too is futile and a pursuit of the wind.",
+          "contents": [
+            "To the man who is pleasing in His sight, He gives wisdom and knowledge and joy, but to the sinner He assigns the task of gathering and accumulating that which he will hand over to one who pleases God. This too is futile and a pursuit of the wind."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "To Everything There Is a Season"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "To everything there is a season, and a time for every purpose under heaven:",
+          "contents": [
+            "To everything there is a season,",
+            {
+              "q2": null
+            },
+            "and a time for every purpose under heaven:",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "a time to be born and a time to die, a time to plant and a time to uproot,",
+          "contents": [
+            "a time to be born and a time to die,",
+            {
+              "q2": null
+            },
+            "a time to plant and a time to uproot,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "a time to kill and a time to heal, a time to break down and a time to build,",
+          "contents": [
+            "a time to kill and a time to heal,",
+            {
+              "q2": null
+            },
+            "a time to break down and a time to build,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "a time to weep and a time to laugh, a time to mourn and a time to dance,",
+          "contents": [
+            "a time to weep and a time to laugh,",
+            {
+              "q2": null
+            },
+            "a time to mourn and a time to dance,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "a time to cast away stones and a time to gather stones together, a time to embrace and a time to refrain from embracing,",
+          "contents": [
+            "a time to cast away stones and a time to gather stones together,",
+            {
+              "q2": null
+            },
+            "a time to embrace and a time to refrain from embracing,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "a time to search and a time to count as lost, a time to keep and a time to discard,",
+          "contents": [
+            "a time to search and a time to count as lost,",
+            {
+              "q2": null
+            },
+            "a time to keep and a time to discard,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "a time to tear and a time to mend, a time to be silent and a time to speak,",
+          "contents": [
+            "a time to tear and a time to mend,",
+            {
+              "q2": null
+            },
+            "a time to be silent and a time to speak,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "a time to love and a time to hate, a time for war and a time for peace.",
+          "contents": [
+            "a time to love and a time to hate,",
+            {
+              "q2": null
+            },
+            "a time for war and a time for peace.",
+            [
+              {
+                "s1": [
+                  "God’s Works Remain Forever"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "What does the worker gain from his toil?",
+          "contents": [
+            "What does the worker gain from his toil?"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "I have seen the burden that God has laid upon the sons of men to occupy them.",
+          "contents": [
+            "I have seen the burden that God has laid upon the sons of men to occupy them."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "He has made everything beautiful in its time. He has also set eternity in the hearts of men, yet they cannot fathom the work that God has done from beginning to end.",
+          "contents": [
+            "He has made everything beautiful in its time. He has also set eternity in the hearts of men, yet they cannot fathom the work that God has done from beginning to end.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "I know that there is nothing better for them than to rejoice and do good while they live,",
+          "contents": [
+            "I know that there is nothing better for them than to rejoice and do good while they live,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "and also that every man should eat and drink and find satisfaction in all his labor—this is the gift of God.",
+          "contents": [
+            "and also that every man should eat and drink and find satisfaction in all his labor—this is the gift of God."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I know that everything God does endures forever; nothing can be added to it or taken from it. God does it so that they should fear Him.",
+          "contents": [
+            "I know that everything God does endures forever; nothing can be added to it or taken from it. God does it so that they should fear Him."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "What exists has already been, and what will be has already been, for God will call to account what has passed.",
+          "contents": [
+            "What exists has already been, and what will be has already been, for God will call to account what has passed.",
+            [
+              {
+                "s1": [
+                  "From Dust to Dust"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Furthermore, I saw under the sun that in the place of judgment there is wickedness, and in the place of righteousness there is wickedness.",
+          "contents": [
+            "Furthermore, I saw under the sun that in the place of judgment there is wickedness, and in the place of righteousness there is wickedness."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "I said in my heart, “God will judge the righteous and the wicked, since there is a time for every activity and every deed.”",
+          "contents": [
+            "I said in my heart, “God will judge the righteous and the wicked, since there is a time for every activity and every deed.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "I said to myself, “As for the sons of men, God tests them so that they may see for themselves that they are but beasts.”",
+          "contents": [
+            "I said to myself, “As for the sons of men, God tests them so that they may see for themselves that they are but beasts.”"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "For the fates of both men and beasts are the same: As one dies, so dies the other—they all have the same breath. Man has no advantage over the animals, since everything is futile.",
+          "contents": [
+            "For the fates of both men and beasts are the same: As one dies, so dies the other—they all have the same breath.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:19"
+                },
+                {
+                  "ft": "Or spirit"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Man has no advantage over the animals, since everything is futile."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "All go to one place; all come from dust, and all return to dust.",
+          "contents": [
+            "All go to one place; all come from dust, and all return to dust.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Who knows if the spirit of man rises upward and the spirit of the animal descends into the earth?",
+          "contents": [
+            "Who knows if the spirit of man rises upward and the spirit of the animal descends into the earth?"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "I have seen that there is nothing better for a man than to enjoy his work, because that is his lot. For who can bring him to see what will come after him?",
+          "contents": [
+            "I have seen that there is nothing better for a man than to enjoy his work, because that is his lot. For who can bring him to see what will come after him?"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Evil of Oppression"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Again I looked, and I considered all the oppression taking place under the sun. I saw the tears of the oppressed, and they had no comforter; the power lay in the hands of their oppressors, and there was no comforter.",
+          "contents": [
+            "Again I looked, and I considered all the oppression taking place under the sun. I saw the tears of the oppressed, and they had no comforter; the power lay in the hands of their oppressors, and there was no comforter."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "So I admired the dead, who had already died, above the living, who are still alive.",
+          "contents": [
+            "So I admired the dead, who had already died, above the living, who are still alive."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "But better than both is he who has not yet existed, who has not seen the evil that is done under the sun.",
+          "contents": [
+            "But better than both is he who has not yet existed, who has not seen the evil that is done under the sun.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I saw that all labor and success spring from a man’s envy of his neighbor. This too is futile and a pursuit of the wind.",
+          "contents": [
+            "I saw that all labor and success spring from a man’s envy of his neighbor. This too is futile and a pursuit of the wind.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The fool folds his hands and consumes his own flesh.",
+          "contents": [
+            "The fool folds his hands",
+            {
+              "q2": null
+            },
+            "and consumes his own flesh.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Better one handful with tranquility than two handfuls with toil and pursuit of the wind.",
+          "contents": [
+            "Better one handful with tranquility",
+            {
+              "q2": null
+            },
+            "than two handfuls with toil and pursuit of the wind.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Again, I saw futility under the sun.",
+          "contents": [
+            "Again, I saw futility under the sun."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "There is a man all alone, without even a son or brother. And though there is no end to his labor, his eyes are still not content with his wealth: “For whom do I toil and bereave my soul of enjoyment?” This too is futile—a miserable task.",
+          "contents": [
+            "There is a man all alone, without even a son or brother. And though there is no end to his labor, his eyes are still not content with his wealth: “For whom do I toil and bereave my soul of enjoyment?” This too is futile—a miserable task.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Two are better than one, because they have a good return for their labor.",
+          "contents": [
+            "Two are better than one, because they have a good return for their labor."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For if one falls down, his companion can lift him up; but pity the one who falls without another to help him up!",
+          "contents": [
+            "For if one falls down, his companion can lift him up; but pity the one who falls without another to help him up!"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Again, if two lie down together, they will keep warm; but how can one keep warm alone?",
+          "contents": [
+            "Again, if two lie down together, they will keep warm; but how can one keep warm alone?"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "And though one may be overpowered, two can resist. Moreover, a cord of three strands is not quickly broken.",
+          "contents": [
+            "And though one may be overpowered, two can resist. Moreover, a cord of three strands is not quickly broken.",
+            [
+              {
+                "s1": [
+                  "The Futility of Power"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Better is a poor but wise youth than an old but foolish king who no longer knows how to take a warning.",
+          "contents": [
+            "Better is a poor but wise youth than an old but foolish king who no longer knows how to take a warning."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For the youth has come from the prison to the kingship, though he was born poor in his own kingdom.",
+          "contents": [
+            "For the youth has come from the prison to the kingship, though he was born poor in his own kingdom.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "I saw that all who lived and walked under the sun followed this second one, the youth who succeeded the king.",
+          "contents": [
+            "I saw that all who lived and walked under the sun followed this second one, the youth who succeeded the king."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "There is no limit to all the people who were before them. Yet the successor will not be celebrated by those who come even later. This too is futile and a pursuit of the wind.",
+          "contents": [
+            "There is no limit to all the people who were before them. Yet the successor will not be celebrated by those who come even later. This too is futile and a pursuit of the wind."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Approaching God with Awe"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Guard your steps when you go to the house of God. Draw near to listen rather than to offer the sacrifice of fools, who do not know that they do wrong.",
+          "contents": [
+            "Guard your steps when you go to the house of God. Draw near to listen rather than to offer the sacrifice of fools, who do not know that they do wrong."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Do not be quick to speak, and do not be hasty in your heart to utter a word before God. After all, God is in heaven and you are on earth. So let your words be few.",
+          "contents": [
+            "Do not be quick to speak, and do not be hasty in your heart to utter a word before God. After all, God is in heaven and you are on earth. So let your words be few.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "As a dream comes through many cares, so the speech of a fool comes with many words.",
+          "contents": [
+            "As a dream comes through many cares,",
+            {
+              "q2": null
+            },
+            "so the speech of a fool comes with many words.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "When you make a vow to God, do not delay in fulfilling it, because He takes no pleasure in fools. Fulfill your vow.",
+          "contents": [
+            "When you make a vow to God, do not delay in fulfilling it, because He takes no pleasure in fools. Fulfill your vow."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "It is better not to vow than to make a vow and not fulfill it.",
+          "contents": [
+            "It is better not to vow than to make a vow and not fulfill it.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Do not let your mouth cause your flesh to sin, and do not tell the messenger that your vow was a mistake. Why should God be angry with your words and destroy the work of your hands?",
+          "contents": [
+            "Do not let your mouth cause your flesh to sin, and do not tell the messenger",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:6"
+                },
+                {
+                  "ft": "Or angel"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "that your vow was a mistake. Why should God be angry with your words and destroy the work of your hands?"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For as many dreams bring futility, so do many words. Therefore, fear God.",
+          "contents": [
+            "For as many dreams bring futility, so do many words. Therefore, fear God.",
+            [
+              {
+                "s1": [
+                  "The Futility of Wealth"
+                ]
+              },
+              {
+                "r": [
+                  "(Psalm 49:1–20)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "If you see the oppression of the poor and the denial of justice and righteousness in the province, do not be astonished at the matter; for one official is watched by a superior, and others higher still are over them.",
+          "contents": [
+            "If you see the oppression of the poor and the denial of justice and righteousness in the province, do not be astonished at the matter; for one official is watched by a superior, and others higher still are over them."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "The produce of the earth is taken by all; the king himself profits from the fields.",
+          "contents": [
+            "The produce of the earth is taken by all; the king himself profits from the fields.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He who loves money is never satisfied by money, and he who loves wealth is never satisfied by income. This too is futile.",
+          "contents": [
+            "He who loves money is never satisfied by money, and he who loves wealth is never satisfied by income. This too is futile."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "When good things increase, so do those who consume them; what then is the profit to the owner, except to behold them with his eyes?",
+          "contents": [
+            "When good things increase, so do those who consume them; what then is the profit to the owner, except to behold them with his eyes?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The sleep of the worker is sweet, whether he eats little or much, but the abundance of the rich man permits him no sleep.",
+          "contents": [
+            "The sleep of the worker is sweet, whether he eats little or much, but the abundance of the rich man permits him no sleep.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "There is a grievous evil I have seen under the sun: wealth hoarded to the harm of its owner,",
+          "contents": [
+            "There is a grievous evil I have seen under the sun: wealth hoarded to the harm of its owner,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "or wealth lost in a failed venture, so when that man has a son there is nothing to pass on.",
+          "contents": [
+            "or wealth lost in a failed venture, so when that man has a son there is nothing to pass on.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "As a man came from his mother’s womb, so he will depart again, naked as he arrived. He takes nothing for his labor to carry in his hands.",
+          "contents": [
+            "As a man came from his mother’s womb, so he will depart again, naked as he arrived. He takes nothing for his labor to carry in his hands."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "This too is a grievous evil: Exactly as a man is born, so he will depart. What does he gain as he toils for the wind?",
+          "contents": [
+            "This too is a grievous evil: Exactly as a man is born, so he will depart. What does he gain as he toils for the wind?"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Moreover, all his days he eats in darkness, with much sorrow, sickness, and anger.",
+          "contents": [
+            "Moreover, all his days he eats in darkness, with much sorrow, sickness, and anger.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Here is what I have seen to be good and fitting: to eat and drink, and to find satisfaction in all the labor one does under the sun during the few days of life that God has given him—for this is his lot.",
+          "contents": [
+            "Here is what I have seen to be good and fitting: to eat and drink, and to find satisfaction in all the labor one does under the sun during the few days of life that God has given him—for this is his lot.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Furthermore, God has given riches and wealth to every man, and He has enabled him to enjoy them, to accept his lot, and to rejoice in his labor. This is a gift from God.",
+          "contents": [
+            "Furthermore, God has given riches and wealth to every man, and He has enabled him to enjoy them, to accept his lot, and to rejoice in his labor. This is a gift from God."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For a man seldom considers the days of his life, because God keeps him occupied with the joy of his heart.",
+          "contents": [
+            "For a man seldom considers the days of his life, because God keeps him occupied with the joy of his heart."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Futility of Life"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "There is another evil I have seen under the sun, and it weighs heavily upon mankind:",
+          "contents": [
+            "There is another evil I have seen under the sun, and it weighs heavily upon mankind:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is futile and a grievous affliction.",
+          "contents": [
+            "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is futile and a grievous affliction.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he.",
+          "contents": [
+            "A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For a stillborn child enters in futility and departs in darkness, and his name is shrouded in obscurity.",
+          "contents": [
+            "For a stillborn child enters in futility and departs in darkness, and his name is shrouded in obscurity."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The child, though neither seeing the sun nor knowing anything, has more rest than that man,",
+          "contents": [
+            "The child, though neither seeing the sun nor knowing anything, has more rest than that man,"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "even if he lives a thousand years twice over but fails to enjoy his prosperity. Do not all go to the same place?",
+          "contents": [
+            "even if he lives a thousand years twice over but fails to enjoy his prosperity. Do not all go to the same place?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "All a man’s labor is for his mouth, yet his appetite is never satisfied.",
+          "contents": [
+            "All a man’s labor is for his mouth,",
+            {
+              "q2": null
+            },
+            "yet his appetite is never satisfied.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:7"
+                },
+                {
+                  "ft": "Hebrew filled"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "What advantage, then, has the wise man over the fool? What gain comes to the poor man who knows how to conduct himself before others?",
+          "contents": [
+            "What advantage, then, has the wise man over the fool? What gain comes to the poor man who knows how to conduct himself before others?"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Better what the eye can see than the wandering of desire. This too is futile and a pursuit of the wind.",
+          "contents": [
+            "Better what the eye can see than the wandering of desire. This too is futile and a pursuit of the wind.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Whatever exists was named long ago, and what happens to a man is foreknown; but he cannot contend with one stronger than he.",
+          "contents": [
+            "Whatever exists was named long ago, and what happens to a man is foreknown; but he cannot contend with one stronger than he."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For the more words, the more futility—and how does that profit anyone?",
+          "contents": [
+            "For the more words, the more futility—and how does that profit anyone?"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For who knows what is good for a man during the few days in which he passes through his fleeting life like a shadow? Who can tell a man what will come after him under the sun?",
+          "contents": [
+            "For who knows what is good for a man during the few days in which he passes through his fleeting life like a shadow? Who can tell a man what will come after him under the sun?"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "7",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Value of Wisdom"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "A good name is better than fine perfume, and one’s day of death is better than his day of birth.",
+          "contents": [
+            "A good name is better than fine perfume,",
+            {
+              "q2": null
+            },
+            "and one’s day of death is better than his day of birth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "It is better to enter a house of mourning than a house of feasting, since death is the end of every man, and the living should take this to heart.",
+          "contents": [
+            "It is better to enter a house of mourning",
+            {
+              "q2": null
+            },
+            "than a house of feasting,",
+            {
+              "q1": null
+            },
+            "since death is the end of every man,",
+            {
+              "q2": null
+            },
+            "and the living should take this to heart.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Sorrow is better than laughter, for a sad countenance is good for the heart.",
+          "contents": [
+            "Sorrow is better than laughter,",
+            {
+              "q2": null
+            },
+            "for a sad countenance is good for the heart.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The heart of the wise is in the house of mourning, but the heart of fools is in the house of pleasure.",
+          "contents": [
+            "The heart of the wise is in the house of mourning,",
+            {
+              "q2": null
+            },
+            "but the heart of fools is in the house of pleasure.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "It is better to heed a wise man’s rebuke than to listen to the song of fools.",
+          "contents": [
+            "It is better to heed a wise man’s rebuke",
+            {
+              "q2": null
+            },
+            "than to listen to the song of fools.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For like the crackling of thorns under the pot, so is the laughter of the fool. This too is futile.",
+          "contents": [
+            "For like the crackling of thorns under the pot,",
+            {
+              "q2": null
+            },
+            "so is the laughter of the fool. This too is futile.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Surely extortion turns a wise man into a fool, and a bribe corrupts the heart.",
+          "contents": [
+            "Surely extortion turns a wise man into a fool,",
+            {
+              "q2": null
+            },
+            "and a bribe corrupts the heart.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "The end of a matter is better than the beginning, and a patient spirit is better than a proud one.",
+          "contents": [
+            "The end of a matter is better than the beginning,",
+            {
+              "q2": null
+            },
+            "and a patient spirit is better than a proud one.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Do not be quickly provoked in your spirit, for anger settles in the lap of a fool.",
+          "contents": [
+            "Do not be quickly provoked in your spirit,",
+            {
+              "q2": null
+            },
+            "for anger settles in the lap of a fool.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:9"
+                },
+                {
+                  "ft": "Hebrew in the bosom of fools"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Do not say, “Why were the old days better than these?” For it is unwise of you to ask about this.",
+          "contents": [
+            "Do not say, “Why were the old days better than these?”",
+            {
+              "q2": null
+            },
+            "For it is unwise of you to ask about this.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Wisdom, like an inheritance, is good, and it benefits those who see the sun.",
+          "contents": [
+            "Wisdom, like an inheritance, is good,",
+            {
+              "q2": null
+            },
+            "and it benefits those who see the sun.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For wisdom, like money, is a shelter, and the advantage of knowledge is that wisdom preserves the life of its owner.",
+          "contents": [
+            "For wisdom, like money, is a shelter,",
+            {
+              "q2": null
+            },
+            "and the advantage of knowledge",
+            {
+              "q2": null
+            },
+            "is that wisdom preserves the life of its owner.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Consider the work of God: Who can straighten what He has bent?",
+          "contents": [
+            "Consider the work of God:",
+            {
+              "q2": null
+            },
+            "Who can straighten what He has bent?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "In the day of prosperity, be joyful, but in the day of adversity, consider this: God has made one of these along with the other, so that a man cannot discover anything that will come after him.",
+          "contents": [
+            "In the day of prosperity, be joyful,",
+            {
+              "q2": null
+            },
+            "but in the day of adversity, consider this:",
+            {
+              "q1": null
+            },
+            "God has made one of these along with the other,",
+            {
+              "q2": null
+            },
+            "so that a man cannot discover",
+            {
+              "q2": null
+            },
+            "anything that will come after him.",
+            [
+              {
+                "s1": [
+                  "The Limits of Human Wisdom"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "In my futile life I have seen both of these: A righteous man perishing in his righteousness, and a wicked man living long in his wickedness.",
+          "contents": [
+            "In my futile life I have seen both of these:",
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "A righteous man perishing in his righteousness,"
+                  ]
+                }
+              ]
+            },
+            {
+              "b": null
+            },
+            {
+              "list": [
+                {
+                  "li1": [
+                    "and a wicked man living long in his wickedness."
+                  ]
+                }
+              ]
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Do not be overly righteous, and do not make yourself too wise. Why should you destroy yourself?",
+          "contents": [
+            "Do not be overly righteous, and do not make yourself too wise. Why should you destroy yourself?"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Do not be excessively wicked, and do not be a fool. Why should you die before your time?",
+          "contents": [
+            "Do not be excessively wicked, and do not be a fool. Why should you die before your time?"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "It is good to grasp the one and not let the other slip from your hand. For he who fears God will follow both warnings.",
+          "contents": [
+            "It is good to grasp the one and not let the other slip from your hand. For he who fears God will follow both warnings.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:18"
+                },
+                {
+                  "ft": "Or will avoid all extremes"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Wisdom makes the wise man stronger than ten rulers in a city.",
+          "contents": [
+            "Wisdom makes the wise man",
+            {
+              "q2": null
+            },
+            "stronger than ten rulers in a city.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Surely there is no righteous man on earth who does good and never sins.",
+          "contents": [
+            "Surely there is no righteous man on earth",
+            {
+              "q2": null
+            },
+            "who does good and never sins.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Do not pay attention to every word that is spoken, or you may hear your servant cursing you.",
+          "contents": [
+            "Do not pay attention to every word that is spoken, or you may hear your servant cursing you."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "For you know in your heart that many times you yourself have cursed others.",
+          "contents": [
+            "For you know in your heart that many times you yourself have cursed others.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "All this I tested by wisdom, saying, “I resolve to be wise.” But it was beyond me.",
+          "contents": [
+            "All this I tested by wisdom, saying, “I resolve to be wise.” But it was beyond me."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "What exists is out of reach and very deep. Who can fathom it?",
+          "contents": [
+            "What exists is out of reach and very deep. Who can fathom it?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "I directed my mind to understand, to explore, to search out wisdom and explanations, and to understand the stupidity of wickedness and the folly of madness.",
+          "contents": [
+            "I directed my mind to understand, to explore, to search out wisdom and explanations, and to understand the stupidity of wickedness and the folly of madness."
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "And I find more bitter than death the woman who is a snare, whose heart is a net, and whose hands are chains. The man who pleases God escapes her, but the sinner is ensnared.",
+          "contents": [
+            "And I find more bitter than death the woman who is a snare, whose heart is a net, and whose hands are chains. The man who pleases God escapes her, but the sinner is ensnared.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "“Behold,” says the Teacher, “I have discovered this by adding one thing to another to find an explanation.",
+          "contents": [
+            "“Behold,” says the Teacher, “I have discovered this by adding one thing to another to find an explanation."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "While my soul was still searching but not finding, among a thousand I have found one upright man, but among all these I have not found one such woman.",
+          "contents": [
+            "While my soul was still searching but not finding, among a thousand I have found one upright man, but among all these I have not found one such woman."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Only this have I found: I have discovered that God made men upright, but they have sought out many schemes.”",
+          "contents": [
+            "Only this have I found: I have discovered that God made men upright, but they have sought out many schemes.”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "8",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Obey the King"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Who is like the wise man? Who knows the interpretation of a matter? A man’s wisdom brightens his face, and the sternness of his face is changed.",
+          "contents": [
+            "Who is like the wise man? Who knows the interpretation of a matter? A man’s wisdom brightens his face, and the sternness of his face is changed.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Keep the king’s command, I say, because of your oath before God.",
+          "contents": [
+            "Keep the king’s command, I say, because of your oath before God."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Do not hasten to leave his presence, and do not persist in a bad cause, for he will do whatever he pleases.",
+          "contents": [
+            "Do not hasten to leave his presence, and do not persist in a bad cause, for he will do whatever he pleases."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For the king’s word is supreme, and who can say to him, “What are you doing?”",
+          "contents": [
+            "For the king’s word is supreme, and who can say to him, “What are you doing?”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Whoever keeps his command will come to no harm, and a wise heart knows the right time and procedure.",
+          "contents": [
+            "Whoever keeps his command will come to no harm, and a wise heart knows the right time and procedure."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For there is a right time and procedure to every purpose, though a man’s misery weighs heavily upon him.",
+          "contents": [
+            "For there is a right time and procedure to every purpose, though a man’s misery weighs heavily upon him."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Since no one knows what will happen, who can tell him what is to come?",
+          "contents": [
+            "Since no one knows what will happen, who can tell him what is to come?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "As no man has power over the wind to contain it, so no one has authority over his day of death. As no one can be discharged in wartime, so wickedness will not release those who practice it.",
+          "contents": [
+            "As no man has power over the wind to contain it, so no one has authority over his day of death. As no one can be discharged in wartime, so wickedness will not release those who practice it."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "All this I have seen, applying my mind to every deed that is done under the sun; there is a time when one man lords it over another to his own detriment.",
+          "contents": [
+            "All this I have seen, applying my mind to every deed that is done under the sun; there is a time when one man lords it over another to his own detriment.",
+            [
+              {
+                "s1": [
+                  "Fear God"
+                ]
+              },
+              {
+                "r": [
+                  "(Isaiah 8:11–15)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Then too, I saw the burial of the wicked who used to go in and out of the holy place, and they were praised in the city where they had done so. This too is futile.",
+          "contents": [
+            "Then too, I saw the burial of the wicked who used to go in and out of the holy place, and they were praised",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:10"
+                },
+                {
+                  "ft": "Some Hebrew manuscripts, LXX, and Vulgate; most Hebrew manuscripts were soon forgotten"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "in the city where they had done so. This too is futile."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "When the sentence for a crime is not speedily executed, the hearts of men become fully set on doing evil.",
+          "contents": [
+            "When the sentence for a crime is not speedily executed, the hearts of men become fully set on doing evil.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Although a sinner does evil a hundred times and still lives long, yet I also know that it will go well with those who fear God, who are reverent in His presence.",
+          "contents": [
+            "Although a sinner does evil a hundred times and still lives long, yet I also know that it will go well with those who fear God, who are reverent in His presence."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Yet because the wicked do not fear God, it will not go well with them, and their days will not lengthen like a shadow.",
+          "contents": [
+            "Yet because the wicked do not fear God, it will not go well with them, and their days will not lengthen like a shadow.",
+            [
+              {
+                "s1": [
+                  "God’s Ways Are Mysterious"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "There is a futility that is done on the earth: There are righteous men who get what the actions of the wicked deserve, and there are wicked men who get what the actions of the righteous deserve. I say that this too is futile.",
+          "contents": [
+            "There is a futility that is done on the earth: There are righteous men who get what the actions of the wicked deserve, and there are wicked men who get what the actions of the righteous deserve. I say that this too is futile.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "So I commended the enjoyment of life, because there is nothing better for a man under the sun than to eat and drink and be merry. For this joy will accompany him in his labor during the days of his life that God gives him under the sun.",
+          "contents": [
+            "So I commended the enjoyment of life, because there is nothing better for a man under the sun than to eat and drink and be merry. For this joy will accompany him in his labor during the days of his life that God gives him under the sun.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "When I applied my mind to know wisdom and to observe the task that one performs on the earth—though his eyes do not see sleep in the day or even in the night—",
+          "contents": [
+            "When I applied my mind to know wisdom and to observe the task that one performs on the earth—though his eyes do not see sleep in the day or even in the night—"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "I saw every work of God, and that a man is unable to comprehend the work that is done under the sun. Despite his efforts to search it out, he cannot find its meaning; even if the wise man claims to know, he is unable to comprehend.",
+          "contents": [
+            "I saw every work of God, and that a man is unable to comprehend the work that is done under the sun. Despite his efforts to search it out, he cannot find its meaning; even if the wise man claims to know, he is unable to comprehend."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "9",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Death Comes to Good and Bad"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "So I took all this to heart and concluded that the righteous and the wise, as well as their deeds, are in God’s hands. Man does not know what lies ahead, whether love or hate.",
+          "contents": [
+            "So I took all this to heart and concluded that the righteous and the wise, as well as their deeds, are in God’s hands. Man does not know what lies ahead, whether love or hate.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "It is the same for all: There is a common fate for the righteous and the wicked, for the good and the bad, for the clean and the unclean, for the one who sacrifices and the one who does not. As it is for the good, so it is for the sinner; as it is for the one who makes a vow, so it is for the one who refuses to take a vow.",
+          "contents": [
+            "It is the same for all: There is a common fate for the righteous and the wicked, for the good and the bad,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:2"
+                },
+                {
+                  "ft": "LXX, Syriac, and Vulgate; Hebrew does not include and the bad."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for the clean and the unclean, for the one who sacrifices and the one who does not. As it is for the good, so it is for the sinner; as it is for the one who makes a vow, so it is for the one who refuses to take a vow.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "This is an evil in everything that is done under the sun: There is one fate for everyone. Furthermore, the hearts of men are full of evil and madness while they are alive, and afterward they join the dead.",
+          "contents": [
+            "This is an evil in everything that is done under the sun: There is one fate for everyone. Furthermore, the hearts of men are full of evil and madness while they are alive, and afterward they join the dead.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "There is hope, however, for anyone who is among the living; for even a live dog is better than a dead lion.",
+          "contents": [
+            "There is hope, however, for anyone who is among the living; for even a live dog is better than a dead lion."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For the living know that they will die, but the dead know nothing. They have no further reward, because the memory of them is forgotten.",
+          "contents": [
+            "For the living know that they will die, but the dead know nothing. They have no further reward, because the memory of them is forgotten."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Their love, their hate, and their envy have already vanished, and they will never again have a share in all that is done under the sun.",
+          "contents": [
+            "Their love, their hate, and their envy have already vanished, and they will never again have a share in all that is done under the sun.",
+            [
+              {
+                "s1": [
+                  "Enjoy Your Portion in This Life"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Go, eat your bread with joy, and drink your wine with a cheerful heart, for God has already approved your works:",
+          "contents": [
+            "Go, eat your bread with joy, and drink your wine with a cheerful heart, for God has already approved your works:",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Let your garments always be white, and never spare the oil for your head.",
+          "contents": [
+            "Let your garments always be white,",
+            {
+              "q2": null
+            },
+            "and never spare the oil for your head.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Enjoy life with your beloved wife all the days of the fleeting life that God has given you under the sun—all your fleeting days. For this is your portion in life and in your labor under the sun.",
+          "contents": [
+            "Enjoy life with your beloved wife all the days of the fleeting",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:9"
+                },
+                {
+                  "ft": "Or futile; twice in this verse"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "life that God has given you under the sun—all your fleeting days. For this is your portion in life and in your labor under the sun."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Whatever you find to do with your hands, do it with all your might, for in Sheol, where you are going, there is no work or planning or knowledge or wisdom.",
+          "contents": [
+            "Whatever you find to do with your hands, do it with all your might, for in Sheol, where you are going, there is no work or planning or knowledge or wisdom.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "I saw something else under the sun: The race is not to the swift, nor the battle to the strong; neither is the bread to the wise, nor the wealth to the intelligent, nor the favor to the skillful. For time and chance happen to all.",
+          "contents": [
+            "I saw something else under the sun: The race is not to the swift, nor the battle to the strong; neither is the bread to the wise, nor the wealth to the intelligent, nor the favor to the skillful. For time and chance happen to all."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For surely no man knows his time: Like fish caught in a cruel net or birds trapped in a snare, so men are ensnared in an evil time that suddenly falls upon them.",
+          "contents": [
+            "For surely no man knows his time: Like fish caught in a cruel net or birds trapped in a snare, so men are ensnared in an evil time that suddenly falls upon them.",
+            [
+              {
+                "s1": [
+                  "Wisdom Is Better than Strength"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I have also seen this wisdom under the sun, and it was great to me:",
+          "contents": [
+            "I have also seen this wisdom under the sun, and it was great to me:"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "There was a small city with few men. A mighty king came against it, surrounded it, and built large siege ramps against it.",
+          "contents": [
+            "There was a small city with few men. A mighty king came against it, surrounded it, and built large siege ramps against it.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Now a poor wise man was found in the city, and he saved the city by his wisdom. Yet no one remembered that poor man.",
+          "contents": [
+            "Now a poor wise man was found in the city, and he saved the city by his wisdom. Yet no one remembered that poor man."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "And I said, “Wisdom is better than strength, but the wisdom of the poor man is despised, and his words are not heeded.”",
+          "contents": [
+            "And I said, “Wisdom is better than strength, but the wisdom of the poor man is despised, and his words are not heeded.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "The calm words of the wise are heeded over the shouts of a ruler among fools.",
+          "contents": [
+            "The calm words of the wise are heeded",
+            {
+              "q2": null
+            },
+            "over the shouts of a ruler among fools.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Wisdom is better than weapons of war, but one sinner destroys much good.",
+          "contents": [
+            "Wisdom is better than weapons of war,",
+            {
+              "q2": null
+            },
+            "but one sinner destroys much good."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "10",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Wisdom and Folly"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "As dead flies bring a stench to the perfumer’s oil, so a little folly outweighs wisdom and honor.",
+          "contents": [
+            "As dead flies bring a stench to the perfumer’s oil,",
+            {
+              "q2": null
+            },
+            "so a little folly outweighs wisdom and honor.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "A wise man’s heart inclines to the right, but the heart of a fool to the left.",
+          "contents": [
+            "A wise man’s heart inclines to the right,",
+            {
+              "q2": null
+            },
+            "but the heart of a fool to the left.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Even as the fool walks along the road, his sense is lacking, and he shows everyone that he is a fool.",
+          "contents": [
+            "Even as the fool walks along the road, his sense is lacking,",
+            {
+              "q2": null
+            },
+            "and he shows everyone that he is a fool.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "If the ruler’s temper flares against you, do not abandon your post, for calmness lays great offenses to rest.",
+          "contents": [
+            "If the ruler’s temper flares against you, do not abandon your post,",
+            {
+              "q2": null
+            },
+            "for calmness lays great offenses to rest.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "There is an evil I have seen under the sun—an error that proceeds from the ruler:",
+          "contents": [
+            "There is an evil I have seen under the sun—",
+            {
+              "q2": null
+            },
+            "an error that proceeds from the ruler:",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Folly is appointed to great heights, but the rich sit in lowly positions.",
+          "contents": [
+            "Folly is appointed to great heights,",
+            {
+              "q2": null
+            },
+            "but the rich sit in lowly positions.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "I have seen slaves on horseback, while princes go on foot like slaves.",
+          "contents": [
+            "I have seen slaves on horseback,",
+            {
+              "q2": null
+            },
+            "while princes go on foot like slaves.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "He who digs a pit may fall into it, and he who breaches a wall may be bitten by a snake.",
+          "contents": [
+            "He who digs a pit may fall into it,",
+            {
+              "q2": null
+            },
+            "and he who breaches a wall may be bitten by a snake.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "The one who quarries stones may be injured by them, and he who splits logs endangers himself.",
+          "contents": [
+            "The one who quarries stones may be injured by them,",
+            {
+              "q2": null
+            },
+            "and he who splits logs endangers himself.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "If the axe is dull and the blade unsharpened, more strength must be exerted, but skill produces success.",
+          "contents": [
+            "If the axe is dull and the blade unsharpened,",
+            {
+              "q2": null
+            },
+            "more strength must be exerted,",
+            {
+              "q2": null
+            },
+            "but skill produces success.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "If the snake bites before it is charmed, there is no profit for the charmer.",
+          "contents": [
+            "If the snake bites before it is charmed,",
+            {
+              "q2": null
+            },
+            "there is no profit for the charmer.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The words of a wise man’s mouth are gracious, but the lips of a fool consume him.",
+          "contents": [
+            "The words of a wise man’s mouth are gracious,",
+            {
+              "q2": null
+            },
+            "but the lips of a fool consume him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "The beginning of his talk is folly, and the end of his speech is evil madness.",
+          "contents": [
+            "The beginning of his talk is folly,",
+            {
+              "q2": null
+            },
+            "and the end of his speech is evil madness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Yet the fool multiplies words. No one knows what is coming, and who can tell him what will come after him?",
+          "contents": [
+            "Yet the fool multiplies words.",
+            {
+              "q2": null
+            },
+            "No one knows what is coming,",
+            {
+              "q2": null
+            },
+            "and who can tell him what will come after him?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "The toil of a fool wearies him, for he does not know the way to the city.",
+          "contents": [
+            "The toil of a fool wearies him,",
+            {
+              "q2": null
+            },
+            "for he does not know the way to the city.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Woe to you, O land whose king is a youth, and whose princes feast in the morning.",
+          "contents": [
+            "Woe to you, O land whose king is a youth,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:16"
+                },
+                {
+                  "ft": "Or a servant"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and whose princes feast in the morning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Blessed are you, O land whose king is a son of nobles, and whose princes feast at the proper time—for strength and not for drunkenness.",
+          "contents": [
+            "Blessed are you, O land whose king is a son of nobles,",
+            {
+              "q2": null
+            },
+            "and whose princes feast at the proper time—",
+            {
+              "q2": null
+            },
+            "for strength and not for drunkenness.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Through laziness the roof caves in, and in the hands of the idle, the house leaks.",
+          "contents": [
+            "Through laziness the roof caves in,",
+            {
+              "q2": null
+            },
+            "and in the hands of the idle, the house leaks.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "A feast is prepared for laughter, and wine makes life merry, but money is the answer for everything.",
+          "contents": [
+            "A feast is prepared for laughter, and wine makes life merry,",
+            {
+              "q2": null
+            },
+            "but money is the answer for everything.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Do not curse the king even in your thoughts, or curse the rich even in your bedroom, for a bird of the air may carry your words, and a winged creature may report your speech.",
+          "contents": [
+            "Do not curse the king even in your thoughts,",
+            {
+              "q2": null
+            },
+            "or curse the rich even in your bedroom,",
+            {
+              "q1": null
+            },
+            "for a bird of the air may carry your words,",
+            {
+              "q2": null
+            },
+            "and a winged creature may report your speech."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "11",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Cast Your Bread upon the Waters"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Cast your bread upon the waters, for after many days you will find it again.",
+          "contents": [
+            "Cast your bread upon the waters,",
+            {
+              "q2": null
+            },
+            "for after many days you will find it again.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Divide your portion among seven, or even eight, for you do not know what disaster may befall the land.",
+          "contents": [
+            "Divide your portion among seven, or even eight,",
+            {
+              "q2": null
+            },
+            "for you do not know what disaster may befall the land.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "If the clouds are full, they will pour out rain upon the earth; whether a tree falls to the south or to the north, in the place where it falls, there it will lie.",
+          "contents": [
+            "If the clouds are full,",
+            {
+              "q2": null
+            },
+            "they will pour out rain upon the earth;",
+            {
+              "q1": null
+            },
+            "whether a tree falls to the south or to the north,",
+            {
+              "q2": null
+            },
+            "in the place where it falls, there it will lie.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "He who watches the wind will fail to sow, and he who observes the clouds will fail to reap.",
+          "contents": [
+            "He who watches the wind will fail to sow,",
+            {
+              "q2": null
+            },
+            "and he who observes the clouds will fail to reap.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "As you do not know the path of the wind, or how the bones are formed in a mother’s womb, so you cannot understand the work of God, the Maker of all things.",
+          "contents": [
+            "As you do not know the path of the wind,",
+            {
+              "q2": null
+            },
+            "or how the bones are formed",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:5"
+                },
+                {
+                  "ft": "Or As you do not know the way the spirit comes to the bones"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "in a mother’s womb,",
+            {
+              "q1": null
+            },
+            "so you cannot understand the work of God,",
+            {
+              "q2": null
+            },
+            "the Maker of all things.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Sow your seed in the morning, and do not rest your hands in the evening, for you do not know which will succeed, whether this or that, or if both will equally prosper.",
+          "contents": [
+            "Sow your seed in the morning,",
+            {
+              "q2": null
+            },
+            "and do not rest your hands in the evening,",
+            {
+              "q1": null
+            },
+            "for you do not know which will succeed,",
+            {
+              "q2": null
+            },
+            "whether this or that, or if both will equally prosper.",
+            [
+              {
+                "s1": [
+                  "Enjoy Your Years"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Light is sweet, and it pleases the eyes to see the sun.",
+          "contents": [
+            "Light is sweet,",
+            {
+              "q2": null
+            },
+            "and it pleases the eyes to see the sun.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "So if a man lives many years, let him rejoice in them all. But let him remember the days of darkness, for they will be many. Everything to come is futile.",
+          "contents": [
+            "So if a man lives many years,",
+            {
+              "q2": null
+            },
+            "let him rejoice in them all.",
+            {
+              "q1": null
+            },
+            "But let him remember the days of darkness,",
+            {
+              "q2": null
+            },
+            "for they will be many.",
+            {
+              "q2": null
+            },
+            "Everything to come is futile.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Rejoice, O young man, while you are young, and let your heart be glad in the days of your youth. Walk in the ways of your heart and in the sight of your eyes, but know that for all these things God will bring you to judgment.",
+          "contents": [
+            "Rejoice, O young man, while you are young,",
+            {
+              "q2": null
+            },
+            "and let your heart be glad in the days of your youth.",
+            {
+              "q1": null
+            },
+            "Walk in the ways of your heart",
+            {
+              "q2": null
+            },
+            "and in the sight of your eyes,",
+            {
+              "q1": null
+            },
+            "but know that for all these things",
+            {
+              "q2": null
+            },
+            "God will bring you to judgment.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "So banish sorrow from your heart, and cast off pain from your body, for youth and vigor are fleeting.",
+          "contents": [
+            "So banish sorrow from your heart,",
+            {
+              "q2": null
+            },
+            "and cast off pain from your body,",
+            {
+              "q2": null
+            },
+            "for youth and vigor are fleeting.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:10"
+                },
+                {
+                  "ft": "Or futile"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "12",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Remember Your Creator"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Remember your Creator in the days of your youth, before the days of adversity come and the years approach of which you will say, “I find no pleasure in them,”",
+          "contents": [
+            "Remember your Creator in the days of your youth,",
+            {
+              "q2": null
+            },
+            "before the days of adversity come",
+            {
+              "q1": null
+            },
+            "and the years approach of which you will say,",
+            {
+              "q2": null
+            },
+            "“I find no pleasure in them,”",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "before the light of the sun, moon, and stars is darkened, and the clouds return after the rain,",
+          "contents": [
+            "before the light of the sun, moon, and stars is darkened,",
+            {
+              "q2": null
+            },
+            "and the clouds return after the rain,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "on the day the keepers of the house tremble and the strong men stoop, when those grinding cease because they are few and those watching through windows see dimly,",
+          "contents": [
+            "on the day the keepers of the house tremble",
+            {
+              "q2": null
+            },
+            "and the strong men stoop,",
+            {
+              "q1": null
+            },
+            "when those grinding cease because they are few",
+            {
+              "q2": null
+            },
+            "and those watching through windows see dimly,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "when the doors to the street are shut and the sound of the mill fades away, when one rises at the sound of a bird and all the daughters of song grow faint,",
+          "contents": [
+            "when the doors to the street are shut",
+            {
+              "q2": null
+            },
+            "and the sound of the mill fades away,",
+            {
+              "q1": null
+            },
+            "when one rises at the sound of a bird",
+            {
+              "q2": null
+            },
+            "and all the daughters of song grow faint,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "when men fear the heights and dangers of the road, when the almond tree blossoms, the grasshopper loses its spring, and the caper berry shrivels—for then man goes to his eternal home and mourners walk the streets.",
+          "contents": [
+            "when men fear the heights and dangers of the road,",
+            {
+              "q2": null
+            },
+            "when the almond tree blossoms,",
+            {
+              "q1": null
+            },
+            "the grasshopper loses its spring,",
+            {
+              "q2": null
+            },
+            "and the caper berry shrivels—",
+            {
+              "q1": null
+            },
+            "for then man goes to his eternal home",
+            {
+              "q2": null
+            },
+            "and mourners walk the streets.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Remember Him before the silver cord is snapped and the golden bowl is crushed, before the pitcher is shattered at the spring and the wheel is broken at the well,",
+          "contents": [
+            "Remember Him before the silver cord is snapped",
+            {
+              "q2": null
+            },
+            "and the golden bowl is crushed,",
+            {
+              "q1": null
+            },
+            "before the pitcher is shattered at the spring",
+            {
+              "q2": null
+            },
+            "and the wheel is broken at the well,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "before the dust returns to the ground from which it came and the spirit returns to God who gave it.",
+          "contents": [
+            "before the dust returns to the ground from which it came",
+            {
+              "q2": null
+            },
+            "and the spirit returns to God who gave it.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "“Futility of futilities,” says the Teacher. “Everything is futile!”",
+          "contents": [
+            "“Futility of futilities,” says the Teacher.",
+            {
+              "q2": null
+            },
+            "“Everything is futile!”",
+            [
+              {
+                "s1": [
+                  "The Whole Duty of Man"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Not only was the Teacher wise, but he also taught the people knowledge; he pondered, searched out, and arranged many proverbs.",
+          "contents": [
+            "Not only was the Teacher wise, but he also taught the people knowledge; he pondered, searched out, and arranged many proverbs."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The Teacher searched to find delightful sayings and to record accurate words of truth.",
+          "contents": [
+            "The Teacher searched to find delightful sayings and to record accurate words of truth.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:10"
+                },
+                {
+                  "ft": "Or and sought to write what was upright and true"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "The words of the wise are like goads, and the anthologies of the masters are like firmly embedded nails driven by a single Shepherd.",
+          "contents": [
+            "The words of the wise are like goads, and the anthologies of the masters are like firmly embedded nails driven by a single Shepherd.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:11"
+                },
+                {
+                  "ft": "Or shepherd"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "And by these, my son, be further warned: There is no end to the making of many books, and much study wearies the body.",
+          "contents": [
+            "And by these, my son, be further warned: There is no end to the making of many books, and much study wearies the body.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "When all has been heard, the conclusion of the matter is this: Fear God and keep His commandments, because this is the whole duty of man.",
+          "contents": [
+            "When all has been heard, the conclusion of the matter is this: Fear God and keep His commandments, because this is the whole duty of man."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For God will bring every deed into judgment, along with every hidden thing, whether good or evil.",
+          "contents": [
+            "For God will bring every deed into judgment, along with every hidden thing, whether good or evil."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

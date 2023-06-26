@@ -1,0 +1,3797 @@
+{
+  "book": {
+    "bookCode": "LAM",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Lamentations"
+      },
+      {
+        "toc1": [
+          "Lamentations"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Lamentations"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "How Lonely Lies the City!"
+            ]
+          },
+          {
+            "r": [
+              "(2 Kings 24:10–17)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How lonely lies the city, once so full of people! She who was great among the nations has become a widow. The princess of the provinces has become a slave.",
+          "contents": [
+            "How",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "This chapter is an acrostic poem, each verse beginning with the successive letters of the Hebrew alphabet."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "lonely lies the city,",
+            {
+              "q2": null
+            },
+            "once so full of people!",
+            {
+              "q1": null
+            },
+            "She who was great among the nations",
+            {
+              "q2": null
+            },
+            "has become a widow.",
+            {
+              "q1": null
+            },
+            "The princess of the provinces",
+            {
+              "q2": null
+            },
+            "has become a slave.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "She weeps aloud in the night, with tears upon her cheeks. Among all her lovers there is no one to comfort her. All her friends have betrayed her; they have become her enemies.",
+          "contents": [
+            "She weeps aloud in the night,",
+            {
+              "q2": null
+            },
+            "with tears upon her cheeks.",
+            {
+              "q1": null
+            },
+            "Among all her lovers",
+            {
+              "q2": null
+            },
+            "there is no one to comfort her.",
+            {
+              "q1": null
+            },
+            "All her friends have betrayed her;",
+            {
+              "q2": null
+            },
+            "they have become her enemies.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Judah has gone into exile under affliction and harsh slavery; she dwells among the nations but finds no place to rest. All her pursuers have overtaken her in the midst of her distress.",
+          "contents": [
+            "Judah has gone into exile",
+            {
+              "q2": null
+            },
+            "under affliction and harsh slavery;",
+            {
+              "q1": null
+            },
+            "she dwells among the nations",
+            {
+              "q2": null
+            },
+            "but finds no place to rest.",
+            {
+              "q1": null
+            },
+            "All her pursuers have overtaken her",
+            {
+              "q2": null
+            },
+            "in the midst of her distress.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The roads to Zion mourn, because no one comes to her appointed feasts. All her gates are deserted; her priests groan, her maidens grieve, and she herself is bitter with anguish.",
+          "contents": [
+            "The roads to Zion mourn,",
+            {
+              "q2": null
+            },
+            "because no one comes to her appointed feasts.",
+            {
+              "q1": null
+            },
+            "All her gates are deserted;",
+            {
+              "q2": null
+            },
+            "her priests groan,",
+            {
+              "q1": null
+            },
+            "her maidens grieve,",
+            {
+              "q2": null
+            },
+            "and she herself is bitter with anguish.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Her foes have become her masters; her enemies are at ease. For the LORD has brought her grief because of her many transgressions. Her children have gone away as captives before the enemy.",
+          "contents": [
+            "Her foes have become her masters;",
+            {
+              "q2": null
+            },
+            "her enemies are at ease.",
+            {
+              "q1": null
+            },
+            "For the LORD has brought her grief",
+            {
+              "q2": null
+            },
+            "because of her many transgressions.",
+            {
+              "q1": null
+            },
+            "Her children have gone away",
+            {
+              "q2": null
+            },
+            "as captives before the enemy.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "All the splendor has departed from the Daughter of Zion. Her princes are like deer that find no pasture; they lack the strength to flee in the face of the hunter.",
+          "contents": [
+            "All the splendor has departed",
+            {
+              "q2": null
+            },
+            "from the Daughter of Zion.",
+            {
+              "q1": null
+            },
+            "Her princes are like deer",
+            {
+              "q2": null
+            },
+            "that find no pasture;",
+            {
+              "q1": null
+            },
+            "they lack the strength to flee",
+            {
+              "q2": null
+            },
+            "in the face of the hunter.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "In the days of her affliction and wandering Jerusalem remembers all the treasures that were hers in days of old. When her people fell into enemy hands she received no help. Her enemies looked upon her, laughing at her downfall.",
+          "contents": [
+            "In the days of her affliction and wandering",
+            {
+              "q2": null
+            },
+            "Jerusalem remembers all the treasures",
+            {
+              "q2": null
+            },
+            "that were hers in days of old.",
+            {
+              "q1": null
+            },
+            "When her people fell into enemy hands",
+            {
+              "q2": null
+            },
+            "she received no help.",
+            {
+              "q1": null
+            },
+            "Her enemies looked upon her,",
+            {
+              "q2": null
+            },
+            "laughing at her downfall.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jerusalem has sinned greatly; therefore she has become an object of scorn. All who honored her now despise her, for they have seen her nakedness; she herself groans and turns away.",
+          "contents": [
+            "Jerusalem has sinned greatly;",
+            {
+              "q2": null
+            },
+            "therefore she has become an object of scorn.",
+            {
+              "q1": null
+            },
+            "All who honored her now despise her,",
+            {
+              "q2": null
+            },
+            "for they have seen her nakedness;",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:8"
+                },
+                {
+                  "ft": "Or her shame"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "she herself groans and turns away.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Her uncleanness stains her skirts; she did not consider her end. Her downfall was astounding; there was no one to comfort her. Look, O LORD, on my affliction, for the enemy has triumphed!",
+          "contents": [
+            "Her uncleanness stains her skirts;",
+            {
+              "q2": null
+            },
+            "she did not consider her end.",
+            {
+              "q1": null
+            },
+            "Her downfall was astounding;",
+            {
+              "q2": null
+            },
+            "there was no one to comfort her.",
+            {
+              "q1": null
+            },
+            "Look, O LORD, on my affliction,",
+            {
+              "q2": null
+            },
+            "for the enemy has triumphed!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The adversary has seized all her treasures. For she has seen the nations enter her sanctuary—those You had forbidden to enter Your assembly.",
+          "contents": [
+            "The adversary has seized",
+            {
+              "q2": null
+            },
+            "all her treasures.",
+            {
+              "q1": null
+            },
+            "For she has seen the nations",
+            {
+              "q2": null
+            },
+            "enter her sanctuary—",
+            {
+              "q1": null
+            },
+            "those You had forbidden",
+            {
+              "q2": null
+            },
+            "to enter Your assembly.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "All her people groan as they search for bread. They have traded their treasures for food to keep themselves alive. Look, O LORD, and consider, for I have become despised.",
+          "contents": [
+            "All her people groan",
+            {
+              "q2": null
+            },
+            "as they search for bread.",
+            {
+              "q1": null
+            },
+            "They have traded their treasures for food",
+            {
+              "q2": null
+            },
+            "to keep themselves alive.",
+            {
+              "q1": null
+            },
+            "Look, O LORD, and consider,",
+            {
+              "q2": null
+            },
+            "for I have become despised.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Is this nothing to you, all you who pass by? Look around and see! Is there any sorrow like mine, which was inflicted on me, which the LORD made me suffer on the day of His fierce anger?",
+          "contents": [
+            "Is this nothing to you, all you who pass by?",
+            {
+              "q2": null
+            },
+            "Look around and see!",
+            {
+              "q1": null
+            },
+            "Is there any sorrow like mine,",
+            {
+              "q2": null
+            },
+            "which was inflicted on me,",
+            {
+              "q1": null
+            },
+            "which the LORD made me suffer",
+            {
+              "q2": null
+            },
+            "on the day of His fierce anger?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "He sent fire from on high, and it overpowered my bones. He spread a net for my feet and turned me back. He made me desolate, faint all the day long.",
+          "contents": [
+            "He sent fire from on high,",
+            {
+              "q2": null
+            },
+            "and it overpowered my bones.",
+            {
+              "q1": null
+            },
+            "He spread a net for my feet",
+            {
+              "q2": null
+            },
+            "and turned me back.",
+            {
+              "q1": null
+            },
+            "He made me desolate,",
+            {
+              "q2": null
+            },
+            "faint all the day long.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "My transgressions are bound into a yoke, knit together by His hand; they are draped over my neck, and the Lord has broken my strength. He has delivered me into the hands of those I cannot withstand.",
+          "contents": [
+            "My transgressions are bound into a yoke,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:14"
+                },
+                {
+                  "ft": "Most Hebrew manuscripts; other Hebrew manuscripts and LXX He kept watch over my sins"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "knit together by His hand;",
+            {
+              "q1": null
+            },
+            "they are draped over my neck,",
+            {
+              "q2": null
+            },
+            "and the Lord has broken my strength.",
+            {
+              "q1": null
+            },
+            "He has delivered me into the hands",
+            {
+              "q2": null
+            },
+            "of those I cannot withstand.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "The Lord has rejected all the mighty men in my midst; He has summoned an army against me to crush my young warriors. Like grapes in a winepress, the Lord has trampled the Virgin Daughter of Judah.",
+          "contents": [
+            "The Lord has rejected",
+            {
+              "q2": null
+            },
+            "all the mighty men in my midst;",
+            {
+              "q1": null
+            },
+            "He has summoned an army against me",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:15"
+                },
+                {
+                  "ft": "Or has set a time for me"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "to crush my young warriors.",
+            {
+              "q1": null
+            },
+            "Like grapes in a winepress,",
+            {
+              "q2": null
+            },
+            "the Lord has trampled the Virgin Daughter of Judah.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For these things I weep; my eyes flow with tears. For there is no one nearby to comfort me, no one to revive my soul. My children are destitute because the enemy has prevailed.",
+          "contents": [
+            "For these things I weep;",
+            {
+              "q2": null
+            },
+            "my eyes flow with tears.",
+            {
+              "q1": null
+            },
+            "For there is no one nearby to comfort me,",
+            {
+              "q2": null
+            },
+            "no one to revive my soul.",
+            {
+              "q1": null
+            },
+            "My children are destitute",
+            {
+              "q2": null
+            },
+            "because the enemy has prevailed.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Zion stretches out her hands, but there is no one to comfort her. The LORD has decreed against Jacob that his neighbors become his foes. Jerusalem has become an unclean thing among them.",
+          "contents": [
+            "Zion stretches out her hands,",
+            {
+              "q2": null
+            },
+            "but there is no one to comfort her.",
+            {
+              "q1": null
+            },
+            "The LORD has decreed against Jacob",
+            {
+              "q2": null
+            },
+            "that his neighbors become his foes.",
+            {
+              "q1": null
+            },
+            "Jerusalem has become",
+            {
+              "q2": null
+            },
+            "an unclean thing among them.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "The LORD is righteous, for I have rebelled against His command. Listen, all you people; look upon my suffering. My young men and maidens have gone into captivity.",
+          "contents": [
+            "The LORD is righteous,",
+            {
+              "q2": null
+            },
+            "for I have rebelled against His command.",
+            {
+              "q1": null
+            },
+            "Listen, all you people;",
+            {
+              "q2": null
+            },
+            "look upon my suffering.",
+            {
+              "q1": null
+            },
+            "My young men and maidens",
+            {
+              "q2": null
+            },
+            "have gone into captivity.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "I called out to my lovers, but they have betrayed me. My priests and elders perished in the city while they searched for food to keep themselves alive.",
+          "contents": [
+            "I called out to my lovers,",
+            {
+              "q2": null
+            },
+            "but they have betrayed me.",
+            {
+              "q1": null
+            },
+            "My priests and elders",
+            {
+              "q2": null
+            },
+            "perished in the city",
+            {
+              "q1": null
+            },
+            "while they searched for food",
+            {
+              "q2": null
+            },
+            "to keep themselves alive.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "See, O LORD, how distressed I am! I am churning within; my heart is pounding within me, for I have been most rebellious. Outside, the sword bereaves; inside, there is death.",
+          "contents": [
+            "See, O LORD, how distressed I am!",
+            {
+              "q2": null
+            },
+            "I am churning within;",
+            {
+              "q1": null
+            },
+            "my heart is pounding within me,",
+            {
+              "q2": null
+            },
+            "for I have been most rebellious.",
+            {
+              "q1": null
+            },
+            "Outside, the sword bereaves;",
+            {
+              "q2": null
+            },
+            "inside, there is death.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "People have heard my groaning, but there is no one to comfort me. All my enemies have heard of my trouble; they are glad that You have caused it. May You bring the day You have announced, so that they may become like me.",
+          "contents": [
+            "People have heard my groaning,",
+            {
+              "q2": null
+            },
+            "but there is no one to comfort me.",
+            {
+              "q1": null
+            },
+            "All my enemies have heard of my trouble;",
+            {
+              "q2": null
+            },
+            "they are glad that You have caused it.",
+            {
+              "q1": null
+            },
+            "May You bring the day You have announced,",
+            {
+              "q2": null
+            },
+            "so that they may become like me.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Let all their wickedness come before You, and deal with them as You have dealt with me because of all my transgressions. For my groans are many, and my heart is faint.",
+          "contents": [
+            "Let all their wickedness come before You,",
+            {
+              "q2": null
+            },
+            "and deal with them",
+            {
+              "q1": null
+            },
+            "as You have dealt with me",
+            {
+              "q2": null
+            },
+            "because of all my transgressions.",
+            {
+              "q1": null
+            },
+            "For my groans are many,",
+            {
+              "q2": null
+            },
+            "and my heart is faint."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "God’s Anger over Jerusalem"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How the Lord has covered the Daughter of Zion with the cloud of His anger! He has cast the glory of Israel from heaven to earth. He has abandoned His footstool in the day of His anger.",
+          "contents": [
+            "How",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:1"
+                },
+                {
+                  "ft": "This chapter is an acrostic poem, each verse beginning with the successive letters of the Hebrew alphabet."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "the Lord has covered the Daughter of Zion",
+            {
+              "q2": null
+            },
+            "with the cloud of His anger!",
+            {
+              "q1": null
+            },
+            "He has cast the glory of Israel",
+            {
+              "q2": null
+            },
+            "from heaven to earth.",
+            {
+              "q1": null
+            },
+            "He has abandoned His footstool",
+            {
+              "q2": null
+            },
+            "in the day of His anger.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Without pity the Lord has swallowed up all the dwellings of Jacob. In His wrath He has demolished the fortified cities of the Daughter of Judah. He brought to the ground and defiled her kingdom and its princes.",
+          "contents": [
+            "Without pity the Lord has swallowed up",
+            {
+              "q2": null
+            },
+            "all the dwellings of Jacob.",
+            {
+              "q1": null
+            },
+            "In His wrath He has demolished",
+            {
+              "q2": null
+            },
+            "the fortified cities of the Daughter of Judah.",
+            {
+              "q1": null
+            },
+            "He brought to the ground and defiled",
+            {
+              "q2": null
+            },
+            "her kingdom and its princes.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "In fierce anger He has cut off every horn of Israel and withdrawn His right hand at the approach of the enemy. He has burned in Jacob like a flaming fire that consumes everything around it.",
+          "contents": [
+            "In fierce anger He has cut off",
+            {
+              "q2": null
+            },
+            "every horn",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:3"
+                },
+                {
+                  "ft": "Or all the strength"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of Israel",
+            {
+              "q1": null
+            },
+            "and withdrawn His right hand",
+            {
+              "q2": null
+            },
+            "at the approach of the enemy.",
+            {
+              "q1": null
+            },
+            "He has burned in Jacob like a flaming fire",
+            {
+              "q2": null
+            },
+            "that consumes everything around it.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "He has bent His bow like an enemy; His right hand is positioned. Like a foe He has killed all who were pleasing to the eye; He has poured out His wrath like fire on the tent of the Daughter of Zion.",
+          "contents": [
+            "He has bent His bow like an enemy;",
+            {
+              "q2": null
+            },
+            "His right hand is positioned.",
+            {
+              "q1": null
+            },
+            "Like a foe He has killed",
+            {
+              "q2": null
+            },
+            "all who were pleasing to the eye;",
+            {
+              "q1": null
+            },
+            "He has poured out His wrath like fire",
+            {
+              "q2": null
+            },
+            "on the tent of the Daughter of Zion.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The Lord is like an enemy; He has swallowed up Israel. He has swallowed up all her palaces and destroyed her strongholds. He has multiplied mourning and lamentation for the Daughter of Judah.",
+          "contents": [
+            "The Lord is like an enemy;",
+            {
+              "q2": null
+            },
+            "He has swallowed up Israel.",
+            {
+              "q1": null
+            },
+            "He has swallowed up all her palaces",
+            {
+              "q2": null
+            },
+            "and destroyed her strongholds.",
+            {
+              "q1": null
+            },
+            "He has multiplied mourning and lamentation",
+            {
+              "q2": null
+            },
+            "for the Daughter of Judah.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "He has laid waste His tabernacle like a garden booth; He has destroyed His place of meeting. The LORD has made Zion forget her appointed feasts and Sabbaths. In His fierce anger He has despised both king and priest.",
+          "contents": [
+            "He has laid waste His tabernacle like a garden booth;",
+            {
+              "q2": null
+            },
+            "He has destroyed His place of meeting.",
+            {
+              "q1": null
+            },
+            "The LORD has made Zion forget",
+            {
+              "q2": null
+            },
+            "her appointed feasts and Sabbaths.",
+            {
+              "q1": null
+            },
+            "In His fierce anger",
+            {
+              "q2": null
+            },
+            "He has despised both king and priest.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "The Lord has rejected His altar; He has abandoned His sanctuary; He has delivered the walls of her palaces into the hand of the enemy. They have raised a shout in the house of the LORD as on the day of an appointed feast.",
+          "contents": [
+            "The Lord has rejected His altar;",
+            {
+              "q2": null
+            },
+            "He has abandoned His sanctuary;",
+            {
+              "q1": null
+            },
+            "He has delivered the walls of her palaces",
+            {
+              "q2": null
+            },
+            "into the hand of the enemy.",
+            {
+              "q1": null
+            },
+            "They have raised a shout in the house of the LORD",
+            {
+              "q2": null
+            },
+            "as on the day of an appointed feast.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "The LORD determined to destroy the wall of the Daughter of Zion. He stretched out a measuring line and did not withdraw His hand from destroying. He made the ramparts and walls lament; together they waste away.",
+          "contents": [
+            "The LORD determined to destroy",
+            {
+              "q2": null
+            },
+            "the wall of the Daughter of Zion.",
+            {
+              "q1": null
+            },
+            "He stretched out a measuring line",
+            {
+              "q2": null
+            },
+            "and did not withdraw His hand from destroying.",
+            {
+              "q1": null
+            },
+            "He made the ramparts and walls lament;",
+            {
+              "q2": null
+            },
+            "together they waste away.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Her gates have sunk into the ground; He has destroyed and shattered their bars. Her king and her princes are exiled among the nations, the law is no more, and even her prophets find no vision from the LORD.",
+          "contents": [
+            "Her gates have sunk into the ground;",
+            {
+              "q2": null
+            },
+            "He has destroyed and shattered their bars.",
+            {
+              "q1": null
+            },
+            "Her king and her princes are exiled among the nations,",
+            {
+              "q2": null
+            },
+            "the law is no more,",
+            {
+              "q1": null
+            },
+            "and even her prophets",
+            {
+              "q2": null
+            },
+            "find no vision from the LORD.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The elders of the Daughter of Zion sit on the ground in silence. They have thrown dust on their heads and put on sackcloth. The young women of Jerusalem have bowed their heads to the ground.",
+          "contents": [
+            "The elders of the Daughter of Zion",
+            {
+              "q2": null
+            },
+            "sit on the ground in silence.",
+            {
+              "q1": null
+            },
+            "They have thrown dust on their heads",
+            {
+              "q2": null
+            },
+            "and put on sackcloth.",
+            {
+              "q1": null
+            },
+            "The young women of Jerusalem",
+            {
+              "q2": null
+            },
+            "have bowed their heads to the ground.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "My eyes fail from weeping; I am churning within. My heart is poured out in grief over the destruction of the daughter of my people, because children and infants faint in the streets of the city.",
+          "contents": [
+            "My eyes fail from weeping;",
+            {
+              "q2": null
+            },
+            "I am churning within.",
+            {
+              "q1": null
+            },
+            "My heart is poured out in grief",
+            {
+              "q2": null
+            },
+            "over the destruction of the daughter of my people,",
+            {
+              "q1": null
+            },
+            "because children and infants faint",
+            {
+              "q2": null
+            },
+            "in the streets of the city.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "They cry out to their mothers: “Where is the grain and wine?” as they faint like the wounded in the streets of the city, as their lives fade away in the arms of their mothers.",
+          "contents": [
+            "They cry out to their mothers:",
+            {
+              "q2": null
+            },
+            "“Where is the grain and wine?”",
+            {
+              "q1": null
+            },
+            "as they faint like the wounded",
+            {
+              "q2": null
+            },
+            "in the streets of the city,",
+            {
+              "q1": null
+            },
+            "as their lives fade away",
+            {
+              "q2": null
+            },
+            "in the arms of their mothers.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "What can I say for you? To what can I compare you, O Daughter of Jerusalem? To what can I liken you, that I may console you, O Virgin Daughter of Zion? For your wound is as deep as the sea. Who can ever heal you?",
+          "contents": [
+            "What can I say for you?",
+            {
+              "q2": null
+            },
+            "To what can I compare you,",
+            {
+              "q2": null
+            },
+            "O Daughter of Jerusalem?",
+            {
+              "q1": null
+            },
+            "To what can I liken you,",
+            {
+              "q2": null
+            },
+            "that I may console you,",
+            {
+              "q2": null
+            },
+            "O Virgin Daughter of Zion?",
+            {
+              "q1": null
+            },
+            "For your wound is as deep as the sea.",
+            {
+              "q2": null
+            },
+            "Who can ever heal you?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The visions of your prophets were empty and deceptive; they did not expose your guilt to ward off your captivity. The burdens they envisioned for you were empty and misleading.",
+          "contents": [
+            "The visions of your prophets",
+            {
+              "q2": null
+            },
+            "were empty and deceptive;",
+            {
+              "q1": null
+            },
+            "they did not expose your guilt",
+            {
+              "q2": null
+            },
+            "to ward off your captivity.",
+            {
+              "q1": null
+            },
+            "The burdens they envisioned for you",
+            {
+              "q2": null
+            },
+            "were empty and misleading.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "All who pass by clap their hands at you in scorn. They hiss and shake their heads at the Daughter of Jerusalem: “Is this the city that was called the perfection of beauty, the joy of all the earth?”",
+          "contents": [
+            "All who pass by",
+            {
+              "q2": null
+            },
+            "clap their hands at you in scorn.",
+            {
+              "q1": null
+            },
+            "They hiss and shake their heads",
+            {
+              "q2": null
+            },
+            "at the Daughter of Jerusalem:",
+            {
+              "q1": null
+            },
+            "“Is this the city that was called",
+            {
+              "q2": null
+            },
+            "the perfection of beauty,",
+            {
+              "q2": null
+            },
+            "the joy of all the earth?”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "All your enemies open their mouths against you. They hiss and gnash their teeth, saying, “We have swallowed her up. This is the day for which we have waited. We have lived to see it!”",
+          "contents": [
+            "All your enemies",
+            {
+              "q2": null
+            },
+            "open their mouths against you.",
+            {
+              "q1": null
+            },
+            "They hiss and gnash their teeth,",
+            {
+              "q2": null
+            },
+            "saying, “We have swallowed her up.",
+            {
+              "q1": null
+            },
+            "This is the day for which we have waited.",
+            {
+              "q2": null
+            },
+            "We have lived to see it!”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "The LORD has done what He planned; He has accomplished His decree, which He ordained in days of old; He has overthrown you without pity. He has let the enemy gloat over you and exalted the horn of your foes.",
+          "contents": [
+            "The LORD has done what He planned;",
+            {
+              "q2": null
+            },
+            "He has accomplished His decree,",
+            {
+              "q1": null
+            },
+            "which He ordained in days of old;",
+            {
+              "q2": null
+            },
+            "He has overthrown you without pity.",
+            {
+              "q1": null
+            },
+            "He has let the enemy gloat over you",
+            {
+              "q2": null
+            },
+            "and exalted the horn",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:17"
+                },
+                {
+                  "ft": "Or the strength"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of your foes.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "The hearts of the people cry out to the Lord. O wall of the Daughter of Zion, let your tears run down like a river day and night. Give yourself no relief, and your eyes no rest.",
+          "contents": [
+            "The hearts of the people",
+            {
+              "q2": null
+            },
+            "cry out to the Lord.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:18"
+                },
+                {
+                  "ft": "Literally Their heart cries out to the Lord."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "O wall of the Daughter of Zion,",
+            {
+              "q2": null
+            },
+            "let your tears run down like a river",
+            {
+              "q2": null
+            },
+            "day and night.",
+            {
+              "q1": null
+            },
+            "Give yourself no relief,",
+            {
+              "q2": null
+            },
+            "and your eyes no rest.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Arise, cry out in the night from the first watch of the night. Pour out your heart like water in the presence of the Lord. Lift up your hands to Him for the lives of your children who are fainting from hunger on the corner of every street.",
+          "contents": [
+            "Arise, cry out in the night",
+            {
+              "q2": null
+            },
+            "from the first watch of the night.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:19"
+                },
+                {
+                  "ft": "That is, between six and nine at night"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Pour out your heart like water",
+            {
+              "q2": null
+            },
+            "in the presence of the Lord.",
+            {
+              "q1": null
+            },
+            "Lift up your hands to Him",
+            {
+              "q2": null
+            },
+            "for the lives of your children",
+            {
+              "q1": null
+            },
+            "who are fainting from hunger",
+            {
+              "q2": null
+            },
+            "on the corner of every street.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Look, O LORD, and consider: Whom have You ever treated like this? Should women eat their offspring, the infants they have nurtured? Should priests and prophets be killed in the sanctuary of the Lord?",
+          "contents": [
+            "Look, O LORD, and consider:",
+            {
+              "q2": null
+            },
+            "Whom have You ever treated like this?",
+            {
+              "q1": null
+            },
+            "Should women eat their offspring,",
+            {
+              "q2": null
+            },
+            "the infants they have nurtured?",
+            {
+              "q1": null
+            },
+            "Should priests and prophets be killed",
+            {
+              "q2": null
+            },
+            "in the sanctuary of the Lord?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Both young and old lie together in the dust of the streets. My young men and maidens have fallen by the sword. You have slain them in the day of Your anger; You have slaughtered them without compassion.",
+          "contents": [
+            "Both young and old lie together",
+            {
+              "q2": null
+            },
+            "in the dust of the streets.",
+            {
+              "q1": null
+            },
+            "My young men and maidens",
+            {
+              "q2": null
+            },
+            "have fallen by the sword.",
+            {
+              "q1": null
+            },
+            "You have slain them in the day of Your anger;",
+            {
+              "q2": null
+            },
+            "You have slaughtered them without compassion.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "You summoned my attackers on every side, as for the day of an appointed feast. In the day of the LORD’s anger no one escaped or survived; my enemy has destroyed those I nurtured and reared.",
+          "contents": [
+            "You summoned my attackers on every side,",
+            {
+              "q2": null
+            },
+            "as for the day of an appointed feast.",
+            {
+              "q1": null
+            },
+            "In the day of the LORD’s anger",
+            {
+              "q2": null
+            },
+            "no one escaped or survived;",
+            {
+              "q1": null
+            },
+            "my enemy has destroyed",
+            {
+              "q2": null
+            },
+            "those I nurtured and reared."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Prophet’s Afflictions"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I am the man who has seen affliction under the rod of God’s wrath.",
+          "contents": [
+            "I",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:1"
+                },
+                {
+                  "ft": "This chapter is an acrostic poem, each 3–verse stanza beginning with the successive letters of the Hebrew alphabet."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "am the man who has seen affliction",
+            {
+              "q2": null
+            },
+            "under the rod of God’s wrath.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "He has driven me away and made me walk in darkness instead of light.",
+          "contents": [
+            "He has driven me away and made me walk",
+            {
+              "q2": null
+            },
+            "in darkness instead of light.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Indeed, He keeps turning His hand against me all day long.",
+          "contents": [
+            "Indeed, He keeps turning His hand",
+            {
+              "q2": null
+            },
+            "against me all day long.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "He has worn away my flesh and skin; He has shattered my bones.",
+          "contents": [
+            "He has worn away my flesh and skin;",
+            {
+              "q2": null
+            },
+            "He has shattered my bones.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "He has besieged me and surrounded me with bitterness and hardship.",
+          "contents": [
+            "He has besieged me and surrounded me",
+            {
+              "q2": null
+            },
+            "with bitterness and hardship.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "He has made me dwell in darkness like those dead for ages.",
+          "contents": [
+            "He has made me dwell in darkness",
+            {
+              "q2": null
+            },
+            "like those dead for ages.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "He has walled me in so I cannot escape; He has weighed me down with chains.",
+          "contents": [
+            "He has walled me in so I cannot escape;",
+            {
+              "q2": null
+            },
+            "He has weighed me down with chains.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Even when I cry out and plead for help, He shuts out my prayer.",
+          "contents": [
+            "Even when I cry out and plead for help,",
+            {
+              "q2": null
+            },
+            "He shuts out my prayer.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "He has barred my ways with cut stones; He has made my paths crooked.",
+          "contents": [
+            "He has barred my ways with cut stones;",
+            {
+              "q2": null
+            },
+            "He has made my paths crooked.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He is a bear lying in wait, a lion hiding in ambush.",
+          "contents": [
+            "He is a bear lying in wait,",
+            {
+              "q2": null
+            },
+            "a lion hiding in ambush.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "He forced me off my path and tore me to pieces; He left me without help.",
+          "contents": [
+            "He forced me off my path and tore me to pieces;",
+            {
+              "q2": null
+            },
+            "He left me without help.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "He bent His bow and set me as the target for His arrow.",
+          "contents": [
+            "He bent His bow",
+            {
+              "q2": null
+            },
+            "and set me as the target for His arrow.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "He pierced my kidneys with His arrows.",
+          "contents": [
+            "He pierced my kidneys",
+            {
+              "q2": null
+            },
+            "with His arrows.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I am a laughingstock to all my people; they mock me in song all day long.",
+          "contents": [
+            "I am a laughingstock to all my people;",
+            {
+              "q2": null
+            },
+            "they mock me in song all day long.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "He has filled me with bitterness; He has intoxicated me with wormwood.",
+          "contents": [
+            "He has filled me with bitterness;",
+            {
+              "q2": null
+            },
+            "He has intoxicated me with wormwood.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "He has ground my teeth with gravel and trampled me in the dust.",
+          "contents": [
+            "He has ground my teeth with gravel",
+            {
+              "q2": null
+            },
+            "and trampled me in the dust.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "My soul has been deprived of peace; I have forgotten what prosperity is.",
+          "contents": [
+            "My soul has been deprived of peace;",
+            {
+              "q2": null
+            },
+            "I have forgotten what prosperity is.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "So I say, “My strength has perished, along with my hope from the LORD.”",
+          "contents": [
+            "So I say, “My strength has perished,",
+            {
+              "q2": null
+            },
+            "along with my hope from the LORD.”",
+            [
+              {
+                "s1": [
+                  "The Prophet’s Hope"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Remember my affliction and wandering, the wormwood and the gall.",
+          "contents": [
+            "Remember my affliction and wandering,",
+            {
+              "q2": null
+            },
+            "the wormwood and the gall.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Surely my soul remembers and is humbled within me.",
+          "contents": [
+            "Surely my soul remembers",
+            {
+              "q2": null
+            },
+            "and is humbled within me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Yet I call this to mind, and therefore I have hope:",
+          "contents": [
+            "Yet I call this to mind,",
+            {
+              "q2": null
+            },
+            "and therefore I have hope:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Because of the loving devotion of the LORD we are not consumed, for His mercies never fail.",
+          "contents": [
+            "Because of the loving devotion",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:22"
+                },
+                {
+                  "ft": "Forms of the Hebrew chesed are translated here and in most cases throughout the Scriptures as loving devotion; the range of meaning includes love, goodness, kindness, faithfulness, and mercy, as well as loyalty to a covenant."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of the LORD we are not consumed,",
+            {
+              "q2": null
+            },
+            "for His mercies never fail.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "They are new every morning; great is Your faithfulness!",
+          "contents": [
+            "They are new every morning;",
+            {
+              "q2": null
+            },
+            "great is Your faithfulness!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "“The LORD is my portion,” says my soul, “therefore I will hope in Him.”",
+          "contents": [
+            "“The LORD is my portion,” says my soul,",
+            {
+              "q2": null
+            },
+            "“therefore I will hope in Him.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "The LORD is good to those who wait for Him, to the soul who seeks Him.",
+          "contents": [
+            "The LORD is good to those who wait for Him,",
+            {
+              "q2": null
+            },
+            "to the soul who seeks Him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "It is good to wait quietly for the salvation of the LORD.",
+          "contents": [
+            "It is good to wait quietly",
+            {
+              "q2": null
+            },
+            "for the salvation of the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "It is good for a man to bear the yoke while he is still young.",
+          "contents": [
+            "It is good for a man to bear the yoke",
+            {
+              "q2": null
+            },
+            "while he is still young.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Let him sit alone in silence, for God has disciplined him.",
+          "contents": [
+            "Let him sit alone in silence,",
+            {
+              "q2": null
+            },
+            "for God has disciplined him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Let him bury his face in the dust—perhaps there is still hope.",
+          "contents": [
+            "Let him bury his face in the dust—",
+            {
+              "q2": null
+            },
+            "perhaps there is still hope.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "Let him offer his cheek to the one who would strike him; let him be filled with reproach.",
+          "contents": [
+            "Let him offer his cheek to the one who would strike him;",
+            {
+              "q2": null
+            },
+            "let him be filled with reproach.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "For the Lord will not cast us off forever.",
+          "contents": [
+            "For the Lord will not",
+            {
+              "q2": null
+            },
+            "cast us off forever.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "Even if He causes grief, He will show compassion according to His abundant loving devotion.",
+          "contents": [
+            "Even if He causes grief, He will show compassion",
+            {
+              "q2": null
+            },
+            "according to His abundant loving devotion.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "33",
+          "verseText": "For He does not willingly afflict or grieve the sons of men.",
+          "contents": [
+            "For He does not willingly afflict",
+            {
+              "q2": null
+            },
+            "or grieve the sons of men.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "34",
+          "verseText": "To crush underfoot all the prisoners of the land,",
+          "contents": [
+            "To crush underfoot",
+            {
+              "q2": null
+            },
+            "all the prisoners of the land,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "35",
+          "verseText": "to deny a man justice before the Most High,",
+          "contents": [
+            "to deny a man justice",
+            {
+              "q2": null
+            },
+            "before the Most High,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "36",
+          "verseText": "to subvert a man in his lawsuit—of these the Lord does not approve.",
+          "contents": [
+            "to subvert a man in his lawsuit—",
+            {
+              "q2": null
+            },
+            "of these the Lord does not approve.",
+            [
+              {
+                "s1": [
+                  "God’s Justice"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "37",
+          "verseText": "Who has spoken and it came to pass, unless the Lord has ordained it?",
+          "contents": [
+            "Who has spoken and it came to pass,",
+            {
+              "q2": null
+            },
+            "unless the Lord has ordained it?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "38",
+          "verseText": "Do not both adversity and good come from the mouth of the Most High?",
+          "contents": [
+            "Do not both adversity and good",
+            {
+              "q2": null
+            },
+            "come from the mouth of the Most High?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "39",
+          "verseText": "Why should any mortal man complain, in view of his sins?",
+          "contents": [
+            "Why should any mortal man complain,",
+            {
+              "q2": null
+            },
+            "in view of his sins?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "40",
+          "verseText": "Let us examine and test our ways, and turn back to the LORD.",
+          "contents": [
+            "Let us examine and test our ways,",
+            {
+              "q2": null
+            },
+            "and turn back to the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "41",
+          "verseText": "Let us lift up our hearts and hands to God in heaven:",
+          "contents": [
+            "Let us lift up our hearts and hands",
+            {
+              "q2": null
+            },
+            "to God in heaven:",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "42",
+          "verseText": "“We have sinned and rebelled; You have not forgiven.”",
+          "contents": [
+            "“We have sinned and rebelled;",
+            {
+              "q2": null
+            },
+            "You have not forgiven.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "43",
+          "verseText": "You have covered Yourself in anger and pursued us; You have killed without pity.",
+          "contents": [
+            "You have covered Yourself in anger and pursued us;",
+            {
+              "q2": null
+            },
+            "You have killed without pity.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "44",
+          "verseText": "You have covered Yourself with a cloud that no prayer can pass through.",
+          "contents": [
+            "You have covered Yourself with a cloud",
+            {
+              "q2": null
+            },
+            "that no prayer can pass through.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "45",
+          "verseText": "You have made us scum and refuse among the nations.",
+          "contents": [
+            "You have made us scum and refuse",
+            {
+              "q2": null
+            },
+            "among the nations.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "46",
+          "verseText": "All our enemies open their mouths against us.",
+          "contents": [
+            "All our enemies",
+            {
+              "q2": null
+            },
+            "open their mouths against us.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "47",
+          "verseText": "Panic and pitfall have come upon us—devastation and destruction.",
+          "contents": [
+            "Panic and pitfall have come upon us—",
+            {
+              "q2": null
+            },
+            "devastation and destruction.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "48",
+          "verseText": "Streams of tears flow from my eyes over the destruction of the daughter of my people.",
+          "contents": [
+            "Streams of tears flow from my eyes",
+            {
+              "q2": null
+            },
+            "over the destruction of the daughter of my people.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "49",
+          "verseText": "My eyes overflow unceasingly, without relief,",
+          "contents": [
+            "My eyes overflow unceasingly,",
+            {
+              "q2": null
+            },
+            "without relief,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "50",
+          "verseText": "until the LORD looks down from heaven and sees.",
+          "contents": [
+            "until the LORD",
+            {
+              "q2": null
+            },
+            "looks down from heaven and sees.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "51",
+          "verseText": "My eyes bring grief to my soul because of all the daughters of my city.",
+          "contents": [
+            "My eyes bring grief to my soul",
+            {
+              "q2": null
+            },
+            "because of all the daughters of my city.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "52",
+          "verseText": "Without cause my enemies hunted me like a bird.",
+          "contents": [
+            "Without cause my enemies",
+            {
+              "q2": null
+            },
+            "hunted me like a bird.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "53",
+          "verseText": "They dropped me alive into a pit and cast stones upon me.",
+          "contents": [
+            "They dropped me alive into a pit",
+            {
+              "q2": null
+            },
+            "and cast stones upon me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "54",
+          "verseText": "The waters flowed over my head, and I thought I was going to die.",
+          "contents": [
+            "The waters flowed over my head,",
+            {
+              "q2": null
+            },
+            "and I thought I was going to die.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "55",
+          "verseText": "I called on Your name, O LORD, out of the depths of the Pit.",
+          "contents": [
+            "I called on Your name, O LORD,",
+            {
+              "q2": null
+            },
+            "out of the depths of the Pit.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "56",
+          "verseText": "You heard my plea: “Do not ignore my cry for relief.”",
+          "contents": [
+            "You heard my plea:",
+            {
+              "q2": null
+            },
+            "“Do not ignore my cry for relief.”",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "57",
+          "verseText": "You drew near when I called on You; You said, “Do not be afraid.”",
+          "contents": [
+            "You drew near when I called on You;",
+            {
+              "q2": null
+            },
+            "You said, “Do not be afraid.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "58",
+          "verseText": "You defend my cause, O Lord; You redeem my life.",
+          "contents": [
+            "You defend my cause, O Lord;",
+            {
+              "q2": null
+            },
+            "You redeem my life.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "59",
+          "verseText": "You have seen, O LORD, the wrong done to me; vindicate my cause!",
+          "contents": [
+            "You have seen, O LORD, the wrong done to me;",
+            {
+              "q2": null
+            },
+            "vindicate my cause!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "60",
+          "verseText": "You have seen all their malice, all their plots against me.",
+          "contents": [
+            "You have seen all their malice,",
+            {
+              "q2": null
+            },
+            "all their plots against me.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "61",
+          "verseText": "O LORD, You have heard their insults, all their plots against me—",
+          "contents": [
+            "O LORD, You have heard their insults,",
+            {
+              "q2": null
+            },
+            "all their plots against me—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "62",
+          "verseText": "the slander and murmuring of my assailants against me all day long.",
+          "contents": [
+            "the slander and murmuring of my assailants",
+            {
+              "q2": null
+            },
+            "against me all day long.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "63",
+          "verseText": "When they sit and when they rise, see how they mock me in song.",
+          "contents": [
+            "When they sit and when they rise,",
+            {
+              "q2": null
+            },
+            "see how they mock me in song.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "64",
+          "verseText": "You will pay them back what they deserve, O LORD, according to the work of their hands.",
+          "contents": [
+            "You will pay them back what they deserve, O LORD,",
+            {
+              "q2": null
+            },
+            "according to the work of their hands.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "65",
+          "verseText": "Put a veil of anguish over their hearts; may Your curse be upon them!",
+          "contents": [
+            "Put a veil of anguish over their hearts;",
+            {
+              "q2": null
+            },
+            "may Your curse be upon them!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "66",
+          "verseText": "You will pursue them in anger and exterminate them from under Your heavens, O LORD.",
+          "contents": [
+            "You will pursue them in anger and exterminate them",
+            {
+              "q2": null
+            },
+            "from under Your heavens, O LORD."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Distress of Zion"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How the gold has become tarnished, the pure gold has become dull! The gems of the temple lie scattered on every street corner.",
+          "contents": [
+            "How",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:1"
+                },
+                {
+                  "ft": "This chapter is an acrostic poem, each verse beginning with the successive letters of the Hebrew alphabet."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "the gold has become tarnished,",
+            {
+              "q2": null
+            },
+            "the pure gold has become dull!",
+            {
+              "q1": null
+            },
+            "The gems of the temple lie scattered",
+            {
+              "q2": null
+            },
+            "on every street corner.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "How the precious sons of Zion, once worth their weight in pure gold, are now esteemed as jars of clay, the work of a potter’s hands!",
+          "contents": [
+            "How the precious sons of Zion,",
+            {
+              "q2": null
+            },
+            "once worth their weight in pure gold,",
+            {
+              "q1": null
+            },
+            "are now esteemed as jars of clay,",
+            {
+              "q2": null
+            },
+            "the work of a potter’s hands!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Even jackals offer their breasts to nurse their young, but the daughter of my people has become cruel, like an ostrich in the wilderness.",
+          "contents": [
+            "Even jackals",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:3"
+                },
+                {
+                  "ft": "Or serpents or dragons"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "offer their breasts",
+            {
+              "q2": null
+            },
+            "to nurse their young,",
+            {
+              "q1": null
+            },
+            "but the daughter of my people has become cruel,",
+            {
+              "q2": null
+            },
+            "like an ostrich in the wilderness.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The nursing infant’s tongue clings in thirst to the roof of his mouth. Little children beg for bread, but no one gives them any.",
+          "contents": [
+            "The nursing infant’s tongue",
+            {
+              "q2": null
+            },
+            "clings in thirst to the roof of his mouth.",
+            {
+              "q1": null
+            },
+            "Little children beg for bread,",
+            {
+              "q2": null
+            },
+            "but no one gives them any.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Those who once ate delicacies are destitute in the streets; those brought up in crimson huddle in ash heaps.",
+          "contents": [
+            "Those who once ate delicacies",
+            {
+              "q2": null
+            },
+            "are destitute in the streets;",
+            {
+              "q1": null
+            },
+            "those brought up in crimson",
+            {
+              "q2": null
+            },
+            "huddle in ash heaps.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The punishment of the daughter of my people is greater than that of Sodom, which was overthrown in an instant without a hand turned to help her.",
+          "contents": [
+            "The punishment",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:6"
+                },
+                {
+                  "ft": "Or iniquity"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of the daughter of my people",
+            {
+              "q2": null
+            },
+            "is greater than that of Sodom,",
+            {
+              "q1": null
+            },
+            "which was overthrown in an instant",
+            {
+              "q2": null
+            },
+            "without a hand turned to help her.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Her dignitaries were brighter than snow, whiter than milk; their bodies were more ruddy than rubies, their appearance like sapphires.",
+          "contents": [
+            "Her dignitaries were brighter than snow,",
+            {
+              "q2": null
+            },
+            "whiter than milk;",
+            {
+              "q1": null
+            },
+            "their bodies were more ruddy than rubies,",
+            {
+              "q2": null
+            },
+            "their appearance",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:7"
+                },
+                {
+                  "ft": "Or their polishing or their hair"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "like sapphires.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:7"
+                },
+                {
+                  "ft": "Hebrew lapis lazuli"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "But now their appearance is blacker than soot; they are not recognized in the streets. Their skin has shriveled on their bones; it has become as dry as a stick.",
+          "contents": [
+            "But now their appearance is blacker than soot;",
+            {
+              "q2": null
+            },
+            "they are not recognized in the streets.",
+            {
+              "q1": null
+            },
+            "Their skin has shriveled on their bones;",
+            {
+              "q2": null
+            },
+            "it has become as dry as a stick.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Those slain by the sword are better off than those who die of hunger, who waste away, pierced with pain because the fields lack produce.",
+          "contents": [
+            "Those slain by the sword are better off",
+            {
+              "q2": null
+            },
+            "than those who die of hunger,",
+            {
+              "q1": null
+            },
+            "who waste away, pierced with pain",
+            {
+              "q2": null
+            },
+            "because the fields lack produce.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The hands of compassionate women have cooked their own children, who became their food in the destruction of the daughter of my people.",
+          "contents": [
+            "The hands of compassionate women",
+            {
+              "q2": null
+            },
+            "have cooked their own children,",
+            {
+              "q1": null
+            },
+            "who became their food",
+            {
+              "q2": null
+            },
+            "in the destruction of the daughter of my people.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "The LORD has exhausted His wrath; He has poured out His fierce anger; He has kindled a fire in Zion, and it has consumed her foundations.",
+          "contents": [
+            "The LORD has exhausted His wrath;",
+            {
+              "q2": null
+            },
+            "He has poured out His fierce anger;",
+            {
+              "q1": null
+            },
+            "He has kindled a fire in Zion,",
+            {
+              "q2": null
+            },
+            "and it has consumed her foundations.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The kings of the earth did not believe, nor any people of the world, that an enemy or a foe could enter the gates of Jerusalem.",
+          "contents": [
+            "The kings of the earth did not believe,",
+            {
+              "q2": null
+            },
+            "nor any people of the world,",
+            {
+              "q1": null
+            },
+            "that an enemy or a foe",
+            {
+              "q2": null
+            },
+            "could enter the gates of Jerusalem.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "But this was for the sins of her prophets and the guilt of her priests, who shed the blood of the righteous in her midst.",
+          "contents": [
+            "But this was for the sins of her prophets",
+            {
+              "q2": null
+            },
+            "and the guilt of her priests,",
+            {
+              "q1": null
+            },
+            "who shed the blood of the righteous",
+            {
+              "q2": null
+            },
+            "in her midst.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "They wandered blind in the streets, defiled by this blood, so that no one dared to touch their garments.",
+          "contents": [
+            "They wandered blind in the streets,",
+            {
+              "q2": null
+            },
+            "defiled by this blood,",
+            {
+              "q1": null
+            },
+            "so that no one dared",
+            {
+              "q2": null
+            },
+            "to touch their garments.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "“Go away! Unclean!” men shouted at them. “Away, away! Do not touch us!” So they fled and wandered. Among the nations it was said, “They can stay here no longer.”",
+          "contents": [
+            "“Go away! Unclean!”",
+            {
+              "q2": null
+            },
+            "men shouted at them.",
+            {
+              "q1": null
+            },
+            "“Away, away! Do not touch us!”",
+            {
+              "q2": null
+            },
+            "So they fled and wandered.",
+            {
+              "q1": null
+            },
+            "Among the nations it was said,",
+            {
+              "q2": null
+            },
+            "“They can stay here no longer.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "The presence of the LORD has scattered them; He regards them no more. The priests are shown no honor; the elders find no favor.",
+          "contents": [
+            "The presence of the LORD has scattered them;",
+            {
+              "q2": null
+            },
+            "He regards them no more.",
+            {
+              "q1": null
+            },
+            "The priests are shown no honor;",
+            {
+              "q2": null
+            },
+            "the elders find no favor.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "All the while our eyes were failing as we looked in vain for help. We watched from our towers for a nation that could not save us.",
+          "contents": [
+            "All the while our eyes were failing",
+            {
+              "q2": null
+            },
+            "as we looked in vain for help.",
+            {
+              "q1": null
+            },
+            "We watched from our towers",
+            {
+              "q2": null
+            },
+            "for a nation that could not save us.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "They stalked our every step, so that we could not walk in our streets. Our end drew near, our time ran out, for our end had come!",
+          "contents": [
+            "They stalked our every step,",
+            {
+              "q2": null
+            },
+            "so that we could not walk in our streets.",
+            {
+              "q1": null
+            },
+            "Our end drew near, our time ran out,",
+            {
+              "q2": null
+            },
+            "for our end had come!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Those who chased us were swifter than the eagles in the sky; they pursued us over the mountains and ambushed us in the wilderness.",
+          "contents": [
+            "Those who chased us were swifter",
+            {
+              "q2": null
+            },
+            "than the eagles in the sky;",
+            {
+              "q1": null
+            },
+            "they pursued us over the mountains",
+            {
+              "q2": null
+            },
+            "and ambushed us in the wilderness.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "The LORD’s anointed, the breath of our life, was captured in their pits. We had said of him, “Under his shadow we will live among the nations.”",
+          "contents": [
+            "The LORD’s anointed, the breath of our life,",
+            {
+              "q2": null
+            },
+            "was captured in their pits.",
+            {
+              "q1": null
+            },
+            "We had said of him,",
+            {
+              "q2": null
+            },
+            "“Under his shadow we will live among the nations.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "So rejoice and be glad, O Daughter of Edom, you who dwell in the land of Uz. Yet the cup will pass to you as well; you will get drunk and expose yourself.",
+          "contents": [
+            "So rejoice and be glad, O Daughter of Edom,",
+            {
+              "q2": null
+            },
+            "you who dwell in the land of Uz.",
+            {
+              "q1": null
+            },
+            "Yet the cup will pass to you as well;",
+            {
+              "q2": null
+            },
+            "you will get drunk and expose yourself.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "O Daughter of Zion, your punishment is complete; He will not prolong your exile. But He will punish your iniquity, O Daughter of Edom; He will expose your sins.",
+          "contents": [
+            "O Daughter of Zion, your punishment is complete;",
+            {
+              "q2": null
+            },
+            "He will not prolong your exile.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:22"
+                },
+                {
+                  "ft": "Or He will not exile you again"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "But He will punish your iniquity, O Daughter of Edom;",
+            {
+              "q2": null
+            },
+            "He will expose your sins."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "A Prayer for Restoration"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Remember, O LORD, what has happened to us. Look and see our disgrace!",
+          "contents": [
+            "Remember, O LORD, what has happened to us.",
+            {
+              "q2": null
+            },
+            "Look and see our disgrace!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Our inheritance has been turned over to strangers, our houses to foreigners.",
+          "contents": [
+            "Our inheritance has been turned over to strangers,",
+            {
+              "q2": null
+            },
+            "our houses to foreigners.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "We have become fatherless orphans; our mothers are widows.",
+          "contents": [
+            "We have become fatherless orphans;",
+            {
+              "q2": null
+            },
+            "our mothers are widows.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "We must buy the water we drink; our wood comes at a price.",
+          "contents": [
+            "We must buy the water we drink;",
+            {
+              "q2": null
+            },
+            "our wood comes at a price.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "We are closely pursued; we are weary and find no rest.",
+          "contents": [
+            "We are closely pursued;",
+            {
+              "q2": null
+            },
+            "we are weary and find no rest.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "We submitted to Egypt and Assyria to get enough bread.",
+          "contents": [
+            "We submitted to Egypt and Assyria",
+            {
+              "q2": null
+            },
+            "to get enough bread.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Our fathers sinned and are no more, but we bear their punishment.",
+          "contents": [
+            "Our fathers sinned and are no more,",
+            {
+              "q2": null
+            },
+            "but we bear their punishment.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Slaves rule over us; there is no one to deliver us from their hands.",
+          "contents": [
+            "Slaves rule over us;",
+            {
+              "q2": null
+            },
+            "there is no one to deliver us from their hands.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "We get our bread at the risk of our lives because of the sword in the wilderness.",
+          "contents": [
+            "We get our bread at the risk of our lives",
+            {
+              "q2": null
+            },
+            "because of the sword in the wilderness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Our skin is as hot as an oven with fever from our hunger.",
+          "contents": [
+            "Our skin is as hot as an oven",
+            {
+              "q2": null
+            },
+            "with fever from our hunger.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Women have been ravished in Zion, virgins in the cities of Judah.",
+          "contents": [
+            "Women have been ravished in Zion,",
+            {
+              "q2": null
+            },
+            "virgins in the cities of Judah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Princes have been hung up by their hands; elders receive no respect.",
+          "contents": [
+            "Princes have been hung up by their hands;",
+            {
+              "q2": null
+            },
+            "elders receive no respect.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Young men toil at millstones; boys stagger under loads of wood.",
+          "contents": [
+            "Young men toil at millstones;",
+            {
+              "q2": null
+            },
+            "boys stagger under loads of wood.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The elders have left the city gate; the young men have stopped their music.",
+          "contents": [
+            "The elders have left the city gate;",
+            {
+              "q2": null
+            },
+            "the young men have stopped their music.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Joy has left our hearts; our dancing has turned to mourning.",
+          "contents": [
+            "Joy has left our hearts;",
+            {
+              "q2": null
+            },
+            "our dancing has turned to mourning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "The crown has fallen from our head. Woe to us, for we have sinned!",
+          "contents": [
+            "The crown has fallen from our head.",
+            {
+              "q2": null
+            },
+            "Woe to us, for we have sinned!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Because of this, our hearts are faint; because of these, our eyes grow dim—",
+          "contents": [
+            "Because of this, our hearts are faint;",
+            {
+              "q2": null
+            },
+            "because of these, our eyes grow dim—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "because of Mount Zion, which lies desolate, patrolled by foxes.",
+          "contents": [
+            "because of Mount Zion, which lies desolate,",
+            {
+              "q2": null
+            },
+            "patrolled by foxes.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "You, O LORD, reign forever; Your throne endures from generation to generation.",
+          "contents": [
+            "You, O LORD, reign forever;",
+            {
+              "q2": null
+            },
+            "Your throne endures from generation to generation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Why have You forgotten us forever? Why have You forsaken us for so long?",
+          "contents": [
+            "Why have You forgotten us forever?",
+            {
+              "q2": null
+            },
+            "Why have You forsaken us for so long?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Restore us to Yourself, O LORD, so we may return; renew our days as of old,",
+          "contents": [
+            "Restore us to Yourself, O LORD, so we may return;",
+            {
+              "q2": null
+            },
+            "renew our days as of old,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "unless You have utterly rejected us and remain angry with us beyond measure.",
+          "contents": [
+            "unless You have utterly rejected us",
+            {
+              "q2": null
+            },
+            "and remain angry with us beyond measure."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

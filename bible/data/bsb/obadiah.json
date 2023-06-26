@@ -1,0 +1,656 @@
+{
+  "book": {
+    "bookCode": "OBA",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Obadiah"
+      },
+      {
+        "toc1": [
+          "Obadiah"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Obadiah"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Destruction of Edom"
+            ]
+          },
+          {
+            "r": [
+              "(Jeremiah 49:7–22)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is the vision of Obadiah: This is what the Lord GOD says about Edom—We have heard a message from the LORD; an envoy has been sent among the nations to say, “Rise up, and let us go to battle against her!”—",
+          "contents": [
+            "This is the vision of Obadiah:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "This is what the Lord GOD says about Edom—",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "We have heard a message from the LORD;",
+            {
+              "q2": null
+            },
+            "an envoy has been sent among the nations",
+            {
+              "q1": null
+            },
+            "to say, “Rise up,",
+            {
+              "q2": null
+            },
+            "and let us go to battle against her!”—",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "“Behold, I will make you small among the nations; you will be deeply despised.",
+          "contents": [
+            "“Behold, I will make you small among the nations;",
+            {
+              "q2": null
+            },
+            "you will be deeply despised.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "The pride of your heart has deceived you, O dwellers in the clefts of the rocks whose habitation is the heights, who say in your heart, ‘Who can bring me down to the ground?’",
+          "contents": [
+            "The pride of your heart has deceived you,",
+            {
+              "q2": null
+            },
+            "O dwellers in the clefts of the rocks",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:3"
+                },
+                {
+                  "ft": "Or in the retreats of Sela"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "whose habitation is the heights,",
+            {
+              "q1": null
+            },
+            "who say in your heart,",
+            {
+              "q2": null
+            },
+            "‘Who can bring me down to the ground?’",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Though you soar like the eagle and make your nest among the stars, even from there I will bring you down,” declares the LORD.",
+          "contents": [
+            "Though you soar like the eagle",
+            {
+              "q2": null
+            },
+            "and make your nest among the stars,",
+            {
+              "q2": null
+            },
+            "even from there I will bring you down,”",
+            {
+              "qr": null
+            },
+            "declares the LORD.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "“If thieves came to you, if robbers by night—oh, how you will be ruined—would they not steal only what they wanted? If grape gatherers came to you, would they not leave some gleanings?",
+          "contents": [
+            "“If thieves came to you,",
+            {
+              "q2": null
+            },
+            "if robbers by night—",
+            {
+              "q1": null
+            },
+            "oh, how you will be ruined—",
+            {
+              "q2": null
+            },
+            "would they not steal only what they wanted?",
+            {
+              "q1": null
+            },
+            "If grape gatherers came to you,",
+            {
+              "q2": null
+            },
+            "would they not leave some gleanings?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "But how Esau will be pillaged, his hidden treasures sought out!",
+          "contents": [
+            "But how Esau will be pillaged,",
+            {
+              "q2": null
+            },
+            "his hidden treasures sought out!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "All the men allied with you will drive you to the border; the men at peace with you will deceive and overpower you. Those who eat your bread will set a trap for you without your awareness of it.",
+          "contents": [
+            "All the men allied with you",
+            {
+              "q2": null
+            },
+            "will drive you to the border;",
+            {
+              "q1": null
+            },
+            "the men at peace with you",
+            {
+              "q2": null
+            },
+            "will deceive and overpower you.",
+            {
+              "q1": null
+            },
+            "Those who eat your bread",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:7"
+                },
+                {
+                  "ft": "Hebrew does not include Those who eat."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "will set a trap for you",
+            {
+              "q2": null
+            },
+            "without your awareness of it.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "In that day, declares the LORD, will I not destroy the wise men of Edom and the men of understanding in the mountains of Esau?",
+          "contents": [
+            "In that day, declares the LORD,",
+            {
+              "q2": null
+            },
+            "will I not destroy the wise men of Edom",
+            {
+              "q1": null
+            },
+            "and the men of understanding",
+            {
+              "q2": null
+            },
+            "in the mountains of Esau?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Then your mighty men, O Teman, will be terrified, so that everyone in the mountains of Esau will be cut down in the slaughter.",
+          "contents": [
+            "Then your mighty men, O Teman,",
+            {
+              "q2": null
+            },
+            "will be terrified,",
+            {
+              "q1": null
+            },
+            "so that everyone in the mountains of Esau",
+            {
+              "q2": null
+            },
+            "will be cut down in the slaughter.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Because of the violence against your brother Jacob, you will be covered with shame and cut off forever.",
+          "contents": [
+            "Because of the violence against your brother Jacob,",
+            {
+              "q2": null
+            },
+            "you will be covered with shame",
+            {
+              "q2": null
+            },
+            "and cut off forever.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "On the day you stood aloof while strangers carried off his wealth and foreigners entered his gate and cast lots for Jerusalem, you were just like one of them.",
+          "contents": [
+            "On the day you stood aloof",
+            {
+              "q2": null
+            },
+            "while strangers carried off his wealth",
+            {
+              "q1": null
+            },
+            "and foreigners entered his gate",
+            {
+              "q2": null
+            },
+            "and cast lots for Jerusalem,",
+            {
+              "q2": null
+            },
+            "you were just like one of them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "But you should not gloat in that day, your brother’s day of misfortune, nor rejoice over the people of Judah in the day of their destruction, nor boast proudly in the day of their distress.",
+          "contents": [
+            "But you should not gloat in that day,",
+            {
+              "q2": null
+            },
+            "your brother’s day of misfortune,",
+            {
+              "q1": null
+            },
+            "nor rejoice over the people of Judah",
+            {
+              "q2": null
+            },
+            "in the day of their destruction,",
+            {
+              "q1": null
+            },
+            "nor boast proudly",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:12"
+                },
+                {
+                  "ft": "Hebrew nor enlarge your mouth"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "in the day of their distress.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "You should not enter the gate of My people in the day of their disaster, nor gloat over their affliction in the day of their disaster, nor loot their wealth in the day of their disaster.",
+          "contents": [
+            "You should not enter the gate of My people",
+            {
+              "q2": null
+            },
+            "in the day of their disaster,",
+            {
+              "q1": null
+            },
+            "nor gloat over their affliction",
+            {
+              "q2": null
+            },
+            "in the day of their disaster,",
+            {
+              "q1": null
+            },
+            "nor loot their wealth",
+            {
+              "q2": null
+            },
+            "in the day of their disaster.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Nor should you stand at the crossroads to cut off their fugitives, nor deliver up their survivors in the day of their distress.",
+          "contents": [
+            "Nor should you stand at the crossroads",
+            {
+              "q2": null
+            },
+            "to cut off their fugitives,",
+            {
+              "q1": null
+            },
+            "nor deliver up their survivors",
+            {
+              "q2": null
+            },
+            "in the day of their distress.",
+            [
+              {
+                "s1": [
+                  "The Deliverance of Israel"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "For the Day of the LORD is near for all the nations. As you have done, it will be done to you; your recompense will return upon your own head.",
+          "contents": [
+            "For the Day of the LORD is near",
+            {
+              "q2": null
+            },
+            "for all the nations.",
+            {
+              "q1": null
+            },
+            "As you have done, it will be done to you;",
+            {
+              "q2": null
+            },
+            "your recompense will return upon your own head.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For as you drank on My holy mountain, so all the nations will drink continually. They will drink and gulp it down; they will be as if they had never existed.",
+          "contents": [
+            "For as you drank on My holy mountain,",
+            {
+              "q2": null
+            },
+            "so all the nations will drink continually.",
+            {
+              "q1": null
+            },
+            "They will drink and gulp it down;",
+            {
+              "q2": null
+            },
+            "they will be as if they had never existed.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "But on Mount Zion there will be deliverance, and it will be holy, and the house of Jacob will reclaim their possession.",
+          "contents": [
+            "But on Mount Zion there will be deliverance,",
+            {
+              "q2": null
+            },
+            "and it will be holy,",
+            {
+              "q1": null
+            },
+            "and the house of Jacob",
+            {
+              "q2": null
+            },
+            "will reclaim their possession.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Then the house of Jacob will be a blazing fire, and the house of Joseph a burning flame; but the house of Esau will be stubble—Jacob will set it ablaze and consume it. Therefore no survivor will remain from the house of Esau.” For the LORD has spoken.",
+          "contents": [
+            "Then the house of Jacob will be a blazing fire,",
+            {
+              "q2": null
+            },
+            "and the house of Joseph a burning flame;",
+            {
+              "q1": null
+            },
+            "but the house of Esau will be stubble—",
+            {
+              "q2": null
+            },
+            "Jacob will set it ablaze and consume it.",
+            {
+              "q1": null
+            },
+            "Therefore no survivor will remain",
+            {
+              "q2": null
+            },
+            "from the house of Esau.”",
+            {
+              "qr": null
+            },
+            "For the LORD has spoken.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Those from the Negev will possess the mountains of Esau; those from the foothills will possess the land of the Philistines. They will occupy the fields of Ephraim and Samaria, and Benjamin will possess Gilead.",
+          "contents": [
+            "Those from the Negev will possess the mountains of Esau;",
+            {
+              "q2": null
+            },
+            "those from the foothills",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:19"
+                },
+                {
+                  "ft": "Hebrew Shephelah or lowlands; that is, the western foothills of Judea"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will possess the land of the Philistines.",
+            {
+              "q1": null
+            },
+            "They will occupy the fields of Ephraim and Samaria,",
+            {
+              "q2": null
+            },
+            "and Benjamin will possess Gilead.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "And the exiles of this host of the Israelites will possess the land of the Canaanites as far as Zarephath; and the exiles from Jerusalem who are in Sepharad will possess the cities of the Negev.",
+          "contents": [
+            "And the exiles of this host of the Israelites",
+            {
+              "q2": null
+            },
+            "will possess the land of the Canaanites as far as Zarephath;",
+            {
+              "q1": null
+            },
+            "and the exiles from Jerusalem who are in Sepharad",
+            {
+              "q2": null
+            },
+            "will possess the cities of the Negev.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "The deliverers will ascend Mount Zion to rule over the mountains of Esau. And the kingdom will belong to the LORD.",
+          "contents": [
+            "The deliverers will ascend",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:21"
+                },
+                {
+                  "ft": "Or The deliverers will go up from; LXX Those being delivered will go up"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Mount Zion",
+            {
+              "q2": null
+            },
+            "to rule over the mountains of Esau.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "And the kingdom will belong to the LORD."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

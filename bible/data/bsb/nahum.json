@@ -1,0 +1,1350 @@
+{
+  "book": {
+    "bookCode": "NAM",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Nahum"
+      },
+      {
+        "toc1": [
+          "Nahum"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Nahum"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Burden against Nineveh"
+            ]
+          },
+          {
+            "r": [
+              "(Jonah 1:1–3)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is the burden against Nineveh, the book of the vision of Nahum the Elkoshite:",
+          "contents": [
+            "This is the burden against Nineveh, the book of the vision of Nahum the Elkoshite:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The LORD is a jealous and avenging God; the LORD is avenging and full of wrath. The LORD takes vengeance on His foes and reserves wrath for His enemies.",
+          "contents": [
+            "The LORD is a jealous and avenging God;",
+            {
+              "q2": null
+            },
+            "the LORD is avenging and full of wrath.",
+            {
+              "q1": null
+            },
+            "The LORD takes vengeance on His foes",
+            {
+              "q2": null
+            },
+            "and reserves wrath for His enemies.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "The LORD is slow to anger and great in power; the LORD will by no means leave the guilty unpunished. His path is in the whirlwind and storm, and clouds are the dust beneath His feet.",
+          "contents": [
+            "The LORD is slow to anger",
+            {
+              "q2": null
+            },
+            "and great in power;",
+            {
+              "q1": null
+            },
+            "the LORD will by no means",
+            {
+              "q2": null
+            },
+            "leave the guilty unpunished.",
+            {
+              "q1": null
+            },
+            "His path is in the whirlwind and storm,",
+            {
+              "q2": null
+            },
+            "and clouds are the dust beneath His feet.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "He rebukes the sea and dries it up; He makes all the rivers run dry. Bashan and Carmel wither, and the flower of Lebanon wilts.",
+          "contents": [
+            "He rebukes the sea and dries it up;",
+            {
+              "q2": null
+            },
+            "He makes all the rivers run dry.",
+            {
+              "q1": null
+            },
+            "Bashan and Carmel wither,",
+            {
+              "q2": null
+            },
+            "and the flower of Lebanon wilts.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The mountains quake before Him, and the hills melt away; the earth trembles at His presence—the world and all its dwellers.",
+          "contents": [
+            "The mountains quake before Him,",
+            {
+              "q2": null
+            },
+            "and the hills melt away;",
+            {
+              "q1": null
+            },
+            "the earth trembles at His presence—",
+            {
+              "q2": null
+            },
+            "the world and all its dwellers.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Who can withstand His indignation? Who can endure His burning anger? His wrath is poured out like fire; even rocks are shattered before Him.",
+          "contents": [
+            "Who can withstand His indignation?",
+            {
+              "q2": null
+            },
+            "Who can endure His burning anger?",
+            {
+              "q1": null
+            },
+            "His wrath is poured out like fire;",
+            {
+              "q2": null
+            },
+            "even rocks are shattered before Him.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "The LORD is good, a stronghold in the day of distress; He cares for those who trust in Him.",
+          "contents": [
+            "The LORD is good,",
+            {
+              "q2": null
+            },
+            "a stronghold in the day of distress;",
+            {
+              "q2": null
+            },
+            "He cares for those who trust in Him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "But with an overwhelming flood He will make an end of Nineveh and pursue His enemies into darkness.",
+          "contents": [
+            "But with an overwhelming flood",
+            {
+              "q2": null
+            },
+            "He will make an end of Nineveh",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:8"
+                },
+                {
+                  "ft": "Literally of her place"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "and pursue His enemies into darkness.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Whatever you plot against the LORD, He will bring to an end. Affliction will not rise up a second time.",
+          "contents": [
+            "Whatever you plot against the LORD,",
+            {
+              "q2": null
+            },
+            "He will bring to an end.",
+            {
+              "q1": null
+            },
+            "Affliction will not rise up",
+            {
+              "q2": null
+            },
+            "a second time.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For they will be entangled as with thorns and consumed like the drink of a drunkard—like stubble that is fully dry.",
+          "contents": [
+            "For they will be entangled as with thorns",
+            {
+              "q2": null
+            },
+            "and consumed like the drink of a drunkard—",
+            {
+              "q2": null
+            },
+            "like stubble that is fully dry.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "From you, O Nineveh, comes forth a plotter of evil against the LORD, a counselor of wickedness.",
+          "contents": [
+            "From you, O Nineveh, comes forth",
+            {
+              "q2": null
+            },
+            "a plotter of evil against the LORD,",
+            {
+              "q2": null
+            },
+            "a counselor of wickedness.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "This is what the LORD says: “Though they are allied and numerous, yet they will be cut down and pass away. Though I have afflicted you, O Judah, I will afflict you no longer.",
+          "contents": [
+            "This is what the LORD says:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“Though they are allied and numerous,",
+            {
+              "q2": null
+            },
+            "yet they will be cut down and pass away.",
+            {
+              "q1": null
+            },
+            "Though I have afflicted you, O Judah,",
+            {
+              "q2": null
+            },
+            "I will afflict you no longer.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "For I will now break their yoke from your neck and tear away your shackles.”",
+          "contents": [
+            "For I will now break their yoke from your neck",
+            {
+              "q2": null
+            },
+            "and tear away your shackles.”",
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The LORD has issued a command concerning you, O Nineveh: “There will be no descendants to carry on your name. I will cut off the carved image and cast idol from the house of your gods; I will prepare your grave, for you are contemptible.”",
+          "contents": [
+            "The LORD has issued a command concerning you, O Nineveh:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“There will be no descendants",
+            {
+              "q2": null
+            },
+            "to carry on your name.",
+            {
+              "q1": null
+            },
+            "I will cut off the carved image and cast idol",
+            {
+              "q2": null
+            },
+            "from the house of your gods;",
+            {
+              "q1": null
+            },
+            "I will prepare your grave,",
+            {
+              "q2": null
+            },
+            "for you are contemptible.”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Look to the mountains—the feet of one who brings good news, who proclaims peace! Celebrate your feasts, O Judah; fulfill your vows. For the wicked will never again march through you; they will be utterly cut off.",
+          "contents": [
+            "Look to the mountains—",
+            {
+              "q2": null
+            },
+            "the feet of one who brings good news,",
+            {
+              "q2": null
+            },
+            "who proclaims peace!",
+            {
+              "q1": null
+            },
+            "Celebrate your feasts, O Judah;",
+            {
+              "q2": null
+            },
+            "fulfill your vows.",
+            {
+              "q1": null
+            },
+            "For the wicked will never again march through you;",
+            {
+              "q2": null
+            },
+            "they will be utterly cut off."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Overthrow of Nineveh"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "One who scatters advances against you, O Nineveh. Guard the fortress! Watch the road! Brace yourselves! Summon all your strength!",
+          "contents": [
+            "One who scatters advances",
+            {
+              "q2": null
+            },
+            "against you, O Nineveh.",
+            {
+              "q1": null
+            },
+            "Guard the fortress!",
+            {
+              "q2": null
+            },
+            "Watch the road!",
+            {
+              "q1": null
+            },
+            "Brace yourselves!",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:1"
+                },
+                {
+                  "ft": "Hebrew Strengthen your loins!"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "Summon all your strength!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For the LORD will restore the splendor of Jacob like the splendor of Israel, though destroyers have laid them waste and ruined the branches of their vine.",
+          "contents": [
+            "For the LORD will restore the splendor of Jacob",
+            {
+              "q2": null
+            },
+            "like the splendor of Israel,",
+            {
+              "q1": null
+            },
+            "though destroyers have laid them waste",
+            {
+              "q2": null
+            },
+            "and ruined the branches of their vine.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "The shields of his mighty men are red; the valiant warriors are dressed in scarlet. The fittings of the chariots flash like fire on the day they are prepared, and the spears of cypress have been brandished.",
+          "contents": [
+            "The shields of his mighty men are red;",
+            {
+              "q2": null
+            },
+            "the valiant warriors are dressed in scarlet.",
+            {
+              "q1": null
+            },
+            "The fittings of the chariots flash like fire",
+            {
+              "q2": null
+            },
+            "on the day they are prepared,",
+            {
+              "q1": null
+            },
+            "and the spears of cypress",
+            {
+              "q2": null
+            },
+            "have been brandished.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:3"
+                },
+                {
+                  "ft": "Hebrew; alternately, the spears may be of pine or juniper or fir; LXX and Syriac they are prepared, and the horsemen rush to and fro."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The chariots dash through the streets; they rush around the plazas, appearing like torches, darting about like lightning.",
+          "contents": [
+            "The chariots dash through the streets;",
+            {
+              "q2": null
+            },
+            "they rush around the plazas,",
+            {
+              "q1": null
+            },
+            "appearing like torches,",
+            {
+              "q2": null
+            },
+            "darting about like lightning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "He summons his nobles; they stumble as they advance. They race to its wall; the protective shield is set in place.",
+          "contents": [
+            "He summons his nobles;",
+            {
+              "q2": null
+            },
+            "they stumble as they advance.",
+            {
+              "q1": null
+            },
+            "They race to its wall;",
+            {
+              "q2": null
+            },
+            "the protective shield is set in place.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The river gates are thrown open and the palace collapses.",
+          "contents": [
+            "The river gates are thrown open",
+            {
+              "q2": null
+            },
+            "and the palace collapses.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "It is decreed that the city be exiled and carried away; her maidservants moan like doves, and beat upon their breasts.",
+          "contents": [
+            "It is decreed that the city be exiled",
+            {
+              "q2": null
+            },
+            "and carried away;",
+            {
+              "q1": null
+            },
+            "her maidservants moan like doves,",
+            {
+              "q2": null
+            },
+            "and beat upon their breasts.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Nineveh has been like a pool of water throughout her days, but now it is draining away. “Stop! Stop!” they cry, but no one turns back.",
+          "contents": [
+            "Nineveh has been like a pool of water",
+            {
+              "q2": null
+            },
+            "throughout her days,",
+            {
+              "q2": null
+            },
+            "but now it is draining away.",
+            {
+              "q1": null
+            },
+            "“Stop! Stop!” they cry,",
+            {
+              "q2": null
+            },
+            "but no one turns back.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "“Plunder the silver! Plunder the gold!” There is no end to the treasure, an abundance of every precious thing.",
+          "contents": [
+            "“Plunder the silver!",
+            {
+              "q2": null
+            },
+            "Plunder the gold!”",
+            {
+              "q1": null
+            },
+            "There is no end to the treasure,",
+            {
+              "q2": null
+            },
+            "an abundance of every precious thing.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "She is emptied! Yes, she is desolate and laid waste! Hearts melt, knees knock, bodies tremble, and every face grows pale!",
+          "contents": [
+            "She is emptied!",
+            {
+              "q2": null
+            },
+            "Yes, she is desolate and laid waste!",
+            {
+              "q1": null
+            },
+            "Hearts melt, knees knock,",
+            {
+              "q2": null
+            },
+            "bodies tremble, and every face grows pale!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Where is the lions’ lair or the feeding ground of the young lions, where the lion and lioness prowled with their cubs, with nothing to frighten them away?",
+          "contents": [
+            "Where is the lions’ lair",
+            {
+              "q2": null
+            },
+            "or the feeding ground of the young lions,",
+            {
+              "q1": null
+            },
+            "where the lion and lioness prowled with their cubs,",
+            {
+              "q2": null
+            },
+            "with nothing to frighten them away?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The lion mauled enough for its cubs and strangled prey for the lioness. It filled its dens with the kill, and its lairs with mauled prey.",
+          "contents": [
+            "The lion mauled enough for its cubs",
+            {
+              "q2": null
+            },
+            "and strangled prey for the lioness.",
+            {
+              "q1": null
+            },
+            "It filled its dens with the kill,",
+            {
+              "q2": null
+            },
+            "and its lairs with mauled prey.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "“Behold, I am against you,” declares the LORD of Hosts. “I will send your chariots up in smoke, and the sword will devour your young lions. I will cut off your prey from the earth, and the voices of your messengers will no longer be heard.”",
+          "contents": [
+            "“Behold, I am against you,”",
+            {
+              "q2": null
+            },
+            "declares the LORD of Hosts.",
+            {
+              "q1": null
+            },
+            "“I will send your chariots up in smoke,",
+            {
+              "q2": null
+            },
+            "and the sword will devour your young lions.",
+            {
+              "q1": null
+            },
+            "I will cut off your prey from the earth,",
+            {
+              "q2": null
+            },
+            "and the voices of your messengers",
+            {
+              "q2": null
+            },
+            "will no longer be heard.”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Judgment on Nineveh"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Woe to the city of blood, full of lies, full of plunder, never without prey.",
+          "contents": [
+            "Woe to the city of blood,",
+            {
+              "q2": null
+            },
+            "full of lies,",
+            {
+              "q1": null
+            },
+            "full of plunder,",
+            {
+              "q2": null
+            },
+            "never without prey.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The crack of the whip, the rumble of the wheel, galloping horse and bounding chariot!",
+          "contents": [
+            "The crack of the whip,",
+            {
+              "q2": null
+            },
+            "the rumble of the wheel,",
+            {
+              "q1": null
+            },
+            "galloping horse",
+            {
+              "q2": null
+            },
+            "and bounding chariot!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Charging horseman, flashing sword, shining spear; heaps of slain, mounds of corpses, dead bodies without end—they stumble over their dead—",
+          "contents": [
+            "Charging horseman,",
+            {
+              "q2": null
+            },
+            "flashing sword,",
+            {
+              "q2": null
+            },
+            "shining spear;",
+            {
+              "q1": null
+            },
+            "heaps of slain,",
+            {
+              "q2": null
+            },
+            "mounds of corpses,",
+            {
+              "q1": null
+            },
+            "dead bodies without end—",
+            {
+              "q2": null
+            },
+            "they stumble over their dead—",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "because of the many harlotries of the harlot, the seductive mistress of sorcery, who betrays nations by her prostitution and clans by her witchcraft.",
+          "contents": [
+            "because of the many harlotries of the harlot,",
+            {
+              "q2": null
+            },
+            "the seductive mistress of sorcery,",
+            {
+              "q1": null
+            },
+            "who betrays nations by her prostitution",
+            {
+              "q2": null
+            },
+            "and clans by her witchcraft.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "“Behold, I am against you,” declares the LORD of Hosts. “I will lift your skirts over your face. I will show your nakedness to the nations and your shame to the kingdoms.",
+          "contents": [
+            "“Behold, I am against you,”",
+            {
+              "q2": null
+            },
+            "declares the LORD of Hosts.",
+            {
+              "q1": null
+            },
+            "“I will lift your skirts over your face.",
+            {
+              "q2": null
+            },
+            "I will show your nakedness to the nations",
+            {
+              "q2": null
+            },
+            "and your shame to the kingdoms.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "I will pelt you with filth and treat you with contempt; I will make a spectacle of you.",
+          "contents": [
+            "I will pelt you with filth",
+            {
+              "q2": null
+            },
+            "and treat you with contempt;",
+            {
+              "q2": null
+            },
+            "I will make a spectacle of you.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Then all who see you will recoil from you and say, ‘Nineveh is devastated; who will grieve for her?’ Where can I find comforters for you?”",
+          "contents": [
+            "Then all who see you",
+            {
+              "q2": null
+            },
+            "will recoil from you and say,",
+            {
+              "q1": null
+            },
+            "‘Nineveh is devastated;",
+            {
+              "q2": null
+            },
+            "who will grieve for her?’",
+            {
+              "q1": null
+            },
+            "Where can I find",
+            {
+              "q2": null
+            },
+            "comforters for you?”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Are you better than Thebes, stationed by the Nile with water around her, whose rampart was the sea, whose wall was the water?",
+          "contents": [
+            "Are you better than Thebes,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:8"
+                },
+                {
+                  "ft": "Hebrew No-amon"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "stationed by the Nile with water around her,",
+            {
+              "q1": null
+            },
+            "whose rampart was the sea,",
+            {
+              "q2": null
+            },
+            "whose wall was the water?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Cush and Egypt were her boundless strength; Put and Libya were her allies.",
+          "contents": [
+            "Cush",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:9"
+                },
+                {
+                  "ft": "That is, the upper Nile region"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and Egypt were her boundless strength;",
+            {
+              "q2": null
+            },
+            "Put and Libya were her allies.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Yet she became an exile; she went into captivity. Her infants were dashed to pieces at the head of every street. They cast lots for her dignitaries, and all her nobles were bound in chains.",
+          "contents": [
+            "Yet she became an exile;",
+            {
+              "q2": null
+            },
+            "she went into captivity.",
+            {
+              "q1": null
+            },
+            "Her infants were dashed to pieces",
+            {
+              "q2": null
+            },
+            "at the head of every street.",
+            {
+              "q1": null
+            },
+            "They cast lots for her dignitaries,",
+            {
+              "q2": null
+            },
+            "and all her nobles were bound in chains.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "You too will become drunk; you will go into hiding and seek refuge from the enemy.",
+          "contents": [
+            "You too will become drunk;",
+            {
+              "q2": null
+            },
+            "you will go into hiding",
+            {
+              "q2": null
+            },
+            "and seek refuge from the enemy.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "All your fortresses are fig trees with the first ripe figs; when shaken, they fall into the mouth of the eater!",
+          "contents": [
+            "All your fortresses are fig trees",
+            {
+              "q2": null
+            },
+            "with the first ripe figs;",
+            {
+              "q1": null
+            },
+            "when shaken, they fall",
+            {
+              "q2": null
+            },
+            "into the mouth of the eater!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Look at your troops—they are like your women! The gates of your land are wide open to your enemies; fire consumes their bars.",
+          "contents": [
+            "Look at your troops—",
+            {
+              "q2": null
+            },
+            "they are like your women!",
+            {
+              "q1": null
+            },
+            "The gates of your land",
+            {
+              "q2": null
+            },
+            "are wide open to your enemies;",
+            {
+              "q2": null
+            },
+            "fire consumes their bars.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Draw your water for the siege; strengthen your fortresses. Work the clay and tread the mortar; repair the brick kiln!",
+          "contents": [
+            "Draw your water for the siege;",
+            {
+              "q2": null
+            },
+            "strengthen your fortresses.",
+            {
+              "q1": null
+            },
+            "Work the clay and tread the mortar;",
+            {
+              "q2": null
+            },
+            "repair the brick kiln!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "There the fire will devour you; the sword will cut you down and consume you like a young locust. Make yourself many like the young locust; make yourself many like the swarming locust!",
+          "contents": [
+            "There the fire will devour you;",
+            {
+              "q2": null
+            },
+            "the sword will cut you down",
+            {
+              "q2": null
+            },
+            "and consume you like a young locust.",
+            {
+              "q1": null
+            },
+            "Make yourself many like the young locust;",
+            {
+              "q2": null
+            },
+            "make yourself many like the swarming locust!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "You have multiplied your merchants more than the stars of the sky. The young locust strips the land and flies away.",
+          "contents": [
+            "You have multiplied your merchants",
+            {
+              "q2": null
+            },
+            "more than the stars of the sky.",
+            {
+              "q1": null
+            },
+            "The young locust strips the land",
+            {
+              "q2": null
+            },
+            "and flies away.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Your guards are like the swarming locust, and your scribes like clouds of locusts that settle on the walls on a cold day. When the sun rises, they fly away, and no one knows where.",
+          "contents": [
+            "Your guards",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:17"
+                },
+                {
+                  "ft": "Or princes"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "are like the swarming locust,",
+            {
+              "q2": null
+            },
+            "and your scribes",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:17"
+                },
+                {
+                  "ft": "Or marshals"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "like clouds of locusts",
+            {
+              "q2": null
+            },
+            "that settle on the walls on a cold day.",
+            {
+              "q1": null
+            },
+            "When the sun rises, they fly away,",
+            {
+              "q2": null
+            },
+            "and no one knows where.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "O king of Assyria, your shepherds slumber; your officers sleep. Your people are scattered on the mountains with no one to gather them.",
+          "contents": [
+            "O king of Assyria, your shepherds slumber;",
+            {
+              "q2": null
+            },
+            "your officers sleep.",
+            {
+              "q1": null
+            },
+            "Your people are scattered on the mountains",
+            {
+              "q2": null
+            },
+            "with no one to gather them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "There is no healing for your injury; your wound is severe. All who hear the news of you applaud your downfall, for who has not experienced your constant cruelty?",
+          "contents": [
+            "There is no healing for your injury;",
+            {
+              "q2": null
+            },
+            "your wound is severe.",
+            {
+              "q1": null
+            },
+            "All who hear the news of you",
+            {
+              "q2": null
+            },
+            "applaud your downfall,",
+            {
+              "q1": null
+            },
+            "for who has not experienced",
+            {
+              "q2": null
+            },
+            "your constant cruelty?"
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
