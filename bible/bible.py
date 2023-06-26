@@ -99,12 +99,12 @@ class Bible(commands.Cog):
                     verse_max = len(chapter["verses"]) - 1
 
                 # check if the range is valid
-                try:
-                    if 'verses' in chapter:
-                        chapter.get("verses")[verse_min-1:verse_max]
-                except IndexError:
-                    await ctx.send("Verse not found: ", verse)
-                    return
+                #try:
+                #    if 'verses' in chapter:
+                #        chapter.get("verses")[verse_min-1:verse_max]
+                #except IndexError:
+                #    await ctx.send("Verse not found: ", verse)
+                #    return
 
                 # the format between the akjv and the USFM json is different
                 usfmFormat = False
@@ -116,7 +116,7 @@ class Bible(commands.Cog):
                     usfmFormat = True
                     # index 3 is the first first in a chapter
                     range_min = verse_min + 2
-                    range_max = verse_max + 2
+                    range_max = verse_max + 3
                     #description += json.dumps(chapter.get("contents")[range_min]) + "\n"
                     verses = chapter.get("contents")[range_min:range_max]
                     description += "verses json:" + json.dumps(verses) + "\n"
