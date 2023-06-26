@@ -118,7 +118,7 @@ class Bible(commands.Cog):
                     range_min = verse_min + 2
                     range_max = verse_max + 2
                     #description += json.dumps(chapter.get("contents")[range_min]) + "\n"
-                    verses = chapter.get("contents")[range_min:range_max]
+                    verses = chapter.get("contents")[range_min]
                     description += json.dumps(verses) + "\n"
                     chapterNumber = chapter.get("chapterNumber")
                     #description += "chapterNumber: " + chapterNumber + "\n"
