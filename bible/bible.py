@@ -472,10 +472,10 @@ def get_book_extras(matched_book: dict, translation: str = 'akjv'):
         extras.append('Apocrypha')
     return extras
 
-translation_names = [
-    { 'akjv': 'Authorized (King James) Version (AKJV)'},
-    { 'bsb': 'Berean Study Bible'}
-]
+translation_names = {
+    'akjv': 'Authorized (King James) Version (AKJV)',
+    'bsb': 'Berean Study Bible'
+}
 
 book_categories = [
     'Old Testament',
