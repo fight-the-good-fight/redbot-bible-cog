@@ -115,7 +115,7 @@ class Bible(commands.Cog):
                 if 'contents' in chapter:
                     verses = chapter.get("contents")[verse_min+2:verse_max]
                     usfmFormat = True
-                    chapterNumber = str(chapter["chapter"])
+                    chapterNumber = str(chapter["chapterNumber"])
 
                 for verse in verses:
                     if usfmFormat:
