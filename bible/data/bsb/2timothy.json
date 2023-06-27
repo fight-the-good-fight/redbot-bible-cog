@@ -1,0 +1,1224 @@
+{
+  "book": {
+    "bookCode": "2TI",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "2 Timothy"
+      },
+      {
+        "toc1": [
+          "2 Timothy"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "2 Timothy"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Greeting to Timothy"
+            ]
+          },
+          {
+            "r": [
+              "(1 Timothy 1:1–2)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, an apostle of Christ Jesus by the will of God, according to the promise of life in Christ Jesus,",
+          "contents": [
+            "Paul, an apostle of Christ Jesus by the will of God, according to the promise of life in Christ Jesus,",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "To Timothy, my beloved child: Grace, mercy, and peace from God the Father and Christ Jesus our Lord.",
+          "contents": [
+            "To Timothy, my beloved child:",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Grace, mercy, and peace from God the Father and Christ Jesus our Lord.",
+            [
+              {
+                "s1": [
+                  "Faithfulness under Persecution"
+                ]
+              },
+              {
+                "r": [
+                  "(Matthew 10:16–25)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers.",
+          "contents": [
+            "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Recalling your tears, I long to see you so that I may be filled with joy.",
+          "contents": [
+            "Recalling your tears, I long to see you so that I may be filled with joy.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I am reminded of your sincere faith, which first dwelt in your grandmother Lois and your mother Eunice, and I am convinced is in you as well.",
+          "contents": [
+            "I am reminded of your sincere faith, which first dwelt in your grandmother Lois and your mother Eunice, and I am convinced is in you as well.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For this reason I remind you to fan into flame the gift of God, which is in you through the laying on of my hands.",
+          "contents": [
+            "For this reason I remind you to fan into flame the gift of God, which is in you through the laying on of my hands."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For God has not given us a spirit of fear, but of power, love, and self-control.",
+          "contents": [
+            "For God has not given us a spirit of fear,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:7"
+                },
+                {
+                  "ft": "Or timidity or cowardice"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "but of power, love, and self-control.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "So do not be ashamed of the testimony of our Lord, or of me, His prisoner. Instead, join me in suffering for the gospel by the power of God.",
+          "contents": [
+            "So do not be ashamed of the testimony of our Lord, or of me, His prisoner. Instead, join me in suffering for the gospel by the power of God."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "He has saved us and called us to a holy calling, not because of our works, but by His own purpose and by the grace He granted us in Christ Jesus before time began.",
+          "contents": [
+            "He has saved us and called us to a holy calling, not because of our works, but by His own purpose and by the grace He granted us in Christ Jesus before time began.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:9"
+                },
+                {
+                  "ft": "Literally before times eternal"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "And now He has revealed this grace through the appearing of our Savior, Christ Jesus, who has abolished death and illuminated the way to life and immortality through the gospel,",
+          "contents": [
+            "And now He has revealed this grace through the appearing of our Savior, Christ Jesus, who has abolished death and illuminated the way to life and immortality through the gospel,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "to which I was appointed as a preacher, an apostle, and a teacher.",
+          "contents": [
+            "to which I was appointed as a preacher, an apostle, and a teacher.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For this reason, even though I suffer as I do, I am not ashamed; for I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him for that day.",
+          "contents": [
+            "For this reason, even though I suffer as I do, I am not ashamed; for I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:12"
+                },
+                {
+                  "ft": "Or what He has entrusted to me"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "for that day.",
+            [
+              {
+                "s1": [
+                  "Holding to Sound Teaching"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Hold on to the pattern of sound teaching you have heard from me, with the faith and love that are in Christ Jesus.",
+          "contents": [
+            "Hold on to the pattern of sound teaching",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:13"
+                },
+                {
+                  "ft": "Literally sound words"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "you have heard from me, with the faith and love that are in Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Guard the treasure entrusted to you, with the help of the Holy Spirit who dwells in us.",
+          "contents": [
+            "Guard the treasure entrusted to you,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:14"
+                },
+                {
+                  "ft": "Or the good deposit entrusted to you"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "with the help of the Holy Spirit who dwells in us.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "You know that everyone in the Province of Asia has deserted me, including Phygelus and Hermogenes.",
+          "contents": [
+            "You know that everyone in the Province of Asia",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:15"
+                },
+                {
+                  "ft": "Literally in Asia; Asia was a Roman province in what is now western Turkey."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "has deserted me, including Phygelus and Hermogenes.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains.",
+          "contents": [
+            "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Indeed, when he arrived in Rome, he searched diligently until he found me.",
+          "contents": [
+            "Indeed, when he arrived in Rome, he searched diligently until he found me.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "May the Lord grant Onesiphorus His mercy on that day. You know very well how much he ministered to me in Ephesus.",
+          "contents": [
+            "May the Lord grant Onesiphorus His mercy on that day. You know very well how much he ministered to me in Ephesus."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Grace and Perseverance"
+            ]
+          },
+          {
+            "r": [
+              "(Hebrews 12:1–3)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "You therefore, my child, be strong in the grace that is in Christ Jesus.",
+          "contents": [
+            "You therefore, my child, be strong in the grace that is in Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "And the things that you have heard me say among many witnesses, entrust these to faithful men who will be qualified to teach others as well.",
+          "contents": [
+            "And the things that you have heard me say among many witnesses, entrust these to faithful men who will be qualified to teach others as well.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Join me in suffering, like a good soldier of Christ Jesus.",
+          "contents": [
+            "Join me in suffering, like a good soldier of Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "A soldier refrains from entangling himself in civilian affairs, in order to please the one who enlisted him.",
+          "contents": [
+            "A soldier refrains from entangling himself in civilian affairs, in order to please the one who enlisted him."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Likewise, a competitor does not receive the crown unless he competes according to the rules.",
+          "contents": [
+            "Likewise, a competitor does not receive the crown unless he competes according to the rules."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The hardworking farmer should be the first to partake of the crops.",
+          "contents": [
+            "The hardworking farmer should be the first to partake of the crops."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Consider what I am saying, for the Lord will give you insight into all things.",
+          "contents": [
+            "Consider what I am saying, for the Lord will give you insight into all things.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Remember Jesus Christ, raised from the dead, descended from David, as proclaimed by my gospel,",
+          "contents": [
+            "Remember Jesus Christ, raised from the dead, descended from David, as proclaimed by my gospel,"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "for which I suffer to the extent of being chained like a criminal. But the word of God cannot be chained!",
+          "contents": [
+            "for which I suffer to the extent of being chained like a criminal. But the word of God cannot be chained!"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For this reason I endure all things for the sake of the elect, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
+          "contents": [
+            "For this reason I endure all things for the sake of the elect, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "This is a trustworthy saying: If we died with Him, we will also live with Him;",
+          "contents": [
+            "This is a trustworthy saying:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "If we died with Him,",
+            {
+              "q2": null
+            },
+            "we will also live with Him;",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "if we endure, we will also reign with Him; if we deny Him, He will also deny us;",
+          "contents": [
+            "if we endure,",
+            {
+              "q2": null
+            },
+            "we will also reign with Him;",
+            {
+              "q1": null
+            },
+            "if we deny Him,",
+            {
+              "q2": null
+            },
+            "He will also deny us;",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "if we are faithless, He remains faithful, for He cannot deny Himself.",
+          "contents": [
+            "if we are faithless,",
+            {
+              "q2": null
+            },
+            "He remains faithful,",
+            {
+              "q2": null
+            },
+            "for He cannot deny Himself.",
+            [
+              {
+                "s1": [
+                  "The Lord’s Approved Workman"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Remind the believers of these things, charging them before God to avoid quarreling over words, which succeeds only in leading the listeners to ruin.",
+          "contents": [
+            "Remind the believers of these things, charging them before God",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:14"
+                },
+                {
+                  "ft": "SBL, BYZ, and TR the Lord"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "to avoid quarreling over words, which succeeds only in leading the listeners to ruin.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth.",
+          "contents": [
+            "Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "But avoid irreverent, empty chatter, which will only lead to more ungodliness,",
+          "contents": [
+            "But avoid irreverent, empty chatter, which will only lead to more ungodliness,"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "and the talk of such men will spread like gangrene. Among them are Hymenaeus and Philetus,",
+          "contents": [
+            "and the talk of such men will spread like gangrene. Among them are Hymenaeus and Philetus,"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some.",
+          "contents": [
+            "who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Nevertheless, God’s firm foundation stands, bearing this seal: “The Lord knows those who are His,” and, “Everyone who calls on the name of the Lord must turn away from iniquity.”",
+          "contents": [
+            "Nevertheless, God’s firm foundation stands, bearing this seal: “The Lord knows those who are His,”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:19"
+                },
+                {
+                  "ft": "Numbers 16:5 (see also LXX)"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and, “Everyone who calls on the name of the Lord must turn away from iniquity.”",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "A large house contains not only vessels of gold and silver, but also of wood and clay. Some indeed are for honorable use, but others are for common use.",
+          "contents": [
+            "A large house contains not only vessels of gold and silver, but also of wood and clay. Some indeed are for honorable use, but others are for common use."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "So if anyone cleanses himself of what is unfit, he will be a vessel for honor: sanctified, useful to the Master, and prepared for every good work.",
+          "contents": [
+            "So if anyone cleanses himself of what is unfit,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:21"
+                },
+                {
+                  "ft": "Literally cleanses himself of these"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "he will be a vessel for honor: sanctified, useful to the Master, and prepared for every good work.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Flee from youthful passions and pursue righteousness, faith, love, and peace, together with those who call on the Lord out of a pure heart.",
+          "contents": [
+            "Flee from youthful passions and pursue righteousness, faith, love, and peace, together with those who call on the Lord out of a pure heart.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "But reject foolish and ignorant speculation, for you know that it breeds quarreling.",
+          "contents": [
+            "But reject foolish and ignorant speculation, for you know that it breeds quarreling."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "And a servant of the Lord must not be quarrelsome, but must be kind to everyone, able to teach, and forbearing.",
+          "contents": [
+            "And a servant of the Lord must not be quarrelsome, but must be kind to everyone, able to teach, and forbearing."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "He must gently reprove those who oppose him, in the hope that God may grant them repentance leading to a knowledge of the truth.",
+          "contents": [
+            "He must gently reprove those who oppose him, in the hope that God may grant them repentance leading to a knowledge of the truth."
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Then they will come to their senses and escape the snare of the devil, who has taken them captive to his will.",
+          "contents": [
+            "Then they will come to their senses and escape the snare of the devil, who has taken them captive to his will."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Evil in the Last Days"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "But understand this: In the last days terrible times will come.",
+          "contents": [
+            "But understand this: In the last days terrible times will come."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For men will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy,",
+          "contents": [
+            "For men will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "unloving, unforgiving, slanderous, without self-control, brutal, without love of good,",
+          "contents": [
+            "unloving, unforgiving, slanderous, without self-control, brutal, without love of good,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God,",
+          "contents": [
+            "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "having a form of godliness but denying its power. Turn away from such as these!",
+          "contents": [
+            "having a form of godliness but denying its power. Turn away from such as these!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "They are the kind who worm their way into households and captivate vulnerable women who are weighed down with sins and led astray by various passions,",
+          "contents": [
+            "They are the kind who worm their way into households and captivate vulnerable women who are weighed down with sins and led astray by various passions,"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "who are always learning but never able to come to a knowledge of the truth.",
+          "contents": [
+            "who are always learning but never able to come to a knowledge of the truth.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Just as Jannes and Jambres opposed Moses, so also these men oppose the truth. They are depraved in mind and disqualified from the faith.",
+          "contents": [
+            "Just as Jannes and Jambres opposed Moses,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:8"
+                },
+                {
+                  "ft": "See Jasher 79:27. The Book of Jashar or the Book of the Upright One is often cited as Jasher."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "so also these men oppose the truth. They are depraved in mind and disqualified from the faith."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone.",
+          "contents": [
+            "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone.",
+            [
+              {
+                "s1": [
+                  "All Scripture Is God-Breathed"
+                ]
+              },
+              {
+                "r": [
+                  "(Hebrews 4:12–16)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance,",
+          "contents": [
+            "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them.",
+          "contents": [
+            "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted,",
+          "contents": [
+            "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "while evil men and imposters go from bad to worse, deceiving and being deceived.",
+          "contents": [
+            "while evil men and imposters go from bad to worse, deceiving and being deceived.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "But as for you, continue in the things you have learned and firmly believed, since you know from whom you have learned them.",
+          "contents": [
+            "But as for you, continue in the things you have learned and firmly believed, since you know from whom you have learned them."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "From infancy you have known the Holy Scriptures, which are able to make you wise for salvation through faith in Christ Jesus.",
+          "contents": [
+            "From infancy you have known the Holy Scriptures, which are able to make you wise for salvation through faith in Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "All Scripture is God-breathed and is useful for instruction, for conviction, for correction, and for training in righteousness,",
+          "contents": [
+            "All Scripture is God-breathed and is useful for instruction, for conviction, for correction, and for training in righteousness,"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "so that the man of God may be complete, fully equipped for every good work.",
+          "contents": [
+            "so that the man of God may be complete, fully equipped for every good work."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Preach the Word"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I charge you in the presence of God and of Christ Jesus, who will judge the living and the dead, and in view of His appearing and His kingdom:",
+          "contents": [
+            "I charge you in the presence of God and of Christ Jesus, who will judge the living and the dead, and in view of His appearing and His kingdom:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Preach the word; be prepared in season and out of season; reprove, rebuke, and encourage with every form of patient instruction.",
+          "contents": [
+            "Preach the word; be prepared in season and out of season; reprove, rebuke, and encourage with every form of patient instruction.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For the time will come when men will not tolerate sound doctrine, but with itching ears they will gather around themselves teachers to suit their own desires.",
+          "contents": [
+            "For the time will come when men will not tolerate sound doctrine, but with itching ears they will gather around themselves teachers to suit their own desires."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "So they will turn their ears away from the truth and turn aside to myths.",
+          "contents": [
+            "So they will turn their ears away from the truth and turn aside to myths.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "But you, be sober in all things, endure hardship, do the work of an evangelist, fulfill your ministry.",
+          "contents": [
+            "But you, be sober in all things, endure hardship, do the work of an evangelist, fulfill your ministry."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For I am already being poured out like a drink offering, and the time of my departure is at hand.",
+          "contents": [
+            "For I am already being poured out like a drink offering, and the time of my departure is at hand."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "I have fought the good fight, I have finished the race, I have kept the faith.",
+          "contents": [
+            "I have fought the good fight, I have finished the race, I have kept the faith."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "From now on there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day—and not only to me, but to all who crave His appearing.",
+          "contents": [
+            "From now on there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day—and not only to me, but to all who crave His appearing.",
+            [
+              {
+                "s1": [
+                  "Personal Concerns"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Make every effort to come to me quickly,",
+          "contents": [
+            "Make every effort to come to me quickly,"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "because Demas, in his love of this world, has deserted me and gone to Thessalonica. Crescens has gone to Galatia, and Titus to Dalmatia.",
+          "contents": [
+            "because Demas, in his love of this world, has deserted me and gone to Thessalonica. Crescens has gone to Galatia, and Titus to Dalmatia."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Only Luke is with me. Get Mark and bring him with you, because he is useful to me in the ministry.",
+          "contents": [
+            "Only Luke is with me. Get Mark and bring him with you, because he is useful to me in the ministry."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Tychicus, however, I have sent to Ephesus.",
+          "contents": [
+            "Tychicus, however, I have sent to Ephesus."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "When you come, bring the cloak that I left with Carpus at Troas, and my scrolls, especially the parchments.",
+          "contents": [
+            "When you come, bring the cloak that I left with Carpus at Troas, and my scrolls, especially the parchments.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Alexander the coppersmith did great harm to me. The Lord will repay him according to his deeds.",
+          "contents": [
+            "Alexander the coppersmith did great harm to me. The Lord will repay him according to his deeds."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "You too should beware of him, for he has vigorously opposed our message.",
+          "contents": [
+            "You too should beware of him, for he has vigorously opposed our message.",
+            [
+              {
+                "s1": [
+                  "The Lord Remains Faithful"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "At my first defense, no one stood with me, but everyone deserted me. May it not be charged against them.",
+          "contents": [
+            "At my first defense, no one stood with me, but everyone deserted me. May it not be charged against them."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "But the Lord stood by me and strengthened me, so that through me the message would be fully proclaimed, and all the Gentiles would hear it. So I was delivered from the mouth of the lion.",
+          "contents": [
+            "But the Lord stood by me and strengthened me, so that through me the message would be fully proclaimed, and all the Gentiles would hear it. So I was delivered from the mouth of the lion."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And the Lord will rescue me from every evil action and bring me safely into His heavenly kingdom. To Him be the glory forever and ever. Amen.",
+          "contents": [
+            "And the Lord will rescue me from every evil action and bring me safely into His heavenly kingdom. To Him be the glory forever and ever. Amen.",
+            [
+              {
+                "s1": [
+                  "Final Greetings"
+                ]
+              },
+              {
+                "r": [
+                  "(Ephesians 6:21–24; Philippians 4:21–23)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Greet Prisca and Aquila, as well as the household of Onesiphorus.",
+          "contents": [
+            "Greet Prisca",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:19"
+                },
+                {
+                  "ft": "Prisca is a variant of Priscilla; see Acts 18:2."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and Aquila, as well as the household of Onesiphorus.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Erastus has remained at Corinth, and Trophimus I left sick in Miletus.",
+          "contents": [
+            "Erastus has remained at Corinth, and Trophimus I left sick in Miletus.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Make every effort to come to me before winter. Eubulus sends you greetings, as do Pudens, Linus, Claudia, and all the brothers.",
+          "contents": [
+            "Make every effort to come to me before winter.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Eubulus sends you greetings, as do Pudens, Linus, Claudia, and all the brothers.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "The Lord be with your spirit. Grace be with you all.",
+          "contents": [
+            "The Lord be with your spirit. Grace be with you all.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:22"
+                },
+                {
+                  "ft": "BYZ and TR include Amen."
+                }
+              ],
+              "closing": "\\f* "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

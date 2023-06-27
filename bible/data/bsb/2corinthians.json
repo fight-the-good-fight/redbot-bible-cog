@@ -1,0 +1,3322 @@
+{
+  "book": {
+    "bookCode": "2CO",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "2 Corinthians"
+      },
+      {
+        "toc1": [
+          "2 Corinthians"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "2 Corinthians"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul Greets the Corinthians"
+            ]
+          },
+          {
+            "r": [
+              "(Acts 18:1–11; 1 Corinthians 1:1–3)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother, To the church of God in Corinth, together with all the saints throughout Achaia:",
+          "contents": [
+            "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "To the church of God in Corinth, together with all the saints throughout Achaia:",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Grace and peace to you from God our Father and the Lord Jesus Christ.",
+          "contents": [
+            "Grace and peace to you from God our Father and the Lord Jesus Christ.",
+            [
+              {
+                "s1": [
+                  "The God of All Comfort"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Blessed be the God and Father of our Lord Jesus Christ, the Father of compassion and the God of all comfort,",
+          "contents": [
+            "Blessed be the God and Father of our Lord Jesus Christ, the Father of compassion and the God of all comfort,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves have received from God.",
+          "contents": [
+            "who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves have received from God."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows.",
+          "contents": [
+            "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "If we are afflicted, it is for your comfort and salvation; if we are comforted, it is for your comfort, which accomplishes in you patient endurance of the same sufferings we experience.",
+          "contents": [
+            "If we are afflicted, it is for your comfort and salvation; if we are comforted, it is for your comfort, which accomplishes in you patient endurance of the same sufferings we experience."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "And our hope for you is sure, because we know that just as you share in our sufferings, so also you will share in our comfort.",
+          "contents": [
+            "And our hope for you is sure, because we know that just as you share in our sufferings, so also you will share in our comfort.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "We do not want you to be unaware, brothers, of the hardships we encountered in the province of Asia. We were under a burden far beyond our ability to endure, so that we despaired even of life.",
+          "contents": [
+            "We do not want you to be unaware, brothers, of the hardships we encountered in the province of Asia.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:8"
+                },
+                {
+                  "ft": "Literally in Asia; Asia was a Roman province in what is now western Turkey."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "We were under a burden far beyond our ability to endure, so that we despaired even of life."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Indeed, we felt we were under the sentence of death, in order that we would not trust in ourselves, but in God, who raises the dead.",
+          "contents": [
+            "Indeed, we felt we were under the sentence of death, in order that we would not trust in ourselves, but in God, who raises the dead.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He has delivered us from such a deadly peril, and He will deliver us. In Him we have placed our hope that He will yet again deliver us,",
+          "contents": [
+            "He has delivered us from such a deadly peril, and He will deliver us. In Him we have placed our hope that He will yet again deliver us,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "as you help us by your prayers. Then many will give thanks on our behalf for the favor shown us in answer to their prayers.",
+          "contents": [
+            "as you help us by your prayers. Then many will give thanks on our behalf for the favor shown us in answer to their prayers.",
+            [
+              {
+                "s1": [
+                  "Paul’s Change of Plans"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "And this is our boast: Our conscience testifies that we have conducted ourselves in the world, and especially in relation to you, in the holiness and sincerity that are from God—not in worldly wisdom, but in the grace of God.",
+          "contents": [
+            "And this is our boast: Our conscience testifies that we have conducted ourselves in the world, and especially in relation to you, in the holiness and sincerity that are from God—not in worldly",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:12"
+                },
+                {
+                  "ft": "Literally fleshly"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "wisdom, but in the grace of God."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "For we do not write you anything that is beyond your ability to read and understand. And I hope that you will understand us completely,",
+          "contents": [
+            "For we do not write you anything that is beyond your ability to read and understand. And I hope that you will understand us completely,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "as you have already understood us in part, so that you may boast of us just as we will boast of you in the day of our Lord Jesus.",
+          "contents": [
+            "as you have already understood us in part, so that you may boast of us just as we will boast of you in the day of our Lord Jesus.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:14"
+                },
+                {
+                  "ft": "BYZ and TR the Lord Jesus"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Confident of this, I planned to visit you first, so that you might receive a double blessing.",
+          "contents": [
+            "Confident of this, I planned to visit you first, so that you might receive a double blessing."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "I wanted to visit you on my way to Macedonia, and to return to you from Macedonia, and then to have you help me on my way to Judea.",
+          "contents": [
+            "I wanted to visit you on my way to Macedonia, and to return to you from Macedonia, and then to have you help me on my way to Judea.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "When I planned this, did I do it carelessly? Or do I make my plans by human standards, so as to say “Yes, yes” when I really mean “No, no”?",
+          "contents": [
+            "When I planned this, did I do it carelessly? Or do I make my plans by human standards, so as to say “Yes, yes” when I really mean “No, no”?"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "But as surely as God is faithful, our message to you is not “Yes” and “No.”",
+          "contents": [
+            "But as surely as God is faithful, our message to you is not “Yes” and “No.”"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "For the Son of God, Jesus Christ, who was proclaimed among you by me and Silvanus and Timothy, was not “Yes” and “No,” but in Him it has always been “Yes.”",
+          "contents": [
+            "For the Son of God, Jesus Christ, who was proclaimed among you by me and Silvanus",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:19"
+                },
+                {
+                  "ft": "That is, Silas"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and Timothy, was not “Yes” and “No,” but in Him it has always been “Yes.”"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For all the promises of God are “Yes” in Christ. And so through Him, our “Amen” is spoken to the glory of God.",
+          "contents": [
+            "For all the promises of God are “Yes” in Christ. And so through Him, our “Amen” is spoken to the glory of God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Now it is God who establishes both us and you in Christ. He anointed us,",
+          "contents": [
+            "Now it is God who establishes both us and you in Christ. He anointed us,"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "placed His seal on us, and put His Spirit in our hearts as a pledge of what is to come.",
+          "contents": [
+            "placed His seal on us, and put His Spirit in our hearts as a pledge of what is to come."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "I call God as my witness that it was in order to spare you that I did not return to Corinth.",
+          "contents": [
+            "I call God as my witness that it was in order to spare you that I did not return to Corinth."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Not that we lord it over your faith, but we are fellow workers with you for your joy, because it is by faith that you stand firm.",
+          "contents": [
+            "Not that we lord it over your faith, but we are fellow workers with you for your joy, because it is by faith that you stand firm."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Reaffirm Your Love"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "So I made up my mind not to make another painful visit to you.",
+          "contents": [
+            "So I made up my mind not to make another painful visit to you."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For if I grieve you, who is left to cheer me but those whom I have grieved?",
+          "contents": [
+            "For if I grieve you, who is left to cheer me but those whom I have grieved?"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I wrote as I did so that on my arrival I would not be saddened by those who ought to make me rejoice. I had confidence in all of you, that you would share my joy.",
+          "contents": [
+            "I wrote as I did so that on my arrival I would not be saddened by those who ought to make me rejoice. I had confidence in all of you, that you would share my joy."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you.",
+          "contents": [
+            "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Now if anyone has caused grief, he has not grieved me but all of you—to some degree, not to overstate it.",
+          "contents": [
+            "Now if anyone has caused grief, he has not grieved me but all of you—to some degree, not to overstate it."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "The punishment imposed on him by the majority is sufficient for him.",
+          "contents": [
+            "The punishment imposed on him by the majority is sufficient for him."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "So instead, you ought to forgive and comfort him, so that he will not be overwhelmed by excessive sorrow.",
+          "contents": [
+            "So instead, you ought to forgive and comfort him, so that he will not be overwhelmed by excessive sorrow."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Therefore I urge you to reaffirm your love for him.",
+          "contents": [
+            "Therefore I urge you to reaffirm your love for him.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "My purpose in writing you was to see if you would stand the test and be obedient in everything.",
+          "contents": [
+            "My purpose in writing you was to see if you would stand the test and be obedient in everything."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "If you forgive anyone, I also forgive him. And if I have forgiven anything, I have forgiven it in the presence of Christ for your sake,",
+          "contents": [
+            "If you forgive anyone, I also forgive him. And if I have forgiven anything, I have forgiven it in the presence of Christ for your sake,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "in order that Satan should not outwit us. For we are not unaware of his schemes.",
+          "contents": [
+            "in order that Satan should not outwit us. For we are not unaware of his schemes.",
+            [
+              {
+                "s1": [
+                  "Triumph in Christ"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Now when I went to Troas to preach the gospel of Christ and a door stood open for me in the Lord,",
+          "contents": [
+            "Now when I went to Troas to preach the gospel of Christ and a door stood open for me in the Lord,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia.",
+          "contents": [
+            "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "But thanks be to God, who always leads us triumphantly as captives in Christ and through us spreads everywhere the fragrance of the knowledge of Him.",
+          "contents": [
+            "But thanks be to God, who always leads us triumphantly as captives in Christ and through us spreads everywhere the fragrance of the knowledge of Him."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "For we are to God the sweet aroma of Christ among those who are being saved and those who are perishing.",
+          "contents": [
+            "For we are to God the sweet aroma of Christ among those who are being saved and those who are perishing."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "To the one, we are an odor of death and demise; to the other, a fragrance that brings life. And who is qualified for such a task?",
+          "contents": [
+            "To the one, we are an odor of death and demise; to the other, a fragrance that brings life.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:16"
+                },
+                {
+                  "ft": "Literally To the one, indeed, an aroma from death to death; but to the other, an aroma from life to life."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "And who is qualified for such a task?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For we are not like so many others, who peddle the word of God for profit. On the contrary, in Christ we speak before God with sincerity, as men sent from God.",
+          "contents": [
+            "For we are not like so many others, who peddle the word of God for profit. On the contrary, in Christ we speak before God with sincerity, as men sent from God."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Ministers of a New Covenant"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Are we beginning to commend ourselves again? Or do we need, like some people, letters of recommendation to you or from you?",
+          "contents": [
+            "Are we beginning to commend ourselves again? Or do we need, like some people, letters of recommendation to you or from you?"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "You yourselves are our letter, inscribed on our hearts, known and read by everyone.",
+          "contents": [
+            "You yourselves are our letter, inscribed on our hearts, known and read by everyone."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "It is clear that you are a letter from Christ, the result of our ministry, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts.",
+          "contents": [
+            "It is clear that you are a letter from Christ, the result of our ministry, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Such confidence before God is ours through Christ.",
+          "contents": [
+            "Such confidence before God is ours through Christ."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Not that we are competent in ourselves to claim that anything comes from us, but our competence comes from God.",
+          "contents": [
+            "Not that we are competent in ourselves to claim that anything comes from us, but our competence comes from God."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And He has qualified us as ministers of a new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.",
+          "contents": [
+            "And He has qualified us as ministers of a new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.",
+            [
+              {
+                "s1": [
+                  "The Glory of the New Covenant"
+                ]
+              },
+              {
+                "r": [
+                  "(Exodus 34:10–35)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Now if the ministry of death, which was engraved in letters on stone, came with such glory that the Israelites could not gaze at the face of Moses because of its fleeting glory,",
+          "contents": [
+            "Now if the ministry of death, which was engraved in letters on stone, came with such glory that the Israelites could not gaze at the face of Moses because of its fleeting glory,"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "will not the ministry of the Spirit be even more glorious?",
+          "contents": [
+            "will not the ministry of the Spirit be even more glorious?"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For if the ministry of condemnation was glorious, how much more glorious is the ministry of righteousness!",
+          "contents": [
+            "For if the ministry of condemnation was glorious, how much more glorious is the ministry of righteousness!"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Indeed, what was once glorious has no glory now in comparison to the glory that surpasses it.",
+          "contents": [
+            "Indeed, what was once glorious has no glory now in comparison to the glory that surpasses it."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For if what was fading away came with glory, how much greater is the glory of that which endures!",
+          "contents": [
+            "For if what was fading away came with glory, how much greater is the glory of that which endures!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Therefore, since we have such a hope, we are very bold.",
+          "contents": [
+            "Therefore, since we have such a hope, we are very bold."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "We are not like Moses, who would put a veil over his face to keep the Israelites from gazing at the end of what was fading away.",
+          "contents": [
+            "We are not like Moses, who would put a veil over his face to keep the Israelites from gazing at the end of what was fading away.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "But their minds were closed. For to this day the same veil remains at the reading of the old covenant. It has not been lifted, because only in Christ can it be removed.",
+          "contents": [
+            "But their minds were closed. For to this day the same veil remains at the reading of the old covenant. It has not been lifted, because only in Christ can it be removed."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And even to this day when Moses is read, a veil covers their hearts.",
+          "contents": [
+            "And even to this day when Moses is read, a veil covers their hearts."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "But whenever anyone turns to the Lord, the veil is taken away.",
+          "contents": [
+            "But whenever anyone turns to the Lord, the veil is taken away.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.",
+          "contents": [
+            "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And we, who with unveiled faces all reflect the glory of the Lord, are being transformed into His image with intensifying glory, which comes from the Lord, who is the Spirit.",
+          "contents": [
+            "And we, who with unveiled faces all reflect the glory of the Lord, are being transformed into His image with intensifying glory, which comes from the Lord, who is the Spirit."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Light of the Gospel"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Therefore, since God in His mercy has given us this ministry, we do not lose heart.",
+          "contents": [
+            "Therefore, since God in His mercy has given us this ministry,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:1"
+                },
+                {
+                  "ft": "Literally Therefore, having this ministry, as we have received mercy,"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "we do not lose heart."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Instead, we have renounced secret and shameful ways. We do not practice deceit, nor do we distort the word of God. On the contrary, by open proclamation of the truth, we commend ourselves to every man’s conscience in the sight of God.",
+          "contents": [
+            "Instead, we have renounced secret and shameful ways. We do not practice deceit, nor do we distort the word of God. On the contrary, by open proclamation of the truth, we commend ourselves to every man’s conscience in the sight of God."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "And even if our gospel is veiled, it is veiled to those who are perishing.",
+          "contents": [
+            "And even if our gospel is veiled, it is veiled to those who are perishing.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The god of this age has blinded the minds of unbelievers so they cannot see the light of the gospel of the glory of Christ, who is the image of God.",
+          "contents": [
+            "The god of this age has blinded the minds of unbelievers so they cannot see the light of the gospel of the glory of Christ, who is the image of God."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For we do not proclaim ourselves, but Jesus Christ as Lord, and ourselves as your servants for Jesus’ sake.",
+          "contents": [
+            "For we do not proclaim ourselves, but Jesus Christ as Lord, and ourselves as your servants for Jesus’ sake."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For God, who said, “Let light shine out of darkness,” made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
+          "contents": [
+            "For God, who said, “Let light shine out of darkness,”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:6"
+                },
+                {
+                  "ft": "Genesis 1:3"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:6"
+                },
+                {
+                  "ft": "SBL, NE, and WH in the face of Christ"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            [
+              {
+                "s1": [
+                  "Treasure in Jars of Clay"
+                ]
+              },
+              {
+                "r": [
+                  "(Romans 6:1–14)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Now we have this treasure in jars of clay to show that this surpassingly great power is from God and not from us.",
+          "contents": [
+            "Now we have this treasure in jars of clay to show that this surpassingly great power is from God and not from us."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "We are hard pressed on all sides, but not crushed; perplexed, but not in despair;",
+          "contents": [
+            "We are hard pressed on all sides, but not crushed; perplexed, but not in despair;"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "persecuted, but not forsaken; struck down, but not destroyed.",
+          "contents": [
+            "persecuted, but not forsaken; struck down, but not destroyed.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body.",
+          "contents": [
+            "We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For we who are alive are always consigned to death for Jesus’ sake, so that the life of Jesus may also be revealed in our mortal body.",
+          "contents": [
+            "For we who are alive are always consigned to death for Jesus’ sake, so that the life of Jesus may also be revealed in our mortal body."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "So then, death is at work in us, but life is at work in you.",
+          "contents": [
+            "So then, death is at work in us, but life is at work in you.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "And in keeping with what is written: “I believed, therefore I have spoken,” we who have the same spirit of faith also believe and therefore speak,",
+          "contents": [
+            "And in keeping with what is written: “I believed, therefore I have spoken,”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:13"
+                },
+                {
+                  "ft": "Psalm 116:10 (see also LXX)"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "we who have the same spirit of faith also believe and therefore speak,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "knowing that the One who raised the Lord Jesus will also raise us with Jesus and present us with you in His presence.",
+          "contents": [
+            "knowing that the One who raised the Lord Jesus",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:14"
+                },
+                {
+                  "ft": "SBL who raised Jesus"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "will also raise us with Jesus and present us with you in His presence."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God.",
+          "contents": [
+            "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Therefore we do not lose heart. Though our outer self is wasting away, yet our inner self is being renewed day by day.",
+          "contents": [
+            "Therefore we do not lose heart. Though our outer self is wasting away, yet our inner self is being renewed day by day."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For our light and momentary affliction is producing for us an eternal weight of glory that is far beyond comparison.",
+          "contents": [
+            "For our light and momentary affliction is producing for us an eternal weight of glory that is far beyond comparison."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal.",
+          "contents": [
+            "So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Our Eternal Dwelling"
+            ]
+          },
+          {
+            "r": [
+              "(Romans 8:18–27)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now we know that if the earthly tent we live in is dismantled, we have a building from God, an eternal house in heaven, not built by human hands.",
+          "contents": [
+            "Now we know that if the earthly tent we live in is dismantled, we have a building from God, an eternal house in heaven, not built by human hands."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For in this tent we groan, longing to be clothed with our heavenly dwelling,",
+          "contents": [
+            "For in this tent we groan, longing to be clothed with our heavenly dwelling,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "because when we are clothed, we will not be found naked.",
+          "contents": [
+            "because when we are clothed, we will not be found naked."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "So while we are in this tent, we groan under our burdens, because we do not wish to be unclothed but clothed, so that our mortality may be swallowed up by life.",
+          "contents": [
+            "So while we are in this tent, we groan under our burdens, because we do not wish to be unclothed but clothed, so that our mortality may be swallowed up by life."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "And God has prepared us for this very purpose and has given us the Spirit as a pledge of what is to come.",
+          "contents": [
+            "And God has prepared us for this very purpose and has given us the Spirit as a pledge of what is to come.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Therefore we are always confident, although we know that while we are at home in the body, we are away from the Lord.",
+          "contents": [
+            "Therefore we are always confident, although we know that while we are at home in the body, we are away from the Lord."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For we walk by faith, not by sight.",
+          "contents": [
+            "For we walk by faith, not by sight."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "We are confident, then, and would prefer to be away from the body and at home with the Lord.",
+          "contents": [
+            "We are confident, then, and would prefer to be away from the body and at home with the Lord."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "So we aspire to please Him, whether we are here in this body or away from it.",
+          "contents": [
+            "So we aspire to please Him, whether we are here in this body or away from it."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad.",
+          "contents": [
+            "For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad.",
+            [
+              {
+                "s1": [
+                  "Ambassadors for Christ"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Therefore, since we know what it means to fear the Lord, we try to persuade men. What we are is clear to God, and I hope it is clear to your conscience as well.",
+          "contents": [
+            "Therefore, since we know what it means to fear the Lord, we try to persuade men. What we are is clear to God, and I hope it is clear to your conscience as well."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "We are not commending ourselves to you again. Instead, we are giving you an occasion to be proud of us, so that you can answer those who take pride in appearances rather than in the heart.",
+          "contents": [
+            "We are not commending ourselves to you again. Instead, we are giving you an occasion to be proud of us, so that you can answer those who take pride in appearances rather than in the heart.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "If we are out of our mind, it is for God; if we are of sound mind, it is for you.",
+          "contents": [
+            "If we are out of our mind, it is for God; if we are of sound mind, it is for you."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For Christ’s love compels us, because we are convinced that One died for all, therefore all died.",
+          "contents": [
+            "For Christ’s love compels us, because we are convinced that One died for all, therefore all died."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again.",
+          "contents": [
+            "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "So from now on we regard no one according to the flesh. Although we once regarded Christ in this way, we do so no longer.",
+          "contents": [
+            "So from now on we regard no one according to the flesh. Although we once regarded Christ in this way, we do so no longer."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Therefore if anyone is in Christ, he is a new creation. The old has passed away. Behold, the new has come!",
+          "contents": [
+            "Therefore if anyone is in Christ, he is a new creation.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:17"
+                },
+                {
+                  "ft": "Or a new creature"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "The old has passed away. Behold, the new has come!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "All this is from God, who reconciled us to Himself through Christ and gave us the ministry of reconciliation:",
+          "contents": [
+            "All this is from God, who reconciled us to Himself through Christ and gave us the ministry of reconciliation:"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "that God was reconciling the world to Himself in Christ, not counting men’s trespasses against them. And He has committed to us the message of reconciliation.",
+          "contents": [
+            "that God was reconciling the world to Himself in Christ, not counting men’s trespasses against them. And He has committed to us the message of reconciliation.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Therefore we are ambassadors for Christ, as though God were making His appeal through us. We implore you on behalf of Christ: Be reconciled to God.",
+          "contents": [
+            "Therefore we are ambassadors for Christ, as though God were making His appeal through us. We implore you on behalf of Christ: Be reconciled to God."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.",
+          "contents": [
+            "God made Him who knew no sin to be sin",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:21"
+                },
+                {
+                  "ft": "Or a sin offering"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "on our behalf, so that in Him we might become the righteousness of God."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Hardships and God’s Grace"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "As God’s fellow workers, then, we urge you not to receive God’s grace in vain.",
+          "contents": [
+            "As God’s fellow workers,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:1"
+                },
+                {
+                  "ft": "Literally Now working together"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "then, we urge you not to receive God’s grace in vain."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For He says: “In the time of favor I heard you, and in the day of salvation I helped you.” Behold, now is the time of favor; now is the day of salvation!",
+          "contents": [
+            "For He says:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“In the time of favor I heard you,",
+            {
+              "q2": null
+            },
+            "and in the day of salvation I helped you.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:2"
+                },
+                {
+                  "ft": "Isaiah 49:8 (see also LXX)"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Behold, now is the time of favor; now is the day of salvation!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "We put no obstacle in anyone’s way, so that no one can discredit our ministry.",
+          "contents": [
+            "We put no obstacle in anyone’s way, so that no one can discredit our ministry.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Rather, as servants of God we commend ourselves in every way: in great endurance; in troubles, hardships, and calamities;",
+          "contents": [
+            "Rather, as servants of God we commend ourselves in every way: in great endurance; in troubles, hardships, and calamities;"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "in beatings, imprisonments, and riots; in labor, sleepless nights, and hunger;",
+          "contents": [
+            "in beatings, imprisonments, and riots; in labor, sleepless nights, and hunger;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "in purity, knowledge, patience, and kindness; in the Holy Spirit and in sincere love;",
+          "contents": [
+            "in purity, knowledge, patience, and kindness; in the Holy Spirit and in sincere love;"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "in truthful speech and in the power of God; with the weapons of righteousness in the right hand and in the left;",
+          "contents": [
+            "in truthful speech and in the power of God; with the weapons of righteousness in the right hand and in the left;"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "through glory and dishonor, slander and praise; viewed as imposters, yet genuine;",
+          "contents": [
+            "through glory and dishonor, slander and praise; viewed as imposters, yet genuine;"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "as unknown, yet well-known; dying, and yet we live on; punished, yet not killed;",
+          "contents": [
+            "as unknown, yet well-known; dying, and yet we live on; punished, yet not killed;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "sorrowful, yet always rejoicing; poor, yet making many rich; having nothing, and yet possessing everything.",
+          "contents": [
+            "sorrowful, yet always rejoicing; poor, yet making many rich; having nothing, and yet possessing everything.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "We have spoken freely to you, Corinthians. Our hearts are open wide.",
+          "contents": [
+            "We have spoken freely to you, Corinthians. Our hearts are open wide."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "It is not our affection, but yours, that is restrained.",
+          "contents": [
+            "It is not our affection, but yours, that is restrained."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "As a fair exchange, I ask you as my children: Open wide your hearts also.",
+          "contents": [
+            "As a fair exchange, I ask you as my children: Open wide your hearts also.",
+            [
+              {
+                "s1": [
+                  "Do Not Be Unequally Yoked"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Do not be unequally yoked with unbelievers. For what partnership can righteousness have with wickedness? Or what fellowship does light have with darkness?",
+          "contents": [
+            "Do not be unequally yoked with unbelievers. For what partnership can righteousness have with wickedness? Or what fellowship does light have with darkness?"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "What harmony is there between Christ and Belial? Or what does a believer have in common with an unbeliever?",
+          "contents": [
+            "What harmony is there between Christ and Belial?",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:15"
+                },
+                {
+                  "ft": "Scrivener’s TR and GOC; many Greek sources Beliar"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Or what does a believer have in common with an unbeliever?"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "What agreement can exist between the temple of God and idols? For we are the temple of the living God. As God has said: “I will dwell with them and walk among them, and I will be their God, and they will be My people.”",
+          "contents": [
+            "What agreement can exist between the temple of God and idols? For we are the temple of the living God. As God has said:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“I will dwell with them",
+            {
+              "q2": null
+            },
+            "and walk among them,",
+            {
+              "q1": null
+            },
+            "and I will be their God,",
+            {
+              "q2": null
+            },
+            "and they will be My people.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:16"
+                },
+                {
+                  "ft": "Leviticus 26:12; Jeremiah 32:38; Ezekiel 37:27"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "“Therefore come out from among them and be separate, says the Lord. Touch no unclean thing, and I will receive you.”",
+          "contents": [
+            "“Therefore come out from among them",
+            {
+              "q2": null
+            },
+            "and be separate, says the Lord.",
+            {
+              "q1": null
+            },
+            "Touch no unclean thing,",
+            {
+              "q2": null
+            },
+            "and I will receive you.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:17"
+                },
+                {
+                  "ft": "Isaiah 52:11; see also Ezekiel 20:34, including LXX."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And: “I will be a Father to you, and you will be My sons and daughters, says the Lord Almighty.”",
+          "contents": [
+            "And:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“I will be a Father to you,",
+            {
+              "q2": null
+            },
+            "and you will be My sons and daughters,",
+            {
+              "q2": null
+            },
+            "says the Lord Almighty.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:18"
+                },
+                {
+                  "ft": "See 2 Samuel 7:14."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "7",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Joy in the Corinthians"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Therefore, beloved, since we have these promises, let us cleanse ourselves from everything that defiles body and spirit, perfecting holiness in the fear of God.",
+          "contents": [
+            "Therefore, beloved, since we have these promises, let us cleanse ourselves from everything that defiles body and spirit, perfecting holiness in the fear of God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have exploited no one.",
+          "contents": [
+            "Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have exploited no one."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I do not say this to condemn you. I have said before that you so occupy our hearts that we live and die together with you.",
+          "contents": [
+            "I do not say this to condemn you. I have said before that you so occupy our hearts that we live and die together with you."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Great is my confidence in you; great is my pride in you; I am filled with encouragement; in all our troubles my joy overflows.",
+          "contents": [
+            "Great is my confidence in you; great is my pride in you; I am filled with encouragement; in all our troubles my joy overflows.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within.",
+          "contents": [
+            "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "But God, who comforts the downcast, comforted us by the arrival of Titus,",
+          "contents": [
+            "But God, who comforts the downcast, comforted us by the arrival of Titus,"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "and not only by his arrival, but also by the comfort he had received from you. He told us about your longing, your mourning, and your zeal for me, so that I rejoiced all the more.",
+          "contents": [
+            "and not only by his arrival, but also by the comfort he had received from you. He told us about your longing, your mourning, and your zeal for me, so that I rejoiced all the more.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Even if I caused you sorrow by my letter, I do not regret it. Although I did regret it, I now see that my letter caused you sorrow, but only for a short time.",
+          "contents": [
+            "Even if I caused you sorrow by my letter, I do not regret it. Although I did regret it, I now see that my letter caused you sorrow, but only for a short time."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And now I rejoice, not because you were made sorrowful, but because your sorrow led you to repentance. For you felt the sorrow that God had intended, and so were not harmed in any way by us.",
+          "contents": [
+            "And now I rejoice, not because you were made sorrowful, but because your sorrow led you to repentance. For you felt the sorrow that God had intended, and so were not harmed in any way by us."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Godly sorrow brings repentance that leads to salvation without regret, but worldly sorrow brings death.",
+          "contents": [
+            "Godly sorrow brings repentance that leads to salvation without regret, but worldly sorrow brings death.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Consider what this godly sorrow has produced in you: what earnestness, what eagerness to clear yourselves, what indignation, what alarm, what longing, what zeal, what vindication! In every way you have proved yourselves to be innocent in this matter.",
+          "contents": [
+            "Consider what this godly sorrow has produced in you: what earnestness, what eagerness to clear yourselves, what indignation, what alarm, what longing, what zeal, what vindication! In every way you have proved yourselves to be innocent in this matter."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "So even though I wrote to you, it was not on account of the one who did wrong or the one who was harmed, but rather that your earnestness on our behalf would be made clear to you in the sight of God.",
+          "contents": [
+            "So even though I wrote to you, it was not on account of the one who did wrong or the one who was harmed, but rather that your earnestness on our behalf would be made clear to you in the sight of God."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "On account of this, we are encouraged. In addition to our own encouragement, we were even more delighted by the joy of Titus. For his spirit has been refreshed by all of you.",
+          "contents": [
+            "On account of this, we are encouraged.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "In addition to our own encouragement, we were even more delighted by the joy of Titus. For his spirit has been refreshed by all of you."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Indeed, I was not embarrassed by anything I had boasted to him about you. But just as everything we said to you was true, so our boasting to Titus has proved to be true as well.",
+          "contents": [
+            "Indeed, I was not embarrassed by anything I had boasted to him about you. But just as everything we said to you was true, so our boasting to Titus has proved to be true as well."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And his affection for you is even greater when he remembers that you were all obedient as you welcomed him with fear and trembling.",
+          "contents": [
+            "And his affection for you is even greater when he remembers that you were all obedient as you welcomed him with fear and trembling."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "I rejoice that I can have complete confidence in you.",
+          "contents": [
+            "I rejoice that I can have complete confidence in you."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "8",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Generosity Commended"
+            ]
+          },
+          {
+            "r": [
+              "(Philippians 4:10–20)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now, brothers, we want you to know about the grace that God has given the churches of Macedonia.",
+          "contents": [
+            "Now, brothers, we want you to know about the grace that God has given the churches of Macedonia."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "In the terrible ordeal they suffered, their abundant joy and deep poverty overflowed into rich generosity.",
+          "contents": [
+            "In the terrible ordeal they suffered, their abundant joy and deep poverty overflowed into rich generosity."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For I testify that they gave according to their ability and even beyond it. Of their own accord,",
+          "contents": [
+            "For I testify that they gave according to their ability and even beyond it. Of their own accord,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "they earnestly pleaded with us for the privilege of sharing in this service to the saints.",
+          "contents": [
+            "they earnestly pleaded with us for the privilege of sharing in this service to the saints."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "And not only did they do as we expected, but they gave themselves first to the Lord and then to us, because it was the will of God.",
+          "contents": [
+            "And not only did they do as we expected, but they gave themselves first to the Lord and then to us, because it was the will of God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "So we urged Titus to help complete your act of grace, just as he had started it.",
+          "contents": [
+            "So we urged Titus to help complete your act of grace, just as he had started it."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "But just as you excel in everything—in faith, in speech, in knowledge, in complete earnestness, and in the love we inspired in you—see that you also excel in this grace of giving.",
+          "contents": [
+            "But just as you excel in everything—in faith, in speech, in knowledge, in complete earnestness, and in the love we inspired in you",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:7"
+                },
+                {
+                  "ft": "Or in your love for us"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "—see that you also excel in this grace of giving."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "I am not making a demand, but I am testing the sincerity of your love in comparison to the earnestness of others.",
+          "contents": [
+            "I am not making a demand, but I am testing the sincerity of your love in comparison to the earnestness of others.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For you know the grace of our Lord Jesus Christ, that though He was rich, yet for your sakes He became poor, so that you through His poverty might become rich.",
+          "contents": [
+            "For you know the grace of our Lord Jesus Christ, that though He was rich, yet for your sakes He became poor, so that you through His poverty might become rich."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "And this is my opinion about what is helpful for you in this matter: Last year you were the first not only to give, but even to have such a desire.",
+          "contents": [
+            "And this is my opinion about what is helpful for you in this matter: Last year you were the first not only to give, but even to have such a desire."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Now finish the work, so that you may complete it just as eagerly as you began, according to your means.",
+          "contents": [
+            "Now finish the work, so that you may complete it just as eagerly as you began, according to your means."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For if the eagerness is there, the gift is acceptable according to what one has, not according to what he does not have.",
+          "contents": [
+            "For if the eagerness is there, the gift is acceptable according to what one has, not according to what he does not have.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "It is not our intention that others may be relieved while you are burdened, but that there may be equality.",
+          "contents": [
+            "It is not our intention that others may be relieved while you are burdened, but that there may be equality."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "At the present time, your surplus will meet their need, so that in turn their surplus will meet your need. Then there will be equality.",
+          "contents": [
+            "At the present time, your surplus will meet their need, so that in turn their surplus will meet your need. Then there will be equality."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "As it is written: “He who gathered much had no excess, and he who gathered little had no shortfall.”",
+          "contents": [
+            "As it is written:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“He who gathered much had no excess,",
+            {
+              "q2": null
+            },
+            "and he who gathered little had no shortfall.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:15"
+                },
+                {
+                  "ft": "Exodus 16:18"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            [
+              {
+                "s1": [
+                  "Titus Commended"
+                ]
+              },
+              {
+                "r": [
+                  "(Titus 1:1–4)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "But thanks be to God, who put into the heart of Titus the same devotion I have for you.",
+          "contents": [
+            "But thanks be to God, who put into the heart of Titus the same devotion I have for you."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For not only did he welcome our appeal, but he is eagerly coming to you of his own volition.",
+          "contents": [
+            "For not only did he welcome our appeal, but he is eagerly coming to you of his own volition.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Along with Titus we are sending the brother who is praised by all the churches for his work in the gospel.",
+          "contents": [
+            "Along with Titus we are sending the brother who is praised by all the churches for his work in the gospel."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "More than that, this brother was chosen by the churches to accompany us with the offering—the gracious gift we administer to honor the Lord Himself and to show our eagerness to help.",
+          "contents": [
+            "More than that, this brother was chosen by the churches to accompany us with the offering",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:19"
+                },
+                {
+                  "ft": "See 1 Corinthians 16:3–4."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "—the gracious gift we administer to honor the Lord Himself and to show our eagerness to help.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "We hope to avoid any criticism of the way we administer this generous gift.",
+          "contents": [
+            "We hope to avoid any criticism of the way we administer this generous gift."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For we are taking great care to do what is right, not only in the eyes of the Lord, but also in the eyes of men.",
+          "contents": [
+            "For we are taking great care to do what is right, not only in the eyes of the Lord, but also in the eyes of men.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "And we are sending along with them our brother whose earnestness has been proven many times and in many ways, and now even more so by his great confidence in you.",
+          "contents": [
+            "And we are sending along with them our brother whose earnestness has been proven many times and in many ways, and now even more so by his great confidence in you."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "As for Titus, he is my partner and fellow worker among you. As for our brothers, they are messengers of the churches, to the glory of Christ.",
+          "contents": [
+            "As for Titus, he is my partner and fellow worker among you. As for our brothers, they are messengers",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:23"
+                },
+                {
+                  "ft": "Or apostles"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "of the churches, to the glory of Christ."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "In full view of the churches, then, show these men the proof of your love and the reason for our boasting about you.",
+          "contents": [
+            "In full view of the churches, then, show these men the proof of your love and the reason for our boasting about you."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "9",
+      "contents": [
+        [
+          {
+            "s1": [
+              "God Loves a Cheerful Giver"
+            ]
+          },
+          {
+            "r": [
+              "(1 Corinthians 16:1–4)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now about the service to the saints, there is no need for me to write to you.",
+          "contents": [
+            "Now about the service to the saints, there is no need for me to write to you."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For I know your eagerness to help, and I have been boasting to the Macedonians that since last year you in Achaia were prepared to give. And your zeal has stirred most of them to do likewise.",
+          "contents": [
+            "For I know your eagerness to help, and I have been boasting to the Macedonians that since last year you in Achaia were prepared to give. And your zeal has stirred most of them to do likewise.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "But I am sending the brothers in order that our boasting about you in this matter should not prove empty, but that you will be prepared, just as I said.",
+          "contents": [
+            "But I am sending the brothers in order that our boasting about you in this matter should not prove empty, but that you will be prepared, just as I said."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Otherwise, if any Macedonians come with me and find you unprepared, we—to say nothing of you—would be ashamed of having been so confident.",
+          "contents": [
+            "Otherwise, if any Macedonians come with me and find you unprepared, we—to say nothing of you—would be ashamed of having been so confident."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "So I thought it necessary to urge the brothers to visit you beforehand and make arrangements for the bountiful gift you had promised. This way, your gift will be prepared generously and not begrudgingly.",
+          "contents": [
+            "So I thought it necessary to urge the brothers to visit you beforehand and make arrangements for the bountiful gift you had promised. This way, your gift will be prepared generously and not begrudgingly.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously.",
+          "contents": [
+            "Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver.",
+          "contents": [
+            "Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:7"
+                },
+                {
+                  "ft": "See Proverbs 22:8, LXX addition."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "And God is able to make all grace abound to you, so that in all things, at all times, having all that you need, you will abound in every good work.",
+          "contents": [
+            "And God is able to make all grace abound to you, so that in all things, at all times, having all that you need, you will abound in every good work."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "As it is written: “He has scattered abroad His gifts to the poor; His righteousness endures forever.”",
+          "contents": [
+            "As it is written:",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "“He has scattered abroad His gifts to the poor;",
+            {
+              "q2": null
+            },
+            "His righteousness endures forever.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:9"
+                },
+                {
+                  "ft": "Psalm 112:9"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness.",
+          "contents": [
+            "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "You will be enriched in every way to be generous on every occasion, so that through us your giving will produce thanksgiving to God.",
+          "contents": [
+            "You will be enriched in every way to be generous on every occasion, so that through us your giving will produce thanksgiving to God."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For this ministry of service is not only supplying the needs of the saints, but is also overflowing in many expressions of thanksgiving to God.",
+          "contents": [
+            "For this ministry of service is not only supplying the needs of the saints, but is also overflowing in many expressions of thanksgiving to God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Because of the proof this ministry provides, the saints will glorify God for your obedient confession of the gospel of Christ, and for the generosity of your contribution to them and to all the others.",
+          "contents": [
+            "Because of the proof this ministry provides, the saints will glorify God for your obedient confession of the gospel of Christ, and for the generosity of your contribution to them and to all the others."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "And their prayers for you will express their affection for you, because of the surpassing grace God has given you.",
+          "contents": [
+            "And their prayers for you will express their affection for you, because of the surpassing grace God has given you."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Thanks be to God for His indescribable gift!",
+          "contents": [
+            "Thanks be to God for His indescribable gift!"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "10",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Apostolic Authority"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now by the mildness and gentleness of Christ, I appeal to you—I, Paul, who am humble when face to face with you, but bold when away.",
+          "contents": [
+            "Now by the mildness and gentleness of Christ, I appeal to you—I, Paul, who am humble when face to face with you, but bold when away."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I beg you that when I come I may not need to be as bold as I expect toward those who presume that we live according to the flesh.",
+          "contents": [
+            "I beg you that when I come I may not need to be as bold as I expect toward those who presume that we live according to the flesh.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For though we live in the flesh, we do not wage war according to the flesh.",
+          "contents": [
+            "For though we live in the flesh, we do not wage war according to the flesh."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The weapons of our warfare are not the weapons of the world. Instead, they have divine power to demolish strongholds.",
+          "contents": [
+            "The weapons of our warfare are not the weapons of the world. Instead, they have divine power to demolish strongholds."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "We tear down arguments and every presumption set up against the knowledge of God; and we take captive every thought to make it obedient to Christ.",
+          "contents": [
+            "We tear down arguments and every presumption set up against the knowledge of God; and we take captive every thought to make it obedient to Christ."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And we will be ready to punish every act of disobedience, as soon as your obedience is complete.",
+          "contents": [
+            "And we will be ready to punish every act of disobedience, as soon as your obedience is complete.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "You are looking at outward appearances. If anyone is confident that he belongs to Christ, he should remind himself that we belong to Christ just as much as he does.",
+          "contents": [
+            "You are looking at outward appearances. If anyone is confident that he belongs to Christ, he should remind himself that we belong to Christ just as much as he does."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For even if I boast somewhat excessively about the authority the Lord gave us for building you up rather than tearing you down, I will not be ashamed.",
+          "contents": [
+            "For even if I boast somewhat excessively about the authority the Lord gave us for building you up rather than tearing you down, I will not be ashamed.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "I do not want to seem to be trying to frighten you by my letters.",
+          "contents": [
+            "I do not want to seem to be trying to frighten you by my letters."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For some say, “His letters are weighty and forceful, but his physical presence is unimpressive, and his speaking is of no account.”",
+          "contents": [
+            "For some say, “His letters are weighty and forceful, but his physical presence is unimpressive, and his speaking is of no account.”"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Such people should consider that what we are in our letters when absent, we will be in our actions when present.",
+          "contents": [
+            "Such people should consider that what we are in our letters when absent, we will be in our actions when present.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "We do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves by themselves and compare themselves with themselves, they show their ignorance.",
+          "contents": [
+            "We do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves by themselves and compare themselves with themselves, they show their ignorance."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "We, however, will not boast beyond our limits, but only within the field of influence that God has assigned to us—a field that reaches even to you.",
+          "contents": [
+            "We, however, will not boast beyond our limits, but only within the field of influence that God has assigned to us—a field that reaches even to you."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "We are not overstepping our bounds, as if we had not come to you. Indeed, we were the first to reach you with the gospel of Christ.",
+          "contents": [
+            "We are not overstepping our bounds, as if we had not come to you. Indeed, we were the first to reach you with the gospel of Christ.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Neither do we boast beyond our limits in the labors of others. But we hope that as your faith increases, our area of influence among you will greatly increase as well,",
+          "contents": [
+            "Neither do we boast beyond our limits in the labors of others. But we hope that as your faith increases, our area of influence among you will greatly increase as well,"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "so that we can preach the gospel in the regions beyond you. Then we will not be boasting in the work already done in another man’s territory.",
+          "contents": [
+            "so that we can preach the gospel in the regions beyond you. Then we will not be boasting in the work already done in another man’s territory.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Rather, “Let him who boasts boast in the Lord.”",
+          "contents": [
+            "Rather, “Let him who boasts boast in the Lord.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:17"
+                },
+                {
+                  "ft": "Jeremiah 9:24"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For it is not the one who commends himself who is approved, but the one whom the Lord commends.",
+          "contents": [
+            "For it is not the one who commends himself who is approved, but the one whom the Lord commends."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "11",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul and the False Apostles"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I hope you will bear with a little of my foolishness, but you are already doing that.",
+          "contents": [
+            "I hope you will bear with a little of my foolishness, but you are already doing that."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I am jealous for you with a godly jealousy. For I promised you to one husband, to present you as a pure virgin to Christ.",
+          "contents": [
+            "I am jealous for you with a godly jealousy. For I promised you to one husband, to present you as a pure virgin to Christ.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I am afraid, however, that just as Eve was deceived by the serpent’s cunning, your minds may be led astray from your simple and pure devotion to Christ.",
+          "contents": [
+            "I am afraid, however, that just as Eve was deceived by the serpent’s cunning, your minds may be led astray from your simple and pure devotion to Christ."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For if someone comes and proclaims a Jesus other than the One we proclaimed, or if you receive a different spirit than the One you received, or a different gospel than the one you accepted, you put up with it way too easily.",
+          "contents": [
+            "For if someone comes and proclaims a Jesus other than the One we proclaimed, or if you receive a different spirit than the One you received, or a different gospel than the one you accepted, you put up with it way too easily.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I consider myself in no way inferior to those “super-apostles.”",
+          "contents": [
+            "I consider myself in no way inferior to those “super-apostles.”"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Although I am not a polished speaker, I am certainly not lacking in knowledge. We have made this clear to you in every way possible.",
+          "contents": [
+            "Although I am not a polished speaker, I am certainly not lacking in knowledge. We have made this clear to you in every way possible.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Was it a sin for me to humble myself in order to exalt you, because I preached the gospel of God to you free of charge?",
+          "contents": [
+            "Was it a sin for me to humble myself in order to exalt you, because I preached the gospel of God to you free of charge?"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "I robbed other churches by accepting their support in order to serve you.",
+          "contents": [
+            "I robbed other churches by accepting their support in order to serve you."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And when I was with you and in need, I was not a burden to anyone; for the brothers who came from Macedonia supplied my needs. I have refrained from being a burden to you in any way, and I will continue to do so.",
+          "contents": [
+            "And when I was with you and in need, I was not a burden to anyone; for the brothers who came from Macedonia supplied my needs. I have refrained from being a burden to you in any way, and I will continue to do so."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "As surely as the truth of Christ is in me, this boasting of mine will not be silenced in the regions of Achaia.",
+          "contents": [
+            "As surely as the truth of Christ is in me, this boasting of mine will not be silenced in the regions of Achaia."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Why? Because I do not love you? God knows I do!",
+          "contents": [
+            "Why? Because I do not love you? God knows I do!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "But I will keep on doing what I am doing, in order to undercut those who want an opportunity to be regarded as our equals in the things of which they boast.",
+          "contents": [
+            "But I will keep on doing what I am doing, in order to undercut those who want an opportunity to be regarded as our equals in the things of which they boast."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "For such men are false apostles, deceitful workers, masquerading as apostles of Christ.",
+          "contents": [
+            "For such men are false apostles, deceitful workers, masquerading as apostles of Christ."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "And no wonder, for Satan himself masquerades as an angel of light.",
+          "contents": [
+            "And no wonder, for Satan himself masquerades as an angel of light."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "It is not surprising, then, if his servants masquerade as servants of righteousness. Their end will correspond to their actions.",
+          "contents": [
+            "It is not surprising, then, if his servants masquerade as servants of righteousness. Their end will correspond to their actions.",
+            [
+              {
+                "s1": [
+                  "Paul’s Suffering and Service"
+                ]
+              },
+              {
+                "r": [
+                  "(Colossians 1:24–29)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "I repeat: Let no one take me for a fool. But if you do, then receive me as a fool, so that I too may boast a little.",
+          "contents": [
+            "I repeat: Let no one take me for a fool. But if you do, then receive me as a fool, so that I too may boast a little."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "In this confident boasting of mine, I am not speaking as the Lord would, but as a fool.",
+          "contents": [
+            "In this confident boasting of mine, I am not speaking as the Lord would, but as a fool."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Since many are boasting according to the flesh, I too will boast.",
+          "contents": [
+            "Since many are boasting according to the flesh, I too will boast."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "For you gladly tolerate fools, since you are so wise.",
+          "contents": [
+            "For you gladly tolerate fools, since you are so wise."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "In fact, you even put up with anyone who enslaves you or exploits you or takes advantage of you or exalts himself or strikes you in the face.",
+          "contents": [
+            "In fact, you even put up with anyone who enslaves you or exploits you or takes advantage of you or exalts himself or strikes you in the face."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "To my shame I concede that we were too weak for that! Speaking as a fool, however, I can match what anyone else dares to boast about.",
+          "contents": [
+            "To my shame I concede that we were too weak for that!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Speaking as a fool, however, I can match what anyone else dares to boast about."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Are they Hebrews? So am I. Are they Israelites? So am I. Are they descendants of Abraham? So am I.",
+          "contents": [
+            "Are they Hebrews? So am I. Are they Israelites? So am I. Are they descendants of Abraham? So am I."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Are they servants of Christ? I am speaking like I am out of my mind, but I am so much more: in harder labor, in more imprisonments, in worse beatings, in frequent danger of death.",
+          "contents": [
+            "Are they servants of Christ? I am speaking like I am out of my mind, but I am so much more: in harder labor, in more imprisonments, in worse beatings, in frequent danger of death."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Five times I received from the Jews the forty lashes minus one.",
+          "contents": [
+            "Five times I received from the Jews the forty lashes minus one."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Three times I was beaten with rods, once I was stoned, three times I was shipwrecked. I spent a night and a day in the open sea.",
+          "contents": [
+            "Three times I was beaten with rods, once I was stoned, three times I was shipwrecked. I spent a night and a day in the open sea.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "In my frequent journeys, I have been in danger from rivers and from bandits, in danger from my countrymen and from the Gentiles, in danger in the city and in the country, in danger on the sea and among false brothers,",
+          "contents": [
+            "In my frequent journeys, I have been in danger from rivers and from bandits, in danger from my countrymen and from the Gentiles, in danger in the city and in the country, in danger on the sea and among false brothers,"
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "in labor and toil and often without sleep, in hunger and thirst and often without food, in cold and exposure.",
+          "contents": [
+            "in labor and toil and often without sleep, in hunger and thirst and often without food, in cold and exposure.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Apart from these external trials, I face daily the pressure of my concern for all the churches.",
+          "contents": [
+            "Apart from these external trials, I face daily the pressure of my concern for all the churches."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Who is weak, and I am not weak? Who is led into sin, and I do not burn with grief?",
+          "contents": [
+            "Who is weak, and I am not weak? Who is led into sin, and I do not burn with grief?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "If I must boast, I will boast of the things that show my weakness.",
+          "contents": [
+            "If I must boast, I will boast of the things that show my weakness."
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "The God and Father of the Lord Jesus, who is forever worthy of praise, knows that I am not lying.",
+          "contents": [
+            "The God and Father of the Lord Jesus, who is forever worthy of praise,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:31"
+                },
+                {
+                  "ft": "Or forever blessed"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "knows that I am not lying."
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "In Damascus, the governor under King Aretas secured the city of the Damascenes in order to arrest me.",
+          "contents": [
+            "In Damascus, the governor under King Aretas secured the city of the Damascenes in order to arrest me."
+          ]
+        },
+        {
+          "verseNumber": "33",
+          "verseText": "But I was lowered in a basket through a window in the wall and escaped his grasp.",
+          "contents": [
+            "But I was lowered in a basket through a window in the wall and escaped his grasp."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "12",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Revelation"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I must go on boasting. Although there is nothing to gain, I will go on to visions and revelations from the Lord.",
+          "contents": [
+            "I must go on boasting. Although there is nothing to gain, I will go on to visions and revelations from the Lord."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I know a man in Christ who fourteen years ago was caught up to the third heaven. Whether it was in the body or out of it I do not know, but God knows.",
+          "contents": [
+            "I know a man in Christ who fourteen years ago was caught up to the third heaven. Whether it was in the body or out of it I do not know, but God knows."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "And I know that this man—whether in the body or out of it I do not know, but God knows—",
+          "contents": [
+            "And I know that this man—whether in the body or out of it I do not know, but God knows—"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "was caught up to Paradise. The things he heard were too sacred for words, things that man is not permitted to tell.",
+          "contents": [
+            "was caught up to Paradise. The things he heard were too sacred for words, things that man is not permitted to tell.",
+            [
+              {
+                "s1": [
+                  "Paul’s Thorn and God’s Grace"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "I will boast about such a man, but I will not boast about myself, except in my weaknesses.",
+          "contents": [
+            "I will boast about such a man, but I will not boast about myself, except in my weaknesses."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Even if I wanted to boast, I would not be a fool, because I would be speaking the truth. But I refrain, so no one will credit me with more than he sees in me or hears from me,",
+          "contents": [
+            "Even if I wanted to boast, I would not be a fool, because I would be speaking the truth. But I refrain, so no one will credit me with more than he sees in me or hears from me,"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "or because of these surpassingly great revelations. So to keep me from becoming conceited, I was given a thorn in my flesh, a messenger of Satan, to torment me.",
+          "contents": [
+            "or because of these surpassingly great revelations.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "So to keep me from becoming conceited,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:7"
+                },
+                {
+                  "ft": "Some translators end the previous paragraph after verse 6, and begin verse 7 with So to keep me from becoming conceited because of these surpassingly great revelations,"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "I was given a thorn in my flesh, a messenger of Satan, to torment me."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Three times I pleaded with the Lord to take it away from me.",
+          "contents": [
+            "Three times I pleaded with the Lord to take it away from me."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "But He said to me, “My grace is sufficient for you, for My power is perfected in weakness.” Therefore I will boast all the more gladly in my weaknesses, so that the power of Christ may rest on me.",
+          "contents": [
+            "But He said to me, “My grace is sufficient for you, for My power is perfected in weakness.” Therefore I will boast all the more gladly in my weaknesses, so that the power of Christ may rest on me."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "That is why, for the sake of Christ, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong.",
+          "contents": [
+            "That is why, for the sake of Christ, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong.",
+            [
+              {
+                "s1": [
+                  "Paul’s Concern for the Corinthians"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "I have become a fool, but you drove me to it. In fact, you should have commended me, since I am in no way inferior to those “super-apostles,” even though I am nothing.",
+          "contents": [
+            "I have become a fool, but you drove me to it. In fact, you should have commended me, since I am in no way inferior to those “super-apostles,” even though I am nothing."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The true marks of an apostle—signs, wonders, and miracles—were performed among you with great perseverance.",
+          "contents": [
+            "The true marks of an apostle—signs, wonders, and miracles—were performed among you with great perseverance."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "In what way were you inferior to the other churches, except that I was not a burden to you? Forgive me this wrong!",
+          "contents": [
+            "In what way were you inferior to the other churches, except that I was not a burden to you? Forgive me this wrong!",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "See, I am ready to come to you a third time, and I will not be a burden, because I am not seeking your possessions, but you. For children should not have to save up for their parents, but parents for their children.",
+          "contents": [
+            "See, I am ready to come to you a third time, and I will not be a burden, because I am not seeking your possessions, but you. For children should not have to save up for their parents, but parents for their children."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And for the sake of your souls, I will most gladly spend my money and myself. If I love you more, will you love me less?",
+          "contents": [
+            "And for the sake of your souls, I will most gladly spend my money and myself. If I love you more, will you love me less?",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Be that as it may, I was not a burden to you; but crafty as I am, I caught you by trickery.",
+          "contents": [
+            "Be that as it may, I was not a burden to you; but crafty as I am, I caught you by trickery."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Did I exploit you by anyone I sent you?",
+          "contents": [
+            "Did I exploit you by anyone I sent you?"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "I urged Titus to visit you, and I sent our brother with him. Did Titus exploit you in any way? Did we not walk in the same Spirit and follow in the same footsteps?",
+          "contents": [
+            "I urged Titus to visit you, and I sent our brother with him. Did Titus exploit you in any way? Did we not walk in the same Spirit and follow in the same footsteps?",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:18"
+                },
+                {
+                  "ft": "Literally Did we not walk in the same Spirit? Not in the same footsteps?"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Have you been thinking all along that we were making a defense to you? We speak before God in Christ, and all of this, beloved, is to build you up.",
+          "contents": [
+            "Have you been thinking all along that we were making a defense to you? We speak before God in Christ, and all of this, beloved, is to build you up."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For I am afraid that when I come, I may not find you as I wish, and you may not find me as you wish. I fear that there may be quarreling, jealousy, rage, rivalry, slander, gossip, arrogance, and disorder.",
+          "contents": [
+            "For I am afraid that when I come, I may not find you as I wish, and you may not find me as you wish. I fear that there may be quarreling, jealousy, rage, rivalry, slander, gossip, arrogance, and disorder."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "I am afraid that when I come again, my God will humble me before you, and I will be grieved over many who have sinned earlier and have not repented of their acts of impurity, sexual immorality, and debauchery.",
+          "contents": [
+            "I am afraid that when I come again, my God will humble me before you, and I will be grieved over many who have sinned earlier and have not repented of their acts of impurity, sexual immorality, and debauchery."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "13",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Examine Yourselves"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+          "contents": [
+            "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:1"
+                },
+                {
+                  "ft": "Deuteronomy 19:15"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone,",
+          "contents": [
+            "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you.",
+          "contents": [
+            "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For He was indeed crucified in weakness, yet He lives by God’s power. And though we are weak in Him, yet by God’s power we will live with Him to serve you.",
+          "contents": [
+            "For He was indeed crucified in weakness, yet He lives by God’s power. And though we are weak in Him, yet by God’s power we will live with Him to serve you.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Examine yourselves to see whether you are in the faith; test yourselves. Can’t you see for yourselves that Jesus Christ is in you—unless you actually fail the test?",
+          "contents": [
+            "Examine yourselves to see whether you are in the faith; test yourselves. Can’t you see for yourselves that Jesus Christ is in you—unless you actually fail the test?"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And I hope you will realize that we have not failed the test.",
+          "contents": [
+            "And I hope you will realize that we have not failed the test.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed.",
+          "contents": [
+            "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For we cannot do anything against the truth, but only for the truth.",
+          "contents": [
+            "For we cannot do anything against the truth, but only for the truth."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.",
+          "contents": [
+            "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.",
+          "contents": [
+            "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.",
+            [
+              {
+                "s1": [
+                  "Benediction and Farewell"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you.",
+          "contents": [
+            "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:11"
+                },
+                {
+                  "ft": "Or listen to my appeal"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "be of one mind, live in peace. And the God of love and peace will be with you.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Greet one another with a holy kiss.",
+          "contents": [
+            "Greet one another with a holy kiss.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "All the saints send you greetings.",
+          "contents": [
+            "All the saints send you greetings.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+          "contents": [
+            "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "13:14"
+                },
+                {
+                  "ft": "Texts vary in verse numbering for the last three verses of this chapter. BYZ and TR end with Amen."
+                }
+              ],
+              "closing": "\\f* "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

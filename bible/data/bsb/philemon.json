@@ -1,0 +1,394 @@
+{
+  "book": {
+    "bookCode": "PHM",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "Philemon"
+      },
+      {
+        "toc1": [
+          "Philemon"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Philemon"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Greetings from Paul and Timothy"
+            ]
+          },
+          {
+            "r": [
+              "(Philippians 1:1–2; Colossians 1:1–2)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, a prisoner of Christ Jesus, and Timothy our brother, To Philemon our beloved fellow worker,",
+          "contents": [
+            "Paul, a prisoner of Christ Jesus, and Timothy our brother,",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "To Philemon our beloved fellow worker,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "to Apphia our sister, to Archippus our fellow soldier, and to the church that meets at your house:",
+          "contents": [
+            "to Apphia our sister, to Archippus our fellow soldier, and to the church that meets at your",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:2"
+                },
+                {
+                  "ft": "You and Your are singular throughout this letter, except in verses 3, 22, and 25."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "house:",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Grace and peace to you from God our Father and the Lord Jesus Christ.",
+          "contents": [
+            "Grace and peace to you from God our Father and the Lord Jesus Christ.",
+            [
+              {
+                "s1": [
+                  "Philemon’s Faith and Love"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I always thank my God, remembering you in my prayers,",
+          "contents": [
+            "I always thank my God, remembering you in my prayers,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "because I hear about your faith in the Lord Jesus and your love for all the saints.",
+          "contents": [
+            "because I hear about your faith in the Lord Jesus and your love for all the saints."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "I pray that your partnership in the faith may become effective as you fully acknowledge every good thing that is ours in Christ.",
+          "contents": [
+            "I pray that your partnership in the faith may become effective as you fully acknowledge every good thing that is ours in Christ."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "I take great joy and encouragement in your love, because you, brother, have refreshed the hearts of the saints.",
+          "contents": [
+            "I take great joy and encouragement in your love, because you, brother, have refreshed the hearts of the saints.",
+            [
+              {
+                "s1": [
+                  "Paul’s Appeal for Onesimus"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "So although in Christ I am bold enough to order you to do what is proper,",
+          "contents": [
+            "So although in Christ I am bold enough to order you to do what is proper,"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "I prefer to appeal on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well.",
+          "contents": [
+            "I prefer to appeal on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "I appeal to you for my child Onesimus, whose father I became while I was in chains.",
+          "contents": [
+            "I appeal to you for my child Onesimus,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:10"
+                },
+                {
+                  "ft": "Onesimus means useful (see verse 11) or beneficial (see verse 20)."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "whose father I became while I was in chains."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Formerly he was useless to you, but now he has become useful both to you and to me.",
+          "contents": [
+            "Formerly he was useless to you, but now he has become useful both to you and to me."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "I am sending back to you him who is my very heart.",
+          "contents": [
+            "I am sending back to you him who is my very heart.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel.",
+          "contents": [
+            "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will.",
+          "contents": [
+            "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "For perhaps this is why he was separated from you for a while, so that you might have him back for good—",
+          "contents": [
+            "For perhaps this is why he was separated from you for a while, so that you might have him back for good—"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "no longer as a slave, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord.",
+          "contents": [
+            "no longer as a slave, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "So if you consider me a partner, receive him as you would receive me.",
+          "contents": [
+            "So if you consider me a partner, receive him as you would receive me."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "But if he has wronged you in any way or owes you anything, charge it to my account.",
+          "contents": [
+            "But if he has wronged you in any way or owes you anything, charge it to my account."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "I, Paul, write this with my own hand. I will repay it—not to mention that you owe me your very self.",
+          "contents": [
+            "I, Paul, write this with my own hand. I will repay it—not to mention that you owe me your very self.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Yes, brother, let me have some benefit from you in the Lord. Refresh my heart in Christ.",
+          "contents": [
+            "Yes, brother, let me have some benefit",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:20"
+                },
+                {
+                  "ft": "Greek onaimēn, a play on the name Onesimus"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "from you in the Lord. Refresh my heart in Christ.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Confident of your obedience, I write to you, knowing that you will do even more than I ask.",
+          "contents": [
+            "Confident of your obedience, I write to you, knowing that you will do even more than I ask.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you.",
+          "contents": [
+            "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you.",
+            [
+              {
+                "s1": [
+                  "Additional Greetings"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Epaphras, my fellow prisoner in Christ Jesus, sends you greetings,",
+          "contents": [
+            "Epaphras, my fellow prisoner in Christ Jesus, sends you greetings,"
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "as do Mark, Aristarchus, Demas, and Luke, my fellow workers.",
+          "contents": [
+            "as do Mark, Aristarchus, Demas, and Luke, my fellow workers.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "The grace of the Lord Jesus Christ be with your spirit.",
+          "contents": [
+            "The grace of the Lord Jesus Christ be with your spirit.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:25"
+                },
+                {
+                  "ft": "BYZ and TR include Amen."
+                }
+              ],
+              "closing": "\\f* "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

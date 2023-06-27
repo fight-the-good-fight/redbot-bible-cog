@@ -1,0 +1,1173 @@
+{
+  "book": {
+    "bookCode": "1TH",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "1 Thessalonians"
+      },
+      {
+        "toc1": [
+          "1 Thessalonians"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "1 Thessalonians"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Greetings to the Thessalonians"
+            ]
+          },
+          {
+            "r": [
+              "(2 Thessalonians 1:1–4)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, Silvanus, and Timothy, To the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace and peace to you.",
+          "contents": [
+            "Paul, Silvanus,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "That is, Silas"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "and Timothy,",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "To the church of the Thessalonians in God the Father and the Lord Jesus Christ:",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Grace and peace to you.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "BYZ and TR include from God our Father and the Lord Jesus Christ."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "We always thank God for all of you, remembering you in our prayers",
+          "contents": [
+            "We always thank God for all of you, remembering you in our prayers"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "and continually recalling before our God and Father your work of faith, your labor of love, and your enduring hope in our Lord Jesus Christ.",
+          "contents": [
+            "and continually recalling before our God and Father your work of faith, your labor of love, and your enduring hope in our Lord Jesus Christ.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Brothers who are beloved by God, we know that He has chosen you,",
+          "contents": [
+            "Brothers who are beloved by God, we know that He has chosen you,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "because our gospel came to you not only in word, but also in power, in the Holy Spirit, and with great conviction—just as you know we lived among you for your sake.",
+          "contents": [
+            "because our gospel came to you not only in word, but also in power, in the Holy Spirit, and with great conviction—just as you know we lived among you for your sake."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And you became imitators of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering.",
+          "contents": [
+            "And you became imitators of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "As a result, you have become an example to all the believers in Macedonia and Achaia.",
+          "contents": [
+            "As a result, you have become an example to all the believers in Macedonia and Achaia."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more.",
+          "contents": [
+            "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For they themselves report what kind of welcome you gave us, and how you turned to God from idols to serve the living and true God",
+          "contents": [
+            "For they themselves report what kind of welcome you gave us, and how you turned to God from idols to serve the living and true God"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "and to await His Son from heaven, whom He raised from the dead—Jesus our deliverer from the coming wrath.",
+          "contents": [
+            "and to await His Son from heaven, whom He raised from the dead—Jesus our deliverer from the coming wrath."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Paul’s Ministry"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "You yourselves know, brothers, that our visit to you was not in vain.",
+          "contents": [
+            "You yourselves know, brothers, that our visit to you was not in vain."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God.",
+          "contents": [
+            "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For our appeal does not arise from deceit or ulterior motives or trickery.",
+          "contents": [
+            "For our appeal does not arise from deceit or ulterior motives or trickery."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Instead, we speak as those approved by God to be entrusted with the gospel, not in order to please men but God, who examines our hearts.",
+          "contents": [
+            "Instead, we speak as those approved by God to be entrusted with the gospel, not in order to please men but God, who examines our hearts."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "As you know, we never used words of flattery or any pretext for greed. God is our witness!",
+          "contents": [
+            "As you know, we never used words of flattery or any pretext for greed. God is our witness!"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Nor did we seek praise from you or from anyone else, although as apostles of Christ we had authority to demand it.",
+          "contents": [
+            "Nor did we seek praise from you or from anyone else, although as apostles of Christ we had authority to demand it.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:6"
+                },
+                {
+                  "ft": "Or although as apostles of Christ we could have been a burden to you; SBL, NE, and WH include this phrase with verse 7."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "On the contrary, we were gentle among you, like a nursing mother caring for her children.",
+          "contents": [
+            "On the contrary, we were gentle among you,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:7"
+                },
+                {
+                  "ft": "WH and NA we were like young children among you"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "like a nursing mother caring for her children."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us.",
+          "contents": [
+            "We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Surely you recall, brothers, our labor and toil. We worked night and day so that we would not be a burden to anyone while we proclaimed to you the gospel of God.",
+          "contents": [
+            "Surely you recall, brothers, our labor and toil. We worked night and day so that we would not be a burden to anyone while we proclaimed to you the gospel of God."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "You are witnesses, and so is God, of how holy, righteous, and blameless our conduct was among you who believed.",
+          "contents": [
+            "You are witnesses, and so is God, of how holy, righteous, and blameless our conduct was among you who believed."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For you know that we treated each of you as a father treats his own children—",
+          "contents": [
+            "For you know that we treated each of you as a father treats his own children—"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "encouraging you, comforting you, and urging you to walk in a manner worthy of God, who calls you into His own kingdom and glory.",
+          "contents": [
+            "encouraging you, comforting you, and urging you to walk in a manner worthy of God, who calls you into His own kingdom and glory.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "And we continually thank God because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as the true word of God—the word which is now at work in you who believe.",
+          "contents": [
+            "And we continually thank God because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as the true word of God—the word which is now at work in you who believe.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For you, brothers, became imitators of the churches of God in Judea that are in Christ Jesus. You suffered from your own countrymen the very things they suffered from the Jews,",
+          "contents": [
+            "For you, brothers, became imitators of the churches of God in Judea that are in Christ Jesus. You suffered from your own countrymen the very things they suffered from the Jews,"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "who killed both the Lord Jesus and their own prophets, and drove us out as well. They are displeasing to God and hostile to all men,",
+          "contents": [
+            "who killed both the Lord Jesus and their own prophets, and drove us out as well. They are displeasing to God and hostile to all men,"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "hindering us from telling the Gentiles how they may be saved. As a result, they continue to heap up their sins to full capacity; the utmost wrath has come upon them.",
+          "contents": [
+            "hindering us from telling the Gentiles how they may be saved. As a result, they continue to heap up their sins to full capacity; the utmost wrath has come upon them.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:16"
+                },
+                {
+                  "ft": "Or at last the wrath (of God) has come upon them."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            [
+              {
+                "s1": [
+                  "Paul’s Longing to Visit"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Brothers, although we were torn away from you for a short time (in person, not in heart), our desire to see you face to face was even more intense.",
+          "contents": [
+            "Brothers, although we were torn away from you for a short time (in person, not in heart), our desire to see you face to face was even more intense."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For we wanted to come to you—indeed I, Paul, tried again and again—but Satan obstructed us.",
+          "contents": [
+            "For we wanted to come to you—indeed I, Paul, tried again and again—but Satan obstructed us."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?",
+          "contents": [
+            "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "You are indeed our glory and our joy.",
+          "contents": [
+            "You are indeed our glory and our joy."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Timothy’s Visit"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "So when we could bear it no longer, we were willing to be left on our own in Athens.",
+          "contents": [
+            "So when we could bear it no longer, we were willing to be left on our own in Athens."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "We sent Timothy, our brother and fellow worker for God in the gospel of Christ, to strengthen and encourage you in your faith,",
+          "contents": [
+            "We sent Timothy, our brother and fellow worker for God",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:2"
+                },
+                {
+                  "ft": "Or our brother and God’s fellow worker; NE, WH, BYZ, and TR our brother and minister of God"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "in the gospel of Christ, to strengthen and encourage you in your faith,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "so that none of you would be shaken by these trials. For you know that we are destined for this.",
+          "contents": [
+            "so that none of you would be shaken by these trials. For you know that we are destined for this."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Indeed, when we were with you, we kept warning you that we would suffer persecution; and as you know, it has come to pass.",
+          "contents": [
+            "Indeed, when we were with you, we kept warning you that we would suffer persecution; and as you know, it has come to pass."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For this reason, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and caused our labor to be in vain.",
+          "contents": [
+            "For this reason, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and caused our labor to be in vain.",
+            [
+              {
+                "s1": [
+                  "Timothy’s Encouraging Report"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "But just now, Timothy has returned from his visit with the good news about your faith, your love, and the fond memories you have preserved, longing to see us just as we long to see you.",
+          "contents": [
+            "But just now, Timothy has returned from his visit with the good news about your faith, your love, and the fond memories you have preserved, longing to see us just as we long to see you."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For this reason, brothers, in all our distress and persecution, we have been reassured about you, because of your faith.",
+          "contents": [
+            "For this reason, brothers, in all our distress and persecution, we have been reassured about you, because of your faith."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For now we can go on living, as long as you are standing firm in the Lord.",
+          "contents": [
+            "For now we can go on living, as long as you are standing firm in the Lord.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "How can we adequately thank God for you in return for our great joy over you in His presence?",
+          "contents": [
+            "How can we adequately thank God for you in return for our great joy over you in His presence?"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith.",
+          "contents": [
+            "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Now may our God and Father Himself, and our Lord Jesus, direct our way to you.",
+          "contents": [
+            "Now may our God and Father Himself, and our Lord Jesus, direct our way to you."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "And may the Lord cause you to increase and overflow with love for one another and for everyone else, just as our love for you overflows,",
+          "contents": [
+            "And may the Lord cause you to increase and overflow with love for one another and for everyone else, just as our love for you overflows,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "so that He may establish your hearts in blamelessness and holiness before our God and Father at the coming of our Lord Jesus with all His saints. Amen.",
+          "contents": [
+            "so that He may establish your hearts in blamelessness and holiness before our God and Father at the coming of our Lord Jesus with all His saints. Amen."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Living to Please God"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Finally, brothers, we ask and encourage you in the Lord Jesus to live in a way that is pleasing to God, just as you have received from us. This is how you already live, so you should do so all the more.",
+          "contents": [
+            "Finally, brothers, we ask and encourage you in the Lord Jesus to live in a way that is pleasing to God, just as you have received from us. This is how you already live, so you should do so all the more."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For you know the instructions we gave you by the authority of the Lord Jesus.",
+          "contents": [
+            "For you know the instructions we gave you by the authority of the Lord Jesus.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For it is God’s will that you should be holy: You must abstain from sexual immorality;",
+          "contents": [
+            "For it is God’s will that you should be holy: You must abstain from sexual immorality;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "each of you must know how to control his own body in holiness and honor,",
+          "contents": [
+            "each of you must know how to control his own body",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:4"
+                },
+                {
+                  "ft": "Literally know how to possess his own vessel"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "in holiness and honor,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "not in lustful passion like the Gentiles who do not know God;",
+          "contents": [
+            "not in lustful passion like the Gentiles who do not know God;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "and no one should ever violate or exploit his brother in this regard, because the Lord will avenge all such acts, as we have already told you and solemnly warned you.",
+          "contents": [
+            "and no one should ever violate or exploit his brother in this regard,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:6"
+                },
+                {
+                  "ft": "Or no one should ever harm or cheat his brother in this matter"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "because the Lord will avenge all such acts, as we have already told you and solemnly warned you."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For God has not called us to impurity, but to holiness.",
+          "contents": [
+            "For God has not called us to impurity, but to holiness."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Anyone, then, who rejects this command does not reject man but God, the very One who gives you His Holy Spirit.",
+          "contents": [
+            "Anyone, then, who rejects this command does not reject man but God, the very One who gives you His Holy Spirit.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Now about brotherly love, you do not need anyone to write to you, because you yourselves have been taught by God to love one another.",
+          "contents": [
+            "Now about brotherly love, you do not need anyone to write to you, because you yourselves have been taught by God to love one another."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "And you are indeed showing this love to all the brothers throughout Macedonia. But we urge you, brothers, to excel more and more",
+          "contents": [
+            "And you are indeed showing this love to all the brothers throughout Macedonia. But we urge you, brothers, to excel more and more"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you.",
+          "contents": [
+            "and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Then you will behave properly toward outsiders, without being dependent on anyone.",
+          "contents": [
+            "Then you will behave properly toward outsiders, without being dependent on anyone.",
+            [
+              {
+                "s1": [
+                  "The Return of the Lord"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Brothers, we do not want you to be uninformed about those who sleep in death, so that you will not grieve like the rest, who are without hope.",
+          "contents": [
+            "Brothers, we do not want you to be uninformed about those who sleep in death,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:13"
+                },
+                {
+                  "ft": "Literally those who have fallen asleep, as in verses 14 and 15"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "so that you will not grieve like the rest, who are without hope."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him.",
+          "contents": [
+            "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "By the word of the Lord, we declare to you that we who are alive and remain until the coming of the Lord will by no means precede those who have fallen asleep.",
+          "contents": [
+            "By the word of the Lord, we declare to you that we who are alive and remain until the coming of the Lord will by no means precede those who have fallen asleep."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise.",
+          "contents": [
+            "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord.",
+          "contents": [
+            "After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Therefore encourage one another with these words.",
+          "contents": [
+            "Therefore encourage one another with these words."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "The Day of the Lord"
+            ]
+          },
+          {
+            "r": [
+              "(Zephaniah 1:7–18; Malachi 4:1–6; 2 Peter 3:8–13)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Now about the times and seasons, brothers, we do not need to write to you.",
+          "contents": [
+            "Now about the times and seasons, brothers, we do not need to write to you."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "For you are fully aware that the Day of the Lord will come like a thief in the night.",
+          "contents": [
+            "For you are fully aware that the Day of the Lord will come like a thief in the night."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "While people are saying, “Peace and security,” destruction will come upon them suddenly, like labor pains on a pregnant woman, and they will not escape.",
+          "contents": [
+            "While people are saying, “Peace and security,” destruction will come upon them suddenly, like labor pains on a pregnant woman, and they will not escape.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "But you, brothers, are not in the darkness so that this day should overtake you like a thief.",
+          "contents": [
+            "But you, brothers, are not in the darkness so that this day should overtake you like a thief."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For you are all sons of the light and sons of the day; we do not belong to the night or to the darkness.",
+          "contents": [
+            "For you are all sons of the light and sons of the day; we do not belong to the night or to the darkness."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "So then, let us not sleep as the others do, but let us remain awake and sober.",
+          "contents": [
+            "So then, let us not sleep as the others do, but let us remain awake and sober."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For those who sleep, sleep at night; and those who get drunk, get drunk at night.",
+          "contents": [
+            "For those who sleep, sleep at night; and those who get drunk, get drunk at night."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "But since we belong to the day, let us be sober, putting on the breastplate of faith and love, and the helmet of our hope of salvation.",
+          "contents": [
+            "But since we belong to the day, let us be sober, putting on the breastplate of faith and love, and the helmet of our hope of salvation.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For God has not appointed us to suffer wrath, but to obtain salvation through our Lord Jesus Christ.",
+          "contents": [
+            "For God has not appointed us to suffer wrath, but to obtain salvation through our Lord Jesus Christ."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He died for us so that, whether we are awake or asleep, we may live together with Him.",
+          "contents": [
+            "He died for us so that, whether we are awake or asleep, we may live together with Him."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Therefore encourage and build one another up, just as you are already doing.",
+          "contents": [
+            "Therefore encourage and build one another up, just as you are already doing.",
+            [
+              {
+                "s1": [
+                  "Christian Living"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "But we ask you, brothers, to acknowledge those who work diligently among you, who preside over you in the Lord and give you instruction.",
+          "contents": [
+            "But we ask you, brothers, to acknowledge those who work diligently among you, who preside over you in the Lord and give you instruction."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "In love, hold them in highest regard because of their work. Live in peace with one another.",
+          "contents": [
+            "In love, hold them in highest regard because of their work. Live in peace with one another.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "And we urge you, brothers, to admonish the unruly, encourage the fainthearted, help the weak, and be patient with everyone.",
+          "contents": [
+            "And we urge you, brothers, to admonish the unruly, encourage the fainthearted, help the weak, and be patient with everyone.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Make sure that no one repays evil for evil. Always pursue what is good for one another and for all people.",
+          "contents": [
+            "Make sure that no one repays evil for evil. Always pursue what is good for one another and for all people.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Rejoice at all times.",
+          "contents": [
+            "Rejoice at all times."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Pray without ceasing.",
+          "contents": [
+            "Pray without ceasing."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Give thanks in every circumstance, for this is God’s will for you in Christ Jesus.",
+          "contents": [
+            "Give thanks in every circumstance, for this is God’s will for you in Christ Jesus.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Do not extinguish the Spirit.",
+          "contents": [
+            "Do not extinguish the Spirit."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Do not treat prophecies with contempt,",
+          "contents": [
+            "Do not treat prophecies with contempt,"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "but test all things. Hold fast to what is good.",
+          "contents": [
+            "but test all things. Hold fast to what is good."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Abstain from every form of evil.",
+          "contents": [
+            "Abstain from every form of evil.",
+            [
+              {
+                "s1": [
+                  "Final Blessings and Instructions"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Now may the God of peace Himself sanctify you completely, and may your entire spirit, soul, and body be kept blameless at the coming of our Lord Jesus Christ.",
+          "contents": [
+            "Now may the God of peace Himself sanctify you completely, and may your entire spirit, soul, and body be kept blameless",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:23"
+                },
+                {
+                  "ft": "Or may your spirit, soul, and body be kept entirely blameless"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "at the coming of our Lord Jesus Christ."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "The One who calls you is faithful, and He will do it.",
+          "contents": [
+            "The One who calls you is faithful, and He will do it.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Brothers, pray for us as well.",
+          "contents": [
+            "Brothers, pray for us as well.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Greet all the brothers with a holy kiss.",
+          "contents": [
+            "Greet all the brothers with a holy kiss.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "I charge you before the Lord to have this letter read to all the brothers.",
+          "contents": [
+            "I charge you before the Lord to have this letter read to all the brothers.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "The grace of our Lord Jesus Christ be with you.",
+          "contents": [
+            "The grace of our Lord Jesus Christ be with you.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:28"
+                },
+                {
+                  "ft": "BYZ and TR include Amen."
+                }
+              ],
+              "closing": "\\f* "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "book": {
+    "bookCode": "3JN",
+    "description": "- Berean Study Bible",
+    "meta": [
+      {
+        "h": "3 John"
+      },
+      {
+        "toc1": [
+          "3 John"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "3 John"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "A Greeting from the Elder"
+            ]
+          },
+          {
+            "r": [
+              "(2 John 1:1–3)"
+            ]
+          }
+        ],
+        {
+          "b": null
+        },
+        {
+          "m": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "The elder, To the beloved Gaius, whom I love in the truth:",
+          "contents": [
+            "The elder,",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "To the beloved Gaius, whom I love in the truth:",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers.",
+          "contents": [
+            "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk.",
+          "contents": [
+            "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "I have no greater joy than to hear that my children are walking in the truth.",
+          "contents": [
+            "I have no greater joy than to hear that my children are walking in the truth.",
+            [
+              {
+                "s1": [
+                  "Gaius Commended for Hospitality"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Beloved, you are faithful in what you are doing for the brothers, and especially since they are strangers to you.",
+          "contents": [
+            "Beloved, you are faithful in what you are doing for the brothers, and especially since they are strangers to you."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God.",
+          "contents": [
+            "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For they went out on behalf of the Name, accepting nothing from the Gentiles.",
+          "contents": [
+            "For they went out on behalf of the Name, accepting nothing from the Gentiles."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Therefore we ought to support such men, so that we may be fellow workers for the truth.",
+          "contents": [
+            "Therefore we ought to support such men, so that we may be fellow workers for the truth.",
+            [
+              {
+                "s1": [
+                  "Diotrephes and Demetrius"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "I have written to the church about this, but Diotrephes, who loves to be first, will not accept our instruction.",
+          "contents": [
+            "I have written to the church about this,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:9"
+                },
+                {
+                  "ft": "Literally I have written something to the church"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "but Diotrephes, who loves to be first, will not accept our instruction."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church.",
+          "contents": [
+            "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.",
+          "contents": [
+            "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true.",
+          "contents": [
+            "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true.",
+            [
+              {
+                "s1": [
+                  "Conclusion"
+                ]
+              },
+              {
+                "r": [
+                  "(2 John 1:12–13)"
+                ]
+              }
+            ],
+            {
+              "b": null
+            },
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I have many things to write to you, but I would prefer not to do so with pen and ink.",
+          "contents": [
+            "I have many things to write to you, but I would prefer not to do so with pen and ink."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name.",
+          "contents": [
+            "Instead, I hope to see you soon and speak with you face to face.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:14"
+                },
+                {
+                  "ft": "Literally and we will speak mouth to mouth; some translators begin a new verse (15) after face to face."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Peace to you.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "The friends here send you greetings.",
+            {
+              "b": null
+            },
+            {
+              "m": null
+            },
+            "Greet each of our friends there by name."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
