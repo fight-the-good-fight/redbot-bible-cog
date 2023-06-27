@@ -118,8 +118,8 @@ class Bible(commands.Cog):
                     # find the first index where verseNumber exists,
                     # (each chapter can vary on beginning content)
                     verse_offset = get_verse_offset(chapter.get("contents"))
-                    range_min = verse_min + verse_offset
-                    range_max = verse_max + verse_offset + 1
+                    range_min = verse_min + verse_offset - 1
+                    range_max = verse_max + verse_offset
                     verses = chapter.get("contents")[range_min:range_max]
                     chapterNumber = chapter.get("chapterNumber")
 
