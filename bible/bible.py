@@ -99,6 +99,7 @@ class Bible(commands.Cog):
                     verse_max = len(chapter["verses"]) - 1
 
                 # check if the range is valid
+                # TODO: extract this into a function
                 #try:
                 #    if 'verses' in chapter:
                 #        chapter.get("verses")[verse_min-1:verse_max]
@@ -114,9 +115,11 @@ class Bible(commands.Cog):
                     chapterNumber = str(chapter["chapter"])
                 if 'contents' in chapter:
                     usfmFormat = True
-                    # index 3 is the first first in a chapter
-                    range_min = verse_min + 2
-                    range_max = verse_max + 3
+                    # find the first index where verseNumber exists,
+                    # (each chapter can vary on beginning content)
+                    verse_offset = get_verse_offset(chapter.get("contents"))
+                    range_min = verse_min + verse_offset
+                    range_max = verse_max + verse_offset + 1
                     verses = chapter.get("contents")[range_min:range_max]
                     chapterNumber = chapter.get("chapterNumber")
 
@@ -388,6 +391,17 @@ def get_book_extras_from_json(path: str, data, translation: str = 'akjv'):
                 #display_extras = data['book']['meta'][0]['h'] + data['book']['description']
 
     return display_extras
+
+
+def get_verse_offset(content):
+    offset = 0
+    for item in content:
+        if 'verseNumber' in item:
+            return offset
+        offset += 1
+
+    return offset
+
 
 def detect_translation(message: str):
     translation = None
