@@ -409,6 +409,8 @@ def detect_translation(message: str):
     if parse_translation.search(message) is not None:
         check_translation = parse_translation.search(message)[1]
         match check_translation.lower():
+            case 'asv':
+                translation = 'asv'
             case 'bsb':
                 translation = 'bsb'
             case 'kjv':
@@ -488,6 +490,7 @@ def get_book_extras(matched_book: dict, translation: str = 'akjv'):
 
 translation_names = {
     'akjv': 'Authorized (King James) Version (AKJV)',
+    'asv': 'American Standard Version - 1901 (ASV))',
     'bsb': 'Berean Study Bible'
 }
 
