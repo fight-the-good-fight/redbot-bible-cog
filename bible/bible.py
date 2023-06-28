@@ -490,7 +490,7 @@ def get_book_extras(matched_book: dict, translation: str = 'akjv'):
 
 translation_names = {
     'akjv': 'Authorized (King James) Version (AKJV)',
-    'asv': 'American Standard Version - 1901 (ASV))',
+    'asv': 'American Standard Version - 1901 (ASV)',
     'bsb': 'Berean Study Bible'
 }
 
