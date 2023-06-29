@@ -132,13 +132,14 @@ class Bible(commands.Cog):
                         verseNumber = str(verse["verse"])
                         verseText = verse['text']
                     description += f"[{verseNumber}] {verseText}\n"
-                    async with self.config.Notes() as notes:
-                        for note in notes:
-                            if note["book"].lower() == book_name:
-                                # Compare with chapter index
-                                if str(note["chapter"]) == chapterNumber:
-                                    if str(note["verse"]) == verseNumber:
-                                        description += str(box(text="- " +
+                    if translation == 'akjv':
+                        async with self.config.Notes() as notes:
+                            for note in notes:
+                                if note["book"].lower() == book_name:
+                                    # Compare with chapter index
+                                    if str(note["chapter"]) == chapterNumber:
+                                        if str(note["verse"]) == verseNumber:
+                                            description += str(box(text="- " +
                                                         note["note"], lang="diff")) + "\n"
 
                 for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
