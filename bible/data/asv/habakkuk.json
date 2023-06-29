@@ -1,0 +1,814 @@
+{
+  "book": {
+    "bookCode": "HAB",
+    "description": "35-HAB-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "Habakkuk"
+      },
+      {
+        "toc1": [
+          "Habakkuk"
+        ]
+      },
+      {
+        "toc2": [
+          "Habakkuk"
+        ]
+      },
+      {
+        "toc3": [
+          "Hab"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Habakkuk"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "The burden which Habakkuk the prophet did see.",
+          "contents": [
+            "The burden which Habakkuk the prophet did see.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "O Jehovah, how long shall I cry, and thou wilt not hear? I cry out unto thee of violence, and thou wilt not save.",
+          "contents": [
+            "O Jehovah, how long shall I cry, and thou wilt not hear? I cry out unto thee of violence, and thou wilt not save."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Why dost thou show me iniquity, and look upon perverseness? for destruction and violence are before me; and there is strife, and contention riseth up.",
+          "contents": [
+            "Why dost thou show me iniquity, and look upon perverseness? for destruction and violence are before me; and there is",
+            "strife, and contention riseth up."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Therefore the law is slacked, and justice doth never go forth; for the wicked doth compass about the righteous; therefore justice goeth forth perverted.",
+          "contents": [
+            "Therefore the law is slacked, and justice doth never go forth; for the wicked doth compass about the righteous; therefore",
+            "justice goeth forth perverted.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Behold ye among the nations, and look, and wonder marvellously; for I am working a work in your days, which ye will not believe though it be told you.",
+          "contents": [
+            "Behold ye among the nations, and look, and wonder marvellously; for I am working a work in your days, which ye will not",
+            "believe though it be told you."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For, lo, I raise up the Chaldeans, that bitter and hasty nation, that march through the breadth of the earth, to possess dwelling-places that are not theirs.",
+          "contents": [
+            "For, lo, I raise up the Chaldeans, that bitter and hasty nation, that march through the breadth of the earth, to possess",
+            "dwelling-places that are not theirs."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "They are terrible and dreadful; their judgment and their dignity proceed from themselves.",
+          "contents": [
+            "They are terrible and dreadful; their judgment and their dignity proceed from themselves."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen press proudly on: yea, their horsemen come from far; they fly as an eagle that hasteth to devour.",
+          "contents": [
+            "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen press proudly",
+            "on: yea, their horsemen come from far; they fly as an eagle that hasteth to devour."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "They come all of them for violence; the set of their faces is forwards; and they gather captives as the sand.",
+          "contents": [
+            "They come all of them for violence; the set of their faces is forwards; and they gather captives as the sand."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Yea, he scoffeth at kings, and princes are a derision unto him; he derideth every stronghold; for he heapeth up dust, and taketh it.",
+          "contents": [
+            "Yea, he scoffeth at kings, and princes are a derision unto him; he derideth every stronghold; for he heapeth up dust, and",
+            "taketh it."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Then shall he sweep by as a wind, and shall pass over, and be guilty, even he whose might is his god.",
+          "contents": [
+            "Then shall he sweep by",
+            {
+              "add": [
+                "as"
+              ],
+              "closing": "\\add*"
+            },
+            "a wind, and shall pass over, and be guilty,",
+            {
+              "add": [
+                "even"
+              ],
+              "closing": "\\add*"
+            },
+            "he whose might is his god.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Art not thou from everlasting, O Jehovah my God, my Holy One? we shall not die. O Jehovah, thou hast ordained him for judgment; and thou, O Rock, hast established him for correction.",
+          "contents": [
+            "Art not thou from everlasting, O Jehovah my God, my Holy One? we shall not die. O Jehovah, thou hast ordained him for",
+            "judgment; and thou, O Rock, hast established him for correction."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Thou that art of purer eyes than to behold evil, and that canst not look on perverseness, wherefore lookest thou upon them that deal treacherously, and holdest thy peace when the wicked swalloweth up the man that is more righteous than he;",
+          "contents": [
+            "Thou that art of purer eyes than to behold evil, and that canst not look on perverseness, wherefore lookest thou upon",
+            "them that deal treacherously, and holdest thy peace when the wicked swalloweth up the man that is more righteous than he;"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "and makest men as the fishes of the sea, as the creeping things, that have no ruler over them?",
+          "contents": [
+            "and makest men as the fishes of the sea, as the creeping things, that have no ruler over them?"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "He taketh up all of them with the angle, he catcheth them in his net, and gathereth them in his drag: therefore he rejoiceth and is glad.",
+          "contents": [
+            "He taketh up all of them with the angle, he catcheth them in his net, and gathereth them in his drag: therefore he",
+            "rejoiceth and is glad."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food plenteous.",
+          "contents": [
+            "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his",
+            "food plenteous."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Shall he therefore empty his net, and spare not to slay the nations continually?",
+          "contents": [
+            "Shall he therefore empty his net, and spare not to slay the nations continually?"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I will stand upon my watch, and set me upon the tower, and will look forth to see what he will speak with me, and what I shall answer concerning my complaint.",
+          "contents": [
+            "I will stand upon my watch, and set me upon the tower, and will look forth to see what he will speak with me, and what I",
+            "shall answer concerning my complaint."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "And Jehovah answered me, and said, Write the vision, and make it plain upon tablets, that he may run that readeth it.",
+          "contents": [
+            "And Jehovah answered me, and said, Write the vision, and make it plain upon tablets, that he may run that readeth it."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For the vision is yet for the appointed time, and it hasteth toward the end, and shall not lie: though it tarry, wait for it; because it will surely come, it will not delay.",
+          "contents": [
+            "For the vision is yet for the appointed time, and it hasteth toward the end, and shall not lie: though it tarry, wait for",
+            "it; because it will surely come, it will not delay.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Behold, his soul is puffed up, it is not upright in him; but the righteous shall live by his faith.",
+          "contents": [
+            "Behold, his soul is puffed up, it is not upright in him; but the righteous shall live by his faith."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Yea, moreover, wine is treacherous, a haughty man, that keepeth not at home; who enlargeth his desire as Sheol, and he is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all peoples.",
+          "contents": [
+            "Yea, moreover, wine is treacherous, a haughty man, that keepeth not at home; who enlargeth his desire as Sheol, and he is",
+            "as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all peoples."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth that which is not his! how long? and that ladeth himself with pledges!",
+          "contents": [
+            "Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth",
+            "that which is not his! how long? and that ladeth himself with pledges!"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booty unto them?",
+          "contents": [
+            "Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booty unto",
+            "them?"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Because thou hast plundered many nations, all the remnant of the peoples shall plunder thee, because of men’s blood, and for the violence done to the land, to the city and to all that dwell therein.",
+          "contents": [
+            "Because thou hast plundered many nations, all the remnant of the peoples shall plunder thee, because of men’s blood, and",
+            "for the violence done to the land, to the city and to all that dwell therein.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Woe to him that getteth an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!",
+          "contents": [
+            "Woe to him that getteth an evil gain for his house, that he may set his nest on high, that he may be delivered from the",
+            "hand of evil!"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Thou hast devised shame to thy house, by cutting off many peoples, and hast sinned against thy soul.",
+          "contents": [
+            "Thou hast devised shame to thy house, by cutting off many peoples, and hast sinned against thy soul."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For the stone shall cry out of the wall, and the beam out of the timber shall answer it.",
+          "contents": [
+            "For the stone shall cry out of the wall, and the beam out of the timber shall answer it.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Woe to him that buildeth a town with blood, and establisheth a city by iniquity!",
+          "contents": [
+            "Woe to him that buildeth a town with blood, and establisheth a city by iniquity!"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Behold, is it not of Jehovah of hosts that the peoples labor for the fire, and the nations weary themselves for vanity?",
+          "contents": [
+            "Behold, is it not of Jehovah of hosts that the peoples labor for the fire, and the nations weary themselves for vanity?"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For the earth shall be filled with the knowledge of the glory of Jehovah, as the waters cover the sea.",
+          "contents": [
+            "For the earth shall be filled with the knowledge of the glory of Jehovah, as the waters cover the sea.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Woe unto him that giveth his neighbor drink, to thee that addest thy venom, and makest him drunken also, that thou mayest look on their nakedness!",
+          "contents": [
+            "Woe unto him that giveth his neighbor drink,",
+            {
+              "add": [
+                "to thee"
+              ],
+              "closing": "\\add*"
+            },
+            "that addest thy venom, and makest him drunken also, that",
+            "thou mayest look on their nakedness!"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Thou art filled with shame, and not glory: drink thou also, and be as one uncircumcised; the cup of Jehovah’s right hand shall come round unto thee, and foul shame shall be upon thy glory.",
+          "contents": [
+            "Thou art filled with shame, and not glory: drink thou also, and be as one uncircumcised; the cup of Jehovah’s right hand",
+            "shall come round unto thee, and foul shame shall be upon thy glory."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For the violence done to Lebanon shall cover thee, and the destruction of the beasts, which made them afraid; because of men’s blood, and for the violence done to the land, to the city and to all that dwell therein.",
+          "contents": [
+            "For the violence done to Lebanon shall cover thee, and the destruction of the beasts, which made them afraid; because of",
+            "men’s blood, and for the violence done to the land, to the city and to all that dwell therein.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "What profiteth the graven image, that the maker thereof hath graven it; the molten image, even the teacher of lies, that he that fashioneth its form trusteth therein, to make dumb idols?",
+          "contents": [
+            "What profiteth the graven image, that the maker thereof hath graven it; the molten image, even the teacher of lies, that",
+            "he that fashioneth its form trusteth therein, to make dumb idols?"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Woe unto him that saith to the wood, Awake; to the dumb stone, Arise! Shall this teach? Behold, it is overlaid with gold and silver, and there is no breath at all in the midst of it.",
+          "contents": [
+            "Woe unto him that saith to the wood, Awake; to the dumb stone, Arise! Shall this teach? Behold, it is overlaid with gold",
+            "and silver, and there is no breath at all in the midst of it."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "But Jehovah is in his holy temple: let all the earth keep silence before him.",
+          "contents": [
+            "But Jehovah is in his holy temple: let all the earth keep silence before him."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "A prayer of Habakkuk the prophet, set to Shigionoth.",
+          "contents": [
+            "A prayer of Habakkuk the prophet, set to Shigionoth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "O Jehovah, I have heard the report of thee, and am afraid: O Jehovah, revive thy work in the midst of the years; In the midst of the years make it known; In wrath remember mercy.",
+          "contents": [
+            "O Jehovah, I have heard the report of thee, and am afraid:",
+            {
+              "q1": null
+            },
+            "O Jehovah, revive thy work in the midst of the years;",
+            {
+              "q1": null
+            },
+            "In the midst of the years make it known;",
+            {
+              "q1": null
+            },
+            "In wrath remember mercy.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "God came from Teman, And the Holy One from mount Paran. [Selah. His glory covered the heavens, And the earth was full of his praise.",
+          "contents": [
+            "God came from Teman,",
+            {
+              "q1": null
+            },
+            "And the Holy One from mount Paran.",
+            {
+              "qs": [
+                "[Selah."
+              ],
+              "closing": "\\qs*"
+            },
+            {
+              "q1": null
+            },
+            "His glory covered the heavens,",
+            {
+              "q1": null
+            },
+            "And the earth was full of his praise.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "And his brightness was as the light; He had rays coming forth from his hand; And there was the hiding of his power.",
+          "contents": [
+            "And",
+            {
+              "add": [
+                "his"
+              ],
+              "closing": "\\add*"
+            },
+            "brightness was as the light;",
+            {
+              "q1": null
+            },
+            "He had rays",
+            {
+              "add": [
+                "coming forth"
+              ],
+              "closing": "\\add*"
+            },
+            "from his hand;",
+            {
+              "q1": null
+            },
+            "And there was the hiding of his power.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Before him went the pestilence, And fiery bolts went forth at his feet.",
+          "contents": [
+            "Before him went the pestilence,",
+            {
+              "q1": null
+            },
+            "And fiery bolts went forth at his feet.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "He stood, and measured the earth; He beheld, and drove asunder the nations; And the eternal mountains were scattered; The everlasting hills did bow; His goings were as of old.",
+          "contents": [
+            "He stood, and measured the earth;",
+            {
+              "q1": null
+            },
+            "He beheld, and drove asunder the nations;",
+            {
+              "q1": null
+            },
+            "And the eternal mountains were scattered;",
+            {
+              "q1": null
+            },
+            "The everlasting hills did bow;",
+            {
+              "q1": null
+            },
+            "His goings were",
+            {
+              "add": [
+                "as"
+              ],
+              "closing": "\\add*"
+            },
+            "of old.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "I saw the tents of Cushan in affliction; The curtains of the land of Midian did tremble.",
+          "contents": [
+            "I saw the tents of Cushan in affliction;",
+            {
+              "q1": null
+            },
+            "The curtains of the land of Midian did tremble.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Was Jehovah displeased with the rivers? Was thine anger against the rivers, Or thy wrath against the sea, That thou didst ride upon thy horses, Upon thy chariots of salvation?",
+          "contents": [
+            "Was Jehovah displeased with the rivers?",
+            {
+              "q1": null
+            },
+            "Was thine anger against the rivers,",
+            {
+              "q1": null
+            },
+            "Or thy wrath against the sea,",
+            {
+              "q1": null
+            },
+            "That thou didst ride upon thy horses,",
+            {
+              "q1": null
+            },
+            "Upon thy chariots of salvation?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Thy bow was made quite bare; The oaths to the tribes were a sure word. [Selah. Thou didst cleave the earth with rivers.",
+          "contents": [
+            "Thy bow was made quite bare;",
+            {
+              "q1": null
+            },
+            "The oaths to the tribes were a",
+            {
+              "add": [
+                "sure"
+              ],
+              "closing": "\\add*"
+            },
+            "word.",
+            {
+              "qs": [
+                "[Selah."
+              ],
+              "closing": "\\qs*"
+            },
+            {
+              "q1": null
+            },
+            "Thou didst cleave the earth with rivers.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The mountains saw thee, and were afraid; The tempest of waters passed by; The deep uttered its voice, And lifted up its hands on high.",
+          "contents": [
+            "The mountains saw thee, and were afraid;",
+            {
+              "q1": null
+            },
+            "The tempest of waters passed by;",
+            {
+              "q1": null
+            },
+            "The deep uttered its voice,",
+            {
+              "q1": null
+            },
+            "And lifted up its hands on high.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "The sun and moon stood still in their habitation, At the light of thine arrows as they went, At the shining of thy glittering spear.",
+          "contents": [
+            "The sun and moon stood still in their habitation,",
+            {
+              "q1": null
+            },
+            "At the light of thine arrows as they went,",
+            {
+              "q1": null
+            },
+            "At the shining of thy glittering spear.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Thou didst march though the land in indignation; Thou didst thresh the nations in anger.",
+          "contents": [
+            "Thou didst march though the land in indignation;",
+            {
+              "q1": null
+            },
+            "Thou didst thresh the nations in anger.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Thou wentest forth for the salvation of thy people, For the salvation of thine anointed; Thou woundest the head out of the house of the wicked man, Laying bare the foundation even unto the neck. [Selah.",
+          "contents": [
+            "Thou wentest forth for the salvation of thy people,",
+            {
+              "q1": null
+            },
+            "For the salvation of thine anointed;",
+            {
+              "q1": null
+            },
+            "Thou woundest the head out of the house of the wicked man,",
+            {
+              "q1": null
+            },
+            "Laying bare the foundation even unto the neck.",
+            {
+              "qs": [
+                "[Selah."
+              ],
+              "closing": "\\qs*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Thou didst pierce with his own staves the head of his warriors: They came as a whirlwind to scatter me; Their rejoicing was as to devour the poor secretly.",
+          "contents": [
+            "Thou didst pierce with his own staves the head of his warriors:",
+            {
+              "q1": null
+            },
+            "They came as a whirlwind to scatter me;",
+            {
+              "q1": null
+            },
+            "Their rejoicing was as to devour the poor secretly.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Thou didst tread the sea with thy horses, The heap of mighty waters.",
+          "contents": [
+            "Thou didst tread the sea with thy horses,",
+            {
+              "q1": null
+            },
+            "The heap of mighty waters.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "I heard, and my body trembled, My lips quivered at the voice; Rottenness entereth into my bones, and I tremble in my place; Because I must wait quietly for the day of trouble, For the coming up of the people that invadeth us.",
+          "contents": [
+            "I heard, and my body trembled,",
+            {
+              "q1": null
+            },
+            "My lips quivered at the voice;",
+            {
+              "q1": null
+            },
+            "Rottenness entereth into my bones, and I tremble in my place;",
+            {
+              "q1": null
+            },
+            "Because I must wait quietly for the day of trouble,",
+            {
+              "q1": null
+            },
+            "For the coming up of the people that invadeth us.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For though the fig-tree shall not flourish, Neither shall fruit be in the vines; The labor of the olive shall fail, And the fields shall yield no food; The flock shall be cut off from the fold, And there shall be no herd in the stalls:",
+          "contents": [
+            "For though the fig-tree shall not flourish,",
+            {
+              "q1": null
+            },
+            "Neither shall fruit be in the vines;",
+            {
+              "q1": null
+            },
+            "The labor of the olive shall fail,",
+            {
+              "q1": null
+            },
+            "And the fields shall yield no food;",
+            {
+              "q1": null
+            },
+            "The flock shall be cut off from the fold,",
+            {
+              "q1": null
+            },
+            "And there shall be no herd in the stalls:",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Yet I will rejoice in Jehovah, I will joy in the God of my salvation.",
+          "contents": [
+            "Yet I will rejoice in Jehovah,",
+            {
+              "q1": null
+            },
+            "I will joy in the God of my salvation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Jehovah, the Lord, is my strength; And he maketh my feet like hinds’ feet, And will make me to walk upon my high places.",
+          "contents": [
+            "Jehovah, the Lord, is my strength;",
+            {
+              "q1": null
+            },
+            "And he maketh my feet like hinds’",
+            {
+              "add": [
+                "feet"
+              ],
+              "closing": "\\add*"
+            },
+            ",",
+            {
+              "q1": null
+            },
+            "And will make me to walk upon my high places."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

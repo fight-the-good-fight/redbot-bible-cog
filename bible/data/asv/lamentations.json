@@ -1,0 +1,2256 @@
+{
+  "book": {
+    "bookCode": "LAM",
+    "description": "25-LAM-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "Lamentations"
+      },
+      {
+        "toc1": [
+          "The Lamentations of Jeremiah"
+        ]
+      },
+      {
+        "toc2": [
+          "Lamentations"
+        ]
+      },
+      {
+        "toc3": [
+          "Lam"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "The Lamentations of Jeremiah"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How doth the city sit solitary, that was full of people! She is become as a widow, that was great among the nations! She that was a princess among the provinces is become tributary!",
+          "contents": [
+            "How doth the city sit solitary, that was full of people!",
+            {
+              "q1": null
+            },
+            "She is become as a widow, that was great among the nations!",
+            {
+              "q1": null
+            },
+            "She that was a princess among the provinces is become tributary!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "She weepeth sore in the night, and her tears are on her cheeks; Among all her lovers she hath none to comfort her: All her friends have dealt treacherously with her; they are become her enemies.",
+          "contents": [
+            "She weepeth sore in the night, and her tears are on her cheeks;",
+            {
+              "q1": null
+            },
+            "Among all her lovers she hath none to comfort her:",
+            {
+              "q1": null
+            },
+            "All her friends have dealt treacherously with her; they are become her enemies.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Judah is gone into captivity because of affliction, and because of great servitude; She dwelleth among the nations, she findeth no rest: All her persecutors overtook her within the straits.",
+          "contents": [
+            "Judah is gone into captivity because of affliction, and because of great servitude;",
+            {
+              "q1": null
+            },
+            "She dwelleth among the nations, she findeth no rest:",
+            {
+              "q1": null
+            },
+            "All her persecutors overtook her within the straits.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The ways of Zion do mourn, because none come to the solemn assembly; All her gates are desolate, her priests do sigh: Her virgins are afflicted, and she herself is in bitterness.",
+          "contents": [
+            "The ways of Zion do mourn, because none come to the solemn assembly;",
+            {
+              "q1": null
+            },
+            "All her gates are desolate, her priests do sigh:",
+            {
+              "q1": null
+            },
+            "Her virgins are afflicted, and she herself is in bitterness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Her adversaries are become the head, her enemies prosper; For Jehovah hath afflicted her for the multitude of her transgressions: Her young children are gone into captivity before the adversary.",
+          "contents": [
+            "Her adversaries are become the head, her enemies prosper;",
+            {
+              "q1": null
+            },
+            "For Jehovah hath afflicted her for the multitude of her transgressions:",
+            {
+              "q1": null
+            },
+            "Her young children are gone into captivity before the adversary.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And from the daughter of Zion all her majesty is departed: Her princes are become like harts that find no pasture, And they are gone without strength before the pursuer.",
+          "contents": [
+            "And from the daughter of Zion all her majesty is departed:",
+            {
+              "q1": null
+            },
+            "Her princes are become like harts that find no pasture,",
+            {
+              "q1": null
+            },
+            "And they are gone without strength before the pursuer.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Jerusalem remembereth in the days of her affliction and of her miseries all her pleasant things that were from the days of old: When her people fell into the hand of the adversary, and none did help her, The adversaries saw her, they did mock at her desolations.",
+          "contents": [
+            "Jerusalem remembereth in the days of her affliction and of her miseries all her pleasant things that were from the days of",
+            "old:",
+            {
+              "q1": null
+            },
+            "When her people fell into the hand of the adversary, and none did help her,",
+            {
+              "q1": null
+            },
+            "The adversaries saw her, they did mock at her desolations.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jerusalem hath grievously sinned; therefore she is become as an unclean thing; All that honored her despise her, because they have seen her nakedness: Yea, she sigheth, and turneth backward.",
+          "contents": [
+            "Jerusalem hath grievously sinned; therefore she is become as an unclean thing;",
+            {
+              "q1": null
+            },
+            "All that honored her despise her, because they have seen her nakedness:",
+            {
+              "q1": null
+            },
+            "Yea, she sigheth, and turneth backward.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Her filthiness was in her skirts; she remembered not her latter end; Therefore is she come down wonderfully; she hath no comforter: Behold, O Jehovah, my affliction; for the enemy hath magnified himself.",
+          "contents": [
+            "Her filthiness was in her skirts; she remembered not her latter end;",
+            {
+              "q1": null
+            },
+            "Therefore is she come down wonderfully; she hath no comforter:",
+            {
+              "q1": null
+            },
+            "Behold, O Jehovah, my affliction; for the enemy hath magnified himself.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The adversary hath spread out his hand upon all her pleasant things: For she hath seen that the nations are entered into her sanctuary, Concerning whom thou didst command that they should not enter into thine assembly.",
+          "contents": [
+            "The adversary hath spread out his hand upon all her pleasant things:",
+            {
+              "q1": null
+            },
+            "For she hath seen that the nations are entered into her sanctuary,",
+            {
+              "q1": null
+            },
+            "Concerning whom thou didst command that they should not enter into thine assembly.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "All her people sigh, they seek bread; They have given their pleasant things for food to refresh the soul: See, O Jehovah, and behold; for I am become abject.",
+          "contents": [
+            "All her people sigh, they seek bread;",
+            {
+              "q1": null
+            },
+            "They have given their pleasant things for food to refresh the soul:",
+            {
+              "q1": null
+            },
+            "See, O Jehovah, and behold; for I am become abject.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Is it nothing to you, all ye that pass by? Behold, and see if there be any sorrow like unto my sorrow, which is brought upon me, Wherewith Jehovah hath afflicted me in the day of his fierce anger.",
+          "contents": [
+            "Is it nothing to you, all ye that pass by?",
+            {
+              "q1": null
+            },
+            "Behold, and see if there be any sorrow like unto my sorrow, which is brought upon me,",
+            {
+              "q1": null
+            },
+            "Wherewith Jehovah hath afflicted",
+            {
+              "add": [
+                "me"
+              ],
+              "closing": "\\add*"
+            },
+            "in the day of his fierce anger.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "From on high hath he sent fire into my bones, and it prevaileth against them; He hath spread a net for my feet, he hath turned me back: He hath made me desolate and faint all the day.",
+          "contents": [
+            "From on high hath he sent fire into my bones, and it prevaileth against them;",
+            {
+              "q1": null
+            },
+            "He hath spread a net for my feet, he hath turned me back:",
+            {
+              "q1": null
+            },
+            "He hath made me desolate and faint all the day.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The yoke of my transgressions is bound by his hand; They are knit together, they are come up upon my neck; he hath made my strength to fail: The Lord hath delivered me into their hands, against whom I am not able to stand.",
+          "contents": [
+            "The yoke of my transgressions is bound by his hand;",
+            {
+              "q1": null
+            },
+            "They are knit together, they are come up upon my neck; he hath made my strength to fail:",
+            {
+              "q1": null
+            },
+            "The Lord hath delivered me into their hands, against whom I am not able to stand.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "The Lord hath set at nought all my mighty men in the midst of me; He hath called a solemn assembly against me to crush my young men: The Lord hath trodden as in a winepress the virgin daughter of Judah.",
+          "contents": [
+            "The Lord hath set at nought all my mighty men in the midst of me;",
+            {
+              "q1": null
+            },
+            "He hath called a solemn assembly against me to crush my young men:",
+            {
+              "q1": null
+            },
+            "The Lord hath trodden as in a winepress the virgin daughter of Judah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For these things I weep; mine eye, mine eye runneth down with water; Because the comforter that should refresh my soul is far from me: My children are desolate, because the enemy hath prevailed.",
+          "contents": [
+            "For these things I weep; mine eye, mine eye runneth down with water;",
+            {
+              "q1": null
+            },
+            "Because the comforter that should refresh my soul is far from me:",
+            {
+              "q1": null
+            },
+            "My children are desolate, because the enemy hath prevailed.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Zion spreadeth forth her hands; there is none to comfort her; Jehovah hath commanded concerning Jacob, that they that are round about him should be his adversaries: Jerusalem is among them as an unclean thing.",
+          "contents": [
+            "Zion spreadeth forth her hands; there is none to comfort her;",
+            {
+              "q1": null
+            },
+            "Jehovah hath commanded concerning Jacob, that they that are round about him should be his adversaries:",
+            {
+              "q1": null
+            },
+            "Jerusalem is among them as an unclean thing.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Jehovah is righteous; for I have rebelled against his commandment: Hear, I pray you, all ye peoples, and behold my sorrow: My virgins and my young men are gone into captivity.",
+          "contents": [
+            "Jehovah is righteous; for I have rebelled against his commandment:",
+            {
+              "q1": null
+            },
+            "Hear, I pray you, all ye peoples, and behold my sorrow:",
+            {
+              "q1": null
+            },
+            "My virgins and my young men are gone into captivity.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "I called for my lovers, but they deceived me: My priests and mine elders gave up the ghost in the city, While they sought them food to refresh their souls.",
+          "contents": [
+            "I called for my lovers,",
+            {
+              "add": [
+                "but"
+              ],
+              "closing": "\\add*"
+            },
+            "they deceived me:",
+            {
+              "q1": null
+            },
+            "My priests and mine elders gave up the ghost in the city,",
+            {
+              "q1": null
+            },
+            "While they sought them food to refresh their souls.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Behold, O Jehovah; for I am in distress; my heart is troubled; My heart is turned within me; for I have grievously rebelled: Abroad the sword bereaveth, at home there is as death.",
+          "contents": [
+            "Behold, O Jehovah; for I am in distress; my heart is troubled;",
+            {
+              "q1": null
+            },
+            "My heart is turned within me; for I have grievously rebelled:",
+            {
+              "q1": null
+            },
+            "Abroad the sword bereaveth, at home there is as death.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "They have heard that I sigh; there is none to comfort me; All mine enemies have heard of my trouble; they are glad that thou hast done it: Thou wilt bring the day that thou hast proclaimed, and they shall be like unto me.",
+          "contents": [
+            "They have heard that I sigh; there is none to comfort me;",
+            {
+              "q1": null
+            },
+            "All mine enemies have heard of my trouble; they are glad that thou hast done it:",
+            {
+              "q1": null
+            },
+            "Thou wilt bring the day that thou hast proclaimed, and they shall be like unto me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Let all their wickedness come before thee; And do unto them, as thou hast done unto me for all my transgressions: For my sighs are many, and my heart is faint.",
+          "contents": [
+            "Let all their wickedness come before thee;",
+            {
+              "q1": null
+            },
+            "And do unto them, as thou hast done unto me for all my transgressions:",
+            {
+              "q1": null
+            },
+            "For my sighs are many, and my heart is faint."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How hath the Lord covered the daughter of Zion with a cloud in his anger! He hath cast down from heaven unto the earth the beauty of Israel, And hath not remembered his footstool in the day of his anger.",
+          "contents": [
+            "How hath the Lord covered the daughter of Zion with a cloud in his anger!",
+            {
+              "q1": null
+            },
+            "He hath cast down from heaven unto the earth the beauty of Israel,",
+            {
+              "q1": null
+            },
+            "And hath not remembered his footstool in the day of his anger.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The Lord hath swallowed up all the habitations of Jacob, and hath not pitied: He hath thrown down in his wrath the strongholds of the daughter of Judah; He hath brought them down to the ground; he hath profaned the kingdom and the princes thereof.",
+          "contents": [
+            "The Lord hath swallowed up all the habitations of Jacob, and hath not pitied:",
+            {
+              "q1": null
+            },
+            "He hath thrown down in his wrath the strongholds of the daughter of Judah;",
+            {
+              "q1": null
+            },
+            "He hath brought them down to the ground; he hath profaned the kingdom and the princes thereof.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "He hath cut off in fierce anger all the horn of Israel; He hath drawn back his right hand from before the enemy: And he hath burned up Jacob like a flaming fire, which devoureth round about.",
+          "contents": [
+            "He hath cut off in fierce anger all the horn of Israel;",
+            {
+              "q1": null
+            },
+            "He hath drawn back his right hand from before the enemy:",
+            {
+              "q1": null
+            },
+            "And he hath burned up Jacob like a flaming fire, which devoureth round about.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "He hath bent his bow like an enemy, he hath stood with his right hand as an adversary, And hath slain all that were pleasant to the eye: In the tent of the daughter of Zion he hath poured out his wrath like fire.",
+          "contents": [
+            "He hath bent his bow like an enemy, he hath stood with his right hand as an adversary,",
+            {
+              "q1": null
+            },
+            "And hath slain all that were pleasant to the eye:",
+            {
+              "q1": null
+            },
+            "In the tent of the daughter of Zion he hath poured out his wrath like fire.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "The Lord is become as an enemy, he hath swallowed up Israel; He hath swallowed up all her palaces, he hath destroyed his strongholds; And he hath multiplied in the daughter of Judah mourning and lamentation.",
+          "contents": [
+            "The Lord is become as an enemy, he hath swallowed up Israel;",
+            {
+              "q1": null
+            },
+            "He hath swallowed up all her palaces, he hath destroyed his strongholds;",
+            {
+              "q1": null
+            },
+            "And he hath multiplied in the daughter of Judah mourning and lamentation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "And he hath violently taken away his tabernacle, as if it were of a garden; he hath destroyed his place of assembly: Jehovah hath caused solemn assembly and sabbath to be forgotten in Zion, And hath despised in the indignation of his anger the king and the priest.",
+          "contents": [
+            "And he hath violently taken away his tabernacle, as if it were of a garden; he hath destroyed his place of assembly:",
+            {
+              "q1": null
+            },
+            "Jehovah hath caused solemn assembly and sabbath to be forgotten in Zion,",
+            {
+              "q1": null
+            },
+            "And hath despised in the indignation of his anger the king and the priest.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "The Lord hath cast off his altar, he hath abhorred his sanctuary; He hath given up into the hand of the enemy the walls of her palaces: They have made a noise in the house of Jehovah, as in the day of a solemn assembly.",
+          "contents": [
+            "The Lord hath cast off his altar, he hath abhorred his sanctuary;",
+            {
+              "q1": null
+            },
+            "He hath given up into the hand of the enemy the walls of her palaces:",
+            {
+              "q1": null
+            },
+            "They have made a noise in the house of Jehovah, as in the day of a solemn assembly.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jehovah hath purposed to destroy the wall of the daughter of Zion; He hath stretched out the line, he hath not withdrawn his hand from destroying; And he hath made the rampart and wall to lament; they languish together.",
+          "contents": [
+            "Jehovah hath purposed to destroy the wall of the daughter of Zion;",
+            {
+              "q1": null
+            },
+            "He hath stretched out the line, he hath not withdrawn his hand from destroying;",
+            {
+              "q1": null
+            },
+            "And he hath made the rampart and wall to lament; they languish together.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Her gates are sunk into the ground; he hath destroyed and broken her bars: Her king and her princes are among the nations where the law is not; Yea, her prophets find no vision from Jehovah.",
+          "contents": [
+            "Her gates are sunk into the ground; he hath destroyed and broken her bars:",
+            {
+              "q1": null
+            },
+            "Her king and her princes are among the nations where the law is not;",
+            {
+              "q1": null
+            },
+            "Yea, her prophets find no vision from Jehovah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The elders of the daughter of Zion sit upon the ground, they keep silence; They have cast up dust upon their heads; they have girded themselves with sackcloth: The virgins of Jerusalem hang down their heads to the ground.",
+          "contents": [
+            "The elders of the daughter of Zion sit upon the ground, they keep silence;",
+            {
+              "q1": null
+            },
+            "They have cast up dust upon their heads; they have girded themselves with sackcloth:",
+            {
+              "q1": null
+            },
+            "The virgins of Jerusalem hang down their heads to the ground.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Mine eyes do fail with tears, my heart is troubled; My liver is poured upon the earth, because of the destruction of the daughter of my people, Because the young children and the sucklings swoon in the streets of the city.",
+          "contents": [
+            "Mine eyes do fail with tears, my heart is troubled;",
+            {
+              "q1": null
+            },
+            "My liver is poured upon the earth, because of the destruction of the daughter of my people,",
+            {
+              "q1": null
+            },
+            "Because the young children and the sucklings swoon in the streets of the city.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "They say to their mothers, Where is grain and wine? When they swoon as the wounded in the streets of the city, When their soul is poured out into their mothers’ bosom.",
+          "contents": [
+            "They say to their mothers, Where is grain and wine?",
+            {
+              "q1": null
+            },
+            "When they swoon as the wounded in the streets of the city,",
+            {
+              "q1": null
+            },
+            "When their soul is poured out into their mothers’ bosom.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "What shall I testify unto thee? what shall I liken to thee, O daughter of Jerusalem? What shall I compare to thee, that I may comfort thee, O virgin daughter of Zion? For thy breach is great like the sea: who can heal thee?",
+          "contents": [
+            "What shall I testify unto thee? what shall I liken to thee, O daughter of Jerusalem?",
+            {
+              "q1": null
+            },
+            "What shall I compare to thee, that I may comfort thee, O virgin daughter of Zion?",
+            {
+              "q1": null
+            },
+            "For thy breach is great like the sea: who can heal thee?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Thy prophets have seen for thee false and foolish visions; And they have not uncovered thine iniquity, to bring back thy captivity, But have seen for thee false oracles and causes of banishment.",
+          "contents": [
+            "Thy prophets have seen for thee false and foolish visions;",
+            {
+              "q1": null
+            },
+            "And they have not uncovered thine iniquity, to bring back thy captivity,",
+            {
+              "q1": null
+            },
+            "But have seen for thee false oracles and causes of banishment.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "All that pass by clap their hands at thee; They hiss and wag their head at the daughter of Jerusalem, saying, Is this the city that men called The perfection of beauty, The joy of the whole earth?",
+          "contents": [
+            "All that pass by clap their hands at thee;",
+            {
+              "q1": null
+            },
+            "They hiss and wag their head at the daughter of Jerusalem,",
+            {
+              "add": [
+                "saying"
+              ],
+              "closing": "\\add*"
+            },
+            ",",
+            {
+              "q1": null
+            },
+            "Is this the city that men called The perfection of beauty, The joy of the whole earth?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "All thine enemies have opened their mouth wide against thee; They hiss and gnash the teeth; they say, We have swallowed her up; Certainly this is the day that we looked for; we have found, we have seen it.",
+          "contents": [
+            "All thine enemies have opened their mouth wide against thee;",
+            {
+              "q1": null
+            },
+            "They hiss and gnash the teeth; they say, We have swallowed her up;",
+            {
+              "q1": null
+            },
+            "Certainly this is the day that we looked for; we have found, we have seen it.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Jehovah hath done that which he purposed; he hath fulfilled his word that he commanded in the days of old; He hath thrown down, and hath not pitied: And he hath caused the enemy to rejoice over thee; he hath exalted the horn of thine adversaries.",
+          "contents": [
+            "Jehovah hath done that which he purposed; he hath fulfilled his word that he commanded in the days of old;",
+            {
+              "q1": null
+            },
+            "He hath thrown down, and hath not pitied:",
+            {
+              "q1": null
+            },
+            "And he hath caused the enemy to rejoice over thee; he hath exalted the horn of thine adversaries.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Their heart cried unto the Lord: O wall of the daughter of Zion, let tears run down like a river day and night; Give thyself no respite; let not the apple of thine eye cease.",
+          "contents": [
+            "Their heart cried unto the Lord:",
+            {
+              "q1": null
+            },
+            "O wall of the daughter of Zion, let tears run down like a river day and night;",
+            {
+              "q1": null
+            },
+            "Give thyself no respite; let not the apple of thine eye cease.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Arise, cry out in the night, at the beginning of the watches; Pour out thy heart like water before the face of the Lord: Lift up thy hands toward him for the life of thy young children, that faint for hunger at the head of every street.",
+          "contents": [
+            "Arise, cry out in the night, at the beginning of the watches;",
+            {
+              "q1": null
+            },
+            "Pour out thy heart like water before the face of the Lord:",
+            {
+              "q1": null
+            },
+            "Lift up thy hands toward him for the life of thy young children, that faint for hunger at the head of every street.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "See, O Jehovah, and behold to whom thou hast done thus! Shall the women eat their fruit, the children that are dandled in the hands? Shall the priest and the prophet be slain in the sanctuary of the Lord?",
+          "contents": [
+            "See, O Jehovah, and behold to whom thou hast done thus!",
+            {
+              "q1": null
+            },
+            "Shall the women eat their fruit, the children that are dandled in the hands?",
+            {
+              "q1": null
+            },
+            "Shall the priest and the prophet be slain in the sanctuary of the Lord?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "The youth and the old man lie on the ground in the streets; My virgins and my young men are fallen by the sword: Thou hast slain them in the day of thine anger; thou hast slaughtered, and not pitied.",
+          "contents": [
+            "The youth and the old man lie on the ground in the streets;",
+            {
+              "q1": null
+            },
+            "My virgins and my young men are fallen by the sword:",
+            {
+              "q1": null
+            },
+            "Thou hast slain them in the day of thine anger; thou hast slaughtered,",
+            {
+              "add": [
+                "and"
+              ],
+              "closing": "\\add*"
+            },
+            "not pitied.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Thou hast called, as in the day of a solemn assembly, my terrors on every side; And there was none that escaped or remained in the day of Jehovah’s anger: Those that I have dandled and brought up hath mine enemy consumed.",
+          "contents": [
+            "Thou hast called, as in the day of a solemn assembly, my terrors on every side;",
+            {
+              "q1": null
+            },
+            "And there was none that escaped or remained in the day of Jehovah’s anger:",
+            {
+              "q1": null
+            },
+            "Those that I have dandled and brought up hath mine enemy consumed."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I am the man that hath seen affliction by the rod of his wrath.",
+          "contents": [
+            "I am the man that hath seen affliction by the rod of his wrath.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "He hath led me and caused me to walk in darkness, and not in light.",
+          "contents": [
+            "He hath led me and caused me to walk in darkness, and not in light.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Surely against me he turneth his hand again and again all the day.",
+          "contents": [
+            "Surely against me he turneth his hand again and again all the day.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "My flesh and my skin hath he made old; he hath broken my bones.",
+          "contents": [
+            "My flesh and my skin hath he made old; he hath broken my bones.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "He hath builded against me, and compassed me with gall and travail.",
+          "contents": [
+            "He hath builded against me, and compassed me with gall and travail.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "He hath made me to dwell in dark places, as those that have been long dead.",
+          "contents": [
+            "He hath made me to dwell in dark places, as those that have been long dead.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "He hath walled me about, that I cannot go forth; he hath made my chain heavy.",
+          "contents": [
+            "He hath walled me about, that I cannot go forth; he hath made my chain heavy.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Yea, when I cry, and call for help, he shutteth out my prayer.",
+          "contents": [
+            "Yea, when I cry, and call for help, he shutteth out my prayer.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "He hath walled up my ways with hewn stone; he hath made my paths crooked.",
+          "contents": [
+            "He hath walled up my ways with hewn stone; he hath made my paths crooked.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He is unto me as a bear lying in wait, as a lion in secret places.",
+          "contents": [
+            "He is unto me as a bear lying in wait, as a lion in secret places.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "He hath turned aside my ways, and pulled me in pieces; he hath made me desolate.",
+          "contents": [
+            "He hath turned aside my ways, and pulled me in pieces; he hath made me desolate.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "He hath bent his bow, and set me as a mark for the arrow.",
+          "contents": [
+            "He hath bent his bow, and set me as a mark for the arrow.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "He hath caused the shafts of his quiver to enter into my reins.",
+          "contents": [
+            "He hath caused the shafts of his quiver to enter into my reins.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I am become a derision to all my people, and their song all the day.",
+          "contents": [
+            "I am become a derision to all my people, and their song all the day.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "He hath filled me with bitterness, he hath sated me with wormwood.",
+          "contents": [
+            "He hath filled me with bitterness, he hath sated me with wormwood.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "He hath also broken my teeth with gravel stones; he hath covered me with ashes.",
+          "contents": [
+            "He hath also broken my teeth with gravel stones; he hath covered me with ashes.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "And thou hast removed my soul far off from peace; I forgat prosperity.",
+          "contents": [
+            "And thou hast removed my soul far off from peace; I forgat prosperity.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And I said, My strength is perished, and mine expectation from Jehovah.",
+          "contents": [
+            "And I said, My strength is perished, and mine expectation from Jehovah.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Remember mine affliction and my misery, the wormwood and the gall.",
+          "contents": [
+            "Remember mine affliction and my misery, the wormwood and the gall.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "My soul hath them still in remembrance, and is bowed down within me.",
+          "contents": [
+            "My soul hath them still in remembrance, and is bowed down within me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "This I recall to my mind; therefore have I hope.",
+          "contents": [
+            "This I recall to my mind; therefore have I hope.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "It is of Jehovah’s lovingkindnesses that we are not consumed, because his compassions fail not.",
+          "contents": [
+            {
+              "add": [
+                "It is of"
+              ],
+              "closing": "\\add*"
+            },
+            "Jehovah’s lovingkindnesses that we are not consumed, because his compassions fail not.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "They are new every morning; great is thy faithfulness.",
+          "contents": [
+            "They are new every morning; great is thy faithfulness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Jehovah is my portion, saith my soul; therefore will I hope in him.",
+          "contents": [
+            "Jehovah is my portion, saith my soul; therefore will I hope in him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Jehovah is good unto them that wait for him, to the soul that seeketh him.",
+          "contents": [
+            "Jehovah is good unto them that wait for him, to the soul that seeketh him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "It is good that a man should hope and quietly wait for the salvation of Jehovah.",
+          "contents": [
+            "It is good that a man should hope and quietly wait for the salvation of Jehovah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "It is good for a man that he bear the yoke in his youth.",
+          "contents": [
+            "It is good for a man that he bear the yoke in his youth.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Let him sit alone and keep silence, because he hath laid it upon him.",
+          "contents": [
+            "Let him sit alone and keep silence, because he hath laid it upon him.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Let him put his mouth in the dust, if so be there may be hope.",
+          "contents": [
+            "Let him put his mouth in the dust, if so be there may be hope.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "Let him give his cheek to him that smiteth him; let him be filled full with reproach.",
+          "contents": [
+            "Let him give his cheek to him that smiteth him; let him be filled full with reproach.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "For the Lord will not cast off for ever.",
+          "contents": [
+            "For the Lord will not cast off for ever.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "For though he cause grief, yet will he have compassion according to the multitude of his lovingkindnesses.",
+          "contents": [
+            "For though he cause grief, yet will he have compassion according to the multitude of his lovingkindnesses.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "33",
+          "verseText": "For he doth not afflict willingly, nor grieve the children of men.",
+          "contents": [
+            "For he doth not afflict willingly, nor grieve the children of men.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "34",
+          "verseText": "To crush under foot all the prisoners of the earth,",
+          "contents": [
+            "To crush under foot all the prisoners of the earth,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "35",
+          "verseText": "To turn aside the right of a man before the face of the Most High,",
+          "contents": [
+            "To turn aside the right of a man before the face of the Most High,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "36",
+          "verseText": "To subvert a man in his cause, the Lord approveth not.",
+          "contents": [
+            "To subvert a man in his cause, the Lord approveth not.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "37",
+          "verseText": "Who is he that saith, and it cometh to pass, when the Lord commandeth it not?",
+          "contents": [
+            "Who is he that saith, and it cometh to pass, when the Lord commandeth it not?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "38",
+          "verseText": "Out of the mouth of the Most High cometh there not evil and good?",
+          "contents": [
+            "Out of the mouth of the Most High cometh there not evil and good?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "39",
+          "verseText": "Wherefore doth a living man complain, a man for the punishment of his sins?",
+          "contents": [
+            "Wherefore doth a living man complain, a man for the punishment of his sins?",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "40",
+          "verseText": "Let us search and try our ways, and turn again to Jehovah.",
+          "contents": [
+            "Let us search and try our ways, and turn again to Jehovah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "41",
+          "verseText": "Let us lift up our heart with our hands unto God in the heavens.",
+          "contents": [
+            "Let us lift up our heart with our hands unto God in the heavens.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "42",
+          "verseText": "We have transgressed and have rebelled; thou hast not pardoned.",
+          "contents": [
+            "We have transgressed and have rebelled; thou hast not pardoned.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "43",
+          "verseText": "Thou hast covered with anger and pursued us; thou hast slain, thou hast not pitied.",
+          "contents": [
+            "Thou hast covered with anger and pursued us; thou hast slain, thou hast not pitied.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "44",
+          "verseText": "Thou hast covered thyself with a cloud, so that no prayer can pass through.",
+          "contents": [
+            "Thou hast covered thyself with a cloud, so that no prayer can pass through.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "45",
+          "verseText": "Thou hast made us an off-scouring and refuse in the midst of the peoples.",
+          "contents": [
+            "Thou hast made us an off-scouring and refuse in the midst of the peoples.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "46",
+          "verseText": "All our enemies have opened their mouth wide against us.",
+          "contents": [
+            "All our enemies have opened their mouth wide against us.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "47",
+          "verseText": "Fear and the pit are come upon us, devastation and destruction.",
+          "contents": [
+            "Fear and the pit are come upon us, devastation and destruction.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "48",
+          "verseText": "Mine eye runneth down with streams of water, for the destruction of the daughter of my people.",
+          "contents": [
+            "Mine eye runneth down with streams of water, for the destruction of the daughter of my people.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "49",
+          "verseText": "Mine eye poureth down, and ceaseth not, without any intermission,",
+          "contents": [
+            "Mine eye poureth down, and ceaseth not, without any intermission,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "50",
+          "verseText": "Till Jehovah look down, and behold from heaven.",
+          "contents": [
+            "Till Jehovah look down, and behold from heaven.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "51",
+          "verseText": "Mine eye affecteth my soul, because of all the daughters of my city.",
+          "contents": [
+            "Mine eye affecteth my soul, because of all the daughters of my city.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "52",
+          "verseText": "They have chased me sore like a bird, they that are mine enemies without cause.",
+          "contents": [
+            "They have chased me sore like a bird, they that are mine enemies without cause.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "53",
+          "verseText": "They have cut off my life in the dungeon, and have cast a stone upon me.",
+          "contents": [
+            "They have cut off my life in the dungeon, and have cast a stone upon me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "54",
+          "verseText": "Waters flowed over my head; I said, I am cut off.",
+          "contents": [
+            "Waters flowed over my head; I said, I am cut off.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "55",
+          "verseText": "I called upon thy name, O Jehovah, out of the lowest dungeon.",
+          "contents": [
+            "I called upon thy name, O Jehovah, out of the lowest dungeon.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "56",
+          "verseText": "Thou heardest my voice; hide not thine ear at my breathing, at my cry.",
+          "contents": [
+            "Thou heardest my voice; hide not thine ear at my breathing, at my cry.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "57",
+          "verseText": "Thou drewest near in the day that I called upon thee; thou saidst, Fear not.",
+          "contents": [
+            "Thou drewest near in the day that I called upon thee; thou saidst, Fear not.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "58",
+          "verseText": "O Lord, thou hast pleaded the causes of my soul; thou hast redeemed my life.",
+          "contents": [
+            "O Lord, thou hast pleaded the causes of my soul; thou hast redeemed my life.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "59",
+          "verseText": "O Jehovah, thou hast seen my wrong; judge thou my cause.",
+          "contents": [
+            "O Jehovah, thou hast seen my wrong; judge thou my cause.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "60",
+          "verseText": "Thou hast seen all their vengeance and all their devices against me.",
+          "contents": [
+            "Thou hast seen all their vengeance and all their devices against me.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "61",
+          "verseText": "Thou hast heard their reproach, O Jehovah, and all their devices against me,",
+          "contents": [
+            "Thou hast heard their reproach, O Jehovah, and all their devices against me,",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "62",
+          "verseText": "The lips of those that rose up against me, and their device against me all the day.",
+          "contents": [
+            "The lips of those that rose up against me, and their device against me all the day.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "63",
+          "verseText": "Behold thou their sitting down, and their rising up; I am their song.",
+          "contents": [
+            "Behold thou their sitting down, and their rising up; I am their song.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "64",
+          "verseText": "Thou wilt render unto them a recompense, O Jehovah, according to the work of their hands.",
+          "contents": [
+            "Thou wilt render unto them a recompense, O Jehovah, according to the work of their hands.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "65",
+          "verseText": "Thou wilt give them hardness of heart, thy curse unto them.",
+          "contents": [
+            "Thou wilt give them hardness of heart, thy curse unto them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "66",
+          "verseText": "Thou wilt pursue them in anger, and destroy them from under the heavens of Jehovah.",
+          "contents": [
+            "Thou wilt pursue them in anger, and destroy them from under the heavens of Jehovah."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "How is the gold become dim! how is the most pure gold changed! The stones of the sanctuary are poured out at the head of every street.",
+          "contents": [
+            "How is the gold become dim!",
+            {
+              "add": [
+                "how"
+              ],
+              "closing": "\\add*"
+            },
+            "is the most pure gold changed!",
+            {
+              "q1": null
+            },
+            "The stones of the sanctuary are poured out at the head of every street.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "The precious sons of Zion, comparable to fine gold, How are they esteemed as earthen pitchers, the work of the hands of the potter!",
+          "contents": [
+            "The precious sons of Zion, comparable to fine gold,",
+            {
+              "q1": null
+            },
+            "How are they esteemed as earthen pitchers, the work of the hands of the potter!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Even the jackals draw out the breast, they give suck to their young ones: The daughter of my people is become cruel, like the ostriches in the wilderness.",
+          "contents": [
+            "Even the jackals draw out the breast, they give suck to their young ones:",
+            {
+              "q1": null
+            },
+            "The daughter of my people is become cruel, like the ostriches in the wilderness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "The tongue of the sucking child cleaveth to the roof of his mouth for thirst: The young children ask bread, and no man breaketh it unto them.",
+          "contents": [
+            "The tongue of the sucking child cleaveth to the roof of his mouth for thirst:",
+            {
+              "q1": null
+            },
+            "The young children ask bread, and no man breaketh it unto them.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "They that did feed delicately are desolate in the streets: They that were brought up in scarlet embrace dunghills.",
+          "contents": [
+            "They that did feed delicately are desolate in the streets:",
+            {
+              "q1": null
+            },
+            "They that were brought up in scarlet embrace dunghills.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "For the iniquity of the daughter of my people is greater than the sin of Sodom, That was overthrown as in a moment, and no hands were laid upon her.",
+          "contents": [
+            "For the iniquity of the daughter of my people is greater than the sin of Sodom,",
+            {
+              "q1": null
+            },
+            "That was overthrown as in a moment, and no hands were laid upon her.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Her nobles were purer than snow, they were whiter than milk; They were more ruddy in body than rubies, their polishing was as of sapphire.",
+          "contents": [
+            "Her nobles were purer than snow, they were whiter than milk;",
+            {
+              "q1": null
+            },
+            "They were more ruddy in body than rubies, their polishing was as of sapphire.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Their visage is blacker than a coal; they are not known in the streets: Their skin cleaveth to their bones; it is withered, it is become like a stick.",
+          "contents": [
+            "Their visage is blacker than a coal; they are not known in the streets:",
+            {
+              "q1": null
+            },
+            "Their skin cleaveth to their bones; it is withered, it is become like a stick.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "They that are slain with the sword are better than they that are slain with hunger; For these pine away, stricken through, for want of the fruits of the field.",
+          "contents": [
+            "They that are slain with the sword are better than they that are slain with hunger;",
+            {
+              "q1": null
+            },
+            "For these pine away, stricken through, for want of the fruits of the field.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "The hands of the pitiful women have boiled their own children; They were their food in the destruction of the daughter of my people.",
+          "contents": [
+            "The hands of the pitiful women have boiled their own children;",
+            {
+              "q1": null
+            },
+            "They were their food in the destruction of the daughter of my people.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Jehovah hath accomplished his wrath, he hath poured out his fierce anger; And he hath kindled a fire in Zion, which hath devoured the foundations thereof.",
+          "contents": [
+            "Jehovah hath accomplished his wrath, he hath poured out his fierce anger;",
+            {
+              "q1": null
+            },
+            "And he hath kindled a fire in Zion, which hath devoured the foundations thereof.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "The kings of the earth believed not, neither all the inhabitants of the world, That the adversary and the enemy would enter into the gates of Jerusalem.",
+          "contents": [
+            "The kings of the earth believed not, neither all the inhabitants of the world,",
+            {
+              "q1": null
+            },
+            "That the adversary and the enemy would enter into the gates of Jerusalem.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "It is because of the sins of her prophets, and the iniquities of her priests, That have shed the blood of the just in the midst of her.",
+          "contents": [
+            {
+              "add": [
+                "It is"
+              ],
+              "closing": "\\add*"
+            },
+            "because of the sins of her prophets,",
+            {
+              "add": [
+                "and"
+              ],
+              "closing": "\\add*"
+            },
+            "the iniquities of her priests,",
+            {
+              "q1": null
+            },
+            "That have shed the blood of the just in the midst of her.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "They wander as blind men in the streets, they are polluted with blood, So that men cannot touch their garments.",
+          "contents": [
+            "They wander as blind men in the streets, they are polluted with blood,",
+            {
+              "q1": null
+            },
+            "So that men cannot touch their garments.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Depart ye, they cried unto them, Unclean! depart, depart, touch not! When they fled away and wandered, men said among the nations, They shall no more sojourn here.",
+          "contents": [
+            "Depart ye, they cried unto them, Unclean! depart, depart, touch not!",
+            {
+              "q1": null
+            },
+            "When they fled away and wandered, men said among the nations, They shall no more sojourn",
+            {
+              "add": [
+                "here"
+              ],
+              "closing": "\\add*"
+            },
+            ".",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "The anger of Jehovah hath scattered them; he will no more regard them: They respected not the persons of the priests, they favored not the elders.",
+          "contents": [
+            "The anger of Jehovah hath scattered them; he will no more regard them:",
+            {
+              "q1": null
+            },
+            "They respected not the persons of the priests, they favored not the elders.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Our eyes do yet fail in looking for our vain help: In our watching we have watched for a nation that could not save.",
+          "contents": [
+            "Our eyes do yet fail",
+            {
+              "add": [
+                "in looking"
+              ],
+              "closing": "\\add*"
+            },
+            "for our vain help:",
+            {
+              "q1": null
+            },
+            "In our watching we have watched for a nation that could not save.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "They hunt our steps, so that we cannot go in our streets: Our end is near, our days are fulfilled; for our end is come.",
+          "contents": [
+            "They hunt our steps, so that we cannot go in our streets:",
+            {
+              "q1": null
+            },
+            "Our end is near, our days are fulfilled; for our end is come.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Our pursuers were swifter than the eagles of the heavens: They chased us upon the mountains, they laid wait for us in the wilderness.",
+          "contents": [
+            "Our pursuers were swifter than the eagles of the heavens:",
+            {
+              "q1": null
+            },
+            "They chased us upon the mountains, they laid wait for us in the wilderness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "The breath of our nostrils, the anointed of Jehovah, was taken in their pits; Of whom we said, Under his shadow we shall live among the nations.",
+          "contents": [
+            "The breath of our nostrils, the anointed of Jehovah, was taken in their pits;",
+            {
+              "q1": null
+            },
+            "Of whom we said, Under his shadow we shall live among the nations.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz: The cup shall pass through unto thee also; thou shalt be drunken, and shalt make thyself naked.",
+          "contents": [
+            "Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz:",
+            {
+              "q1": null
+            },
+            "The cup shall pass through unto thee also; thou shalt be drunken, and shalt make thyself naked.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity: He will visit thine iniquity, O daughter of Edom; he will uncover thy sins.",
+          "contents": [
+            "The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity:",
+            {
+              "q1": null
+            },
+            "He will visit thine iniquity, O daughter of Edom; he will uncover thy sins."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Remember, O Jehovah, what is come upon us: Behold, and see our reproach.",
+          "contents": [
+            "Remember, O Jehovah, what is come upon us:",
+            {
+              "q1": null
+            },
+            "Behold, and see our reproach.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Our inheritance is turned unto strangers, Our houses unto aliens.",
+          "contents": [
+            "Our inheritance is turned unto strangers,",
+            {
+              "q1": null
+            },
+            "Our houses unto aliens.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "We are orphans and fatherless; Our mothers are as widows.",
+          "contents": [
+            "We are orphans and fatherless;",
+            {
+              "q1": null
+            },
+            "Our mothers are as widows.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "We have drunken our water for money; Our wood is sold unto us.",
+          "contents": [
+            "We have drunken our water for money;",
+            {
+              "q1": null
+            },
+            "Our wood is sold unto us.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Our pursuers are upon our necks: We are weary, and have no rest.",
+          "contents": [
+            "Our pursuers are upon our necks:",
+            {
+              "q1": null
+            },
+            "We are weary, and have no rest.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "We have given the hand to the Egyptians, And to the Assyrians, to be satisfied with bread.",
+          "contents": [
+            "We have given the hand to the Egyptians,",
+            {
+              "q1": null
+            },
+            "And to the Assyrians, to be satisfied with bread.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Our fathers sinned, and are not; And we have borne their iniquities.",
+          "contents": [
+            "Our fathers sinned, and are not;",
+            {
+              "q1": null
+            },
+            "And we have borne their iniquities.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Servants rule over us: There is none to deliver us out of their hand.",
+          "contents": [
+            "Servants rule over us:",
+            {
+              "q1": null
+            },
+            "There is none to deliver us out of their hand.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "We get our bread at the peril of our lives, Because of the sword of the wilderness.",
+          "contents": [
+            "We get our bread at the peril of our lives,",
+            {
+              "q1": null
+            },
+            "Because of the sword of the wilderness.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Our skin is black like an oven, Because of the burning heat of famine.",
+          "contents": [
+            "Our skin is black like an oven,",
+            {
+              "q1": null
+            },
+            "Because of the burning heat of famine.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "They ravished the women in Zion, The virgins in the cities of Judah.",
+          "contents": [
+            "They ravished the women in Zion,",
+            {
+              "q1": null
+            },
+            "The virgins in the cities of Judah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Princes were hanged up by their hand: The faces of elders were not honored.",
+          "contents": [
+            "Princes were hanged up by their hand:",
+            {
+              "q1": null
+            },
+            "The faces of elders were not honored.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "The young men bare the mill; And the children stumbled under the wood.",
+          "contents": [
+            "The young men bare the mill;",
+            {
+              "q1": null
+            },
+            "And the children stumbled under the wood.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "The elders have ceased from the gate, The young men from their music.",
+          "contents": [
+            "The elders have ceased from the gate,",
+            {
+              "q1": null
+            },
+            "The young men from their music.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "The joy of our heart is ceased; Our dance is turned into mourning.",
+          "contents": [
+            "The joy of our heart is ceased;",
+            {
+              "q1": null
+            },
+            "Our dance is turned into mourning.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "The crown is fallen from our head: Woe unto us! for we have sinned.",
+          "contents": [
+            "The crown is fallen from our head:",
+            {
+              "q1": null
+            },
+            "Woe unto us! for we have sinned.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For this our heart is faint; For these things our eyes are dim;",
+          "contents": [
+            "For this our heart is faint;",
+            {
+              "q1": null
+            },
+            "For these things our eyes are dim;",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For the mountain of Zion, which is desolate: The foxes walk upon it.",
+          "contents": [
+            "For the mountain of Zion, which is desolate:",
+            {
+              "q1": null
+            },
+            "The foxes walk upon it.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Thou, O Jehovah, abidest for ever; Thy throne is from generation to generation.",
+          "contents": [
+            "Thou, O Jehovah, abidest for ever;",
+            {
+              "q1": null
+            },
+            "Thy throne is from generation to generation.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Wherefore dost thou forget us for ever, And forsake us so long time?",
+          "contents": [
+            "Wherefore dost thou forget us for ever,",
+            {
+              "q1": null
+            },
+            {
+              "add": [
+                "And"
+              ],
+              "closing": "\\add*"
+            },
+            "forsake us so long time?",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Turn thou us unto thee, O Jehovah, and we shall be turned; Renew our days as of old.",
+          "contents": [
+            "Turn thou us unto thee, O Jehovah, and we shall be turned;",
+            {
+              "q1": null
+            },
+            "Renew our days as of old.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "But thou hast utterly rejected us; Thou art very wroth against us.",
+          "contents": [
+            "But thou hast utterly rejected us;",
+            {
+              "q1": null
+            },
+            "Thou art very wroth against us."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
