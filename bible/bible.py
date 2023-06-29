@@ -26,10 +26,10 @@ class Bible(commands.Cog):
     @bible.command(name="translations")
     async def translations(self, ctx: commands.Context):
         """Displays available translations"""
-        description = []
+        description = ""
         for key in translation_names:
             name = translation_names[key]
-            description += f"** {key} - {name}"
+            description += f"** {key} - {name}\n"
 
         embeds = []
         for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
