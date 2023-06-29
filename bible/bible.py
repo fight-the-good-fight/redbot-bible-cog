@@ -134,7 +134,7 @@ class Bible(commands.Cog):
                     description += f"[{verseNumber}] {verseText}\n"
                     async with self.config.Notes() as notes:
                         for note in notes:
-                            if note["book"] == book_name:
+                            if note["book"].lower() == book_name:
                                 # Compare with chapter index
                                 if str(note["chapter"]) == chapterNumber:
                                     if str(note["verse"]) == verseNumber:
