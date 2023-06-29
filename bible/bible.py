@@ -29,7 +29,7 @@ class Bible(commands.Cog):
         description = ""
         for key in translation_names:
             name = translation_names[key]
-            description += f"** {key} - {name}\n"
+            description += f"** {key} - {name}"
 
         embeds = []
         for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
