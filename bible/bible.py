@@ -23,6 +23,22 @@ class Bible(commands.Cog):
         """Searches for a verse or chapter in the bible"""
         pass
 
+    @bible.command(name="translations")
+    async def translations(self, ctx: commands.Context):
+        """Displays available translations"""
+        description = []
+        for key in translation_names:
+            name = translation_names[key]
+            description += f"{key} - {name}"
+
+        embeds = []
+        for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
+            verbose_title = "Available Translations"
+            embed = discord.Embed(
+                        title=verbose_title, description=descript, color=discord.Color.green())
+            embeds.append(embed)
+            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
+
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
