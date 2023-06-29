@@ -1,0 +1,485 @@
+{
+  "book": {
+    "bookCode": "TIT",
+    "description": "56-TIT-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "Titus"
+      },
+      {
+        "toc1": [
+          "The Epistle of Paul to Titus"
+        ]
+      },
+      {
+        "toc2": [
+          "Titus"
+        ]
+      },
+      {
+        "toc3": [
+          "Tit"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "The Epistle of Paul to Titus"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God’s elect, and the knowledge of the truth which is according to godliness,",
+          "contents": [
+            "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God’s elect, and the knowledge of the",
+            "truth which is according to godliness,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "in hope of eternal life, which God, who cannot lie, promised before times eternal;",
+          "contents": [
+            "in hope of eternal life, which God, who cannot lie, promised before times eternal;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "but in his own seasons manifested his word in the message, wherewith I was intrusted according to the commandment of God our Saviour;",
+          "contents": [
+            "but in his own seasons manifested his word in the message, wherewith I was intrusted according to the commandment of God",
+            "our Saviour;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "to Titus, my true child after a common faith: Grace and peace from God the Father and Christ Jesus our Saviour.",
+          "contents": [
+            "to Titus, my true child after a common faith: Grace and peace from God the Father and Christ Jesus our Saviour.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For this cause left I thee in Crete, that thou shouldest set in order the things that were wanting, and appoint elders in every city, as I gave thee charge;",
+          "contents": [
+            "For this cause left I thee in Crete, that thou shouldest set in order the things that were wanting, and appoint elders in",
+            "every city, as I gave thee charge;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "if any man is blameless, the husband of one wife, having children that believe, who are not accused of riot or unruly.",
+          "contents": [
+            "if any man is blameless, the husband of one wife, having children that believe, who are not accused of riot or unruly."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "For the bishop must be blameless, as God’s steward; not self-willed, not soon angry, no brawler, no striker, not greedy of filthy lucre;",
+          "contents": [
+            "For the bishop must be blameless, as God’s steward; not self-willed, not soon angry, no brawler, no striker, not greedy of",
+            "filthy lucre;"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "but given to hospitality, a lover of good, sober-minded, just, holy, self-controlled;",
+          "contents": [
+            "but given to hospitality, a lover of good, sober-minded, just, holy, self-controlled;"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "holding to the faithful word which is according to the teaching, that he may be able both to exhort in the sound doctrine, and to convict the gainsayers.",
+          "contents": [
+            "holding to the faithful word which is according to the teaching, that he may be able both to exhort in the sound doctrine,",
+            "and to convict the gainsayers.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For there are many unruly men, vain talkers and deceivers, specially they of the circumcision,",
+          "contents": [
+            "For there are many unruly men, vain talkers and deceivers, specially they of the circumcision,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "whose mouths must be stopped; men who overthrow whole houses, teaching things which they ought not, for filthy lucre’s sake.",
+          "contents": [
+            "whose mouths must be stopped; men who overthrow whole houses, teaching things which they ought not, for filthy lucre’s",
+            "sake."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "One of themselves, a prophet of their own, said, Cretans are always liars, evil beasts, idle gluttons.",
+          "contents": [
+            "One of themselves, a prophet of their own, said,",
+            {
+              "q1": null
+            },
+            "Cretans are always liars, evil beasts, idle gluttons.",
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "This testimony is true. For which cause reprove them sharply, that they may be sound in the faith,",
+          "contents": [
+            "This testimony is true. For which cause reprove them sharply, that they may be sound in the faith,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "not giving heed to Jewish fables, and commandments of men who turn away from the truth.",
+          "contents": [
+            "not giving heed to Jewish fables, and commandments of men who turn away from the truth."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "To the pure all things are pure: but to them that are defiled and unbelieving nothing is pure; but both their mind and their conscience are defiled.",
+          "contents": [
+            "To the pure all things are pure: but to them that are defiled and unbelieving nothing is pure; but both their mind and",
+            "their conscience are defiled."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "They profess that they know God; but by their works they deny him, being abominable, and disobedient, and unto every good work reprobate.",
+          "contents": [
+            "They profess that they know God; but by their works they deny him, being abominable, and disobedient, and unto every good",
+            "work reprobate."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "But speak thou the things which befit the sound doctrine:",
+          "contents": [
+            "But speak thou the things which befit the sound doctrine:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "that aged men be temperate, grave, sober-minded, sound in faith, in love, in patience:",
+          "contents": [
+            "that aged men be temperate, grave, sober-minded, sound in faith, in love, in patience:"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "that aged women likewise be reverent in demeanor, not slanderers nor enslaved to much wine, teachers of that which is good;",
+          "contents": [
+            "that aged women likewise be reverent in demeanor, not slanderers nor enslaved to much wine, teachers of that which is",
+            "good;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "that they may train the young women to love their husbands, to love their children,",
+          "contents": [
+            "that they may train the young women to love their husbands, to love their children,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "to be sober-minded, chaste, workers at home, kind, being in subjection to their own husbands, that the word of God be not blasphemed:",
+          "contents": [
+            {
+              "add": [
+                "to be"
+              ],
+              "closing": "\\add*"
+            },
+            "sober-minded, chaste, workers at home, kind, being in subjection to their own husbands, that the word of",
+            "God be not blasphemed:"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "the younger men likewise exhort to be sober-minded:",
+          "contents": [
+            "the younger men likewise exhort to be sober-minded:"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "in all things showing thyself an ensample of good works; in thy doctrine showing uncorruptness, gravity,",
+          "contents": [
+            "in all things showing thyself an ensample of good works; in thy doctrine",
+            {
+              "add": [
+                "showing"
+              ],
+              "closing": "\\add*"
+            },
+            "uncorruptness, gravity,"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "sound speech, that cannot be condemned; that he that is of the contrary part may be ashamed, having no evil thing to say of us.",
+          "contents": [
+            "sound speech, that cannot be condemned; that he that is of the contrary part may be ashamed, having no evil thing to say",
+            "of us."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Exhort servants to be in subjection to their own masters, and to be well-pleasing to them in all things; not gainsaying;",
+          "contents": [
+            {
+              "add": [
+                "Exhort"
+              ],
+              "closing": "\\add*"
+            },
+            "servants to be in subjection to their own masters,",
+            {
+              "add": [
+                "and"
+              ],
+              "closing": "\\add*"
+            },
+            "to be well-pleasing",
+            {
+              "add": [
+                "to them"
+              ],
+              "closing": "\\add*"
+            },
+            "in all things; not gainsaying;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "not purloining, but showing all good fidelity; that they may adorn the doctrine of God our Saviour in all things.",
+          "contents": [
+            "not purloining, but showing all good fidelity; that they may adorn the doctrine of God our Saviour in all things."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "For the grace of God hath appeared, bringing salvation to all men,",
+          "contents": [
+            "For the grace of God hath appeared, bringing salvation to all men,"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "instructing us, to the intent that, denying ungodliness and worldly lusts, we should live soberly and righteously and godly in this present world;",
+          "contents": [
+            "instructing us, to the intent that, denying ungodliness and worldly lusts, we should live soberly and righteously and",
+            "godly in this present world;"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "looking for the blessed hope and appearing of the glory of the great God and our Saviour Jesus Christ;",
+          "contents": [
+            "looking for the blessed hope and appearing of the glory of the great God and our Saviour Jesus Christ;"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a people for his own possession, zealous of good works.",
+          "contents": [
+            "who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a people for his own",
+            "possession, zealous of good works.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "These things speak and exhort and reprove with all authority. Let no man despise thee.",
+          "contents": [
+            "These things speak and exhort and reprove with all authority. Let no man despise thee."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Put them in mind to be in subjection to rulers, to authorities, to be obedient, to be ready unto every good work,",
+          "contents": [
+            "Put them in mind to be in subjection to rulers, to authorities, to be obedient, to be ready unto every good work,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "to speak evil of no man, not to be contentious, to be gentle, showing all meekness toward all men.",
+          "contents": [
+            "to speak evil of no man, not to be contentious, to be gentle, showing all meekness toward all men."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "For we also once were foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy, hateful, hating one another.",
+          "contents": [
+            "For we also once were foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy,",
+            "hateful, hating one another."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "But when the kindness of God our Saviour, and his love toward man, appeared,",
+          "contents": [
+            "But when the kindness of God our Saviour, and his love toward man, appeared,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "not by works done in righteousness, which we did ourselves, but according to his mercy he saved us, through the washing of regeneration and renewing of the Holy Spirit,",
+          "contents": [
+            "not by works",
+            {
+              "add": [
+                "done"
+              ],
+              "closing": "\\add*"
+            },
+            "in righteousness, which we did ourselves, but according to his mercy he saved us, through the",
+            "washing of regeneration and renewing of the Holy Spirit,"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "which he poured out upon us richly, through Jesus Christ our Saviour;",
+          "contents": [
+            "which he poured out upon us richly, through Jesus Christ our Saviour;"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "that, being justified by his grace, we might be made heirs according to the hope of eternal life.",
+          "contents": [
+            "that, being justified by his grace, we might be made heirs according to the hope of eternal life."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Faithful is the saying, and concerning these things I desire that thou affirm confidently, to the end that they who have believed God may be careful to maintain good works. These things are good and profitable unto men:",
+          "contents": [
+            "Faithful is the saying, and concerning these things I desire that thou affirm confidently, to the end that they who have",
+            "believed God may be careful to maintain good works. These things are good and profitable unto men:"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "but shun foolish questionings, and genealogies, and strifes, and fightings about the law; for they are unprofitable and vain.",
+          "contents": [
+            "but shun foolish questionings, and genealogies, and strifes, and fightings about the law; for they are unprofitable and",
+            "vain."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "A factious man after a first and second admonition refuse;",
+          "contents": [
+            "A factious man after a first and second admonition refuse;"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "knowing that such a one is perverted, and sinneth, being self-condemned.",
+          "contents": [
+            "knowing that such a one is perverted, and sinneth, being self-condemned.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "When I shall send Artemas unto thee, or Tychicus, give diligence to come unto me to Nicopolis: for there I have determined to winter.",
+          "contents": [
+            "When I shall send Artemas unto thee, or Tychicus, give diligence to come unto me to Nicopolis: for there I have",
+            "determined to winter."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Set forward Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them.",
+          "contents": [
+            "Set forward Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "And let our people also learn to maintain good works for necessary uses, that they be not unfruitful.",
+          "contents": [
+            "And let our",
+            {
+              "add": [
+                "people"
+              ],
+              "closing": "\\add*"
+            },
+            "also learn to maintain good works for necessary uses, that they be not unfruitful.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "All that are with me salute thee. Salute them that love us in faith. Grace be with you all.",
+          "contents": [
+            "All that are with me salute thee. Salute them that love us in faith.",
+            {
+              "p": null
+            },
+            "Grace be with you all."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

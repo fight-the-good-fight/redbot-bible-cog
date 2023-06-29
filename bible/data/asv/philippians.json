@@ -1,0 +1,1026 @@
+{
+  "book": {
+    "bookCode": "PHP",
+    "description": "50-PHP-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "Philippians"
+      },
+      {
+        "toc1": [
+          "The Epistle of Paul the Apostle to the Philippians"
+        ]
+      },
+      {
+        "toc2": [
+          "Philippians"
+        ]
+      },
+      {
+        "toc3": [
+          "Php"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "The Epistle of Paul the Apostle to the Philippians"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul and Timothy, servants of Christ Jesus, to all the saints in Christ Jesus that are at Philippi, with the bishops and deacons:",
+          "contents": [
+            "Paul and Timothy, servants of Christ Jesus, to all the saints in Christ Jesus that are at Philippi, with the bishops and",
+            "deacons:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "contents": [
+            "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "I thank my God upon all my remembrance of you,",
+          "contents": [
+            "I thank my God upon all my remembrance of you,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "always in every supplication of mine on behalf of you all making my supplication with joy,",
+          "contents": [
+            "always in every supplication of mine on behalf of you all making my supplication with joy,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "for your fellowship in furtherance of the gospel from the first day until now;",
+          "contents": [
+            "for your fellowship in furtherance of the gospel from the first day until now;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "being confident of this very thing, that he who began a good work in you will perfect it until the day of Jesus Christ:",
+          "contents": [
+            "being confident of this very thing, that he who began a good work in you will perfect it until the day of Jesus Christ:"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "even as it is right for me to be thus minded on behalf of you all, because I have you in my heart, inasmuch as, both in my bonds and in the defence and confirmation of the gospel, ye all are partakers with me of grace.",
+          "contents": [
+            "even as it is right for me to be thus minded on behalf of you all, because I have you in my heart, inasmuch as, both in my",
+            "bonds and in the defence and confirmation of the gospel, ye all are partakers with me of grace."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For God is my witness, how I long after you all in the tender mercies of Christ Jesus.",
+          "contents": [
+            "For God is my witness, how I long after you all in the tender mercies of Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And this I pray, that your love may abound yet more and more in knowledge and all discernment;",
+          "contents": [
+            "And this I pray, that your love may abound yet more and more in knowledge and all discernment;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "so that ye may approve the things that are excellent; that ye may be sincere and void of offence unto the day of Christ;",
+          "contents": [
+            "so that ye may approve the things that are excellent; that ye may be sincere and void of offence unto the day of Christ;"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "being filled with the fruits of righteousness, which are through Jesus Christ, unto the glory and praise of God.",
+          "contents": [
+            "being filled with the fruits of righteousness, which are through Jesus Christ, unto the glory and praise of God.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Now I would have you know, brethren, that the things which happened unto me have fallen out rather unto the progress of the gospel;",
+          "contents": [
+            "Now I would have you know, brethren, that the things",
+            {
+              "add": [
+                "which",
+                "happened"
+              ],
+              "closing": "\\add*"
+            },
+            "unto me have fallen out rather unto the progress of the gospel;"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "so that my bonds became manifest in Christ throughout the whole prætorian guard, and to all the rest;",
+          "contents": [
+            "so that my bonds became manifest in Christ throughout the whole prætorian guard, and to all the rest;"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "and that most of the brethren in the Lord, being confident through my bonds, are more abundantly bold to speak the word of God without fear.",
+          "contents": [
+            "and that most of the brethren in the Lord, being confident through my bonds, are more abundantly bold to speak the word",
+            "of God without fear."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Some indeed preach Christ even of envy and strife; and some also of good will:",
+          "contents": [
+            "Some indeed preach Christ even of envy and strife; and some also of good will:"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "the one do it of love, knowing that I am set for the defence of the gospel;",
+          "contents": [
+            "the one",
+            {
+              "add": [
+                "do it"
+              ],
+              "closing": "\\add*"
+            },
+            "of love, knowing that I am set for the defence of the gospel;"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "but the other proclaim Christ of faction, not sincerely, thinking to raise up affliction for me in my bonds.",
+          "contents": [
+            "but the other proclaim Christ of faction, not sincerely, thinking to raise up affliction for me in my bonds."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "What then? only that in every way, whether in pretence or in truth, Christ is proclaimed; and therein I rejoice, yea, and will rejoice.",
+          "contents": [
+            "What then? only that in every way, whether in pretence or in truth, Christ is proclaimed; and therein I rejoice, yea, and",
+            "will rejoice."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "For I know that this shall turn out to my salvation, through your supplication and the supply of the Spirit of Jesus Christ,",
+          "contents": [
+            "For I know that this shall turn out to my salvation, through your supplication and the supply of the Spirit of Jesus",
+            "Christ,"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "according to my earnest expectation and hope, that in nothing shall I be put to shame, but that with all boldness, as always, so now also Christ shall be magnified in my body, whether by life, or by death.",
+          "contents": [
+            "according to my earnest expectation and hope, that in nothing shall I be put to shame, but",
+            {
+              "add": [
+                "that"
+              ],
+              "closing": "\\add*"
+            },
+            "with all boldness, as always,",
+            {
+              "add": [
+                "so"
+              ],
+              "closing": "\\add*"
+            },
+            "now also Christ shall be magnified in my body, whether by life, or",
+            "by death."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For to me to live is Christ, and to die is gain.",
+          "contents": [
+            "For to me to live is Christ, and to die is gain."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "But if to live in the flesh,—if this shall bring fruit from my work, then what I shall choose I know not.",
+          "contents": [
+            "But if to live in the flesh,—",
+            {
+              "add": [
+                "if"
+              ],
+              "closing": "\\add*"
+            },
+            "this shall bring fruit from my work, then what I shall choose I know not."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "But I am in a strait betwixt the two, having the desire to depart and be with Christ; for it is very far better:",
+          "contents": [
+            "But I am in a strait betwixt the two, having the desire to depart and be with Christ; for it is very far better:"
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "yet to abide in the flesh is more needful for your sake.",
+          "contents": [
+            "yet to abide in the flesh is more needful for your sake."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "And having this confidence, I know that I shall abide, yea, and abide with you all, for your progress and joy in the faith;",
+          "contents": [
+            "And having this confidence, I know that I shall abide, yea, and abide with you all, for your progress and joy in the",
+            "faith;"
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "that your glorying may abound in Christ Jesus in me through my presence with you again.",
+          "contents": [
+            "that your glorying may abound in Christ Jesus in me through my presence with you again."
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "Only let your manner of life be worthy of the gospel of Christ: that, whether I come and see you or be absent, I may hear of your state, that ye stand fast in one spirit, with one soul striving for the faith of the gospel;",
+          "contents": [
+            "Only let your manner of life be worthy of the gospel of Christ: that, whether I come and see you or be absent, I may hear",
+            "of your state, that ye stand fast in one spirit, with one soul striving for the faith of the gospel;"
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "and in nothing affrighted by the adversaries: which is for them an evident token of perdition, but of your salvation, and that from God;",
+          "contents": [
+            "and in nothing affrighted by the adversaries: which is for them an evident token of perdition, but of your salvation, and",
+            "that from God;"
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "because to you it hath been granted in the behalf of Christ, not only to believe on him, but also to suffer in his behalf:",
+          "contents": [
+            "because to you it hath been granted in the behalf of Christ, not only to believe on him, but also to suffer in his",
+            "behalf:"
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "having the same conflict which ye saw in me, and now hear to be in me.",
+          "contents": [
+            "having the same conflict which ye saw in me, and now hear to be in me."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "If there is therefore any exhortation in Christ, if any consolation of love, if any fellowship of the Spirit, if any tender mercies and compassions,",
+          "contents": [
+            "If there is therefore any exhortation in Christ, if any consolation of love, if any fellowship of the Spirit, if any",
+            "tender mercies and compassions,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "make full my joy, that ye be of the same mind, having the same love, being of one accord, of one mind;",
+          "contents": [
+            "make full my joy, that ye be of the same mind, having the same love, being of one accord, of one mind;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "doing nothing through faction or through vainglory, but in lowliness of mind each counting other better than himself;",
+          "contents": [
+            {
+              "add": [
+                "doing"
+              ],
+              "closing": "\\add*"
+            },
+            "nothing through faction or through vainglory, but in lowliness of mind each counting other better than",
+            "himself;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "not looking each of you to his own things, but each of you also to the things of others.",
+          "contents": [
+            "not looking each of you to his own things, but each of you also to the things of others."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Have this mind in you, which was also in Christ Jesus:",
+          "contents": [
+            "Have this mind in you, which was also in Christ Jesus:"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "who, existing in the form of God, counted not the being on an equality with God a thing to be grasped,",
+          "contents": [
+            "who, existing in the form of God, counted not the being on an equality with God a thing to be grasped,"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "but emptied himself, taking the form of a servant, being made in the likeness of men;",
+          "contents": [
+            "but emptied himself, taking the form of a servant, being made in the likeness of men;"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "and being found in fashion as a man, he humbled himself, becoming obedient even unto death, yea, the death of the cross.",
+          "contents": [
+            "and being found in fashion as a man, he humbled himself, becoming obedient",
+            {
+              "add": [
+                "even"
+              ],
+              "closing": "\\add*"
+            },
+            "unto death, yea, the death of the cross."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Wherefore also God highly exalted him, and gave unto him the name which is above every name;",
+          "contents": [
+            "Wherefore also God highly exalted him, and gave unto him the name which is above every name;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "that in the name of Jesus every knee should bow, of things in heaven and things on earth and things under the earth,",
+          "contents": [
+            "that in the name of Jesus every knee should bow, of",
+            {
+              "add": [
+                "things"
+              ],
+              "closing": "\\add*"
+            },
+            "in heaven and",
+            {
+              "add": [
+                "things"
+              ],
+              "closing": "\\add*"
+            },
+            "on earth and",
+            {
+              "add": [
+                "things"
+              ],
+              "closing": "\\add*"
+            },
+            "under the earth,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
+          "contents": [
+            "and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "So then, my beloved, even as ye have always obeyed, not as in my presence only, but now much more in my absence, work out your own salvation with fear and trembling;",
+          "contents": [
+            "So then, my beloved, even as ye have always obeyed, not as in my presence only, but now much more in my absence, work out",
+            "your own salvation with fear and trembling;"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "for it is God who worketh in you both to will and to work, for his good pleasure.",
+          "contents": [
+            "for it is God who worketh in you both to will and to work, for his good pleasure."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Do all things without murmurings and questionings:",
+          "contents": [
+            "Do all things without murmurings and questionings:"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "that ye may become blameless and harmless, children of God without blemish in the midst of a crooked and perverse generation, among whom ye are seen as lights in the world,",
+          "contents": [
+            "that ye may become blameless and harmless, children of God without blemish in the midst of a crooked and perverse",
+            "generation, among whom ye are seen as lights in the world,"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "holding forth the word of life; that I may have whereof to glory in the day of Christ, that I did not run in vain neither labor in vain.",
+          "contents": [
+            "holding forth the word of life; that I may have whereof to glory in the day of Christ, that I did not run in vain neither",
+            "labor in vain."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Yea, and if I am offered upon the sacrifice and service of your faith, I joy, and rejoice with you all:",
+          "contents": [
+            "Yea, and if I am offered upon the sacrifice and service of your faith, I joy, and rejoice with you all:"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "and in the same manner do ye also joy, and rejoice with me.",
+          "contents": [
+            "and in the same manner do ye also joy, and rejoice with me.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "But I hope in the Lord Jesus to send Timothy shortly unto you, that I also may be of good comfort, when I know your state.",
+          "contents": [
+            "But I hope in the Lord Jesus to send Timothy shortly unto you, that I also may be of good comfort, when I know your",
+            "state."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For I have no man likeminded, who will care truly for your state.",
+          "contents": [
+            "For I have no man likeminded, who will care truly for your state."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For they all seek their own, not the things of Jesus Christ.",
+          "contents": [
+            "For they all seek their own, not the things of Jesus Christ."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "But ye know the proof of him, that, as a child serveth a father, so he served with me in furtherance of the gospel.",
+          "contents": [
+            "But ye know the proof of him, that, as a child",
+            {
+              "add": [
+                "serveth"
+              ],
+              "closing": "\\add*"
+            },
+            "a father,",
+            {
+              "add": [
+                "so"
+              ],
+              "closing": "\\add*"
+            },
+            "he served with me in furtherance of the gospel."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Him therefore I hope to send forthwith, so soon as I shall see how it will go with me:",
+          "contents": [
+            "Him therefore I hope to send forthwith, so soon as I shall see how it will go with me:"
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "but I trust in the Lord that I myself also shall come shortly.",
+          "contents": [
+            "but I trust in the Lord that I myself also shall come shortly."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "But I counted it necessary to send to you Epaphroditus, my brother and fellow-worker and fellow-soldier, and your messenger and minister to my need;",
+          "contents": [
+            "But I counted it necessary to send to you Epaphroditus, my brother and fellow-worker and fellow-soldier, and your",
+            "messenger and minister to my need;"
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "since he longed after you all, and was sore troubled, because ye had heard that he was sick:",
+          "contents": [
+            "since he longed after you all, and was sore troubled, because ye had heard that he was sick:"
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "for indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, that I might not have sorrow upon sorrow.",
+          "contents": [
+            "for indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, that I might not",
+            "have sorrow upon sorrow."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "I have sent him therefore the more diligently, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful.",
+          "contents": [
+            "I have sent him therefore the more diligently, that, when ye see him again, ye may rejoice, and that I may be the less",
+            "sorrowful."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Receive him therefore in the Lord with all joy; and hold such in honor:",
+          "contents": [
+            "Receive him therefore in the Lord with all joy; and hold such in honor:"
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "because for the work of Christ he came nigh unto death, hazarding his life to supply that which was lacking in your service toward me.",
+          "contents": [
+            "because for the work of Christ he came nigh unto death, hazarding his life to supply that which was lacking in your",
+            "service toward me."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not irksome, but for you it is safe.",
+          "contents": [
+            "Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not irksome, but for you it is",
+            "safe."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Beware of the dogs, beware of the evil workers, beware of the concision:",
+          "contents": [
+            "Beware of the dogs, beware of the evil workers, beware of the concision:"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "for we are the circumcision, who worship by the Spirit of God, and glory in Christ Jesus, and have no confidence in the flesh:",
+          "contents": [
+            "for we are the circumcision, who worship by the Spirit of God, and glory in Christ Jesus, and have no confidence in the",
+            "flesh:"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "though I myself might have confidence even in the flesh: if any other man thinketh to have confidence in the flesh, I yet more:",
+          "contents": [
+            "though I myself might have confidence even in the flesh: if any other man thinketh to have confidence in the flesh, I yet",
+            "more:"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as touching the law, a Pharisee;",
+          "contents": [
+            "circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as touching the law, a",
+            "Pharisee;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "as touching zeal, persecuting the church; as touching the righteousness which is in the law, found blameless.",
+          "contents": [
+            "as touching zeal, persecuting the church; as touching the righteousness which is in the law, found blameless."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Howbeit what things were gain to me, these have I counted loss for Christ.",
+          "contents": [
+            "Howbeit what things were gain to me, these have I counted loss for Christ."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Yea verily, and I count all things to be loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I suffered the loss of all things, and do count them but refuse, that I may gain Christ,",
+          "contents": [
+            "Yea verily, and I count all things to be loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I",
+            "suffered the loss of all things, and do count them but refuse, that I may gain Christ,"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "and be found in him, not having a righteousness of mine own, even that which is of the law, but that which is through faith in Christ, the righteousness which is from God by faith:",
+          "contents": [
+            "and be found in him, not having a righteousness of mine own,",
+            {
+              "add": [
+                "even"
+              ],
+              "closing": "\\add*"
+            },
+            "that which is of the law, but that which is through faith in Christ, the righteousness which is from God by",
+            "faith:"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "that I may know him, and the power of his resurrection, and the fellowship of his sufferings, becoming conformed unto his death;",
+          "contents": [
+            "that I may know him, and the power of his resurrection, and the fellowship of his sufferings, becoming conformed unto his",
+            "death;"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "if by any means I may attain unto the resurrection from the dead.",
+          "contents": [
+            "if by any means I may attain unto the resurrection from the dead."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Not that I have already obtained, or am already made perfect: but I press on, if so be that I may lay hold on that for which also I was laid hold on by Christ Jesus.",
+          "contents": [
+            "Not that I have already obtained, or am already made perfect: but I press on, if so be that I may lay hold on that for",
+            "which also I was laid hold on by Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Brethren, I count not myself yet to have laid hold: but one thing I do, forgetting the things which are behind, and stretching forward to the things which are before,",
+          "contents": [
+            "Brethren, I count not myself yet to have laid hold: but one thing",
+            {
+              "add": [
+                "I do"
+              ],
+              "closing": "\\add*"
+            },
+            ", forgetting the things which are behind, and stretching forward to the things which are before,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "I press on toward the goal unto the prize of the high calling of God in Christ Jesus.",
+          "contents": [
+            "I press on toward the goal unto the prize of the high calling of God in Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Let us therefore, as many as are perfect, be thus minded: and if in anything ye are otherwise minded, this also shall God reveal unto you:",
+          "contents": [
+            "Let us therefore, as many as are perfect, be thus minded: and if in anything ye are otherwise minded, this also shall God",
+            "reveal unto you:"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "only, whereunto we have attained, by that same rule let us walk.",
+          "contents": [
+            "only, whereunto we have attained, by that same",
+            {
+              "add": [
+                "rule"
+              ],
+              "closing": "\\add*"
+            },
+            "let us walk.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Brethren, be ye imitators together of me, and mark them that so walk even as ye have us for an ensample.",
+          "contents": [
+            "Brethren, be ye imitators together of me, and mark them that so walk even as ye have us for an ensample."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For many walk, of whom I told you often, and now tell you even weeping, that they are the enemies of the cross of Christ:",
+          "contents": [
+            "For many walk, of whom I told you often, and now tell you even weeping,",
+            {
+              "add": [
+                "that they are"
+              ],
+              "closing": "\\add*"
+            },
+            "the enemies of the cross of Christ:"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "whose end is perdition, whose god is the belly, and whose glory is in their shame, who mind earthly things.",
+          "contents": [
+            "whose end is perdition, whose god is the belly, and",
+            {
+              "add": [
+                "whose"
+              ],
+              "closing": "\\add*"
+            },
+            "glory is in their shame, who mind earthly things."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For our citizenship is in heaven; whence also we wait for a Saviour, the Lord Jesus Christ:",
+          "contents": [
+            "For our citizenship is in heaven; whence also we wait for a Saviour, the Lord Jesus Christ:"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "who shall fashion anew the body of our humiliation, that it may be conformed to the body of his glory, according to the working whereby he is able even to subject all things unto himself.",
+          "contents": [
+            "who shall fashion anew the body of our humiliation,",
+            {
+              "add": [
+                "that it may be"
+              ],
+              "closing": "\\add*"
+            },
+            "conformed to the body of his glory, according to the working whereby he is able even to subject all things unto himself."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Wherefore, my brethren beloved and longed for, my joy and crown, so stand fast in the Lord, my beloved.",
+          "contents": [
+            "Wherefore, my brethren beloved and longed for, my joy and crown, so stand fast in the Lord, my beloved.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "I exhort Euodia, and I exhort Syntyche, to be of the same mind in the Lord.",
+          "contents": [
+            "I exhort Euodia, and I exhort Syntyche, to be of the same mind in the Lord."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Yea, I beseech thee also, true yokefellow, help these women, for they labored with me in the gospel, with Clement also, and the rest of my fellow-workers, whose names are in the book of life.",
+          "contents": [
+            "Yea, I beseech thee also, true yokefellow, help these women, for they labored with me in the gospel, with Clement also,",
+            "and the rest of my fellow-workers, whose names are in the book of life.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Rejoice in the Lord always: again I will say, Rejoice.",
+          "contents": [
+            "Rejoice in the Lord always: again I will say, Rejoice."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Let your forbearance be known unto all men. The Lord is at hand.",
+          "contents": [
+            "Let your forbearance be known unto all men. The Lord is at hand."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "In nothing be anxious; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.",
+          "contents": [
+            "In nothing be anxious; but in everything by prayer and supplication with thanksgiving let your requests be made known unto",
+            "God."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "And the peace of God, which passeth all understanding, shall guard your hearts and your thoughts in Christ Jesus.",
+          "contents": [
+            "And the peace of God, which passeth all understanding, shall guard your hearts and your thoughts in Christ Jesus.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Finally, brethren, whatsoever things are true, whatsoever things are honorable, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.",
+          "contents": [
+            "Finally, brethren, whatsoever things are true, whatsoever things are honorable, whatsoever things are just, whatsoever",
+            "things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be",
+            "any praise, think on these things."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "The things which ye both learned and received and heard and saw in me, these things do: and the God of peace shall be with you.",
+          "contents": [
+            "The things which ye both learned and received and heard and saw in me, these things do: and the God of peace shall be with",
+            "you.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "But I rejoice in the Lord greatly, that now at length ye have revived your thought for me; wherein ye did indeed take thought, but ye lacked opportunity.",
+          "contents": [
+            "But I rejoice in the Lord greatly, that now at length ye have revived your thought for me; wherein ye did indeed take",
+            "thought, but ye lacked opportunity."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therein to be content.",
+          "contents": [
+            "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therein to be content."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "I know how to be abased, and I know also how to abound: in everything and in all things have I learned the secret both to be filled and to be hungry, both to abound and to be in want.",
+          "contents": [
+            "I know how to be abased, and I know also how to abound: in everything and in all things have I learned the secret both to",
+            "be filled and to be hungry, both to abound and to be in want."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "I can do all things in him that strengtheneth me.",
+          "contents": [
+            "I can do all things in him that strengtheneth me."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Howbeit ye did well that ye had fellowship with my affliction.",
+          "contents": [
+            "Howbeit ye did well that ye had fellowship with my affliction."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And ye yourselves also know, ye Philippians, that in the beginning of the gospel, when I departed from Macedonia, no church had fellowship with me in the matter of giving and receiving but ye only;",
+          "contents": [
+            "And ye yourselves also know, ye Philippians, that in the beginning of the gospel, when I departed from Macedonia, no",
+            "church had fellowship with me in the matter of giving and receiving but ye only;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "for even in Thessalonica ye sent once and again unto my need.",
+          "contents": [
+            "for even in Thessalonica ye sent once and again unto my need."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Not that I seek for the gift; but I seek for the fruit that increaseth to your account.",
+          "contents": [
+            "Not that I seek for the gift; but I seek for the fruit that increaseth to your account."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "But I have all things, and abound: I am filled, having received from Epaphroditus the things that came from you, an odor of a sweet smell, a sacrifice acceptable, well-pleasing to God.",
+          "contents": [
+            "But I have all things, and abound: I am filled, having received from Epaphroditus the things",
+            {
+              "add": [
+                "that came"
+              ],
+              "closing": "\\add*"
+            },
+            "from you, an odor of a sweet smell, a sacrifice acceptable, well-pleasing to God."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "And my God shall supply every need of yours according to his riches in glory in Christ Jesus.",
+          "contents": [
+            "And my God shall supply every need of yours according to his riches in glory in Christ Jesus."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Now unto our God and Father be the glory for ever and ever. Amen.",
+          "contents": [
+            "Now unto our God and Father",
+            {
+              "add": [
+                "be"
+              ],
+              "closing": "\\add*"
+            },
+            "the glory for ever and ever. Amen.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Salute every saint in Christ Jesus. The brethren that are with me salute you.",
+          "contents": [
+            "Salute every saint in Christ Jesus. The brethren that are with me salute you."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "All the saints salute you, especially they that are of Cæsar’s household.",
+          "contents": [
+            "All the saints salute you, especially they that are of Cæsar’s household.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "The grace of the Lord Jesus Christ be with your spirit.",
+          "contents": [
+            "The grace of the Lord Jesus Christ be with your spirit."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "book": {
+    "bookCode": "2PE",
+    "description": "61-2PE-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "2 Peter"
+      },
+      {
+        "toc1": [
+          "The Second Epistle General of Peter"
+        ]
+      },
+      {
+        "toc2": [
+          "2 Peter"
+        ]
+      },
+      {
+        "toc3": [
+          "2Pe"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "The Second Epistle General of Peter"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Simon Peter, a servant and apostle of Jesus Christ, to them that have obtained a like precious faith with us in the righteousness of our God and the Saviour Jesus Christ:",
+          "contents": [
+            "Simon Peter, a servant and apostle of Jesus Christ, to them that have obtained a like precious faith with us in the",
+            "righteousness of our God and",
+            {
+              "add": [
+                "the"
+              ],
+              "closing": "\\add*"
+            },
+            "Saviour Jesus Christ:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Grace to you and peace be multiplied in the knowledge of God and of Jesus our Lord;",
+          "contents": [
+            "Grace to you and peace be multiplied in the knowledge of God and of Jesus our Lord;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "seeing that his divine power hath granted unto us all things that pertain unto life and godliness, through the knowledge of him that called us by his own glory and virtue;",
+          "contents": [
+            "seeing that his divine power hath granted unto us all things that pertain unto life and godliness, through the knowledge",
+            "of him that called us by his own glory and virtue;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "whereby he hath granted unto us his precious and exceeding great promises; that through these ye may become partakers of the divine nature, having escaped from the corruption that is in the world by lust.",
+          "contents": [
+            "whereby he hath granted unto us his precious and exceeding great promises; that through these ye may become partakers of",
+            "the divine nature, having escaped from the corruption that is in the world by lust."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Yea, and for this very cause adding on your part all diligence, in your faith supply virtue; and in your virtue knowledge;",
+          "contents": [
+            "Yea, and for this very cause adding on your part all diligence, in your faith supply virtue; and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "virtue knowledge;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "and in your knowledge self-control; and in your self-control patience; and in your patience godliness;",
+          "contents": [
+            "and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "knowledge self-control; and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "self-control patience; and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "patience godliness;"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "and in your godliness brotherly kindness; and in your brotherly kindness love.",
+          "contents": [
+            "and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "godliness brotherly kindness; and in",
+            {
+              "add": [
+                "your"
+              ],
+              "closing": "\\add*"
+            },
+            "brotherly kindness love."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For if these things are yours and abound, they make you to be not idle nor unfruitful unto the knowledge of our Lord Jesus Christ.",
+          "contents": [
+            "For if these things are yours and abound, they make you to be not idle nor unfruitful unto the knowledge of our Lord Jesus",
+            "Christ."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "For he that lacketh these things is blind, seeing only what is near, having forgotten the cleansing from his old sins.",
+          "contents": [
+            "For he that lacketh these things is blind, seeing only what is near, having forgotten the cleansing from his old sins."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Wherefore, brethren, give the more diligence to make your calling and election sure: for if ye do these things, ye shall never stumble:",
+          "contents": [
+            "Wherefore, brethren, give the more diligence to make your calling and election sure: for if ye do these things, ye shall",
+            "never stumble:"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "for thus shall be richly supplied unto you the entrance into the eternal kingdom of our Lord and Saviour Jesus Christ.",
+          "contents": [
+            "for thus shall be richly supplied unto you the entrance into the eternal kingdom of our Lord and Saviour Jesus Christ.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Wherefore I shall be ready always to put you in remembrance of these things, though ye know them, and are established in the truth which is with you.",
+          "contents": [
+            "Wherefore I shall be ready always to put you in remembrance of these things, though ye know them, and are established in",
+            "the truth which is with",
+            {
+              "add": [
+                "you"
+              ],
+              "closing": "\\add*"
+            },
+            "."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "And I think it right, as long as I am in this tabernacle, to stir you up by putting you in remembrance;",
+          "contents": [
+            "And I think it right, as long as I am in this tabernacle, to stir you up by putting you in remembrance;"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "knowing that the putting off of my tabernacle cometh swiftly, even as our Lord Jesus Christ signified unto me.",
+          "contents": [
+            "knowing that the putting off of my tabernacle cometh swiftly, even as our Lord Jesus Christ signified unto me."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Yea, I will give diligence that at every time ye may be able after my decease to call these things to remembrance.",
+          "contents": [
+            "Yea, I will give diligence that at every time ye may be able after my decease to call these things to remembrance."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "For we did not follow cunningly devised fables, when we made known unto you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of his majesty.",
+          "contents": [
+            "For we did not follow cunningly devised fables, when we made known unto you the power and coming of our Lord Jesus",
+            "Christ, but we were eyewitnesses of his majesty."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "For he received from God the Father honor and glory, when there was borne such a voice to him by the Majestic Glory, This is my beloved Son, in whom I am well pleased:",
+          "contents": [
+            "For he received from God the Father honor and glory, when there was borne such a voice to him by the Majestic Glory, This",
+            "is my beloved Son, in whom I am well pleased:"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "and this voice we ourselves heard borne out of heaven, when we were with him in the holy mount.",
+          "contents": [
+            "and this voice we",
+            {
+              "add": [
+                "ourselves"
+              ],
+              "closing": "\\add*"
+            },
+            "heard borne out of heaven, when we were with him in the holy mount."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "And we have the word of prophecy made more sure; whereunto ye do well that ye take heed, as unto a lamp shining in a dark place, until the day dawn, and the day-star arise in your hearts:",
+          "contents": [
+            "And we have the word of prophecy",
+            {
+              "add": [
+                "made"
+              ],
+              "closing": "\\add*"
+            },
+            "more sure; whereunto ye do well that ye take heed, as unto a lamp shining",
+            "in a dark place, until the day dawn, and the day-star arise in your hearts:"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "knowing this first, that no prophecy of scripture is of private interpretation.",
+          "contents": [
+            "knowing this first, that no prophecy of scripture is of private interpretation."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For no prophecy ever came by the will of man: but men spake from God, being moved by the Holy Spirit.",
+          "contents": [
+            "For no prophecy ever came by the will of man: but men spake from God, being moved by the Holy Spirit."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "But there arose false prophets also among the people, as among you also there shall be false teachers, who shall privily bring in destructive heresies, denying even the Master that bought them, bringing upon themselves swift destruction.",
+          "contents": [
+            "But there arose false prophets also among the people, as among you also there shall be false teachers, who shall privily",
+            "bring in destructive heresies, denying even the Master that bought them, bringing upon themselves swift destruction."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "And many shall follow their lascivious doings; by reason of whom the way of the truth shall be evil spoken of.",
+          "contents": [
+            "And many shall follow their lascivious doings; by reason of whom the way of the truth shall be evil spoken of."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "And in covetousness shall they with feigned words make merchandise of you: whose sentence now from of old lingereth not, and their destruction slumbereth not.",
+          "contents": [
+            "And in covetousness shall they with feigned words make merchandise of you: whose sentence now from of old lingereth not,",
+            "and their destruction slumbereth not."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "For if God spared not angels when they sinned, but cast them down to hell, and committed them to pits of darkness, to be reserved unto judgment;",
+          "contents": [
+            "For if God spared not angels when they sinned, but cast them down to hell, and committed them to pits of darkness, to be",
+            "reserved unto judgment;"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "and spared not the ancient world, but preserved Noah with seven others, a preacher of righteousness, when he brought a flood upon the world of the ungodly;",
+          "contents": [
+            "and spared not the ancient world, but preserved Noah with seven others, a preacher of righteousness, when he brought a",
+            "flood upon the world of the ungodly;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "and turning the cities of Sodom and Gomorrah into ashes condemned them with an overthrow, having made them an example unto those that should live ungodly;",
+          "contents": [
+            "and turning the cities of Sodom and Gomorrah into ashes condemned them with an overthrow, having made them an example unto",
+            "those that should live ungodly;"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "and delivered righteous Lot, sore distressed by the lascivious life of the wicked",
+          "contents": [
+            "and delivered righteous Lot, sore distressed by the lascivious life of the wicked"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "(for that righteous man dwelling among them, in seeing and hearing, vexed his righteous soul from day to day with their lawless deeds):",
+          "contents": [
+            "(for that righteous man dwelling among them, in seeing and hearing, vexed",
+            {
+              "add": [
+                "his"
+              ],
+              "closing": "\\add*"
+            },
+            "righteous soul from day to day with",
+            {
+              "add": [
+                "their"
+              ],
+              "closing": "\\add*"
+            },
+            "lawless deeds):"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "the Lord knoweth how to deliver the godly out of temptation, and to keep the unrighteous under punishment unto the day of judgment;",
+          "contents": [
+            "the Lord knoweth how to deliver the godly out of temptation, and to keep the unrighteous under punishment unto the day of",
+            "judgment;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "but chiefly them that walk after the flesh in the lust of defilement, and despise dominion. Daring, self-willed, they tremble not to rail at dignities:",
+          "contents": [
+            "but chiefly them that walk after the flesh in the lust of defilement, and despise dominion. Daring, self-willed, they",
+            "tremble not to rail at dignities:"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "whereas angels, though greater in might and power, bring not a railing judgment against them before the Lord.",
+          "contents": [
+            "whereas angels, though greater in might and power, bring not a railing judgment against them before the Lord."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "But these, as creatures without reason, born mere animals to be taken and destroyed, railing in matters whereof they are ignorant, shall in their destroying surely be destroyed,",
+          "contents": [
+            "But these, as creatures without reason, born mere animals to be taken and destroyed, railing in matters whereof they are",
+            "ignorant, shall in their destroying surely be destroyed,"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "suffering wrong as the hire of wrong-doing; men that count it pleasure to revel in the day-time, spots and blemishes, revelling in their deceivings while they feast with you;",
+          "contents": [
+            "suffering wrong as the hire of wrong-doing;",
+            {
+              "add": [
+                "men"
+              ],
+              "closing": "\\add*"
+            },
+            "that count it pleasure to revel in the day-time, spots and",
+            "blemishes, revelling in their deceivings while they feast with you;"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "having eyes full of adultery, and that cannot cease from sin; enticing unstedfast souls; having a heart exercised in covetousness; children of cursing;",
+          "contents": [
+            "having eyes full of adultery, and that cannot cease from sin; enticing unstedfast souls; having a heart exercised in",
+            "covetousness; children of cursing;"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "forsaking the right way, they went astray, having followed the way of Balaam the son of Beor, who loved the hire of wrong-doing;",
+          "contents": [
+            "forsaking the right way, they went astray, having followed the way of Balaam the",
+            {
+              "add": [
+                "son"
+              ],
+              "closing": "\\add*"
+            },
+            "of Beor, who loved the hire of wrong-doing;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "but he was rebuked for his own transgression: a dumb ass spake with man’s voice and stayed the madness of the prophet.",
+          "contents": [
+            "but he was rebuked for his own transgression: a dumb ass spake with man’s voice and stayed the madness of the prophet."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "These are springs without water, and mists driven by a storm; for whom the blackness of darkness hath been reserved.",
+          "contents": [
+            "These are springs without water, and mists driven by a storm; for whom the blackness of darkness hath been reserved."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "For, uttering great swelling words of vanity, they entice in the lusts of the flesh, by lasciviousness, those who are just escaping from them that live in error;",
+          "contents": [
+            "For, uttering great swelling",
+            {
+              "add": [
+                "words"
+              ],
+              "closing": "\\add*"
+            },
+            "of vanity, they entice in the lusts of the flesh, by lasciviousness, those",
+            "who are just escaping from them that live in error;"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "promising them liberty, while they themselves are bondservants of corruption; for of whom a man is overcome, of the same is he also brought into bondage.",
+          "contents": [
+            "promising them liberty, while they themselves are bondservants of corruption; for of whom a man is overcome, of the same",
+            "is he also brought into bondage."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "For if, after they have escaped the defilements of the world through the knowledge of the Lord and Saviour Jesus Christ, they are again entangled therein and overcome, the last state is become worse with them than the first.",
+          "contents": [
+            "For if, after they have escaped the defilements of the world through the knowledge of the Lord and Saviour Jesus Christ,",
+            "they are again entangled therein and overcome, the last state is become worse with them than the first."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "For it were better for them not to have known the way of righteousness, than, after knowing it, to turn back from the holy commandment delivered unto them.",
+          "contents": [
+            "For it were better for them not to have known the way of righteousness, than, after knowing it, to turn back from the",
+            "holy commandment delivered unto them."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "It has happened unto them according to the true proverb, The dog turning to his own vomit again, and the sow that had washed to wallowing in the mire.",
+          "contents": [
+            "It has happened unto them according to the true proverb, The dog turning to his own vomit again, and the sow that had",
+            "washed to wallowing in the mire."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "This is now, beloved, the second epistle that I write unto you; and in both of them I stir up your sincere mind by putting you in remembrance;",
+          "contents": [
+            "This is now, beloved, the second epistle that I write unto you; and in both of them I stir up your sincere mind by putting",
+            "you in remembrance;"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "that ye should remember the words which were spoken before by the holy prophets, and the commandment of the Lord and Saviour through your apostles:",
+          "contents": [
+            "that ye should remember the words which were spoken before by the holy prophets, and the commandment of the Lord and",
+            "Saviour through your apostles:"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "knowing this first, that in the last days mockers shall come with mockery, walking after their own lusts,",
+          "contents": [
+            "knowing this first, that in the last days mockers shall come with mockery, walking after their own lusts,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "and saying, Where is the promise of his coming? for, from the day that the fathers fell asleep, all things continue as they were from the beginning of the creation.",
+          "contents": [
+            "and saying, Where is the promise of his coming? for, from the day that the fathers fell asleep, all things continue as",
+            "they were from the beginning of the creation."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For this they wilfully forget, that there were heavens from of old, and an earth compacted out of water and amidst water, by the word of God;",
+          "contents": [
+            "For this they wilfully forget, that there were heavens from of old, and an earth compacted out of water and amidst water,",
+            "by the word of God;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "by which means the world that then was, being overflowed with water, perished:",
+          "contents": [
+            "by which means the world that then was, being overflowed with water, perished:"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "but the heavens that now are, and the earth, by the same word have been stored up for fire, being reserved against the day of judgment and destruction of ungodly men.",
+          "contents": [
+            "but the heavens that now are, and the earth, by the same word have been stored up for fire, being reserved against the day",
+            "of judgment and destruction of ungodly men.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "But forget not this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one day.",
+          "contents": [
+            "But forget not this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one",
+            "day."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "The Lord is not slack concerning his promise, as some count slackness; but is longsuffering to you-ward, not wishing that any should perish, but that all should come to repentance.",
+          "contents": [
+            "The Lord is not slack concerning his promise, as some count slackness; but is longsuffering to you-ward, not wishing that",
+            "any should perish, but that all should come to repentance."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "But the day of the Lord will come as a thief; in the which the heavens shall pass away with a great noise, and the elements shall be dissolved with fervent heat, and the earth and the works that are therein shall be burned up.",
+          "contents": [
+            "But the day of the Lord will come as a thief; in the which the heavens shall pass away with a great noise, and the",
+            "elements shall be dissolved with fervent heat, and the earth and the works that are therein shall be burned up."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Seeing that these things are thus all to be dissolved, what manner of persons ought ye to be in all holy living and godliness,",
+          "contents": [
+            "Seeing that these things are thus all to be dissolved, what manner of persons ought ye to be in",
+            {
+              "add": [
+                "all"
+              ],
+              "closing": "\\add*"
+            },
+            "holy living and godliness,"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "looking for and earnestly desiring the coming of the day of God, by reason of which the heavens being on fire shall be dissolved, and the elements shall melt with fervent heat?",
+          "contents": [
+            "looking for and earnestly desiring the coming of the day of God, by reason of which the heavens being on fire shall be",
+            "dissolved, and the elements shall melt with fervent heat?"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "But, according to his promise, we look for new heavens and a new earth, wherein dwelleth righteousness.",
+          "contents": [
+            "But, according to his promise, we look for new heavens and a new earth, wherein dwelleth righteousness.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Wherefore, beloved, seeing that ye look for these things, give diligence that ye may be found in peace, without spot and blameless in his sight.",
+          "contents": [
+            "Wherefore, beloved, seeing that ye look for these things, give diligence that ye may be found in peace, without spot and",
+            "blameless in his sight."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also, according to the wisdom given to him, wrote unto you;",
+          "contents": [
+            "And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also, according to the",
+            "wisdom given to him, wrote unto you;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "as also in all his epistles, speaking in them of these things; wherein are some things hard to be understood, which the ignorant and unstedfast wrest, as they do also the other scriptures, unto their own destruction.",
+          "contents": [
+            "as also in all",
+            {
+              "add": [
+                "his"
+              ],
+              "closing": "\\add*"
+            },
+            "epistles, speaking in them of these things; wherein are some things hard to be understood,",
+            "which the ignorant and unstedfast wrest, as",
+            {
+              "add": [
+                "they do"
+              ],
+              "closing": "\\add*"
+            },
+            "also the other scriptures, unto their own destruction."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Ye therefore, beloved, knowing these things beforehand, beware lest, being carried away with the error of the wicked, ye fall from your own stedfastness.",
+          "contents": [
+            "Ye therefore, beloved, knowing",
+            {
+              "add": [
+                "these things"
+              ],
+              "closing": "\\add*"
+            },
+            "beforehand, beware lest, being carried away with the error of the",
+            "wicked, ye fall from your own stedfastness."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "But grow in the grace and knowledge of our Lord and Saviour Jesus Christ. To him be the glory both now and for ever. Amen.",
+          "contents": [
+            "But grow in the grace and knowledge of our Lord and Saviour Jesus Christ. To him",
+            {
+              "add": [
+                "be"
+              ],
+              "closing": "\\add*"
+            },
+            "the glory both now and for ever. Amen."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. "
+    ]
+  }
+}

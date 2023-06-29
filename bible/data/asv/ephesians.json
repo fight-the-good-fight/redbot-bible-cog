@@ -1,0 +1,1514 @@
+{
+  "book": {
+    "bookCode": "EPH",
+    "description": "49-EPH-asv.sfm The American Standard Version of the Holy Bible (1901) Tuesday, September 12, 2006",
+    "meta": [
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "h": "Ephesians"
+      },
+      {
+        "toc1": [
+          "The Epistle of Paul the Apostle to the Ephesians"
+        ]
+      },
+      {
+        "toc2": [
+          "Ephesians"
+        ]
+      },
+      {
+        "toc3": [
+          "Eph"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "The Epistle of Paul the Apostle to the Ephesians"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Paul, an apostle of Christ Jesus through the will of God, to the saints that are at Ephesus, and the faithful in Christ Jesus:",
+          "contents": [
+            "Paul, an apostle of Christ Jesus through the will of God, to the saints that are at Ephesus, and the faithful in Christ",
+            "Jesus:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "contents": [
+            "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with every spiritual blessing in the heavenly places in Christ:",
+          "contents": [
+            "Blessed",
+            {
+              "add": [
+                "be"
+              ],
+              "closing": "\\add*"
+            },
+            "the God and Father of our Lord Jesus Christ, who hath blessed us with every spiritual blessing in the",
+            "heavenly",
+            {
+              "add": [
+                "places"
+              ],
+              "closing": "\\add*"
+            },
+            "in Christ:"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "even as he chose us in him before the foundation of the world, that we should be holy and without blemish before him in love:",
+          "contents": [
+            "even as he chose us in him before the foundation of the world, that we should be holy and without blemish before him in",
+            "love:"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "having foreordained us unto adoption as sons through Jesus Christ unto himself, according to the good pleasure of his will,",
+          "contents": [
+            "having foreordained us unto adoption as sons through Jesus Christ unto himself, according to the good pleasure of his",
+            "will,"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "to the praise of the glory of his grace, which he freely bestowed on us in the Beloved:",
+          "contents": [
+            "to the praise of the glory of his grace, which he freely bestowed on us in the Beloved:"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,",
+          "contents": [
+            "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "which he made to abound toward us in all wisdom and prudence,",
+          "contents": [
+            "which he made to abound toward us in all wisdom and prudence,"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "making known unto us the mystery of his will, according to his good pleasure which he purposed in him",
+          "contents": [
+            "making known unto us the mystery of his will, according to his good pleasure which he purposed in him"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "unto a dispensation of the fulness of the times, to sum up all things in Christ, the things in the heavens, and the things upon the earth; in him, I say,",
+          "contents": [
+            "unto a dispensation of the fulness of the times, to sum up all things in Christ, the things in the heavens, and the",
+            "things upon the earth; in him,",
+            {
+              "add": [
+                "I say,"
+              ],
+              "closing": "\\add*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "in whom also we were made a heritage, having been foreordained according to the purpose of him who worketh all things after the counsel of his will;",
+          "contents": [
+            "in whom also we were made a heritage, having been foreordained according to the purpose of him who worketh all things",
+            "after the counsel of his will;"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "to the end that we should be unto the praise of his glory, we who had before hoped in Christ:",
+          "contents": [
+            "to the end that we should be unto the praise of his glory, we who had before hoped in Christ:"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "in whom ye also, having heard the word of the truth, the gospel of your salvation,—in whom, having also believed, ye were sealed with the Holy Spirit of promise,",
+          "contents": [
+            "in whom ye also, having heard the word of the truth, the gospel of your salvation,—in whom, having also believed, ye were",
+            "sealed with the Holy Spirit of promise,"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "which is an earnest of our inheritance, unto the redemption of God’s own possession, unto the praise of his glory.",
+          "contents": [
+            "which is an earnest of our inheritance, unto the redemption of",
+            {
+              "add": [
+                "God’s"
+              ],
+              "closing": "\\add*"
+            },
+            "own possession, unto the praise of his glory.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "For this cause I also, having heard of the faith in the Lord Jesus which is among you, and the love which ye show toward all the saints,",
+          "contents": [
+            "For this cause I also, having heard of the faith in the Lord Jesus which is among you, and the love which",
+            {
+              "add": [
+                "ye show"
+              ],
+              "closing": "\\add*"
+            },
+            "toward all the saints,"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "cease not to give thanks for you, making mention of you in my prayers;",
+          "contents": [
+            "cease not to give thanks for you, making mention",
+            {
+              "add": [
+                "of you"
+              ],
+              "closing": "\\add*"
+            },
+            "in my prayers;"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "that the God of our Lord Jesus Christ, the Father of glory, may give unto you a spirit of wisdom and revelation in the knowledge of him;",
+          "contents": [
+            "that the God of our Lord Jesus Christ, the Father of glory, may give unto you a spirit of wisdom and revelation in the",
+            "knowledge of him;"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "having the eyes of your heart enlightened, that ye may know what is the hope of his calling, what the riches of the glory of his inheritance in the saints,",
+          "contents": [
+            "having the eyes of your heart enlightened, that ye may know what is the hope of his calling, what the riches of the glory",
+            "of his inheritance in the saints,"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "and what the exceeding greatness of his power to us-ward who believe, according to that working of the strength of his might",
+          "contents": [
+            "and what the exceeding greatness of his power to us-ward who believe, according to that working of the strength of his",
+            "might"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "which he wrought in Christ, when he raised him from the dead, and made him to sit at his right hand in the heavenly places,",
+          "contents": [
+            "which he wrought in Christ, when he raised him from the dead, and made him to sit at his right hand in the heavenly",
+            {
+              "add": [
+                "places"
+              ],
+              "closing": "\\add*"
+            },
+            ","
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "far above all rule, and authority, and power, and dominion, and every name that is named, not only in this world, but also in that which is to come:",
+          "contents": [
+            "far above all rule, and authority, and power, and dominion, and every name that is named, not only in this world, but",
+            "also in that which is to come:"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "and he put all things in subjection under his feet, and gave him to be head over all things to the church,",
+          "contents": [
+            "and he put all things in subjection under his feet, and gave him to be head over all things to the church,"
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "which is his body, the fulness of him that filleth all in all.",
+          "contents": [
+            "which is his body, the fulness of him that filleth all in all."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "And you did he make alive, when ye were dead through your trespasses and sins,",
+          "contents": [
+            "And you",
+            {
+              "add": [
+                "did he make alive,"
+              ],
+              "closing": "\\add*"
+            },
+            "when ye were dead through your trespasses and sins,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "wherein ye once walked according to the course of this world, according to the prince of the powers of the air, of the spirit that now worketh in the sons of disobedience;",
+          "contents": [
+            "wherein ye once walked according to the course of this world, according to the prince of the powers of the air, of the",
+            "spirit that now worketh in the sons of disobedience;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "among whom we also all once lived in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest:—",
+          "contents": [
+            "among whom we also all once lived in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by",
+            "nature children of wrath, even as the rest:—"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "but God, being rich in mercy, for his great love wherewith he loved us,",
+          "contents": [
+            "but God, being rich in mercy, for his great love wherewith he loved us,"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "even when we were dead through our trespasses, made us alive together with Christ (by grace have ye been saved),",
+          "contents": [
+            "even when we were dead through our trespasses, made us alive together with Christ (by grace have ye been saved),"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "and raised us up with him, and made us to sit with him in the heavenly places, in Christ Jesus:",
+          "contents": [
+            "and raised us up with him, and made us to sit with him in the heavenly",
+            {
+              "add": [
+                "places"
+              ],
+              "closing": "\\add*"
+            },
+            ", in Christ Jesus:"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus:",
+          "contents": [
+            "that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus:"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "for by grace have ye been saved through faith; and that not of yourselves, it is the gift of God;",
+          "contents": [
+            "for by grace have ye been saved through faith; and that not of yourselves,",
+            {
+              "add": [
+                "it is"
+              ],
+              "closing": "\\add*"
+            },
+            "the gift of God;"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "not of works, that no man should glory.",
+          "contents": [
+            "not of works, that no man should glory."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "For we are his workmanship, created in Christ Jesus for good works, which God afore prepared that we should walk in them.",
+          "contents": [
+            "For we are his workmanship, created in Christ Jesus for good works, which God afore prepared that we should walk in them.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Wherefore remember, that once ye, the Gentiles in the flesh, who are called Uncircumcision by that which is called Circumcision, in the flesh, made by hands;",
+          "contents": [
+            "Wherefore remember, that once ye, the Gentiles in the flesh, who are called Uncircumcision by that which is called",
+            "Circumcision, in the flesh, made by hands;"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "that ye were at that time separate from Christ, alienated from the commonwealth of Israel, and strangers from the covenants of the promise, having no hope and without God in the world.",
+          "contents": [
+            "that ye were at that time separate from Christ, alienated from the commonwealth of Israel, and strangers from the",
+            "covenants of the promise, having no hope and without God in the world."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "But now in Christ Jesus ye that once were far off are made nigh in the blood of Christ.",
+          "contents": [
+            "But now in Christ Jesus ye that once were far off are made nigh in the blood of Christ."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For he is our peace, who made both one, and brake down the middle wall of partition,",
+          "contents": [
+            "For he is our peace, who made both one, and brake down the middle wall of partition,"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "having abolished in his flesh the enmity, even the law of commandments contained in ordinances; that he might create in himself of the two one new man, so making peace;",
+          "contents": [
+            "having abolished in his flesh the enmity,",
+            {
+              "add": [
+                "even"
+              ],
+              "closing": "\\add*"
+            },
+            "the law of commandments",
+            {
+              "add": [
+                "contained"
+              ],
+              "closing": "\\add*"
+            },
+            "in ordinances; that he might create in himself of the two one new man,",
+            {
+              "add": [
+                "so"
+              ],
+              "closing": "\\add*"
+            },
+            "making peace;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "and might reconcile them both in one body unto God through the cross, having slain the enmity thereby:",
+          "contents": [
+            "and might reconcile them both in one body unto God through the cross, having slain the enmity thereby:"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "and he came and preached peace to you that were far off, and peace to them that were nigh:",
+          "contents": [
+            "and he came and preached peace to you that were far off, and peace to them that were nigh:"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "for through him we both have our access in one Spirit unto the Father.",
+          "contents": [
+            "for through him we both have our access in one Spirit unto the Father."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "So then ye are no more strangers and sojourners, but ye are fellow-citizens with the saints, and of the household of God,",
+          "contents": [
+            "So then ye are no more strangers and sojourners, but ye are fellow-citizens with the saints, and of the household of God,"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "being built upon the foundation of the apostles and prophets, Christ Jesus himself being the chief corner stone;",
+          "contents": [
+            "being built upon the foundation of the apostles and prophets, Christ Jesus himself being the chief corner stone;"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "in whom each several building, fitly framed together, groweth into a holy temple in the Lord;",
+          "contents": [
+            "in whom each several building, fitly framed together, groweth into a holy temple in the Lord;"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "in whom ye also are builded together for a habitation of God in the Spirit.",
+          "contents": [
+            "in whom ye also are builded together for a habitation of God in the Spirit."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "For this cause I Paul, the prisoner of Christ Jesus in behalf of you Gentiles,—",
+          "contents": [
+            "For this cause I Paul, the prisoner of Christ Jesus in behalf of you Gentiles,—"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "if so be that ye have heard of the dispensation of that grace of God which was given me to you-ward;",
+          "contents": [
+            "if so be that ye have heard of the dispensation of that grace of God which was given me to you-ward;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "how that by revelation was made known unto me the mystery, as I wrote before in few words,",
+          "contents": [
+            "how that by revelation was made known unto me the mystery, as I wrote before in few words,"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "whereby, when ye read, ye can perceive my understanding in the mystery of Christ;",
+          "contents": [
+            "whereby, when ye read, ye can perceive my understanding in the mystery of Christ;"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "which in other generations was not made known unto the sons of men, as it hath now been revealed unto his holy apostles and prophets in the Spirit;",
+          "contents": [
+            "which in other generations was not made known unto the sons of men, as it hath now been revealed unto his holy apostles",
+            "and prophets in the Spirit;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "to wit, that the Gentiles are fellow-heirs, and fellow-members of the body, and fellow-partakers of the promise in Christ Jesus through the gospel,",
+          "contents": [
+            {
+              "add": [
+                "to wit"
+              ],
+              "closing": "\\add*"
+            },
+            ", that the Gentiles are fellow-heirs, and fellow-members of the body, and fellow-partakers of the promise",
+            "in Christ Jesus through the gospel,"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "whereof I was made a minister, according to the gift of that grace of God which was given me according to the working of his power.",
+          "contents": [
+            "whereof I was made a minister, according to the gift of that grace of God which was given me according to the working of",
+            "his power."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Unto me, who am less than the least of all saints, was this grace given, to preach unto the Gentiles the unsearchable riches of Christ;",
+          "contents": [
+            "Unto me, who am less than the least of all saints, was this grace given, to preach unto the Gentiles the unsearchable",
+            "riches of Christ;"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "and to make all men see what is the dispensation of the mystery which for ages hath been hid in God who created all things;",
+          "contents": [
+            "and to make all men see what is the dispensation of the mystery which for ages hath been hid in God who created all",
+            "things;"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "to the intent that now unto the principalities and the powers in the heavenly places might be made known through the church the manifold wisdom of God,",
+          "contents": [
+            "to the intent that now unto the principalities and the powers in the heavenly",
+            {
+              "add": [
+                "places"
+              ],
+              "closing": "\\add*"
+            },
+            "might be made known through the church the manifold wisdom of God,"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "according to the eternal purpose which he purposed in Christ Jesus our Lord:",
+          "contents": [
+            "according to the eternal purpose which he purposed in Christ Jesus our Lord:"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "in whom we have boldness and access in confidence through our faith in him.",
+          "contents": [
+            "in whom we have boldness and access in confidence through our faith in him."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Wherefore I ask that ye may not faint at my tribulations for you, which are your glory.",
+          "contents": [
+            "Wherefore I ask that ye may not faint at my tribulations for you, which are your glory.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "For this cause I bow my knees unto the Father,",
+          "contents": [
+            "For this cause I bow my knees unto the Father,"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "from whom every family in heaven and on earth is named,",
+          "contents": [
+            "from whom every family in heaven and on earth is named,"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "that he would grant you, according to the riches of his glory, that ye may be strengthened with power through his Spirit in the inward man;",
+          "contents": [
+            "that he would grant you, according to the riches of his glory, that ye may be strengthened with power through his Spirit",
+            "in the inward man;"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "that Christ may dwell in your hearts through faith; to the end that ye, being rooted and grounded in love,",
+          "contents": [
+            "that Christ may dwell in your hearts through faith; to the end that ye, being rooted and grounded in love,"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "may be strong to apprehend with all the saints what is the breadth and length and height and depth,",
+          "contents": [
+            "may be strong to apprehend with all the saints what is the breadth and length and height and depth,"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "and to know the love of Christ which passeth knowledge, that ye may be filled unto all the fulness of God.",
+          "contents": [
+            "and to know the love of Christ which passeth knowledge, that ye may be filled unto all the fulness of God.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,",
+          "contents": [
+            "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh",
+            "in us,"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "unto him be the glory in the church and in Christ Jesus unto all generations for ever and ever. Amen.",
+          "contents": [
+            "unto him",
+            {
+              "add": [
+                "be"
+              ],
+              "closing": "\\add*"
+            },
+            "the glory in the church and in Christ Jesus unto all generations for ever and ever. Amen."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "I therefore, the prisoner in the Lord, beseech you to walk worthily of the calling wherewith ye were called,",
+          "contents": [
+            "I therefore, the prisoner in the Lord, beseech you to walk worthily of the calling wherewith ye were called,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "with all lowliness and meekness, with longsuffering, forbearing one another in love;",
+          "contents": [
+            "with all lowliness and meekness, with longsuffering, forbearing one another in love;"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "giving diligence to keep the unity of the Spirit in the bond of peace.",
+          "contents": [
+            "giving diligence to keep the unity of the Spirit in the bond of peace."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "There is one body, and one Spirit, even as also ye were called in one hope of your calling;",
+          "contents": [
+            {
+              "add": [
+                "There is"
+              ],
+              "closing": "\\add*"
+            },
+            "one body, and one Spirit, even as also ye were called in one hope of your calling;"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "one Lord, one faith, one baptism,",
+          "contents": [
+            "one Lord, one faith, one baptism,"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "one God and Father of all, who is over all, and through all, and in all.",
+          "contents": [
+            "one God and Father of all, who is over all, and through all, and in all."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "But unto each one of us was the grace given according to the measure of the gift of Christ.",
+          "contents": [
+            "But unto each one of us was the grace given according to the measure of the gift of Christ."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Wherefore he saith, When he ascended on high, he led captivity captive, And gave gifts unto men.",
+          "contents": [
+            "Wherefore he saith,",
+            {
+              "q1": null
+            },
+            "When he ascended on high,",
+            {
+              "q1": null
+            },
+            "he led captivity captive,",
+            {
+              "q1": null
+            },
+            "And gave gifts unto men.",
+            {
+              "m": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "(Now this, He ascended, what is it but that he also descended into the lower parts of the earth?",
+          "contents": [
+            "(Now this, He ascended, what is it but that he also descended into the lower parts of the earth?"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "He that descended is the same also that ascended far above all the heavens, that he might fill all things.)",
+          "contents": [
+            "He that descended is the same also that ascended far above all the heavens, that he might fill all things.)"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "And he gave some to be apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;",
+          "contents": [
+            "And he gave some",
+            {
+              "add": [
+                "to be"
+              ],
+              "closing": "\\add*"
+            },
+            "apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "for the perfecting of the saints, unto the work of ministering, unto the building up of the body of Christ:",
+          "contents": [
+            "for the perfecting of the saints, unto the work of ministering, unto the building up of the body of Christ:"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "till we all attain unto the unity of the faith, and of the knowledge of the Son of God, unto a fullgrown man, unto the measure of the stature of the fulness of Christ:",
+          "contents": [
+            "till we all attain unto the unity of the faith, and of the knowledge of the Son of God, unto a fullgrown man, unto the",
+            "measure of the stature of the fulness of Christ:"
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "that we may be no longer children, tossed to and fro and carried about with every wind of doctrine, by the sleight of men, in craftiness, after the wiles of error;",
+          "contents": [
+            "that we may be no longer children, tossed to and fro and carried about with every wind of doctrine, by the sleight of",
+            "men, in craftiness, after the wiles of error;"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "but speaking truth in love, may grow up in all things into him, who is the head, even Christ;",
+          "contents": [
+            "but speaking truth in love, may grow up in all things into him, who is the head,",
+            {
+              "add": [
+                "even"
+              ],
+              "closing": "\\add*"
+            },
+            "Christ;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "from whom all the body fitly framed and knit together through that which every joint supplieth, according to the working in due measure of each several part, maketh the increase of the body unto the building up of itself in love.",
+          "contents": [
+            "from whom all the body fitly framed and knit together through that which every joint supplieth, according to the working",
+            "in",
+            {
+              "add": [
+                "due"
+              ],
+              "closing": "\\add*"
+            },
+            "measure of each several part, maketh the increase of the body unto the building up of itself in love.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "This I say therefore, and testify in the Lord, that ye no longer walk as the Gentiles also walk, in the vanity of their mind,",
+          "contents": [
+            "This I say therefore, and testify in the Lord, that ye no longer walk as the Gentiles also walk, in the vanity of their",
+            "mind,"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "being darkened in their understanding, alienated from the life of God, because of the ignorance that is in them, because of the hardening of their heart;",
+          "contents": [
+            "being darkened in their understanding, alienated from the life of God, because of the ignorance that is in them, because",
+            "of the hardening of their heart;"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "who being past feeling gave themselves up to lasciviousness, to work all uncleanness with greediness.",
+          "contents": [
+            "who being past feeling gave themselves up to lasciviousness, to work all uncleanness with greediness."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "But ye did not so learn Christ;",
+          "contents": [
+            "But ye did not so learn Christ;"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "if so be that ye heard him, and were taught in him, even as truth is in Jesus:",
+          "contents": [
+            "if so be that ye heard him, and were taught in him, even as truth is in Jesus:"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "that ye put away, as concerning your former manner of life, the old man, that waxeth corrupt after the lusts of deceit;",
+          "contents": [
+            "that ye put away, as concerning your former manner of life, the old man, that waxeth corrupt after the lusts of deceit;"
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "and that ye be renewed in the spirit of your mind,",
+          "contents": [
+            "and that ye be renewed in the spirit of your mind,"
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "and put on the new man, that after God hath been created in righteousness and holiness of truth.",
+          "contents": [
+            "and put on the new man, that after God hath been created in righteousness and holiness of truth.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Wherefore, putting away falsehood, speak ye truth each one with his neighbor: for we are members one of another.",
+          "contents": [
+            "Wherefore, putting away falsehood, speak ye truth each one with his neighbor: for we are members one of another."
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Be ye angry, and sin not: let not the sun go down upon your wrath:",
+          "contents": [
+            "Be ye angry, and sin not: let not the sun go down upon your wrath:"
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "neither give place to the devil.",
+          "contents": [
+            "neither give place to the devil."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Let him that stole steal no more: but rather let him labor, working with his hands the thing that is good, that he may have whereof to give to him that hath need.",
+          "contents": [
+            "Let him that stole steal no more: but rather let him labor, working with his hands the thing that is good, that he may",
+            "have whereof to give to him that hath need."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Let no corrupt speech proceed out of your mouth, but such as is good for edifying as the need may be, that it may give grace to them that hear.",
+          "contents": [
+            "Let no corrupt speech proceed out of your mouth, but such as is good for edifying as the need may be, that it may give",
+            "grace to them that hear."
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "And grieve not the Holy Spirit of God, in whom ye were sealed unto the day of redemption.",
+          "contents": [
+            "And grieve not the Holy Spirit of God, in whom ye were sealed unto the day of redemption."
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "Let all bitterness, and wrath, and anger, and clamor, and railing, be put away from you, with all malice:",
+          "contents": [
+            "Let all bitterness, and wrath, and anger, and clamor, and railing, be put away from you, with all malice:"
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "and be ye kind one to another, tenderhearted, forgiving each other, even as God also in Christ forgave you.",
+          "contents": [
+            "and be ye kind one to another, tenderhearted, forgiving each other, even as God also in Christ forgave you."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Be ye therefore imitators of God, as beloved children;",
+          "contents": [
+            "Be ye therefore imitators of God, as beloved children;"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "and walk in love, even as Christ also loved you, and gave himself up for us, an offering and a sacrifice to God for an odor of a sweet smell.",
+          "contents": [
+            "and walk in love, even as Christ also loved you, and gave himself up for us, an offering and a sacrifice to God for an",
+            "odor of a sweet smell.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "But fornication, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;",
+          "contents": [
+            "But fornication, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "nor filthiness, nor foolish talking, or jesting, which are not befitting: but rather giving of thanks.",
+          "contents": [
+            "nor filthiness, nor foolish talking, or jesting, which are not befitting: but rather giving of thanks."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "For this ye know of a surety, that no fornicator, nor unclean person, nor covetous man, who is an idolater, hath any inheritance in the kingdom of Christ and God.",
+          "contents": [
+            "For this ye know of a surety, that no fornicator, nor unclean person, nor covetous man, who is an idolater, hath any",
+            "inheritance in the kingdom of Christ and God."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Let no man deceive you with empty words: for because of these things cometh the wrath of God upon the sons of disobedience.",
+          "contents": [
+            "Let no man deceive you with empty words: for because of these things cometh the wrath of God upon the sons of",
+            "disobedience."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Be not ye therefore partakers with them;",
+          "contents": [
+            "Be not ye therefore partakers with them;"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "For ye were once darkness, but are now light in the Lord: walk as children of light",
+          "contents": [
+            "For ye were once darkness, but are now light in the Lord: walk as children of light"
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "(for the fruit of the light is in all goodness and righteousness and truth),",
+          "contents": [
+            "(for the fruit of the light is in all goodness and righteousness and truth),"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "proving what is well-pleasing unto the Lord;",
+          "contents": [
+            "proving what is well-pleasing unto the Lord;"
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "and have no fellowship with the unfruitful works of darkness, but rather even reprove them;",
+          "contents": [
+            "and have no fellowship with the unfruitful works of darkness, but rather even reprove them;"
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "for the things which are done by them in secret it is a shame even to speak of.",
+          "contents": [
+            "for the things which are done by them in secret it is a shame even to speak of."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "But all things when they are reproved are made manifest by the light: for everything that is made manifest is light.",
+          "contents": [
+            "But all things when they are reproved are made manifest by the light: for everything that is made manifest is light."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Wherefore he saith, Awake, thou that sleepest, and arise from the dead, and Christ shall shine upon thee.",
+          "contents": [
+            "Wherefore",
+            {
+              "add": [
+                "he"
+              ],
+              "closing": "\\add*"
+            },
+            "saith, Awake, thou that sleepest, and arise from the dead, and Christ shall shine upon thee.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Look therefore carefully how ye walk, not as unwise, but as wise;",
+          "contents": [
+            "Look therefore carefully how ye walk, not as unwise, but as wise;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "redeeming the time, because the days are evil.",
+          "contents": [
+            "redeeming the time, because the days are evil."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Wherefore be ye not foolish, but understand what the will of the Lord is.",
+          "contents": [
+            "Wherefore be ye not foolish, but understand what the will of the Lord is."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "And be not drunken with wine, wherein is riot, but be filled with the Spirit;",
+          "contents": [
+            "And be not drunken with wine, wherein is riot, but be filled with the Spirit;"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "speaking one to another in psalms and hymns and spiritual songs, singing and making melody with your heart to the Lord;",
+          "contents": [
+            "speaking one to another in psalms and hymns and spiritual songs, singing and making melody with your heart to the Lord;"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "giving thanks always for all things in the name of our Lord Jesus Christ to God, even the Father;",
+          "contents": [
+            "giving thanks always for all things in the name of our Lord Jesus Christ to God, even the Father;"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "subjecting yourselves one to another in the fear of Christ.",
+          "contents": [
+            "subjecting yourselves one to another in the fear of Christ.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Wives, be in subjection unto your own husbands, as unto the Lord.",
+          "contents": [
+            "Wives,",
+            {
+              "add": [
+                "be in subjection"
+              ],
+              "closing": "\\add*"
+            },
+            "unto your own husbands, as unto the Lord."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "For the husband is the head of the wife, as Christ also is the head of the church, being himself the saviour of the body.",
+          "contents": [
+            "For the husband is the head of the wife, as Christ also is the head of the church,",
+            {
+              "add": [
+                "being"
+              ],
+              "closing": "\\add*"
+            },
+            "himself the saviour of the body."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "But as the church is subject to Christ, so let the wives also be to their husbands in everything.",
+          "contents": [
+            "But as the church is subject to Christ, so",
+            {
+              "add": [
+                "let"
+              ],
+              "closing": "\\add*"
+            },
+            "the wives also",
+            {
+              "add": [
+                "be"
+              ],
+              "closing": "\\add*"
+            },
+            "to their husbands in everything."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Husbands, love your wives, even as Christ also loved the church, and gave himself up for it;",
+          "contents": [
+            "Husbands, love your wives, even as Christ also loved the church, and gave himself up for it;"
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "that he might sanctify it, having cleansed it by the washing of water with the word,",
+          "contents": [
+            "that he might sanctify it, having cleansed it by the washing of water with the word,"
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "that he might present the church to himself a glorious church, not having spot or wrinkle or any such thing; but that it should be holy and without blemish.",
+          "contents": [
+            "that he might present the church to himself a glorious",
+            {
+              "add": [
+                "church"
+              ],
+              "closing": "\\add*"
+            },
+            ", not having spot or wrinkle or any such thing;",
+            "but that it should be holy and without blemish."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Even so ought husbands also to love their own wives as their own bodies. He that loveth his own wife loveth himself:",
+          "contents": [
+            "Even so ought husbands also to love their own wives as their own bodies. He that loveth his own wife loveth himself:"
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "for no man ever hated his own flesh; but nourisheth and cherisheth it, even as Christ also the church;",
+          "contents": [
+            "for no man ever hated his own flesh; but nourisheth and cherisheth it, even as Christ also the church;"
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "because we are members of his body.",
+          "contents": [
+            "because we are members of his body."
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "For this cause shall a man leave his father and mother, and shall cleave to his wife; and the two shall become one flesh.",
+          "contents": [
+            "For this cause shall a man leave his father and mother, and shall cleave to his wife; and the two shall become one flesh."
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "This mystery is great: but I speak in regard of Christ and of the church.",
+          "contents": [
+            "This mystery is great: but I speak in regard of Christ and of the church."
+          ]
+        },
+        {
+          "verseNumber": "33",
+          "verseText": "Nevertheless do ye also severally love each one his own wife even as himself; and let the wife see that she fear her husband.",
+          "contents": [
+            "Nevertheless do ye also severally love each one his own wife even as himself; and",
+            {
+              "add": [
+                "let"
+              ],
+              "closing": "\\add*"
+            },
+            "the wife",
+            {
+              "add": [
+                "see"
+              ],
+              "closing": "\\add*"
+            },
+            "that she fear her husband."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Children, obey your parents in the Lord: for this is right.",
+          "contents": [
+            "Children, obey your parents in the Lord: for this is right."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Honor thy father and mother (which is the first commandment with promise),",
+          "contents": [
+            "Honor thy father and mother (which is the first commandment with promise),"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "that it may be well with thee, and thou mayest live long on the earth.",
+          "contents": [
+            "that it may be well with thee, and thou mayest live long on the earth."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "And, ye fathers, provoke not your children to wrath: but nurture them in the chastening and admonition of the Lord.",
+          "contents": [
+            "And, ye fathers, provoke not your children to wrath: but nurture them in the chastening and admonition of the Lord.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Servants, be obedient unto them that according to the flesh are your masters, with fear and trembling, in singleness of your heart, as unto Christ;",
+          "contents": [
+            "Servants, be obedient unto them that according to the flesh are your masters, with fear and trembling, in singleness of",
+            "your heart, as unto Christ;"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "not in the way of eyeservice, as men-pleasers; but as servants of Christ, doing the will of God from the heart;",
+          "contents": [
+            "not in the way of eyeservice, as men-pleasers; but as servants of Christ, doing the will of God from the heart;"
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "with good will doing service, as unto the Lord, and not unto men:",
+          "contents": [
+            "with good will doing service, as unto the Lord, and not unto men:"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "knowing that whatsoever good thing each one doeth, the same shall he receive again from the Lord, whether he be bond or free.",
+          "contents": [
+            "knowing that whatsoever good thing each one doeth, the same shall he receive again from the Lord, whether",
+            {
+              "add": [
+                "he be"
+              ],
+              "closing": "\\add*"
+            },
+            "bond or free."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "And, ye masters, do the same things unto them, and forbear threatening: knowing that he who is both their Master and yours is in heaven, and there is no respect of persons with him.",
+          "contents": [
+            "And, ye masters, do the same things unto them, and forbear threatening: knowing that he who is both their Master and yours",
+            "is in heaven, and there is no respect of persons with him.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Finally, be strong in the Lord, and in the strength of his might.",
+          "contents": [
+            "Finally, be strong in the Lord, and in the strength of his might."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Put on the whole armor of God, that ye may be able to stand against the wiles of the devil.",
+          "contents": [
+            "Put on the whole armor of God, that ye may be able to stand against the wiles of the devil."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world-rulers of this darkness, against the spiritual hosts of wickedness in the heavenly places.",
+          "contents": [
+            "For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the",
+            "world-rulers of this darkness, against the spiritual",
+            {
+              "add": [
+                "hosts"
+              ],
+              "closing": "\\add*"
+            },
+            "of wickedness in the heavenly",
+            {
+              "add": [
+                "places"
+              ],
+              "closing": "\\add*"
+            },
+            "."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Wherefore take up the whole armor of God, that ye may be able to withstand in the evil day, and, having done all, to stand.",
+          "contents": [
+            "Wherefore take up the whole armor of God, that ye may be able to withstand in the evil day, and, having done all, to",
+            "stand."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Stand therefore, having girded your loins with truth, and having put on the breastplate of righteousness,",
+          "contents": [
+            "Stand therefore, having girded your loins with truth, and having put on the breastplate of righteousness,"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "and having shod your feet with the preparation of the gospel of peace;",
+          "contents": [
+            "and having shod your feet with the preparation of the gospel of peace;"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "withal taking up the shield of faith, wherewith ye shall be able to quench all the fiery darts of the evil one.",
+          "contents": [
+            "withal taking up the shield of faith, wherewith ye shall be able to quench all the fiery darts of the evil",
+            {
+              "add": [
+                "one"
+              ],
+              "closing": "\\add*"
+            },
+            "."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:",
+          "contents": [
+            "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "with all prayer and supplication praying at all seasons in the Spirit, and watching thereunto in all perseverance and supplication for all the saints,",
+          "contents": [
+            "with all prayer and supplication praying at all seasons in the Spirit, and watching thereunto in all perseverance and",
+            "supplication for all the saints,"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "and on my behalf, that utterance may be given unto me in opening my mouth, to make known with boldness the mystery of the gospel,",
+          "contents": [
+            "and on my behalf, that utterance may be given unto me in opening my mouth, to make known with boldness the mystery of the",
+            "gospel,"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "for which I am an ambassador in chains; that in it I may speak boldly, as I ought to speak.",
+          "contents": [
+            "for which I am an ambassador in chains; that in it I may speak boldly, as I ought to speak.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "But that ye also may know my affairs, how I do, Tychicus, the beloved brother and faithful minister in the Lord, shall make known to you all things:",
+          "contents": [
+            "But that ye also may know my affairs, how I do, Tychicus, the beloved brother and faithful minister in the Lord, shall",
+            "make known to you all things:"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "whom I have sent unto you for this very purpose, that ye may know our state, and that he may comfort your hearts.",
+          "contents": [
+            "whom I have sent unto you for this very purpose, that ye may know our state, and that he may comfort your hearts.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Peace be to the brethren, and love with faith, from God the Father and the Lord Jesus Christ.",
+          "contents": [
+            "Peace be to the brethren, and love with faith, from God the Father and the Lord Jesus Christ."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Grace be with all them that love our Lord Jesus Christ with a love incorruptible.",
+          "contents": [
+            "Grace be with all them that love our Lord Jesus Christ with",
+            {
+              "add": [
+                "a love"
+              ],
+              "closing": "\\add*"
+            },
+            "incorruptible."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Multiple spaces present. ",
+      "Trailing spaces present at line end. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
