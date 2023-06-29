@@ -131,9 +131,7 @@ class Bible(commands.Cog):
                     else:
                         verseNumber = str(verse["verse"])
                         verseText = verse['text']
-
                     description += f"[{verseNumber}] {verseText}\n"
-
                     async with self.config.Notes() as notes:
                         for note in notes:
                             if note["book"] == book_name:
