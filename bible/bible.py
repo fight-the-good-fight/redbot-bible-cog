@@ -428,6 +428,8 @@ def detect_translation(message: str):
                 translation = 'asv'
             case 'bsb':
                 translation = 'bsb'
+            case 'akjv':
+                translation = 'akjv'
             case 'kjv':
                 translation = 'akjv'
 
