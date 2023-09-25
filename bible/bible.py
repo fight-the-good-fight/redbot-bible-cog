@@ -570,7 +570,7 @@ books_new_testament = {
     'galatians': {'name': 'Galatians', 'order': 48},
     'ephesians': {'name': 'Ephesians','order':  49},
     'philippians': {'name': 'Philippians', 'order': 50},
-    'Colossians': {'name': 'colossians', 'order': 51},
+    'colossians': {'name': 'Colossians', 'order': 51},
     '1thessalonians': {'name': '1 Thessalonians', 'order': 52},
     '2thessalonians': {'name': '2 Thessalonians','order':  53},
     '1timothy': {'name': '1 Timothy', 'order': 54},
