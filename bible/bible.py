@@ -340,14 +340,15 @@ class Bible(commands.Cog):
 
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
-    # removed search command
+    @bible.command(name="search")
+    async def search(self, ctx: commands.Context, *, arg: str):
+        """Searches for matching text across all books (case sensitive)"""
+        await search(ctx, arg)
 
     @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case insensitive)"""
         await search(ctx, arg)
-
-    # removed isearch command
 
     @commands.command()
     @commands.is_owner()
