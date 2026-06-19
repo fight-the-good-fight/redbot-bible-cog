@@ -1,3 +1,4 @@
 Red-DiscordBot==3.5.1
 future
 pytest
+ruff
