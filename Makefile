@@ -1,4 +1,6 @@
 # Repository commands
+#
+# Redbot 3.5.1 requires Python < 3.12, so keep the local venv on 3.11.
 
 .DEFAULT_GOAL := help
 
@@ -11,7 +13,7 @@ TEST_FILE := bible/tests/bible_test.py
 LINT_TARGETS := bible
 REQ_FILE := bible/requirements.txt
 
-.PHONY: help venv install fmt lint check test clean
+.PHONY: help venv install setup fmt lint check test clean
 
 help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z0-9_.-]+:.*## / {printf "%-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -21,6 +23,8 @@ venv: ## Create the repo-local virtual environment with Python 3.11
 
 install: venv ## Install project dependencies into .venv
 	$(VENV_PIP) install -r $(REQ_FILE)
+
+setup: install ## Alias for install
 
 fmt: ## Format Python code with Ruff
 	$(RUFF) format $(LINT_TARGETS)

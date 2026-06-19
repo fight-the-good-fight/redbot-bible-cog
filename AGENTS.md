@@ -54,3 +54,14 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 - Add focused unit tests around parsing and metadata helpers when changing behavior.
 - Verify with `python -m pytest bible/tests/bible_test.py`.
 - If imports fail, confirm the environment includes Redbot/discord dependencies before changing code.
+
+## Critical Rules
+- No subagents
+- Prefer small files, targeted by category
+- When you write a file or need to modify it, edit it, do not write it from scratch
+- If you need to overwrite a file, create temporary file first, make sure it is correct then replace the target file, do not delete the real file unless these conditions are met
+- When editing a file, make sure you are not just inserting the same block multiple times by accident
+- helpers go into their own small file
+- test files import the helpers as needed
+- verification of test code AFTER the tests have been written.
+

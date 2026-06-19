@@ -49,6 +49,28 @@ Get memories for specific verse
 .memory list genesis 1:1
 ```
 
+## Local shell setup
+
+This repo is meant to use the repo-local `.venv` automatically through `direnv`.
+
+Copy/paste setup:
+
+```bash
+brew install direnv
+echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc   # or ~/.bashrc for bash
+exec $SHELL
+cd /path/to/redbot-bible-cog
+direnv allow
+make setup
+```
+
+After that, when you `cd` into the repo:
+- `python` resolves to `./.venv/bin/python`
+- `pytest` resolves to `./.venv/bin/pytest`
+- `ruff` resolves to `./.venv/bin/ruff`
+
+If you recreate `.venv`, run `make setup` again.
+
 ## Notes
 
 Runtime and source references:
