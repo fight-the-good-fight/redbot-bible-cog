@@ -14,6 +14,7 @@ from redbot.core.data_manager import bundled_data_path
 from .search_command import search
 from .search_command import isearch
 from .translations_constants import translation_names
+from .book_categories import book_categories
 
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -478,10 +479,6 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
 
 
 
-book_categories = [
-    "Old Testament",
-    "New Testament",
-]
 # ordered list of books of the bible
 books_old_testament = {
     "genesis": {"name": "Genesis", "order": 1},
