@@ -12,6 +12,7 @@ from redbot.core.data_manager import bundled_data_path
 
 
 
+from .search_command import isearch
 from .search_command import search
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -48,6 +49,12 @@ class Bible(commands.Cog):
     async def search(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case sensitive)"""
         await search(ctx, arg)
+
+
+    @bible.command(name="isearch")
+    async def isearch(self, ctx: commands.Context, *, arg: str):
+        """Searches for matching text across all books (case insensitive)"""
+        await isearch(ctx, arg)
 
 
 
