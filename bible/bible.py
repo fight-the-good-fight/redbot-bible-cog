@@ -44,6 +44,13 @@ class Bible(commands.Cog):
             embeds.append(embed)
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
+    @bible.command(name="search")
+    async def search(self, ctx: commands.Context, *, arg: str):
+        """Searches for matching text across all books (case sensitive)"""
+        await search(ctx, arg)
+
+
+
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
