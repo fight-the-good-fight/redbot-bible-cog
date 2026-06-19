@@ -13,6 +13,7 @@ from redbot.core.data_manager import bundled_data_path
 
 from .search_command import search
 from .search_command import isearch
+from .translations_constants import translation_names
 
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -29,26 +30,8 @@ class Bible(commands.Cog):
     @bible.command(name="translations")
     async def translations(self, ctx: commands.Context):
         """Displays available translations"""
-        description = ""
-        for key in translation_names:
-            name = translation_names[key]
-            description += f"** {key} ** - {name}\n"
+        await translations(ctx)
 
-        embeds = []
-        for descript in pagify(
-            description, page_length=3950, delims=["```", "\n", "\n\n", "**"]
-        ):
-            verbose_title = "Available Translations"
-            embed = discord.Embed(
-                title=verbose_title, description=descript, color=discord.Color.green()
-            )
-            embeds.append(embed)
-            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
-
-    @bible.command(name="lookup")
-    async def lookup(self, ctx: commands.Context, *, message: str):
-        """Displays a chapter for a book, or a specific verse, or a range of verses"""
-        check_path = bundled_data_path(self)
 
         try:
             translation = "akjv"
@@ -494,11 +477,6 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
     return extras
 
 
-translation_names = {
-    "akjv": "Authorized (King James) Version (AKJV)",
-    "asv": "American Standard Version - 1901 (ASV)",
-    "bsb": "Berean Study Bible",
-}
 
 book_categories = [
     "Old Testament",
