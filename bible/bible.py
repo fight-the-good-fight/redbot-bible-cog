@@ -14,7 +14,7 @@ from redbot.core.data_manager import bundled_data_path
 from .search_command import search
 from .search_command import isearch
 from .translations_constants import translation_names
-from .book_categories import book_categories
+from .book_constants import book_categories, books_old_testament, books_new_testament, books_apocrypha
 
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -480,77 +480,6 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
 
 
 # ordered list of books of the bible
-books_old_testament = {
-    "genesis": {"name": "Genesis", "order": 1},
-    "exodus": {"name": "Exodus", "order": 2},
-    "leviticus": {"name": "Leviticus", "order": 3},
-    "numbers": {"name": "Numbers", "order": 4},
-    "deuteronomy": {"name": "Deuteronomy", "order": 5},
-    "joshua": {"name": "Joshua", "order": 6},
-    "judges": {"name": "Judges", "order": 7},
-    "ruth": {"name": "Ruth", "order": 8},
-    "1samuel": {"name": "1 Samuel", "order": 9},
-    "2samuel": {"name": "2 Samuel", "order": 10},
-    "1kings": {"name": "1 Kings", "order": 11},
-    "2kings": {"name": "2 Kings", "order": 12},
-    "1chronicles": {"name": "1 Chronicles", "order": 13},
-    "2chronicles": {"name": "2 Chronicles", "order": 14},
-    "ezra": {"name": "Ezra", "order": 15},
-    "nehemiah": {"name": "Nehemiah", "order": 16},
-    "esther": {"name": "Esther", "order": 17},
-    "job": {"name": "Job", "order": 18},
-    "psalms": {"name": "Psalms", "order": 19},
-    "proverbs": {"name": "Proverbs", "order": 20},
-    "ecclesiastes": {"name": "Ecclesiastes", "order": 21},
-    "songofsolomon": {"name": "Song of Solomon", "order": 22},
-    "isaiah": {"name": "Isaiah", "order": 23},
-    "jeremiah": {"name": "Jeremiah", "order": 24},
-    "lamentations": {"name": "Lamentations", "order": 25},
-    "ezekiel": {"name": "Ezekiel", "order": 26},
-    "daniel": {"name": "Daniel", "order": 27},
-    "hosea": {"name": "Hosea", "order": 28},
-    "joel": {"name": "Joel", "order": 29},
-    "amos": {"name": "Amos", "order": 30},
-    "obadiah": {"name": "Obadiah", "order": 31},
-    "jonah": {"name": "Jonah", "order": 32},
-    "micah": {"name": "Micah", "order": 33},
-    "nahum": {"name": "Nahum", "order": 34},
-    "habakkuk": {"name": "Habakkuk", "order": 35},
-    "zephaniah": {"name": "Zephaniah", "order": 36},
-    "haggai": {"name": "Haggai", "order": 37},
-    "zechariah": {"name": "Zechariah", "order": 38},
-    "malachi": {"name": "Malachi", "order": 39},
-}
-
-books_new_testament = {
-    "matthew": {"name": "Matthew", "order": 40},
-    "mark": {"name": "Mark", "order": 41},
-    "luke": {"name": "Luke", "order": 42},
-    "john": {"name": "John", "order": 43},
-    "acts": {"name": "Acts", "order": 44},
-    "romans": {"name": "Romans", "order": 45},
-    "1corinthians": {"name": "1 Corinthians", "order": 46},
-    "2corinthians": {"name": "2 Corinthians", "order": 47},
-    "galatians": {"name": "Galatians", "order": 48},
-    "ephesians": {"name": "Ephesians", "order": 49},
-    "philippians": {"name": "Philippians", "order": 50},
-    "colossians": {"name": "Colossians", "order": 51},
-    "1thessalonians": {"name": "1 Thessalonians", "order": 52},
-    "2thessalonians": {"name": "2 Thessalonians", "order": 53},
-    "1timothy": {"name": "1 Timothy", "order": 54},
-    "2timothy": {"name": "2 Timothy", "order": 55},
-    "titus": {"name": "titus", "order": 56},
-    "philemon": {"name": "Philemon", "order": 57},
-    "hebrews": {"name": "Hebrews", "order": 58},
-    "james": {"name": "James", "order": 59},
-    "1peter": {"name": "1 Peter", "order": 60},
-    "2peter": {"name": "2 Peter", "order": 61},
-    "1john": {"name": "1 John", "order": 62},
-    "2john": {"name": "2 John", "order": 63},
-    "3john": {"name": "3 John", "order": 64},
-    "jude": {"name": "Jude", "order": 65},
-    "revelation": {"name": "Revelation", "order": 66},
-}
 
 books_apocrypha = {
     "enoch": {"name": "Enoch", "order": 67},
