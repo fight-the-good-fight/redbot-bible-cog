@@ -51,6 +51,11 @@ Get memories for specific verse
 
 ## Notes
 
+Runtime and source references:
+
+- Red-DiscordBot / Redbot base image reference: https://github.com/PhasecoreX/docker-red-discordbot
+- Bible file source: https://ebible.org/find/
+
 Notes are stored in memory like this:
 
 ```JSON
