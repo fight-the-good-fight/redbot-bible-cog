@@ -8,22 +8,12 @@ from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
 from redbot.core.utils.chat_formatting import pagify, box
 from redbot.core.data_manager import bundled_data_path
 
-from .search_command import isearch
 
 
-from .search_command import isearch
 
-
-from .search_command import isearch
-
-
-from .search_command import isearch
-
-
-from .search_command import isearch
-
-from .search_command import isearch
 from .search_command import search
+from .search_command import isearch
+
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
@@ -31,14 +21,10 @@ class Bible(commands.Cog):
         default_global = {"Notes": []}
         self.config.register_global(**default_global)
 
-from .search_command import isearch
-
     @commands.hybrid_group(name="bible")
     async def bible(self, ctx: commands.Context):
         """Searches for a verse or chapter in the bible"""
         pass
-
-from .search_command import isearch
 
     @bible.command(name="translations")
     async def translations(self, ctx: commands.Context):
@@ -47,8 +33,6 @@ from .search_command import isearch
         for key in translation_names:
             name = translation_names[key]
             description += f"** {key} ** - {name}\n"
-
-from .search_command import isearch
 
         embeds = []
         for descript in pagify(
@@ -61,37 +45,10 @@ from .search_command import isearch
             embeds.append(embed)
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
-from .search_command import isearch
-
-    @bible.command(name="search")
-    async def search(self, ctx: commands.Context, *, arg: str):
-        """Searches for matching text across all books (case sensitive)"""
-        await isearch(ctx, arg)
-
-from .search_command import isearch
-
-
-from .search_command import isearch
-
-    isearch = @bible.command(name="isearch")
-    async def isearch(ctx, arg: str):
-        """Searches for matching text across all books (case insensitive)"""
-        await isearch(ctx, arg)
-
-from .search_command import isearch
-
-
-from .search_command import isearch
-
-
-from .search_command import isearch
-
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
         check_path = bundled_data_path(self)
-
-from .search_command import isearch
 
         try:
             translation = "akjv"
@@ -102,8 +59,6 @@ from .search_command import isearch
                 detected_translation = True
                 # truncate translation from message
                 message = message.rsplit(" ", 1)[0]
-
-from .search_command import isearch
 
             res = message.rsplit(" ", 1)
             book = res[0]
@@ -120,13 +75,9 @@ from .search_command import isearch
                 )
                 return
 
-from .search_command import isearch
-
             book_filename = book_info["filename"]
             display_name = book_info["matched"]["name"]
             display_extras = book_info["extras"]
-
-from .search_command import isearch
 
             have_chapter_and_verse = False
             chapter_verse = res[1]
@@ -142,15 +93,11 @@ from .search_command import isearch
             )
             return
 
-from .search_command import isearch
-
         if have_chapter_and_verse:
             try:
                 verse_min, verse_max = verse.split("-")
                 verse_min = int(verse_min)
                 verse_max = int(verse_max)
-
-from .search_command import isearch
 
             except ValueError:
                 try:
@@ -160,12 +107,8 @@ from .search_command import isearch
                     await ctx.send("Invalid argument: verse range ", verse)
                     return
 
-from .search_command import isearch
-
         # this is the path to data, the book_filename contains the translation subpath
         path = bundled_data_path(self)
-
-from .search_command import isearch
 
         try:
             with open(os.path.join(path, book_filename)) as json_file:
@@ -177,20 +120,14 @@ from .search_command import isearch
                 display_name = book_info["matched"]["name"]
                 display_extras = " ".join(book_info["extras"])
 
-from .search_command import isearch
-
                 chapters = data["chapters"]
                 chapter = chapters[chapter - 1]
                 description = ""
-
-from .search_command import isearch
 
                 if not have_chapter_and_verse:
                     # display all verses
                     verse_min = 1
                     verse_max = len(chapter["verses"]) - 1
-
-from .search_command import isearch
 
                 # check if the range is valid
                 # TODO: extract this into a function
@@ -200,8 +137,6 @@ from .search_command import isearch
                 # except IndexError:
                 #    await ctx.send("Verse not found: ", verse)
                 #    return
-
-from .search_command import isearch
 
                 # the format between the akjv and the USFM json is different
                 usfmFormat = False
@@ -218,8 +153,6 @@ from .search_command import isearch
                     range_max = verse_max + verse_offset
                     verses = chapter.get("contents")[range_min:range_max]
                     chapterNumber = chapter.get("chapterNumber")
-
-from .search_command import isearch
 
                 for verse in verses:
                     if usfmFormat:
@@ -247,8 +180,6 @@ from .search_command import isearch
                                                 + "\n"
                                             )
 
-from .search_command import isearch
-
                 for descript in pagify(
                     description, page_length=3950, delims=["```", "\n", "\n\n", "**"]
                 ):
@@ -262,40 +193,161 @@ from .search_command import isearch
                     )
                     embeds.append(embed)
 
-from .search_command import isearch
-
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
-
-from .search_command import isearch
 
         except FileNotFoundError:
             await ctx.send("Book not found: ", book_filename)
 
-from .search_command import isearch
+    @commands.hybrid_group(name="memory")
+    async def memory(self, ctx: commands.Context):
+        """Manage for each verse or chapter of the bible"""
+        pass
 
+    @memory.command(name="add")
+    @commands.cooldown(1, 1, commands.BucketType.guild)
+    async def add(self, ctx: commands.Context, *, message: str):
+        """Adds a note to a verse or chapter"""
 
-from .search_command import isearch
+        parse_add = re.compile(r"^(.*)\s(\d+:\d+)\s(.*)")
+        book = parse_add.match(message).group(1)
+        chapter_and_verse = parse_add.match(message).group(2)
+        note = parse_add.match(message).group(3)
+        book_info = get_book_info(book)
+        if book_info is None:
+            await ctx.send("Book not found: " + book)
+            return
 
+        display_name = book_info["matched"]["name"]
 
-from .search_command import isearch
+        chapter, verse = chapter_and_verse.split(":")
+        chapter = int(chapter)
 
+        try:
+            verse = int(verse)
 
-from .search_command import isearch
+        except ValueError:
+            await ctx.send("Verse not found")
 
+        async with self.config.Notes() as notes:
+            notes_copy = notes
+            for i, note_data in enumerate(notes_copy, start=1):
+                note_data["number"] = i
+                # notes.append(note)
+            notes.append(
+                {
+                    "number": len(notes) + 1,
+                    "book": display_name,
+                    "chapter": chapter,
+                    "verse": verse,
+                    "note": note,
+                }
+            )
+        await ctx.send(
+            "Note added for " + display_name + " " + str(chapter) + ":" + str(verse)
+        )
 
-from .search_command import isearch
+    @memory.command(name="remove")
+    @commands.cooldown(1, 1, commands.BucketType.guild)
+    async def remove(self, ctx: commands.Context, number: int):
+        """Removes a note associated with a verse or chapter"""
 
+        async with self.config.Notes() as notes:
+            notes_copy = notes
 
-from .search_command import isearch
+            try:
+                notes_copy[number - 1]
+            except IndexError:
+                await ctx.send("Note not found")
+                return
 
+            for note in notes:
+                if note["number"] == number:
+                    notes.remove(note)
+                    await ctx.send("Note removed")
 
-from .search_command import isearch
+            for i, note_data in enumerate(notes_copy, start=1):
+                note_data["number"] = i
 
+    @memory.command(name="list")
+    async def list(
+        self,
+        ctx: commands.Context,
+        book: Union[str, None] = None,
+        arg: Union[str, None] = None,
+    ):
+        """Lists all notes for a verse or chapter"""
 
-from .search_command import isearch
+        description = ""
+        embeds = []
+        display_name = None
+        if book is not None:
+            book_info = get_book_info(book)
+            display_name = book_info["matched"]["name"]
 
+        if arg is not None:
+            chapter, verse = arg.split(":")
+            chapter = int(chapter) if chapter else None
+            verse = int(verse) if verse else None
+        else:
+            chapter = None
+            verse = None
 
-from .search_command import isearch
+        if display_name is None and arg is None:
+            async with self.config.Notes() as notes:
+                for note in notes:
+                    description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+
+        elif display_name is not None and arg is None:
+            async with self.config.Notes() as notes:
+                for note in notes:
+                    if note["book"] == display_name:
+                        description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+
+        elif display_name is not None and arg is not None:
+            if chapter is not None and verse is None:
+                async with self.config.Notes() as notes:
+                    for note in notes:
+                        if note["book"] == display_name and note["chapter"] == chapter:
+                            description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+            elif chapter is not None and verse is not None:
+                async with self.config.Notes() as notes:
+                    for note in notes:
+                        if (
+                            note["book"] == display_name
+                            and note["chapter"] == chapter
+                            and note["verse"] == verse
+                        ):
+                            description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+
+        if description == "":
+            await ctx.send("No notes found")
+        else:
+            PageNumber = 1
+            for descript in pagify(description, page_length=3000, delims=["\n\n"]):
+                embed = discord.Embed(
+                    title="Notes", description=descript, color=discord.Color.green()
+                )
+                embed.set_footer(
+                    text="Page: {} / {}".format(
+                        PageNumber,
+                        len(
+                            list(pagify(description, page_length=3000, delims=["\n\n"]))
+                        ),
+                    )
+                )
+                embeds.append(embed)
+                PageNumber += 1
+
+            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
+
+    # removed search command
+
+    @bible.command(name="isearch")
+    async def isearch(self, ctx: commands.Context, *, arg: str):
+        """Searches for matching text across all books (case insensitive)"""
+        await search(ctx, arg)
+
+    # removed isearch command
 
     @commands.command()
     @commands.is_owner()
@@ -304,14 +356,10 @@ from .search_command import isearch
         await self.config.clear_all()
         await ctx.send("All Notes removed")
 
-from .search_command import isearch
-
     @commands.Cog.listener()
     async def on_command_error(self, ctx: commands.Context, error: Exception):
         if isinstance(error, commands.CommandNotFound):
             return  # Ignore CommandNotFound errors
-
-from .search_command import isearch
 
         if isinstance(error, (AttributeError, ValueError)):
             await ctx.send(
@@ -323,10 +371,6 @@ from .search_command import isearch
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def get_book_extras_from_json(path: str, data, translation: str = "akjv"):
     book_name = data["book"]
@@ -343,14 +387,8 @@ def get_book_extras_from_json(path: str, data, translation: str = "akjv"):
                 display_extras = [data["book"]["description"]]
                 # display_extras = data['book']['meta'][0]['h'] + data['book']['description']
 
-from .search_command import isearch
-
     return display_extras
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def get_verse_offset(content):
     offset = 0
@@ -359,14 +397,8 @@ def get_verse_offset(content):
             return offset
         offset += 1
 
-from .search_command import isearch
-
     return offset
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def detect_translation(message: str):
     translation = None
@@ -383,24 +415,14 @@ def detect_translation(message: str):
             case "kjv":
                 translation = "akjv"
 
-from .search_command import isearch
-
     return translation
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def has_translation(message: str):
     if detect_translation(message) is not None:
         return True
     return False
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def match_book(book: str):
     # search OT
@@ -417,10 +439,6 @@ def match_book(book: str):
             return books_apocrypha[key]
     return None
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def fix_book_name(book: str):
     book_name = book.strip()
@@ -437,10 +455,6 @@ def fix_book_name(book: str):
             book_name = "songofsolomon"
     return book_name
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 #
 # Returns
@@ -450,10 +464,6 @@ from .search_command import isearch
 # - the name of the translation or collection of books
 #
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def get_book_info(book: str, translation: str = "akjv"):
     book_name = book.strip()
@@ -472,10 +482,6 @@ def get_book_info(book: str, translation: str = "akjv"):
         }
     return None
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 def get_book_extras(matched_book: dict, translation: str = "akjv"):
     extras = []
@@ -486,18 +492,12 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
         extras.append("Apocrypha")
     return extras
 
-from .search_command import isearch
-
-
-from .search_command import isearch
 
 translation_names = {
     "akjv": "Authorized (King James) Version (AKJV)",
     "asv": "American Standard Version - 1901 (ASV)",
     "bsb": "Berean Study Bible",
 }
-
-from .search_command import isearch
 
 book_categories = [
     "Old Testament",
@@ -546,8 +546,6 @@ books_old_testament = {
     "malachi": {"name": "Malachi", "order": 39},
 }
 
-from .search_command import isearch
-
 books_new_testament = {
     "matthew": {"name": "Matthew", "order": 40},
     "mark": {"name": "Mark", "order": 41},
@@ -577,8 +575,6 @@ books_new_testament = {
     "jude": {"name": "Jude", "order": 65},
     "revelation": {"name": "Revelation", "order": 66},
 }
-
-from .search_command import isearch
 
 books_apocrypha = {
     "enoch": {"name": "Enoch", "order": 67},
