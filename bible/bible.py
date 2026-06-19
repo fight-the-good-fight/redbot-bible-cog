@@ -481,6 +481,3 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
 
 # ordered list of books of the bible
 
-books_apocrypha = {
-    "enoch": {"name": "Enoch", "order": 67},
-}
