@@ -9,7 +9,7 @@ VENV ?= .venv
 VENV_PYTHON := $(VENV)/bin/python
 VENV_PIP := $(VENV)/bin/pip
 RUFF := $(VENV)/bin/ruff
-TEST_FILE := bible/tests/bible_test.py
+TEST_DIR := bible/tests
 PYTEST_COV_ARGS := --cov=bible --cov-report=term-missing
 LINT_TARGETS := bible
 REQ_FILE := bible/requirements.txt
@@ -36,7 +36,7 @@ lint: ## Lint Python code with Ruff
 check: lint test ## Run lint and tests
 
 test: ## Run the test suite from the repo root
-	$(VENV_PYTHON) -m pytest $(TEST_FILE) $(PYTEST_COV_ARGS)
+	$(VENV_PYTHON) -m pytest $(TEST_DIR) $(PYTEST_COV_ARGS)
 
 coverage: test ## Run tests with coverage output
 
