@@ -8,6 +8,8 @@ from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
 from redbot.core.utils.chat_formatting import pagify, box
 from redbot.core.data_manager import bundled_data_path
 
+from bible.translations_command import translations
+
 
 
 
@@ -332,7 +334,7 @@ class Bible(commands.Cog):
     @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case insensitive)"""
-        await search(ctx, arg)
+        await isearch(ctx, arg)
 
     @commands.command()
     @commands.is_owner()
@@ -480,4 +482,3 @@ def get_book_extras(matched_book: dict, translation: str = "akjv"):
 
 
 # ordered list of books of the bible
-
