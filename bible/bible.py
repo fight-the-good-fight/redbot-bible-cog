@@ -70,9 +70,10 @@ class Bible(commands.Cog):
         await isearch_command(ctx, arg)
 
     @commands.command()
-    @commands.is_owner()
-    async def removeallnotes(self, ctx: commands.Context):
+    async def removeallnotes(self, ctx: commands.Context) -> None:
         """Clears all notes"""
+        if not await self.bot.is_owner(ctx.author):
+            return
         await self.config.clear_all()
         await ctx.send("All Notes removed")
 
