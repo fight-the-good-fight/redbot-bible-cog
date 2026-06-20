@@ -1,3 +1,4 @@
 __pycache__
 .vscode
 .venv
+mcp_docker.log
