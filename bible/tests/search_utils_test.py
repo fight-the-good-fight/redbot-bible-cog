@@ -38,6 +38,7 @@ def test_get_verse_offset():
 
 def test_get_book_info_smoke():
     book_info = get_book_info("Genesis")
+    assert book_info is not None
     assert book_info["book"] == "genesis"
     assert book_info["filename"] == "akjv/genesis.json"
     assert book_info["matched"]["name"] == "Genesis"
@@ -46,6 +47,7 @@ def test_get_book_info_smoke():
 def test_get_book_extras_from_json_smoke():
     data_dir = Path(__file__).resolve().parents[1] / "data"
     book_info = get_book_info("exodus")
+    assert book_info is not None
 
     extras = get_book_extras_from_json(str(data_dir), book_info, "akjv")
 

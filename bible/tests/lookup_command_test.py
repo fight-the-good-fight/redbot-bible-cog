@@ -1,16 +1,21 @@
+from typing import Any, cast
+
 import asyncio
 import json
-from pathlib import Path
 from types import SimpleNamespace
 
 from bible.bible import Bible
+
+
+def _make_cog():
+    return cast(Bible, Bible.__new__(Bible))
 
 
 class _EmptyNotes:
     async def __aenter__(self):
         return []
 
-    async def __aexit__(self, exc_type, exc, tb):
+    async def __aexit__(self, *_):
         return False
 
 
@@ -24,15 +29,15 @@ def test_lookup_command_delegates(monkeypatch):
 
     calls = []
 
-    async def fake_lookup(cog, ctx, message):
-        calls.append((cog, ctx, message))
+    async def fake_lookup(_cog, _ctx, message):
+        calls.append(message)
 
     monkeypatch.setattr(bible_module, "lookup_command", fake_lookup, raising=False)
-    monkeypatch.setattr(bible_module, "has_translation", lambda message: False)
+    monkeypatch.setattr(bible_module, "has_translation", lambda _message: False)
     monkeypatch.setattr(
         bible_module,
         "get_book_info",
-        lambda book, translation="akjv": {
+        lambda book, _translation="akjv": {
             "book": "genesis",
             "filename": "akjv/genesis.json",
             "extras": ["Authorized (King James) Version (AKJV)"],
@@ -40,13 +45,17 @@ def test_lookup_command_delegates(monkeypatch):
         },
     )
 
-    cog = Bible(SimpleNamespace())
-    cog.config = _Config()
-    ctx = SimpleNamespace(send=lambda *args, **kwargs: None)
+    cog = _make_cog()
+    object.__setattr__(cog, "config", _Config())
+
+    def _send(*_args, **_kwargs):
+        return None
+
+    ctx = SimpleNamespace(send=_send)
 
     asyncio.run(Bible.__dict__["lookup"].callback(cog, ctx, message="Genesis 1:1"))
 
-    assert calls == [(cog, ctx, "Genesis 1:1")]
+    assert calls == ["Genesis 1:1"]
 
 
 def test_lookup_command_smoke(monkeypatch, tmp_path):
@@ -73,17 +82,19 @@ def test_lookup_command_smoke(monkeypatch, tmp_path):
 
     captures = {}
 
-    async def fake_menu(ctx, embeds, controls=None, timeout=None):
-        captures["ctx"] = ctx
+    async def fake_menu(_ctx, embeds, controls=None, timeout=None):
         captures["embeds"] = embeds
         captures["controls"] = controls
         captures["timeout"] = timeout
 
     monkeypatch.setattr(lookup_module, "menu", fake_menu)
-    monkeypatch.setattr(lookup_module, "bundled_data_path", lambda cog: str(tmp_path))
+    monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
+
+    def _send(*_args, **_kwargs):
+        return None
 
     cog = SimpleNamespace(config=_Config())
-    ctx = SimpleNamespace(send=lambda *args, **kwargs: None)
+    ctx = SimpleNamespace(send=_send)
 
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
 
