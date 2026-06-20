@@ -22,8 +22,10 @@ async def lookup(cog, ctx, message: str):
         translation = 'akjv'
         detected_translation = False
         if has_translation(message):
-            translation = detect_translation(message)
             detected_translation = True
+            detected = detect_translation(message)
+            if detected is not None:
+                translation = detected
             message = message.rsplit(' ', 1)[0]
 
         res = message.rsplit(' ', 1)
@@ -53,7 +55,7 @@ async def lookup(cog, ctx, message: str):
         else:
             chapter = int(chapter_verse)
     except Exception:
-        await ctx.send('Invalid argument: message ' + message + ' check_path ' + check_path)
+        await ctx.send('Invalid argument: message ' + message + ' check_path ' + str(check_path))
         return
 
     if have_chapter_and_verse:
@@ -66,7 +68,7 @@ async def lookup(cog, ctx, message: str):
                 verse_min = int(verse)
                 verse_max = int(verse)
             except ValueError:
-                await ctx.send('Invalid argument: verse range ', verse)
+                await ctx.send('Invalid argument: verse range ' + verse)
                 return
 
     path = bundled_data_path(cog)
@@ -123,4 +125,4 @@ async def lookup(cog, ctx, message: str):
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
     except FileNotFoundError:
-        await ctx.send('Book not found: ', book_filename)
+        await ctx.send('Book not found: ' + book_filename)
