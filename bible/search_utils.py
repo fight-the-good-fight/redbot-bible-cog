@@ -42,8 +42,9 @@ def get_verse_offset(content):
 def detect_translation(message: str):
     translation = None
     parse_translation = re.compile(r'\s(\w+)$')
-    if parse_translation.search(message) is not None:
-        check_translation = parse_translation.search(message)[1]
+    matched = parse_translation.search(message)
+    if matched is not None:
+        check_translation = matched[1]
         match check_translation.lower():
             case 'asv':
                 translation = 'asv'
