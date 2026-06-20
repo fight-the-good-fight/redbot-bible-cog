@@ -13,6 +13,7 @@ from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 from bible.translations_command import translations as translations_command
 from bible.search_command import isearch as isearch_command
 from bible.search_command import search as search_command
+from bible.lookup_command import lookup as lookup_command
 from bible.search_utils import has_translation, detect_translation, get_book_info, get_verse_offset
 
 class Bible(commands.Cog):
@@ -37,132 +38,7 @@ class Bible(commands.Cog):
     @bible.command(name="lookup")
     async def lookup(self, ctx: commands.Context, *, message: str):
         """Displays a chapter for a book, or a specific verse, or a range of verses"""
-        check_path = bundled_data_path(self)
-
-        try:
-            translation = 'akjv'
-            detected_translation = False
-            # detect if the message ends with a specific translation
-            if has_translation(message):
-                translation = detect_translation(message)
-                detected_translation = True
-                # truncate translation from message
-                message = message.rsplit(' ', 1)[0]
-
-            res = message.rsplit(' ', 1)
-            book = res[0]
-            # format and map books to filename
-            book_info = get_book_info(book, translation)
-            if book_info is None:
-                await ctx.send("Invalid argument: message " + message + " book: " + book + " detected: " + str(detected_translation))
-                return
-
-            book_filename = book_info['filename']
-            display_name = book_info['matched']['name']
-            display_extras = book_info['extras']
-
-            have_chapter_and_verse = False
-            chapter_verse = res[1]
-            if (':' in chapter_verse):
-                chapter, verse = chapter_verse.split(':')
-                chapter = int(chapter)
-                have_chapter_and_verse = True
-            else:
-                chapter = int(chapter_verse)
-        except:
-            await ctx.send("Invalid argument: message " + message + " check_path " + check_path)
-            return
-
-        if have_chapter_and_verse:
-            try:
-                verse_min, verse_max = verse.split('-')
-                verse_min = int(verse_min)
-                verse_max = int(verse_max)
-
-            except:
-                try:
-                    verse_min = int(verse)
-                    verse_max = int(verse)
-                except ValueError:
-                    await ctx.send("Invalid argument: verse range ", verse)
-                    return
-
-        # this is the path to data, the book_filename contains the translation subpath
-        path = bundled_data_path(self)
-
-        try:
-            with open(os.path.join(path, book_filename)) as json_file:
-                data = json.load(json_file)
-                embeds = []
-                #book_name = get_book_name_from_json(data)
-                book_name = book_info['book']
-                #book_info = get_book_info(book)
-                display_name = book_info['matched']['name']
-                display_extras = ' '.join(book_info['extras'])
-
-                chapters = data["chapters"]
-                chapter = chapters[chapter-1]
-                description = ""
-
-                if not have_chapter_and_verse:
-                    # display all verses
-                    verse_min = 1
-                    verse_max = len(chapter["verses"]) - 1
-
-                # check if the range is valid
-                # TODO: extract this into a function
-                #try:
-                #    if 'verses' in chapter:
-                #        chapter.get("verses")[verse_min-1:verse_max]
-                #except IndexError:
-                #    await ctx.send("Verse not found: ", verse)
-                #    return
-
-                # the format between the akjv and the USFM json is different
-                usfmFormat = False
-                if 'verses' in chapter:
-                    # non-usfm formatted file
-                    verses = chapter.get("verses")[verse_min-1:verse_max]
-                    chapterNumber = str(chapter["chapter"])
-                if 'contents' in chapter:
-                    usfmFormat = True
-                    # find the first index where verseNumber exists,
-                    # (each chapter can vary on beginning content)
-                    verse_offset = get_verse_offset(chapter.get("contents"))
-                    range_min = verse_min + verse_offset - 1
-                    range_max = verse_max + verse_offset
-                    verses = chapter.get("contents")[range_min:range_max]
-                    chapterNumber = chapter.get("chapterNumber")
-
-                for verse in verses:
-                    if usfmFormat:
-                        #description += "verse json:" + json.dumps(verse) + "\n"
-                        verseNumber = verse.get('verseNumber')
-                        verseText = verse.get('verseText')
-                    else:
-                        verseNumber = str(verse["verse"])
-                        verseText = verse['text']
-                    description += f"[{verseNumber}] {verseText}\n"
-                    if translation == 'akjv':
-                        async with self.config.Notes() as notes:
-                            for note in notes:
-                                if note["book"].lower() == book_name:
-                                    # Compare with chapter index
-                                    if str(note["chapter"]) == chapterNumber:
-                                        if str(note["verse"]) == verseNumber:
-                                            description += str(box(text="- " +
-                                                        note["note"], lang="diff")) + "\n"
-
-                for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
-                    verbose_title = display_name + " " + chapter_verse + " - " + display_extras
-                    embed = discord.Embed(
-                        title=verbose_title, description=descript, color=discord.Color.green())
-                    embeds.append(embed)
-
-                await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
-
-        except FileNotFoundError:
-            await ctx.send("Book not found: ", book_filename)
+        await lookup_command(self, ctx, message)
 
     @commands.hybrid_group(name="memory")
     async def memory(self, ctx: commands.Context):
