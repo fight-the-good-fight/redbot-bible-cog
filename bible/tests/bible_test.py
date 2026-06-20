@@ -23,6 +23,40 @@ def test_translations_command_delegates(monkeypatch):
     assert calls == [ctx]
 
 
+def test_search_command_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_search(ctx, arg):
+        calls.append((ctx, arg))
+
+    monkeypatch.setattr(bible_module, "search_command", fake_search)
+
+    ctx = SimpleNamespace(cog=SimpleNamespace())
+
+    asyncio.run(Bible.__dict__["search"].callback(Bible(SimpleNamespace()), ctx, arg="Genesis"))
+
+    assert calls == [(ctx, "Genesis")]
+
+
+def test_isearch_command_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_isearch(ctx, arg):
+        calls.append((ctx, arg))
+
+    monkeypatch.setattr(bible_module, "isearch_command", fake_isearch)
+
+    ctx = SimpleNamespace(cog=SimpleNamespace())
+
+    asyncio.run(Bible.__dict__["isearch"].callback(Bible(SimpleNamespace()), ctx, arg="Genesis"))
+
+    assert calls == [(ctx, "Genesis")]
+
+
 def test_get_book_info():
     book_info = get_book_info("Genesis")
     assert book_info["book"] == "genesis"

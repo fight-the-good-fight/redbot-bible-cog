@@ -11,6 +11,8 @@ from redbot.core.utils.chat_formatting import box, pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
 from bible.translations_command import translations as translations_command
+from bible.search_command import isearch as isearch_command
+from bible.search_command import search as search_command
 from bible.translations_constants import translation_names
 from bible.book_constants import (
     books_apocrypha,
@@ -288,85 +290,12 @@ class Bible(commands.Cog):
     @bible.command(name="search")
     async def search(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case sensitive)"""
-
-        # remove leading and ending quotes
-        arg = re.sub(r'^"|"$', '', arg)
-
-        translation = 'akjv'
-        folder_path = os.path.join(bundled_data_path(self), translation)
-        description = ""
-        embeds = []
-
-        for filename in os.listdir(folder_path):
-            with open(os.path.join(folder_path, filename), "r") as file:
-                data = json.load(file)
-                book_name = data["book"]
-                chapters = data["chapters"]
-                for chapter in chapters:
-                    chapter_num = chapter["chapter"]
-                    verses = chapter["verses"]
-                    for verse in verses:
-                        verse_num = verse["verse"]
-                        verse_text = verse["text"]
-                        matched = re.search("\\b(" + arg + ")\\b", verse_text)
-                        if matched is not None:
-                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
-
-        if description == "":
-            await ctx.send("No matches found")
-        else:
-            PageNumber = 1
-            for descript in pagify(description, page_length=3950, delims=["\n\n"]):
-                embed = discord.Embed(
-                    title="Search", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
-                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
-                embeds.append(embed)
-                PageNumber += 1
-
-            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
+        await search_command(ctx, arg)
 
     @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case insensitive)"""
-
-        # remove leading and ending quotes
-        arg = re.sub(r'^"|"$', '', arg)
-
-        translation = 'akjv'
-        folder_path = os.path.join(bundled_data_path(self), translation)
-        description = ""
-        embeds = []
-
-        for filename in os.listdir(folder_path):
-            with open(os.path.join(folder_path, filename), "r") as file:
-                data = json.load(file)
-                book_name = data["book"]
-                chapters = data["chapters"]
-                for chapter in chapters:
-                    chapter_num = chapter["chapter"]
-                    verses = chapter["verses"]
-                    for verse in verses:
-                        verse_num = verse["verse"]
-                        verse_text = verse["text"]
-                        matched = re.search(
-                            "\\b(" + arg.lower() + ")\\b", verse_text.lower())
-                        if matched is not None:
-                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
-
-        if description == "":
-            await ctx.send("No matches found")
-        else:
-            PageNumber = 1
-            for descript in pagify(description, page_length=3950, delims=["\n\n"]):
-                embed = discord.Embed(
-                    title="Search: Case Insensitive", description=descript, color=discord.Color.green())
-                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
-                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
-                embeds.append(embed)
-                PageNumber += 1
-
-            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
+        await isearch_command(ctx, arg)
 
     @commands.command()
     @commands.is_owner()
