@@ -39,7 +39,6 @@ def test_lookup_command_delegates(monkeypatch):
             "matched": {"name": "Genesis"},
         },
     )
-    monkeypatch.setattr(bible_module, "bundled_data_path", lambda self: str(Path(__file__).resolve().parents[1] / "data"))
 
     cog = Bible(SimpleNamespace())
     cog.config = _Config()

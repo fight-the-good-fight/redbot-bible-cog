@@ -1,34 +1,34 @@
 import re
+from typing import Union
+
 import discord
-import bible
-from typing import Optional, Union
-from discord.ext import commands
-from discord.ext.commands import Cog
-from discord import utils
-from bible import Config, get_book_info, pagify
+from builtins import list as builtin_list
+from redbot.core.utils.chat_formatting import pagify
+from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
+
+from bible.search_utils import get_book_info
+
+def _renumber_notes(notes):
+    for i, note_data in enumerate(notes, start=1):
+        note_data["number"] = i
 
 
-async def add(
-    ctx: commands.Context, *, message: str
-) -> Optional[discord.Message]:
-    """Adds a note to a verse or chapter."""
+async def add(cog, ctx, *, message: str) -> None:
+    """Adds a note to a verse or chapter"""
 
     parse_add = re.compile(r"^(.*)\s(\d+:\d+)\s(.*)")
-    match = parse_add.match(message)
-    if not match:
-        await ctx.send(
-            "Please use the format: **Book** **chapter:verse** Note"
-        )
-        return None
+    parsed = parse_add.match(message)
+    if parsed is None:
+        await ctx.send("Invalid argument: " + message)
+        return
 
-    book = match.group(1)
-    chapter_and_verse = match.group(2)
-    note = match.group(3)
-
-    book_info = Bible.get_book_info(book)
+    book = parsed.group(1)
+    chapter_and_verse = parsed.group(2)
+    note = parsed.group(3)
+    book_info = get_book_info(book)
     if book_info is None:
         await ctx.send("Book not found: " + book)
-        return None
+        return
 
     display_name = book_info["matched"]["name"]
 
@@ -39,12 +39,10 @@ async def add(
         verse = int(verse)
     except ValueError:
         await ctx.send("Verse not found")
-        return None
+        return
 
-    async with bible.Config.Notes() as notes:
-        notes_copy = notes
-        for i, note_data in enumerate(notes_copy, start=1):
-            note_data["number"] = i
+    async with cog.config.Notes() as notes:
+        _renumber_notes(notes)
         notes.append(
             {
                 "number": len(notes) + 1,
@@ -54,51 +52,43 @@ async def add(
                 "note": note,
             }
         )
-    await ctx.send(
-        "Note added for " + display_name + " " + str(chapter) + ":" + str(verse)
-    )
-    return None
+    await ctx.send("Note added for " + display_name + " " + str(chapter) + ":" + str(verse))
 
 
-async def remove(ctx: commands.Context, number: int) -> Optional[discord.Message]:
-    """Removes a note associated with a verse or chapter."""
+async def remove(cog, ctx, number: int) -> None:
+    """Removes a note associated with a verse or chapter"""
 
-    async with bible.Config.Notes() as notes:
+    async with cog.config.Notes() as notes:
         notes_copy = notes
 
         try:
             notes_copy[number - 1]
         except IndexError:
             await ctx.send("Note not found")
-            return None
+            return
 
         for note in notes:
             if note["number"] == number:
                 notes.remove(note)
                 await ctx.send("Note removed")
+                break
 
-        for i, note_data in enumerate(notes_copy, start=1):
-            note_data["number"] = i
-    return None
+        _renumber_notes(notes_copy)
 
 
-async def list_command(
-    ctx: commands.Context,
-    book: Optional[str] = None,
-    arg: Optional[str] = None,
-) -> Optional[discord.Message]:
-    """Lists all notes for a verse or chapter."""
+async def list(cog, ctx, book: Union[str, None] = None, arg: Union[str, None] = None) -> None:
+    """Lists all notes for a verse or chapter"""
 
     description = ""
+    embeds = []
     display_name = None
 
-    notes = bible.Config.Notes()
-    notes_copy = notes
-
-    if book:
-        book_info = Bible.get_book_info(book)
-        if book_info:
-            display_name = book_info["matched"]["name"]
+    if book is not None:
+        book_info = get_book_info(book)
+        if book_info is None:
+            await ctx.send("Book not found: " + book)
+            return
+        display_name = book_info["matched"]["name"]
 
     if arg is not None:
         chapter, verse = arg.split(":")
@@ -109,45 +99,45 @@ async def list_command(
         verse = None
 
     if display_name is None and arg is None:
-        async with bible.Config.Notes() as notes:
+        async with cog.config.Notes() as notes:
             for note in notes:
-                description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
-
-    elif display_name is not None and arg is None:
-        async with bible.Config.Notes() as notes:
+                description += (
+                    f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
+                    f"```diff\n- {note['note']}\n```\n\n"
+                )
+    else:
+        async with cog.config.Notes() as notes:
             for note in notes:
-                if note["book"] == display_name:
-                    description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
-
-    elif display_name is not None and arg is not None:
-        if chapter is not None and verse is None:
-            async with bible.Config.Notes() as notes:
-                for note in notes:
-                    if note["book"] == display_name and note["chapter"] == chapter:
-                        description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
-        elif chapter is not None and verse is not None:
-            async with bible.Config.Notes() as notes:
-                for note in notes:
-                    if (
-                        note["book"] == display_name
-                        and note["chapter"] == chapter
-                        and note["verse"] == verse
-                    ):
-                        description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
+                if display_name is not None and note["book"] != display_name:
+                    continue
+                if chapter is not None and note["chapter"] != chapter:
+                    continue
+                if verse is not None and note["verse"] != verse:
+                    continue
+                description += (
+                    f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
+                    f"```diff\n- {note['note']}\n```\n\n"
+                )
 
     if description == "":
-        await ctx.send("No notes found.")
-        return None
+        await ctx.send("No notes found")
+    else:
+        PageNumber = 1
+        for descript in pagify(description, page_length=3950, delims=["\n\n"]):
+            embed = discord.Embed(
+                title="Memory", description=descript, color=discord.Color.green()
+            )
+            embed.set_footer(
+                text="Page: {} / {}".format(
+                    PageNumber,
+                    len(
+                        builtin_list(
+                            pagify(description, page_length=3900, delims=["\n\n"])
+                        )
+                    ),
+                )
+            )
+            embeds.append(embed)
+            PageNumber += 1
 
-    pages = discord.utils.pagify(description, page_length=3900, delims=["\n\n"])
-    page_num = 1
-    for page_content in pages:
-        embed = discord.Embed(
-            title="Notes" + (f" — {display_name}" if display_name else ""),
-            description=page_content,
-            color=discord.Color.green(),
-        )
-        embed.set_footer(text=f"Page {page_num}/{len(pages)}")
-        await ctx.send(embed=embed)
-        page_num += 1
-    return None
+        await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
