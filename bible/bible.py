@@ -1,28 +1,31 @@
-import discord
-import os
-import json
-import re
-from redbot.core import commands, Config
 from typing import Union
-from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
-from redbot.core.utils.chat_formatting import pagify, box
+
+import discord
+import json
+import os
+import re
+
+from redbot.core import Config, app_commands, commands
 from redbot.core.data_manager import bundled_data_path
+from redbot.core.utils.chat_formatting import box, pagify
+from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
-from bible.translations_command import translations
+from bible.translations_command import translations as translations_command
+from bible.translations_constants import translation_names
+from bible.book_constants import (
+    books_apocrypha,
+    books_new_testament,
+    books_old_testament,
+)
 
-
-
-
-from .search_command import search
-from .search_command import isearch
-from .translations_constants import translation_names
-from .book_constants import book_categories, books_old_testament, books_new_testament, books_apocrypha
 
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.config = Config.get_conf(self, identifier=718395193090375700)
-        default_global = {"Notes": []}
+        default_global = {
+            "Notes": []
+        }
         self.config.register_global(**default_global)
 
     @commands.hybrid_group(name="bible")
@@ -33,59 +36,54 @@ class Bible(commands.Cog):
     @bible.command(name="translations")
     async def translations(self, ctx: commands.Context):
         """Displays available translations"""
-        await translations(ctx)
+        await translations_command(ctx)
 
+    @bible.command(name="lookup")
+    async def lookup(self, ctx: commands.Context, *, message: str):
+        """Displays a chapter for a book, or a specific verse, or a range of verses"""
+        check_path = bundled_data_path(self)
 
         try:
-            translation = "akjv"
+            translation = 'akjv'
             detected_translation = False
             # detect if the message ends with a specific translation
             if has_translation(message):
                 translation = detect_translation(message)
                 detected_translation = True
                 # truncate translation from message
-                message = message.rsplit(" ", 1)[0]
+                message = message.rsplit(' ', 1)[0]
 
-            res = message.rsplit(" ", 1)
+            res = message.rsplit(' ', 1)
             book = res[0]
             # format and map books to filename
             book_info = get_book_info(book, translation)
             if book_info is None:
-                await ctx.send(
-                    "Invalid argument: message "
-                    + message
-                    + " book: "
-                    + book
-                    + " detected: "
-                    + str(detected_translation)
-                )
+                await ctx.send("Invalid argument: message " + message + " book: " + book + " detected: " + str(detected_translation))
                 return
 
-            book_filename = book_info["filename"]
-            display_name = book_info["matched"]["name"]
-            display_extras = book_info["extras"]
+            book_filename = book_info['filename']
+            display_name = book_info['matched']['name']
+            display_extras = book_info['extras']
 
             have_chapter_and_verse = False
             chapter_verse = res[1]
-            if ":" in chapter_verse:
-                chapter, verse = chapter_verse.split(":")
+            if (':' in chapter_verse):
+                chapter, verse = chapter_verse.split(':')
                 chapter = int(chapter)
                 have_chapter_and_verse = True
             else:
                 chapter = int(chapter_verse)
-        except ValueError:
-            await ctx.send(
-                "Invalid argument: message " + message + " check_path " + check_path
-            )
+        except:
+            await ctx.send("Invalid argument: message " + message + " check_path " + check_path)
             return
 
         if have_chapter_and_verse:
             try:
-                verse_min, verse_max = verse.split("-")
+                verse_min, verse_max = verse.split('-')
                 verse_min = int(verse_min)
                 verse_max = int(verse_max)
 
-            except ValueError:
+            except:
                 try:
                     verse_min = int(verse)
                     verse_max = int(verse)
@@ -100,14 +98,14 @@ class Bible(commands.Cog):
             with open(os.path.join(path, book_filename)) as json_file:
                 data = json.load(json_file)
                 embeds = []
-                # book_name = get_book_name_from_json(data)
-                book_name = book_info["book"]
-                # book_info = get_book_info(book)
-                display_name = book_info["matched"]["name"]
-                display_extras = " ".join(book_info["extras"])
+                #book_name = get_book_name_from_json(data)
+                book_name = book_info['book']
+                #book_info = get_book_info(book)
+                display_name = book_info['matched']['name']
+                display_extras = ' '.join(book_info['extras'])
 
                 chapters = data["chapters"]
-                chapter = chapters[chapter - 1]
+                chapter = chapters[chapter-1]
                 description = ""
 
                 if not have_chapter_and_verse:
@@ -117,20 +115,20 @@ class Bible(commands.Cog):
 
                 # check if the range is valid
                 # TODO: extract this into a function
-                # try:
+                #try:
                 #    if 'verses' in chapter:
                 #        chapter.get("verses")[verse_min-1:verse_max]
-                # except IndexError:
+                #except IndexError:
                 #    await ctx.send("Verse not found: ", verse)
                 #    return
 
                 # the format between the akjv and the USFM json is different
                 usfmFormat = False
-                if "verses" in chapter:
+                if 'verses' in chapter:
                     # non-usfm formatted file
-                    verses = chapter.get("verses")[verse_min - 1 : verse_max]
+                    verses = chapter.get("verses")[verse_min-1:verse_max]
                     chapterNumber = str(chapter["chapter"])
-                if "contents" in chapter:
+                if 'contents' in chapter:
                     usfmFormat = True
                     # find the first index where verseNumber exists,
                     # (each chapter can vary on beginning content)
@@ -142,41 +140,27 @@ class Bible(commands.Cog):
 
                 for verse in verses:
                     if usfmFormat:
-                        # description += "verse json:" + json.dumps(verse) + "\n"
-                        verseNumber = verse.get("verseNumber")
-                        verseText = verse.get("verseText")
+                        #description += "verse json:" + json.dumps(verse) + "\n"
+                        verseNumber = verse.get('verseNumber')
+                        verseText = verse.get('verseText')
                     else:
                         verseNumber = str(verse["verse"])
-                        verseText = verse["text"]
+                        verseText = verse['text']
                     description += f"[{verseNumber}] {verseText}\n"
-                    if translation == "akjv":
+                    if translation == 'akjv':
                         async with self.config.Notes() as notes:
                             for note in notes:
                                 if note["book"].lower() == book_name:
                                     # Compare with chapter index
                                     if str(note["chapter"]) == chapterNumber:
                                         if str(note["verse"]) == verseNumber:
-                                            description += (
-                                                str(
-                                                    box(
-                                                        text="- " + note["note"],
-                                                        lang="diff",
-                                                    )
-                                                )
-                                                + "\n"
-                                            )
+                                            description += str(box(text="- " +
+                                                        note["note"], lang="diff")) + "\n"
 
-                for descript in pagify(
-                    description, page_length=3950, delims=["```", "\n", "\n\n", "**"]
-                ):
-                    verbose_title = (
-                        display_name + " " + chapter_verse + " - " + display_extras
-                    )
+                for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
+                    verbose_title = display_name + " " + chapter_verse + " - " + display_extras
                     embed = discord.Embed(
-                        title=verbose_title,
-                        description=descript,
-                        color=discord.Color.green(),
-                    )
+                        title=verbose_title, description=descript, color=discord.Color.green())
                     embeds.append(embed)
 
                 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
@@ -203,9 +187,9 @@ class Bible(commands.Cog):
             await ctx.send("Book not found: " + book)
             return
 
-        display_name = book_info["matched"]["name"]
+        display_name = book_info['matched']['name']
 
-        chapter, verse = chapter_and_verse.split(":")
+        chapter, verse = chapter_and_verse.split(':')
         chapter = int(chapter)
 
         try:
@@ -219,18 +203,9 @@ class Bible(commands.Cog):
             for i, note_data in enumerate(notes_copy, start=1):
                 note_data["number"] = i
                 # notes.append(note)
-            notes.append(
-                {
-                    "number": len(notes) + 1,
-                    "book": display_name,
-                    "chapter": chapter,
-                    "verse": verse,
-                    "note": note,
-                }
-            )
-        await ctx.send(
-            "Note added for " + display_name + " " + str(chapter) + ":" + str(verse)
-        )
+            notes.append({"number": len(notes)+1, "book": display_name,
+                        "chapter": chapter, "verse": verse, "note": note})
+        await ctx.send("Note added for " + display_name + " " + str(chapter) + ":" + str(verse))
 
     @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
@@ -241,7 +216,7 @@ class Bible(commands.Cog):
             notes_copy = notes
 
             try:
-                notes_copy[number - 1]
+                notes_copy[number-1]
             except IndexError:
                 await ctx.send("Note not found")
                 return
@@ -255,12 +230,7 @@ class Bible(commands.Cog):
                 note_data["number"] = i
 
     @memory.command(name="list")
-    async def list(
-        self,
-        ctx: commands.Context,
-        book: Union[str, None] = None,
-        arg: Union[str, None] = None,
-    ):
+    async def list(self, ctx: commands.Context, book: Union[str, None] = None, arg: Union[str, None] = None):
         """Lists all notes for a verse or chapter"""
 
         description = ""
@@ -268,10 +238,10 @@ class Bible(commands.Cog):
         display_name = None
         if book is not None:
             book_info = get_book_info(book)
-            display_name = book_info["matched"]["name"]
+            display_name = book_info['matched']['name']
 
         if arg is not None:
-            chapter, verse = arg.split(":")
+            chapter, verse = arg.split(':')
             chapter = int(chapter) if chapter else None
             verse = int(verse) if verse else None
         else:
@@ -298,11 +268,7 @@ class Bible(commands.Cog):
             elif chapter is not None and verse is not None:
                 async with self.config.Notes() as notes:
                     for note in notes:
-                        if (
-                            note["book"] == display_name
-                            and note["chapter"] == chapter
-                            and note["verse"] == verse
-                        ):
+                        if note["book"] == display_name and note["chapter"] == chapter and note["verse"] == verse:
                             description += f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n```diff\n- {note['note']}\n```\n\n"
 
         if description == "":
@@ -311,16 +277,9 @@ class Bible(commands.Cog):
             PageNumber = 1
             for descript in pagify(description, page_length=3000, delims=["\n\n"]):
                 embed = discord.Embed(
-                    title="Notes", description=descript, color=discord.Color.green()
-                )
-                embed.set_footer(
-                    text="Page: {} / {}".format(
-                        PageNumber,
-                        len(
-                            list(pagify(description, page_length=3000, delims=["\n\n"]))
-                        ),
-                    )
-                )
+                    title="Notes", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3000, delims=["\n\n"])))))
                 embeds.append(embed)
                 PageNumber += 1
 
@@ -329,12 +288,85 @@ class Bible(commands.Cog):
     @bible.command(name="search")
     async def search(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case sensitive)"""
-        await search(ctx, arg)
+
+        # remove leading and ending quotes
+        arg = re.sub(r'^"|"$', '', arg)
+
+        translation = 'akjv'
+        folder_path = os.path.join(bundled_data_path(self), translation)
+        description = ""
+        embeds = []
+
+        for filename in os.listdir(folder_path):
+            with open(os.path.join(folder_path, filename), "r") as file:
+                data = json.load(file)
+                book_name = data["book"]
+                chapters = data["chapters"]
+                for chapter in chapters:
+                    chapter_num = chapter["chapter"]
+                    verses = chapter["verses"]
+                    for verse in verses:
+                        verse_num = verse["verse"]
+                        verse_text = verse["text"]
+                        matched = re.search("\\b(" + arg + ")\\b", verse_text)
+                        if matched is not None:
+                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
+
+        if description == "":
+            await ctx.send("No matches found")
+        else:
+            PageNumber = 1
+            for descript in pagify(description, page_length=3950, delims=["\n\n"]):
+                embed = discord.Embed(
+                    title="Search", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
+                embeds.append(embed)
+                PageNumber += 1
+
+            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
     @bible.command(name="isearch")
     async def isearch(self, ctx: commands.Context, *, arg: str):
         """Searches for matching text across all books (case insensitive)"""
-        await isearch(ctx, arg)
+
+        # remove leading and ending quotes
+        arg = re.sub(r'^"|"$', '', arg)
+
+        translation = 'akjv'
+        folder_path = os.path.join(bundled_data_path(self), translation)
+        description = ""
+        embeds = []
+
+        for filename in os.listdir(folder_path):
+            with open(os.path.join(folder_path, filename), "r") as file:
+                data = json.load(file)
+                book_name = data["book"]
+                chapters = data["chapters"]
+                for chapter in chapters:
+                    chapter_num = chapter["chapter"]
+                    verses = chapter["verses"]
+                    for verse in verses:
+                        verse_num = verse["verse"]
+                        verse_text = verse["text"]
+                        matched = re.search(
+                            "\\b(" + arg.lower() + ")\\b", verse_text.lower())
+                        if matched is not None:
+                            description += f"** {book_name} {chapter_num}:{verse_num}**\n{verse_text}\n\n"
+
+        if description == "":
+            await ctx.send("No matches found")
+        else:
+            PageNumber = 1
+            for descript in pagify(description, page_length=3950, delims=["\n\n"]):
+                embed = discord.Embed(
+                    title="Search: Case Insensitive", description=descript, color=discord.Color.green())
+                embed.set_footer(text="Page: {} / {}".format(PageNumber, len(
+                    list(pagify(description, page_length=3900, delims=["\n\n"])))))
+                embeds.append(embed)
+                PageNumber += 1
+
+            await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
     @commands.command()
     @commands.is_owner()
@@ -349,30 +381,28 @@ class Bible(commands.Cog):
             return  # Ignore CommandNotFound errors
 
         if isinstance(error, (AttributeError, ValueError)):
-            await ctx.send(
-                "Incorrect parameters, please try again. Use `{}help` for more information.".format(
-                    ctx.prefix
-                )
-            )
+            await ctx.send("Incorrect parameters, please try again. Use `{}help` for more information.".format(ctx.prefix))
         else:
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error
 
 
-def get_book_extras_from_json(path: str, data, translation: str = "akjv"):
-    book_name = data["book"]
+def get_book_extras_from_json(path: str, data, translation: str = 'akjv'):
+    book_name = data['book']
     matched_book = match_book(book_name)
     if matched_book is not None:
-        book_filename = os.path.join(translation, book_name + ".json")
+        book_filename = os.path.join(translation, book_name + '.json')
         # read json, pull out the description
         with open(os.path.join(path, book_filename)) as json_file:
             data = json.load(json_file)
-            isString = isinstance(data["book"], str)
+            isString = isinstance(data['book'], str)
             if isString:
                 display_extras = get_book_extras(matched_book, translation)
             else:
-                display_extras = [data["book"]["description"]]
-                # display_extras = data['book']['meta'][0]['h'] + data['book']['description']
+                display_extras = [
+                    data['book']['description']
+                ]
+                #display_extras = data['book']['meta'][0]['h'] + data['book']['description']
 
     return display_extras
 
@@ -380,7 +410,7 @@ def get_book_extras_from_json(path: str, data, translation: str = "akjv"):
 def get_verse_offset(content):
     offset = 0
     for item in content:
-        if "verseNumber" in item:
+        if 'verseNumber' in item:
             return offset
         offset += 1
 
@@ -389,27 +419,25 @@ def get_verse_offset(content):
 
 def detect_translation(message: str):
     translation = None
-    parse_translation = re.compile(r"\s(\w+)$")
+    parse_translation = re.compile(r'\s(\w+)$')
     if parse_translation.search(message) is not None:
         check_translation = parse_translation.search(message)[1]
         match check_translation.lower():
-            case "asv":
-                translation = "asv"
-            case "bsb":
-                translation = "bsb"
-            case "akjv":
-                translation = "akjv"
-            case "kjv":
-                translation = "akjv"
+            case 'asv':
+                translation = 'asv'
+            case 'bsb':
+                translation = 'bsb'
+            case 'akjv':
+                translation = 'akjv'
+            case 'kjv':
+                translation = 'akjv'
 
     return translation
-
 
 def has_translation(message: str):
     if detect_translation(message) is not None:
         return True
     return False
-
 
 def match_book(book: str):
     # search OT
@@ -426,22 +454,20 @@ def match_book(book: str):
             return books_apocrypha[key]
     return None
 
-
 def fix_book_name(book: str):
     book_name = book.strip()
-    book_name = book_name.replace(" ", "")
+    book_name = book_name.replace(' ', '')
     book_name = book_name.lower()
     match book_name:
-        case "psalm":
-            book_name = "psalms"
-        case "revelations":
-            book_name = "revelation"
-        case "songsofsolomon":
-            book_name = "songofsolomon"
-        case "songofsongs":
-            book_name = "songofsolomon"
+        case 'psalm':
+            book_name = 'psalms'
+        case 'revelations':
+            book_name = 'revelation'
+        case 'songsofsolomon':
+            book_name = 'songofsolomon'
+        case 'songofsongs':
+            book_name = 'songofsolomon'
     return book_name
-
 
 #
 # Returns
@@ -451,34 +477,29 @@ def fix_book_name(book: str):
 # - the name of the translation or collection of books
 #
 
-
-def get_book_info(book: str, translation: str = "akjv"):
+def get_book_info(book: str, translation: str = 'akjv'):
     book_name = book.strip()
-    book_name = book_name.replace(" ", "")
+    book_name = book_name.replace(' ', '')
     book_name = book_name.lower()
     book_name = fix_book_name(book_name)
     matched_book = match_book(book_name)
     if matched_book is not None:
-        book_filename = os.path.join(translation, book_name + ".json")
+        book_filename = os.path.join(translation, book_name + '.json')
         display_extras = get_book_extras(matched_book, translation)
         return {
-            "book": book_name,
-            "filename": book_filename,
-            "extras": display_extras,
-            "matched": matched_book,
+            'book': book_name,
+            'filename': book_filename,
+            'extras': display_extras,
+            'matched': matched_book
         }
     return None
 
 
-def get_book_extras(matched_book: dict, translation: str = "akjv"):
+def get_book_extras(matched_book: dict, translation: str = 'akjv'):
     extras = []
-    if matched_book["order"] <= 66:
+    if matched_book['order'] <= 66:
         translation_name = translation_names.get(translation)
         extras.append(translation_name)
-    if matched_book["order"] > 66:
-        extras.append("Apocrypha")
+    if matched_book['order'] > 66:
+        extras.append('Apocrypha')
     return extras
-
-
-
-# ordered list of books of the bible

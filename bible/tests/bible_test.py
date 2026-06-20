@@ -1,6 +1,26 @@
+import asyncio
 from pathlib import Path
+from types import SimpleNamespace
 
-from bible.bible import get_book_info, get_book_extras_from_json
+from bible.bible import Bible, get_book_info, get_book_extras_from_json
+
+
+def test_translations_command_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_translations(ctx):
+        calls.append(ctx)
+
+    monkeypatch.setattr(bible_module, "translations_command", fake_translations, raising=False)
+
+    cog = Bible(SimpleNamespace())
+    ctx = SimpleNamespace()
+
+    asyncio.run(Bible.__dict__["translations"].callback(cog, ctx))
+
+    assert calls == [ctx]
 
 
 def test_get_book_info():
