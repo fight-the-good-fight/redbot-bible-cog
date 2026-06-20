@@ -83,7 +83,7 @@ async def lookup(cog, ctx, message: str):
 
             chapters = data['chapters']
             chapter = chapters[chapter - 1]
-            description = ''
+            description_lines = []
 
             if not have_chapter_and_verse:
                 verse_min = 1
@@ -101,6 +101,20 @@ async def lookup(cog, ctx, message: str):
                 verses = chapter.get('contents')[range_min:range_max]
                 chapterNumber = chapter.get('chapterNumber')
 
+            # Build description and collect notes once per chapter.
+            notes_lines: list[str] = []
+            if translation == 'akjv':
+                async with cog.config.Notes() as notes:
+                    # Filter notes per chapter in-memory.
+                    chapter_notes = [
+                        note for note in notes
+                        if note['book'].lower() == book_name
+                        and str(note['chapter']) == chapterNumber
+                        and str(note['verse']) in verses
+                    ]
+                    for note in chapter_notes:
+                        notes_lines.append(str(box(text='- ' + note['note'], lang='diff')))
+
             for verse in verses:
                 if usfmFormat:
                     verseNumber = verse.get('verseNumber')
@@ -108,16 +122,14 @@ async def lookup(cog, ctx, message: str):
                 else:
                     verseNumber = str(verse['verse'])
                     verseText = verse['text']
-                description += f'[{verseNumber}] {verseText}\n'
-                if translation == 'akjv':
-                    async with cog.config.Notes() as notes:
-                        for note in notes:
-                            if note['book'].lower() == book_name:
-                                if str(note['chapter']) == chapterNumber:
-                                    if str(note['verse']) == verseNumber:
-                                        description += str(box(text='- ' + note['note'], lang='diff')) + '\n'
+                description_lines.append(f'[{verseNumber}] {verseText}')
+                if notes_lines:
+                    description_lines.append('')  # blank line between verse and notes
+                description_lines.extend(notes_lines)
 
-            for descript in pagify(description, page_length=3950, delims=['```', '\n', '\n\n', '**']):
+            description = '\n'.join(description_lines)
+
+            for descript in pagify(description, page_length=3950, delims=['```', '\n\n']):
                 verbose_title = display_name + ' ' + chapter_verse + ' - ' + display_extras
                 embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
                 embeds.append(embed)
