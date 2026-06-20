@@ -2,7 +2,8 @@ import asyncio
 from pathlib import Path
 from types import SimpleNamespace
 
-from bible.bible import Bible, get_book_info, get_book_extras_from_json
+from bible.bible import Bible, get_book_info
+from bible.search_utils import get_book_extras_from_json
 
 
 def test_translations_command_delegates(monkeypatch):
