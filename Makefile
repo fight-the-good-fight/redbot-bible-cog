@@ -8,19 +8,23 @@ PYTHON ?= python3.11
 VENV ?= .venv
 VENV_PYTHON := $(VENV)/bin/python
 VENV_PIP := $(VENV)/bin/pip
+VENV_CODESPELL := $(VENV)/bin/codespell
 RUFF := $(VENV)/bin/ruff
 TEST_DIR := bible/tests
 PYTEST_COV_ARGS := --cov=bible --cov-report=term-missing
 LINT_TARGETS := bible
 REQ_FILE := bible/requirements.txt
 
-.PHONY: help venv install setup fmt lint check test coverage build-index clean
+.PHONY: help venv install setup fmt lint check test coverage build-index spellcheck clean
 
 help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z0-9_.-]+:.*## / {printf "%-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 build-index: ## Build the bundled SQLite Bible search index
 	$(VENV_PYTHON) -m bible.build_search_index --source-dir bible/data --output bible/search_index.sqlite
+
+spellcheck: ## Run codespell across repo files except bundled Bible data
+	$(VENV_CODESPELL) --ignore-words=.codespell-words --skip="bible/data/*,*.sqlite" bible README.md AGENTS.md docs
 
 
 venv: ## Create the repo-local virtual environment with Python 3.11
