@@ -1,95 +1,61 @@
-# redbot-bible-cog
+# Red-DiscordBot Bible Cog
 
-## Installing this cog:
+A Red-DiscordBot cog for searching, reading, and noting Bible verses.
 
-Remove existing cog if needed:
+## Installation
 
-```DISCORD
-.cog uninstall bible
-```
+1. Add this repository as a repo cog:
+   ```
+   .repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog
+   ```
+2. Install and load:
+   ```
+   .cog install anvil bible
+   .load bible
+   ```
 
-Add the repo, install, and load
+## Commands
 
-```DISCORD
-.repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog
-.cog install anvil bible
-.load bible
-```
+### `bible translations`
+Lists all supported Bible translations.
 
-Updating the repo (load from scratch)
+### `bible lookup <verse>`
+Displays a chapter, specific verse, or verse range.
+Examples:
+- `bible lookup john 3:16` — single verse
+- `bible lookup psalms 23` — entire chapter
+- `bible lookup john 3:16-18` — verse range
 
-```DISCORD
-.cog uninstall bible
-.repo update
-.cog install anvil bible
-.load bible
-```
+### `bible search <text>`
+Case-sensitive search for text across all books.
 
-Update cog when it is already installed/running
+### `bible isearch <text>`
+Case-insensitive search for text across all books.
 
-```DISCORD
-.unload bible
-.cog update
-.restart
-.load bible
-```
+### `memory add <verse> <note>`
+Adds a personal note to a verse or chapter.
+Examples:
+- `memory add john 3:16 "God loved us first"`
+- `memory add psalms 23 "This is my shepherd"`
 
-## Adding a memory/note
+### `memory remove <id>`
+Removes a previously added note by its ID number.
 
-```DISCORD
-.memory add genesis 1:1 another memory
-```
+### `memory list`
+Lists all notes. Optionally filter by book (`memory list john`) or chapter/verse (`memory list john 3`).
 
-```DISCORD
-.memory list
-```
+### `removeallnotes`
+Clears all stored notes (owner-only command).
 
-Get memories for specific verse
-```DISCORD
-.memory list genesis 1:1
-```
+## Data
 
-## Local shell setup
+The cog bundles three translations:
+- **AKJV** — American King James Version (primary source)
+- **ASV** — American Standard Version
+- **BSB** — Bible Society's Bible
 
-This repo is meant to use the repo-local `.venv` automatically through `direnv`.
+All data is bundled locally; no external API calls are made.
 
-Copy/paste setup:
+## Notes Storage
 
-```bash
-brew install direnv
-echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc   # or ~/.bashrc for bash
-exec $SHELL
-cd /path/to/redbot-bible-cog
-direnv allow
-make setup
-```
-
-After that, when you `cd` into the repo:
-- `python` resolves to `./.venv/bin/python`
-- `pytest` resolves to `./.venv/bin/pytest`
-- `ruff` resolves to `./.venv/bin/ruff`
-
-If you recreate `.venv`, run `make setup` again.
-
-## Notes
-
-Runtime and source references:
-
-- Red-DiscordBot / Redbot base image reference: https://github.com/PhasecoreX/docker-red-discordbot
-- Bible file source: https://ebible.org/find/
-
-Notes are stored in memory like this:
-
-```JSON
-{"718395193090375700": {"GLOBAL": {"Notes": [{"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "Heavens was changed to heaven."}]}}}
-```
-
-```JSON
-{"718395193090375700": {"GLOBAL": {"Notes": [{"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "Heavens was changed to heaven."}, {"number": 2, "book": "Genesis", "chapter": 1, "verse": 1, "note": "another memory"}]}}}
-```
-
-## triggering
-
-```DISCORD
-.retrigger command bible-parser "\w+ \d+:\d+[\w-]\d+|\wong \wf \wongs \d+:\d+[\w-]\d+|\wong \wf \wolomon \d+:\d+[\w-]\d+|\d+ \w+ \d+:\d+[\w-]\d+|\d\D+ \d+:\d+[\w-]\d+|\w+ \d+:\d+|\wong \wf \wongs \d+:\d+|\wong \wf \wolomon \d+:\d+|\d+ \w+ \d+:\d+|\d\D+ \d+:\d+" bible lookup {0}
-```
+User notes are stored in Redbot's `Config` system, keyed by the verse or chapter identifier. Notes persist across server restarts but are scoped to the guild where they were added.
