@@ -52,7 +52,7 @@ Clears all stored notes (owner-only command).
 The cog bundles three translations:
 - **AKJV** — American King James Version (primary source)
 - **ASV** — American Standard Version
-- **BSB** — Bible Society's Bible
+- **BSB** — Berean Study Bible
 
 All data is bundled locally; no external API calls are made.
 
