@@ -44,7 +44,7 @@ def get_verse_offset(content):
     return 0
 
 
-def detect_translation(message: str):
+def detect_translation(message: str) -> str | None:
     translation = None
     parse_translation = re.compile(r'\s(\w+)$')
     matched = parse_translation.search(message)
