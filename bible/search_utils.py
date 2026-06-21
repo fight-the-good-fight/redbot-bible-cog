@@ -54,6 +54,21 @@ def detect_translation(message: str):
                 translation = 'akjv'
             case 'kjv':
                 translation = 'akjv'
+    else:
+        # Also check for translation at start of message
+        parse_start = re.compile(r'^(\w+)(?:\s|$)')
+        matched = parse_start.search(message)
+        if matched is not None:
+            check_translation = matched[1]
+            match check_translation.lower():
+                case 'asv':
+                    translation = 'asv'
+                case 'bsb':
+                    translation = 'bsb'
+                case 'akjv':
+                    translation = 'akjv'
+                case 'kjv':
+                    translation = 'akjv'
 
     return translation
 

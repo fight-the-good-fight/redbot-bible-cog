@@ -58,6 +58,8 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 ## Critical Rules
 - No subagents
 - Prefer small files, targeted by category
+- Surgical edits
+- Stay on topic and in scope of task
 - When you write a file or need to modify it, edit it, do not write it from scratch
 - If you need to overwrite a file, create temporary file first, make sure it is correct then replace the target file, do not delete the real file unless these conditions are met
 - When editing a file, make sure you are not just inserting the same block multiple times by accident

@@ -21,6 +21,21 @@ def test_detect_translation_and_has_translation():
     assert has_translation("Genesis 1:1") is False
 
 
+def test_detect_translation_edge_cases():
+    # Case insensitivity
+    assert detect_translation("genesis 1:1 AKJV") == "akjv"
+    assert detect_translation("genesis 1:1 Asv") == "asv"
+    assert detect_translation("genesis 1:1 BSB") == "bsb"
+    assert detect_translation("genesis 1:1 KJV") == "akjv"
+
+    # Translation at different positions (leading translation now supported)
+    assert detect_translation("kjv genesis 1:1") == "akjv"
+    # "in kjv" still matches trailing "kjv" — ambiguous but expected behavior
+    assert detect_translation("genesis 1:1 in kjv") == "akjv"
+    # "1 kjv" matches trailing "kjv" — expected behavior
+    assert detect_translation("1 kjv") == "akjv"
+
+
 def test_fix_book_name_and_match_book():
     assert fix_book_name(" Psalm ") == "psalms"
     assert fix_book_name("Revelations") == "revelation"
@@ -29,6 +44,24 @@ def test_fix_book_name_and_match_book():
     assert match_book("genesis") == {"name": "Genesis", "order": 1}
     assert match_book("enoch") == {"name": "Enoch", "order": 67}
     assert match_book("doesnotexist") is None
+
+
+def test_match_book_edge_cases():
+    # OT book
+    assert match_book("leviticus") == {"name": "Leviticus", "order": 3}
+    assert match_book("deuteronomy") == {"name": "Deuteronomy", "order": 5}
+
+    # NT book
+    assert match_book("luke") == {"name": "Luke", "order": 42}
+    assert match_book("acts") == {"name": "Acts", "order": 44}
+
+    # Apocrypha book
+    assert match_book("enoch") == {"name": "Enoch", "order": 67}
+    assert match_book("jude") == {"name": "Jude", "order": 65}
+
+    # Invalid
+    assert match_book("z") is None
+    assert match_book("") is None
 
 
 def test_get_verse_offset():
@@ -52,3 +85,4 @@ def test_get_book_extras_from_json_smoke():
     extras = get_book_extras_from_json(str(data_dir), book_info, "akjv")
 
     assert extras[0] == "Authorized (King James) Version (AKJV)"
+
