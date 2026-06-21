@@ -14,10 +14,14 @@ PYTEST_COV_ARGS := --cov=bible --cov-report=term-missing
 LINT_TARGETS := bible
 REQ_FILE := bible/requirements.txt
 
-.PHONY: help venv install setup fmt lint check test clean
+.PHONY: help venv install setup fmt lint check test coverage build-index clean
 
 help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z0-9_.-]+:.*## / {printf "%-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+build-index: ## Build the bundled SQLite Bible search index
+	$(VENV_PYTHON) -m bible.build_search_index --source-dir bible/data --output bible/search_index.sqlite
+
 
 venv: ## Create the repo-local virtual environment with Python 3.11
 	$(PYTHON) -m venv $(VENV)

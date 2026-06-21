@@ -3,3 +3,5 @@ __pycache__
 .venv
 mcp_docker.log
 .coverage
+bible/search_index.sqlite
+docs/superpowers
