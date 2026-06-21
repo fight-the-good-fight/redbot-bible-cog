@@ -10,8 +10,13 @@ from bible.book_constants import (
 )
 
 def get_book_extras_from_json(path: str, data, translation: str = 'akjv'):
+    if 'book' not in data:
+        return []
+    if translation not in translation_names:
+        return []
     book_name = data['book']
     matched_book = match_book(book_name)
+    display_extras = []
     if matched_book is not None:
         book_filename = os.path.join(translation, book_name + '.json')
         # read json, pull out the description
@@ -36,7 +41,7 @@ def get_verse_offset(content):
             return offset
         offset += 1
 
-    return offset
+    return 0
 
 
 def detect_translation(message: str):

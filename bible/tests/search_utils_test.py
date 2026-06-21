@@ -4,6 +4,7 @@ from bible.search_utils import (
     detect_translation,
     fix_book_name,
     get_book_extras_from_json,
+    get_book_extras,
     get_book_info,
     get_verse_offset,
     has_translation,
@@ -65,8 +66,13 @@ def test_match_book_edge_cases():
 
 
 def test_get_verse_offset():
+    # Verse numbers present
     assert get_verse_offset([{"text": "intro"}, {"verseNumber": "1"}, {"verseNumber": "2"}]) == 1
     assert get_verse_offset([{"verseNumber": "1"}, {"verseNumber": "2"}]) == 0
+
+    # No verse numbers
+    assert get_verse_offset([{"text": "intro"}, {"text": "verse one"}]) == 0
+    assert get_verse_offset([]) == 0
 
 
 def test_get_book_info_smoke():
@@ -86,3 +92,36 @@ def test_get_book_extras_from_json_smoke():
 
     assert extras[0] == "Authorized (King James) Version (AKJV)"
 
+
+def test_get_book_extras():
+    # OT book
+    assert get_book_extras({"name": "Genesis", "order": 1}, "akjv") == ["Authorized (King James) Version (AKJV)"]
+
+    # NT book
+    assert get_book_extras({"name": "Luke", "order": 42}, "akjv") == ["Authorized (King James) Version (AKJV)"]
+
+    # Apocrypha book
+    assert get_book_extras({"name": "Enoch", "order": 67}, "akjv") == ["Apocrypha"]
+
+
+def test_get_book_extras_from_json_edge_cases():
+    data_dir = Path(__file__).resolve().parents[1] / "data"
+    book_info = get_book_info("exodus")
+    assert book_info is not None
+
+    # Non-string book name (e.g., from a non-string JSON entry)
+    book_info_with_dict_book = book_info.copy()
+    book_info_with_dict_book["book"] = {"name": "Exodus", "description": "test"}
+    extras = get_book_extras_from_json(str(data_dir), book_info_with_dict_book, "akjv")
+    assert extras == []  # match_book can't handle dict, returns []
+
+    # Missing data (shouldn't crash)
+    book_info_missing = book_info.copy()
+    book_info_missing.pop("book", None)
+    extras = get_book_extras_from_json(str(data_dir), book_info_missing, "akjv")
+    assert extras == []  # Should return empty list
+
+    # Invalid translation
+    book_info = get_book_info("exodus")
+    extras = get_book_extras_from_json(str(data_dir), book_info, "invalid_translation")
+    assert extras == []  # Should return empty list
