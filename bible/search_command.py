@@ -3,6 +3,10 @@ import os
 import json
 import re
 from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
+from redbot.core.utils.chat_formatting import pagify, box
+from pathlib import Path
+from bible.search_utils import detect_translation
+from redbot.core.utils.menus import menu, DEFAULT_CONTROLS
 from redbot.core.data_manager import bundled_data_path
 from redbot.core.utils.chat_formatting import pagify, box
 
@@ -15,7 +19,8 @@ async def search(ctx, arg: str):
     arg = re.sub(r'^"|"$', "", arg)
 
     translation = "akjv"
-    folder_path = os.path.join(bundled_data_path(ctx.cog), translation)
+    if translation == "kjv": translation = "akjv"
+    folder_path = Path(bundled_data_path(ctx.cog)).joinpath(translation)
     description = ""
     embeds = []
 
@@ -62,7 +67,8 @@ async def isearch(ctx, arg: str):
     arg = re.sub(r'^"|"$', "", arg)
 
     translation = "akjv"
-    folder_path = os.path.join(bundled_data_path(ctx.cog), translation)
+    if translation == "kjv": translation = "akjv"
+    folder_path = Path(bundled_data_path(ctx.cog)).joinpath(translation)
     description = ""
     embeds = []
 
