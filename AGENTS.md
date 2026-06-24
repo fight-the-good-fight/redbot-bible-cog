@@ -66,4 +66,6 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 - helpers go into their own small file
 - test files import the helpers as needed
 - verification of test code AFTER the tests have been written.
+- always open a branch when making changes
+- when opening a pull request make it a draft
 
