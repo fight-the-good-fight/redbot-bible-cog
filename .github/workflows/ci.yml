@@ -84,7 +84,7 @@ jobs:
         run: |
           {
             echo 'summary<<EOF'
-            .venv/bin/python -m coverage report --skip-covered
+            .venv/bin/python -m coverage report -m --skip-covered
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
