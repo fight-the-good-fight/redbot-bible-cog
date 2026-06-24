@@ -69,10 +69,12 @@ jobs:
                   return "⚠️"
               return "❌"
 
+          total_icon = status_icon(total["percent_covered"])
+
           lines = [
               "### Coverage report",
               "",
-              f"- Total: {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
+              f"- Total: {total_icon} {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
               f"- Files with misses: {len(files)}",
               f"- File threshold: {threshold:.0f}%",
               "",
