@@ -51,8 +51,15 @@ jobs:
           for filename, info in data["files"].items():
               missing = info.get("missing_lines", [])
               if missing:
-                  files.append((len(missing), filename, missing))
-          files.sort(reverse=True)
+                  files.append(
+                      (
+                          info["summary"]["percent_covered"],
+                          len(missing),
+                          filename,
+                          missing,
+                      )
+                  )
+          files.sort(key=lambda item: (item[0], item[1], item[2]))
 
           lines = [
               "### Coverage report",
@@ -60,14 +67,18 @@ jobs:
               f"- Total: {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
               f"- Files with misses: {len(files)}",
               "",
-              "#### Worst files",
+              "| Coverage | Missing | File | Missing lines |",
+              "| --- | ---: | --- | --- |",
           ]
-          for miss_count, filename, missing in files[:8]:
+          for coverage, miss_count, filename, missing in files[:10]:
+              missing_lines = ", ".join(str(line) for line in missing[:20])
+              if len(missing) > 20:
+                  missing_lines += "…"
               lines.append(
-                  f"- `{filename}`: {miss_count} missing lines ({', '.join(str(line) for line in missing[:12])}{'…' if len(missing) > 12 else ''})"
+                  f"| {coverage:.1f}% | {miss_count} | `{filename}` | {missing_lines} |"
               )
           if not files:
-              lines.append("- None")
+              lines.append("| — | — | — | None |")
 
           Path("coverage-summary.md").write_text("\n".join(lines) + "\n")
           PY
