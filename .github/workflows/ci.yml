@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pull-requests: write
 
     steps:
       - name: Check out repository
@@ -51,3 +52,26 @@ jobs:
 
       - name: Run tests
         run: make test
+
+      - name: Capture coverage summary
+        if: github.event_name == 'pull_request'
+        id: coverage
+        run: |
+          {
+            echo 'summary<<EOF'
+            .venv/bin/python -m coverage report --skip-covered
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Comment coverage on PR
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            <!-- coverage-report -->
+            ### Coverage report
+
+            ```
+            ${{ steps.coverage.outputs.summary }}
+            ```
