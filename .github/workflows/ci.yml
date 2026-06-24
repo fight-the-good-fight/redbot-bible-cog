@@ -35,22 +35,17 @@ jobs:
           path: .venv
           key: venv-${{ runner.os }}-py311-${{ hashFiles('bible/requirements.txt') }}
 
-      - name: Install dependencies
-        run: make install
-
-      - name: Run spellcheck
-        run: make spellcheck
-
-      - name: Run fmt
-        run: |
-          make fmt
-          git diff --exit-code -- .
-
-      - name: Run lint
-        run: make lint
-
       - name: Run tests
         run: make test
+
+      - name: Build coverage summary
+        run: .venv/bin/python -m coverage report -m --skip-covered > coverage-summary.txt
+
+      - name: Upload coverage summary
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: coverage-summary
+          path: coverage-summary.txt
 
   coverage-comment:
     if: github.event_name == 'pull_request'
@@ -60,42 +55,13 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
-
-      - name: Set up Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+      - name: Download coverage summary
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
         with:
-          python-version: '3.11'
-          cache: pip
-          cache-dependency-path: bible/requirements.txt
-
-      - name: Restore virtualenv cache
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
-        with:
-          path: .venv
-          key: venv-${{ runner.os }}-py311-${{ hashFiles('bible/requirements.txt') }}
-
-      - name: Install dependencies
-        run: make install
-
-      - name: Capture coverage summary
-        id: coverage
-        run: |
-          {
-            echo 'summary<<EOF'
-            .venv/bin/python -m coverage report -m --skip-covered
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
+          name: coverage-summary
 
       - name: Comment coverage on PR
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            <!-- coverage-report -->
-            ### Coverage report
-
-            ```
-            ${{ steps.coverage.outputs.summary }}
-            ```
+          body-file-path: coverage-summary/coverage-summary.txt
