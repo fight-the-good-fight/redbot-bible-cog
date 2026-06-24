@@ -45,6 +45,7 @@ jobs:
           import json
           from pathlib import Path
 
+          threshold = 90.0
           data = json.loads(Path("coverage.json").read_text())
           total = data["totals"]
           files = []
@@ -61,24 +62,32 @@ jobs:
                   )
           files.sort(key=lambda item: (item[0], item[1], item[2]))
 
+          def status_icon(coverage: float) -> str:
+              if coverage >= threshold:
+                  return "✅"
+              if coverage >= threshold - 5:
+                  return "⚠️"
+              return "❌"
+
           lines = [
               "### Coverage report",
               "",
               f"- Total: {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
               f"- Files with misses: {len(files)}",
+              f"- File threshold: {threshold:.0f}%",
               "",
-              "| Coverage | Missing | File | Missing lines |",
-              "| --- | ---: | --- | --- |",
+              "| Status | Coverage | Missing | File | Missing lines |",
+              "| --- | ---: | ---: | --- | --- |",
           ]
           for coverage, miss_count, filename, missing in files[:10]:
               missing_lines = ", ".join(str(line) for line in missing[:20])
               if len(missing) > 20:
                   missing_lines += "…"
               lines.append(
-                  f"| {coverage:.1f}% | {miss_count} | `{filename}` | {missing_lines} |"
+                  f"| {status_icon(coverage)} | {coverage:.1f}% | {miss_count} | `{filename}` | {missing_lines} |"
               )
           if not files:
-              lines.append("| — | — | — | None |")
+              lines.append("| ✅ | — | — | None | — |")
 
           Path("coverage-summary.md").write_text("\n".join(lines) + "\n")
           PY
