@@ -105,7 +105,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
+      issues: write
 
     steps:
       - name: Download coverage summary
@@ -113,8 +113,23 @@ jobs:
         with:
           name: coverage-summary
 
+      - name: Find existing coverage comment
+        id: find-comment
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const marker = '<!-- coverage-report -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const comment = comments.find((c) => c.body?.includes(marker));
+            core.setOutput('comment-id', comment?.id?.toString() || '');
+
       - name: Comment coverage on PR
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
           body-path: coverage-summary.md
