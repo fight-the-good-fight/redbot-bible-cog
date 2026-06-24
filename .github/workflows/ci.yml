@@ -64,4 +64,4 @@ jobs:
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
-          body-file-path: coverage-summary/coverage-summary.txt
+          body-path: coverage-summary/coverage-summary.txt
