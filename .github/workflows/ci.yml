@@ -39,13 +39,44 @@ jobs:
         run: make test
 
       - name: Build coverage summary
-        run: .venv/bin/python -m coverage report -m --skip-covered > coverage-summary.txt
+        run: |
+          .venv/bin/python -m coverage json -o coverage.json
+          .venv/bin/python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("coverage.json").read_text())
+          total = data["totals"]
+          files = []
+          for filename, info in data["files"].items():
+              missing = info.get("missing_lines", [])
+              if missing:
+                  files.append((len(missing), filename, missing))
+          files.sort(reverse=True)
+
+          lines = [
+              "### Coverage report",
+              "",
+              f"- Total: {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
+              f"- Files with misses: {len(files)}",
+              "",
+              "#### Worst files",
+          ]
+          for miss_count, filename, missing in files[:8]:
+              lines.append(
+                  f"- `{filename}`: {miss_count} missing lines ({', '.join(str(line) for line in missing[:12])}{'…' if len(missing) > 12 else ''})"
+              )
+          if not files:
+              lines.append("- None")
+
+          Path("coverage-summary.md").write_text("\n".join(lines) + "\n")
+          PY
 
       - name: Upload coverage summary
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: coverage-summary
-          path: coverage-summary.txt
+          path: coverage-summary.md
 
   coverage-comment:
     if: github.event_name == 'pull_request'
@@ -59,10 +90,8 @@ jobs:
         uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
         with:
           name: coverage-summary
-          path: coverage-summary
-
       - name: Comment coverage on PR
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
-          body-path: coverage-summary/coverage-summary.txt
+          body-path: coverage-summary/coverage-summary.md
