@@ -99,5 +99,8 @@ def test_lookup_command_smoke(monkeypatch, tmp_path):
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
 
     assert captures["timeout"] == 30
-    assert captures["embeds"][0].title == "Genesis 1:1 - Authorized (King James) Version (AKJV)"
+    assert (
+        captures["embeds"][0].title
+        == "Genesis 1:1 - Authorized (King James) Version (AKJV)"
+    )
     assert "[1] In the beginning" in captures["embeds"][0].description

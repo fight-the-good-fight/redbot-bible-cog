@@ -27,7 +27,11 @@ def test_add_memory_note_smoke(monkeypatch):
     notes = []
     sent = []
 
-    monkeypatch.setattr(memory_command, "get_book_info", lambda book, translation="akjv": {"matched": {"name": "Genesis"}})
+    monkeypatch.setattr(
+        memory_command,
+        "get_book_info",
+        lambda book, translation="akjv": {"matched": {"name": "Genesis"}},
+    )
 
     async def send(message):
         sent.append(message)
@@ -44,7 +48,9 @@ def test_add_memory_note_smoke(monkeypatch):
 
 
 def test_remove_memory_note_smoke():
-    notes = [{"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}]
+    notes = [
+        {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}
+    ]
     sent = []
 
     async def send(message):
@@ -60,7 +66,9 @@ def test_remove_memory_note_smoke():
 
 
 def test_list_memory_notes_smoke(monkeypatch):
-    notes = [{"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}]
+    notes = [
+        {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}
+    ]
     captures = {}
 
     async def fake_menu(ctx, embeds, controls=None, timeout=None):

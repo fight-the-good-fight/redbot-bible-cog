@@ -19,48 +19,50 @@ async def lookup(cog, ctx, message: str):
     check_path = bundled_data_path(cog)
 
     try:
-        translation = 'akjv'
+        translation = "akjv"
         detected_translation = False
         if has_translation(message):
             detected_translation = True
             detected = detect_translation(message)
             if detected is not None:
                 translation = detected
-            message = message.rsplit(' ', 1)[0]
+            message = message.rsplit(" ", 1)[0]
 
-        res = message.rsplit(' ', 1)
+        res = message.rsplit(" ", 1)
         book = res[0]
         book_info = get_book_info(book, translation)
         if book_info is None:
             await ctx.send(
-                'Invalid argument: message '
+                "Invalid argument: message "
                 + message
-                + ' book: '
+                + " book: "
                 + book
-                + ' detected: '
+                + " detected: "
                 + str(detected_translation)
             )
             return
 
-        book_filename = book_info['filename']
-        display_name = book_info['matched']['name']
-        display_extras = book_info['extras']
+        book_filename = book_info["filename"]
+        display_name = book_info["matched"]["name"]
+        display_extras = book_info["extras"]
 
         have_chapter_and_verse = False
         chapter_verse = res[1]
-        if ':' in chapter_verse:
-            chapter, verse = chapter_verse.split(':')
+        if ":" in chapter_verse:
+            chapter, verse = chapter_verse.split(":")
             chapter = int(chapter)
             have_chapter_and_verse = True
         else:
             chapter = int(chapter_verse)
     except Exception:
-        await ctx.send('Invalid argument: message ' + message + ' check_path ' + str(check_path))
+        await ctx.send(
+            "Invalid argument: message " + message + " check_path " + str(check_path)
+        )
         return
 
     if have_chapter_and_verse:
         try:
-            verse_min, verse_max = verse.split('-')
+            verse_min, verse_max = verse.split("-")
             verse_min = int(verse_min)
             verse_max = int(verse_max)
         except Exception:
@@ -68,7 +70,7 @@ async def lookup(cog, ctx, message: str):
                 verse_min = int(verse)
                 verse_max = int(verse)
             except ValueError:
-                await ctx.send('Invalid argument: verse range ' + verse)
+                await ctx.send("Invalid argument: verse range " + verse)
                 return
 
     path = bundled_data_path(cog)
@@ -77,64 +79,75 @@ async def lookup(cog, ctx, message: str):
         with open(os.path.join(path, book_filename)) as json_file:
             data = json.load(json_file)
             embeds = []
-            book_name = book_info['book']
-            display_name = book_info['matched']['name']
-            display_extras = ' '.join(book_info['extras'])
+            book_name = book_info["book"]
+            display_name = book_info["matched"]["name"]
+            display_extras = " ".join(book_info["extras"])
 
-            chapters = data['chapters']
+            chapters = data["chapters"]
             chapter = chapters[chapter - 1]
             description_lines = []
 
             if not have_chapter_and_verse:
                 verse_min = 1
-                verse_max = len(chapter['verses']) - 1
+                verse_max = len(chapter["verses"]) - 1
 
             usfmFormat = False
-            if 'verses' in chapter:
-                verses = chapter.get('verses')[verse_min - 1:verse_max]
-                chapterNumber = str(chapter['chapter'])
-            if 'contents' in chapter:
+            if "verses" in chapter:
+                verses = chapter.get("verses")[verse_min - 1 : verse_max]
+                chapterNumber = str(chapter["chapter"])
+            if "contents" in chapter:
                 usfmFormat = True
-                verse_offset = get_verse_offset(chapter.get('contents'))
+                verse_offset = get_verse_offset(chapter.get("contents"))
                 range_min = verse_min + verse_offset - 1
                 range_max = verse_max + verse_offset
-                verses = chapter.get('contents')[range_min:range_max]
-                chapterNumber = chapter.get('chapterNumber')
+                verses = chapter.get("contents")[range_min:range_max]
+                chapterNumber = chapter.get("chapterNumber")
 
             # Build description and collect notes once per chapter.
             notes_lines: list[str] = []
-            if translation == 'akjv':
+            if translation == "akjv":
                 async with cog.config.Notes() as notes:
                     # Filter notes per chapter in-memory.
                     chapter_notes = [
-                        note for note in notes
-                        if note['book'].lower() == book_name
-                        and str(note['chapter']) == chapterNumber
-                        and str(note['verse']) in verses
+                        note
+                        for note in notes
+                        if note["book"].lower() == book_name
+                        and str(note["chapter"]) == chapterNumber
+                        and str(note["verse"]) in verses
                     ]
                     for note in chapter_notes:
-                        notes_lines.append(str(box(text='- ' + note['note'], lang='diff')))
+                        notes_lines.append(
+                            str(box(text="- " + note["note"], lang="diff"))
+                        )
 
             for verse in verses:
                 if usfmFormat:
-                    verseNumber = verse.get('verseNumber')
-                    verseText = verse.get('verseText')
+                    verseNumber = verse.get("verseNumber")
+                    verseText = verse.get("verseText")
                 else:
-                    verseNumber = str(verse['verse'])
-                    verseText = verse['text']
-                description_lines.append(f'[{verseNumber}] {verseText}')
+                    verseNumber = str(verse["verse"])
+                    verseText = verse["text"]
+                description_lines.append(f"[{verseNumber}] {verseText}")
                 if notes_lines:
-                    description_lines.append('')  # blank line between verse and notes
+                    description_lines.append("")  # blank line between verse and notes
                 description_lines.extend(notes_lines)
 
-            description = '\n'.join(description_lines)
+            description = "\n".join(description_lines)
 
-            for descript in pagify(description, page_length=3950, delims=['```', '\n\n']):
-                verbose_title = display_name + ' ' + chapter_verse + ' - ' + display_extras
-                embed = discord.Embed(title=verbose_title, description=descript, color=discord.Color.green())
+            for descript in pagify(
+                description, page_length=3950, delims=["```", "\n\n"]
+            ):
+                verbose_title = (
+                    display_name + " " + chapter_verse + " - " + display_extras
+                )
+                embed = discord.Embed(
+                    title=verbose_title,
+                    description=descript,
+                    color=discord.Color.green(),
+                )
                 embeds.append(embed)
 
             await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 
     except FileNotFoundError:
-        await ctx.send('Book not found: ' + book_filename)
+        await ctx.send("Book not found: " + book_filename)

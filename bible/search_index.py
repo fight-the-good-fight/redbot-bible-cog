@@ -37,7 +37,9 @@ def _book_display_name(book: str | dict) -> str:
     return book.get("bookCode", "")
 
 
-def _iter_verse_rows(source_dir: str) -> Iterable[tuple[str, str, int, int, str, str, str]]:
+def _iter_verse_rows(
+    source_dir: str,
+) -> Iterable[tuple[str, str, int, int, str, str, str]]:
     base_path = Path(source_dir)
     for translation_dir in sorted(base_path.iterdir()):
         if not translation_dir.is_dir():
@@ -155,7 +157,9 @@ def search_verses_files(
             chapter_num = chapter["chapter"]
             for verse in chapter["verses"]:
                 verse_text = verse["text"]
-                haystack = _normalize_query(verse_text) if case_insensitive else verse_text
+                haystack = (
+                    _normalize_query(verse_text) if case_insensitive else verse_text
+                )
                 if query_value in haystack:
                     results.append(
                         {

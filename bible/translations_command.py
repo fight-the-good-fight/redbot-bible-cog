@@ -14,7 +14,9 @@ async def translations(ctx: commands.Context):
         description += f"** {key} ** - {name}\n"
 
     embeds = []
-    for descript in pagify(description, page_length=3950, delims=["```", "\n", "\n\n", "**"]):
+    for descript in pagify(
+        description, page_length=3950, delims=["```", "\n", "\n\n", "**"]
+    ):
         verbose_title = "Available Translations"
         embed = discord.Embed(
             title=verbose_title, description=descript, color=discord.Color.green()

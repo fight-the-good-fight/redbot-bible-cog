@@ -13,13 +13,12 @@ from bible.translations_command import translations as translations_command
 
 __all__ = ["Bible", "get_book_info", "has_translation"]
 
+
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.config = Config.get_conf(self, identifier=718395193090375700)
-        default_global = {
-            "Notes": []
-        }
+        default_global = {"Notes": []}
         self.config.register_global(**default_global)
 
     @commands.hybrid_group(name="bible")
@@ -55,7 +54,12 @@ class Bible(commands.Cog):
         await memory_remove_command(self, ctx, number)
 
     @memory.command(name="list")
-    async def list(self, ctx: commands.Context, book: Union[str, None] = None, arg: Union[str, None] = None):
+    async def list(
+        self,
+        ctx: commands.Context,
+        book: Union[str, None] = None,
+        arg: Union[str, None] = None,
+    ):
         """Lists all notes for a verse or chapter"""
         await memory_list_command(self, ctx, book=book, arg=arg)
 
@@ -83,7 +87,11 @@ class Bible(commands.Cog):
             return  # Ignore CommandNotFound errors
 
         if isinstance(error, (AttributeError, ValueError)):
-            await ctx.send("Incorrect parameters, please try again. Use `{}help` for more information.".format(ctx.prefix))
+            await ctx.send(
+                "Incorrect parameters, please try again. Use `{}help` for more information.".format(
+                    ctx.prefix
+                )
+            )
         else:
             # Re-raise the error if it's not an AttributeError or ValueError
             raise error

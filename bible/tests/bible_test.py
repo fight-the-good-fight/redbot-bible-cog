@@ -10,6 +10,8 @@ from bible.search_utils import get_book_extras_from_json
 
 def _make_cog():
     return cast(Bible, Bible.__new__(Bible))
+
+
 def test_translations_command_delegates(monkeypatch):
     from bible import bible as bible_module
 

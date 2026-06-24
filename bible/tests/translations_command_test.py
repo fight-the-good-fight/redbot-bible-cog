@@ -11,7 +11,9 @@ def test_translations_command_builds_embeds_and_menu(monkeypatch):
     pages = ["first page", "second page"]
     captured: dict[str, Any] = {}
 
-    monkeypatch.setattr(translations_module, "translation_names", {"akjv": "AKJV", "bsb": "BSB"})
+    monkeypatch.setattr(
+        translations_module, "translation_names", {"akjv": "AKJV", "bsb": "BSB"}
+    )
     monkeypatch.setattr(translations_module, "pagify", lambda *args, **kwargs: pages)
 
     async def fake_menu(ctx, embeds, controls, timeout):
@@ -38,7 +40,9 @@ def test_translations_command_builds_embeds_and_menu(monkeypatch):
 def test_translations_command_formats_translation_list(monkeypatch):
     captured: dict[str, Any] = {}
 
-    monkeypatch.setattr(translations_module, "translation_names", {"akjv": "AKJV", "bsb": "BSB"})
+    monkeypatch.setattr(
+        translations_module, "translation_names", {"akjv": "AKJV", "bsb": "BSB"}
+    )
 
     def fake_pagify(description, page_length, delims):
         captured["description"] = description

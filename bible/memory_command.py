@@ -8,6 +8,7 @@ from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
 from bible.search_utils import get_book_info
 
+
 def _renumber_notes(notes):
     for i, note_data in enumerate(notes, start=1):
         note_data["number"] = i
@@ -52,7 +53,9 @@ async def add(cog, ctx, *, message: str) -> None:
                 "note": note,
             }
         )
-    await ctx.send("Note added for " + display_name + " " + str(chapter) + ":" + str(verse))
+    await ctx.send(
+        "Note added for " + display_name + " " + str(chapter) + ":" + str(verse)
+    )
 
 
 async def remove(cog, ctx, number: int) -> None:
@@ -76,7 +79,9 @@ async def remove(cog, ctx, number: int) -> None:
         _renumber_notes(notes_copy)
 
 
-async def list(cog, ctx, book: Union[str, None] = None, arg: Union[str, None] = None) -> None:
+async def list(
+    cog, ctx, book: Union[str, None] = None, arg: Union[str, None] = None
+) -> None:
     """Lists all notes for a verse or chapter"""
 
     description = ""

@@ -67,7 +67,12 @@ def test_match_book_edge_cases():
 
 def test_get_verse_offset():
     # Verse numbers present
-    assert get_verse_offset([{"text": "intro"}, {"verseNumber": "1"}, {"verseNumber": "2"}]) == 1
+    assert (
+        get_verse_offset(
+            [{"text": "intro"}, {"verseNumber": "1"}, {"verseNumber": "2"}]
+        )
+        == 1
+    )
     assert get_verse_offset([{"verseNumber": "1"}, {"verseNumber": "2"}]) == 0
 
     # No verse numbers
@@ -95,10 +100,14 @@ def test_get_book_extras_from_json_smoke():
 
 def test_get_book_extras():
     # OT book
-    assert get_book_extras({"name": "Genesis", "order": 1}, "akjv") == ["Authorized (King James) Version (AKJV)"]
+    assert get_book_extras({"name": "Genesis", "order": 1}, "akjv") == [
+        "Authorized (King James) Version (AKJV)"
+    ]
 
     # NT book
-    assert get_book_extras({"name": "Luke", "order": 42}, "akjv") == ["Authorized (King James) Version (AKJV)"]
+    assert get_book_extras({"name": "Luke", "order": 42}, "akjv") == [
+        "Authorized (King James) Version (AKJV)"
+    ]
 
     # Apocrypha book
     assert get_book_extras({"name": "Enoch", "order": 67}, "akjv") == ["Apocrypha"]
