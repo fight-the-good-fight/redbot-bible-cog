@@ -32,8 +32,11 @@ jobs:
       - name: Install dependencies
         run: make install
 
-      - name: Run lint and tests
-        run: make check
+      - name: Run lint
+        run: make lint
+
+      - name: Run tests
+        run: make test
 
       - name: Run spellcheck
         run: make spellcheck
