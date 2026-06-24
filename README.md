@@ -4,6 +4,8 @@ A Red-DiscordBot cog for searching, reading, and noting Bible verses.
 
 ## Installation
 
+Redbot installs cogs from the git repository, not from GitHub release assets.
+
 1. Add this repository as a repo cog:
    ```
    .repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog
@@ -13,6 +15,8 @@ A Red-DiscordBot cog for searching, reading, and noting Bible verses.
    .cog install anvil bible
    .load bible
    ```
+
+Release tags and release notes are still published for changelog/history tracking.
 
 ## Commands
 
