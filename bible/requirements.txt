@@ -1,7 +1,7 @@
 Red-DiscordBot==3.5.22
 future
 pytest
+pytest-asyncio
 pytest-cov
 ruff
 redbot
-codespell
