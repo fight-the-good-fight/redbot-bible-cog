@@ -1,34 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Added
-- Faster Bible search backed by a local SQLite index for the bundled verse data.
-- `bible isearch` for case-insensitive verse searching.
-- Spellchecking in CI.
-- Release automation for tag/changelog generation.
+### Features
+- Faster Bible search backed by a local SQLite index.
 
-### Changed
-- Broke the cog into smaller modules for lookup, search, memory, and translations.
-- Reworked the Bible lookup and search command implementations for clearer control flow.
-- Updated the README to explain that Redbot installs from the git repository, not GitHub release assets.
+### Bug Fixes
+- Improve lookup and search behavior.
+- Fix translation handling.
+- Improve note handling edge cases.
 
-### Fixed
-- Corrected translation detection and search helper behavior.
-- Cleaned up note handling and lookup edge cases.
-- Restored exported helpers expected by the existing tests.
+### Documentation
+- Clarify Redbot installation from the git repository.
+- Add release notes for current and future releases.
 
-### Docs
-- Added Redbot install guidance and release notes to the repository docs.
+### Chores
+- Add spellchecking in CI.
+- Add release automation for version tags and changelog updates.
+- Note that release tags are generated from `main` with `release-please`.
+- Keep release notes aligned with the repo-first install flow.
 
-### Release process
-- Release tags are now generated from `main` with `release-please`.
-- The release PR and changelog describe the repo-first Redbot install flow.
-
-## v1.0.0
-
-2026-06-19
+## v1.0.0 (2023-09-24)
 
 Initial release.
