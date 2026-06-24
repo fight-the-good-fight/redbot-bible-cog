@@ -15,7 +15,7 @@ PYTEST_COV_ARGS := --cov=bible --cov-report=term-missing
 LINT_TARGETS := bible
 REQ_FILE := bible/requirements.txt
 
-.PHONY: help venv install setup fmt lint check test coverage build-index spellcheck clean
+.PHONY: help venv install setup fmt lint markdownlint check test coverage build-index spellcheck clean
 
 help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z0-9_.-]+:.*## / {printf "%-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -26,6 +26,9 @@ build-index: ## Build the bundled SQLite Bible search index
 spellcheck: ## Run codespell across repo files except bundled Bible data
 	$(VENV_CODESPELL) --ignore-words=.codespell-words --skip="bible/data/*,*.sqlite" bible README.md AGENTS.md docs
 
+markdownlint: ## Lint Markdown docs
+	@command -v node >/dev/null 2>&1 || { echo "node is not installed; skipping markdown lint"; exit 0; }
+	npx --yes markdownlint-cli2 README.md CHANGELOG.md
 
 venv: ## Create the repo-local virtual environment with Python 3.11
 	$(PYTHON) -m venv $(VENV)
@@ -41,13 +44,12 @@ fmt: ## Format Python code with Ruff
 lint: ## Lint Python code with Ruff
 	$(RUFF) check $(LINT_TARGETS)
 
-check: lint test ## Run lint and tests
+check: lint test markdownlint spellcheck ## Run lint and tests
 
 test: ## Run the test suite from the repo root
 	$(VENV_PYTHON) -m pytest $(TEST_DIR) $(PYTEST_COV_ARGS)
 
 coverage: test ## Run tests with coverage output
-
 
 clean: ## Remove Python caches
 	find bible -type d -name __pycache__ -prune -exec rm -rf {} +
