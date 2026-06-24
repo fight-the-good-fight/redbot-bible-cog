@@ -29,14 +29,11 @@ jobs:
           cache: pip
           cache-dependency-path: bible/requirements.txt
 
-      - name: Install dependencies
-        run: make install
+      - name: Run spellcheck
+        run: make spellcheck
 
       - name: Run lint
         run: make lint
 
       - name: Run tests
         run: make test
-
-      - name: Run spellcheck
-        run: make spellcheck
