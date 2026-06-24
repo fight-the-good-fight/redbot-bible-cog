@@ -2,5 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "release-type": "python",
   "include-v-in-tag": true,
-  "prerelease": false
+  "prerelease": false,
+  "pull-request-footer": "Redbot users install this cog from the git repository, not a GitHub release asset. Example: `.repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog` then `.cog install anvil bible`.",
+  "pull-request-header": "Release notes for the next tagged cog version."
 }
