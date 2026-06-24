@@ -1,8 +1,6 @@
 from typing import Union
 
-import discord
-
-from redbot.core import Config, app_commands, commands
+from redbot.core import Config, commands
 
 from bible.lookup_command import lookup as lookup_command
 from bible.memory_command import add as memory_add_command
@@ -10,8 +8,10 @@ from bible.memory_command import list as memory_list_command
 from bible.memory_command import remove as memory_remove_command
 from bible.search_command import isearch as isearch_command
 from bible.search_command import search as search_command
-from bible.search_utils import detect_translation, get_book_info, get_verse_offset, has_translation
+from bible.search_utils import get_book_info, has_translation
 from bible.translations_command import translations as translations_command
+
+__all__ = ["Bible", "get_book_info", "has_translation"]
 
 class Bible(commands.Cog):
     def __init__(self, bot: commands.Bot):
