@@ -32,6 +32,11 @@ jobs:
       - name: Run spellcheck
         run: make spellcheck
 
+      - name: Run fmt
+        run: |
+          make fmt
+          git diff --exit-code -- .
+
       - name: Run lint
         run: make lint
 
