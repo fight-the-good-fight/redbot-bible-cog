@@ -113,23 +113,31 @@ jobs:
         with:
           name: coverage-summary
 
-      - name: Find existing coverage comment
-        id: find-comment
+      - name: Update coverage comment
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
+            const fs = require('node:fs');
             const marker = '<!-- coverage-report -->';
+            const body = `${marker}\n${fs.readFileSync('coverage-summary.md', 'utf8')}`;
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
             });
-            const comment = comments.find((c) => c.body?.includes(marker));
-            core.setOutput('comment-id', comment?.id?.toString() || '');
-
-      - name: Comment coverage on PR
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5
-        with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
-          body-path: coverage-summary.md
+            const existing = comments.find((c) => c.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
