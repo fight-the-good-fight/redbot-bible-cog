@@ -1,6 +1,13 @@
 # Red-DiscordBot Bible Cog
 
-A Red-DiscordBot cog for searching, reading, and noting Bible verses.
+Look up Bible verses, search scripture text, and attach personal notes to verses or chapters.
+
+This cog includes three bundled Bible translations:
+- AKJV — American King James Version
+- ASV — American Standard Version
+- BSB — Berean Study Bible
+
+All verse data is bundled locally. No external Bible API is used.
 
 ## Installation
 
@@ -20,45 +27,26 @@ Release tags and release notes are still published for changelog/history trackin
 
 ## Commands
 
-### `bible translations`
-Lists all supported Bible translations.
+| Command | What it does |
+| --- | --- |
+| `bible translations` | List the bundled Bible translations. |
+| `bible lookup <verse>` | Show a verse, chapter, or verse range. |
+| `bible search <text>` | Search for matching text across the Bible. |
+| `bible isearch <text>` | Search for matching text without case sensitivity. |
+| `memory add <verse> <note>` | Save a note for a verse or chapter. |
+| `memory remove <id>` | Delete a saved note by its ID. |
+| `memory list` | List saved notes, optionally filtered by book or chapter. |
+| `removeallnotes` | Clear all stored notes (owner only). |
 
-### `bible lookup <verse>`
-Displays a chapter, specific verse, or verse range.
-Examples:
-- `bible lookup john 3:16` — single verse
-- `bible lookup psalms 23` — entire chapter
-- `bible lookup john 3:16-18` — verse range
+### Examples
 
-### `bible search <text>`
-Case-sensitive search for text across all books.
-
-### `bible isearch <text>`
-Case-insensitive search for text across all books.
-
-### `memory add <verse> <note>`
-Adds a personal note to a verse or chapter.
-Examples:
+- `bible lookup john 3:16`
+- `bible lookup psalms 23`
+- `bible lookup john 3:16-18`
+- `bible search beloved`
+- `bible isearch beloved`
 - `memory add john 3:16 "God loved us first"`
-- `memory add psalms 23 "This is my shepherd"`
-
-### `memory remove <id>`
-Removes a previously added note by its ID number.
-
-### `memory list`
-Lists all notes. Optionally filter by book (`memory list john`) or chapter/verse (`memory list john 3`).
-
-### `removeallnotes`
-Clears all stored notes (owner-only command).
-
-## Data
-
-The cog bundles three translations:
-- **AKJV** — American King James Version (primary source)
-- **ASV** — American Standard Version
-- **BSB** — Berean Study Bible
-
-All data is bundled locally; no external API calls are made.
+- `memory list john 3`
 
 ## Notes Storage
 
