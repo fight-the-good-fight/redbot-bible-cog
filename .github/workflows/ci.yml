@@ -40,6 +40,10 @@ jobs:
       - name: Run markdown lint
         run: make markdownlint
 
+      - name: Run tests
+        run: make test
+
+
       - name: Build coverage summary
         run: |
           .venv/bin/python -m coverage json -o coverage.json
