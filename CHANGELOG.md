@@ -10,9 +10,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Bug Fixes
 
-- Improve lookup and search behavior.
-- Fix translation handling.
-- Improve note handling edge cases.
+- Make Bible lookups, searches, and notes behave more reliably.
+- Improve the setup and install experience.
 
 ### Documentation
 
