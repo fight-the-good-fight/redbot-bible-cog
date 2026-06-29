@@ -104,7 +104,7 @@ async def lookup(cog, ctx, message: str):
                 chapterNumber = chapter.get("chapterNumber")
 
             # Build description and collect notes once per chapter.
-            notes_lines: list[str] = []
+            notes_by_verse: dict[str, list[str]] = {}
             if translation == "akjv":
                 async with cog.config.Notes() as notes:
                     if usfmFormat:
@@ -122,7 +122,8 @@ async def lookup(cog, ctx, message: str):
                         and str(note["verse"]) in verse_numbers
                     ]
                     for note in chapter_notes:
-                        notes_lines.append(
+                        verse_key = str(note["verse"])
+                        notes_by_verse.setdefault(verse_key, []).append(
                             str(box(text="- " + note["note"], lang="diff"))
                         )
 
@@ -134,9 +135,10 @@ async def lookup(cog, ctx, message: str):
                     verseNumber = str(verse["verse"])
                     verseText = verse["text"]
                 description_lines.append(f"[{verseNumber}] {verseText}")
-                if notes_lines:
+                note_lines = notes_by_verse.get(str(verseNumber), [])
+                if note_lines:
                     description_lines.append("")  # blank line between verse and notes
-                description_lines.extend(notes_lines)
+                    description_lines.extend(note_lines)
 
             description = "\n".join(description_lines)
 
