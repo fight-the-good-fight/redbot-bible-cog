@@ -1,3 +1,8 @@
-Red-DiscordBot==3.5.1
+Red-DiscordBot==3.5.22
 future
 pytest
+pytest-asyncio
+pytest-cov
+ruff
+codespell
+

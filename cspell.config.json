@@ -1,0 +1,21 @@
+{
+  "language": "en",
+  "ignorePaths": [
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "words": [
+    "Berean",
+    "cooldown",
+    "descript",
+    "isearch",
+    "pagify",
+    "redbot",
+    "removeallnotes",
+    "songofsolomon",
+    "songofsongs",
+    "songsofsolomon",
+    "USFM",
+    "venv"
+  ]
+}
