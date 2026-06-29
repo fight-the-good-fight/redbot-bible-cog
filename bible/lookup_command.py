@@ -107,13 +107,19 @@ async def lookup(cog, ctx, message: str):
             notes_lines: list[str] = []
             if translation == "akjv":
                 async with cog.config.Notes() as notes:
-                    # Filter notes per chapter in-memory.
+                    if usfmFormat:
+                        verse_numbers = {
+                            str(verse.get("verseNumber")) for verse in verses if "verseNumber" in verse
+                        }
+                    else:
+                        verse_numbers = {str(verse["verse"]) for verse in verses}
+
                     chapter_notes = [
                         note
                         for note in notes
                         if note["book"].lower() == book_name
                         and str(note["chapter"]) == chapterNumber
-                        and str(note["verse"]) in verses
+                        and str(note["verse"]) in verse_numbers
                     ]
                     for note in chapter_notes:
                         notes_lines.append(

@@ -9,6 +9,7 @@ from bible.search_utils import (
     get_verse_offset,
     has_translation,
     match_book,
+    strip_translation,
 )
 
 
@@ -36,6 +37,12 @@ def test_detect_translation_edge_cases():
     # "1 kjv" matches trailing "kjv" — expected behavior
     assert detect_translation("1 kjv") == "akjv"
 
+
+
+def test_strip_translation():
+    assert strip_translation("Genesis 1:1 kjv") == "Genesis 1:1"
+    assert strip_translation("kjv Genesis 1:1") == "Genesis 1:1"
+    assert strip_translation("Genesis 1:1") == "Genesis 1:1"
 
 def test_fix_book_name_and_match_book():
     assert fix_book_name(" Psalm ") == "psalms"

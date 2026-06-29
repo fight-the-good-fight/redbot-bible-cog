@@ -28,7 +28,7 @@ spellcheck: ## Run codespell across repo files except bundled Bible data
 
 markdownlint: ## Lint Markdown docs
 	@command -v node >/dev/null 2>&1 || { echo "node is not installed; skipping markdown lint"; exit 0; }
-	npx --yes markdownlint-cli2 README.md CHANGELOG.md
+	npx --yes markdownlint-cli2@0.22.1 README.md CHANGELOG.md
 
 venv: ## Create the repo-local virtual environment with Python 3.11
 	$(PYTHON) -m venv $(VENV)

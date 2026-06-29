@@ -59,7 +59,6 @@ def detect_translation(message: str) -> str | None:
             case "kjv":
                 translation = "akjv"
     else:
-        # Also check for translation at start of message
         parse_start = re.compile(r"^(\w+)(?:\s|$)")
         matched = parse_start.search(message)
         if matched is not None:
@@ -75,6 +74,18 @@ def detect_translation(message: str) -> str | None:
                     translation = "akjv"
 
     return translation
+
+
+def strip_translation(message: str) -> str:
+    start_translation = re.compile(r"^(asv|bsb|akjv|kjv)(?:\s|$)", re.IGNORECASE)
+    if start_translation.search(message) is not None:
+        return start_translation.sub("", message, count=1).strip()
+
+    end_translation = re.compile(r"\s(asv|bsb|akjv|kjv)$", re.IGNORECASE)
+    if end_translation.search(message) is not None:
+        return end_translation.sub("", message, count=1).strip()
+
+    return message
 
 
 def has_translation(message: str):

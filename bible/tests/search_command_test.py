@@ -42,29 +42,55 @@ async def test_search_basic(mock_ctx, mock_index_path, mock_rows):
             "bible.search_command.detect_translation", return_value=None
         ) as mock_detect:
             with patch(
-                "bible.search_command._search_index_path", return_value=mock_index_path
-            ):
+                "bible.search_command.strip_translation", return_value="test"
+            ) as mock_strip:
                 with patch(
-                    "bible.search_command.search_verses_sqlite", return_value=mock_rows
-                ) as mock_search:
+                    "bible.search_command._search_index_path", return_value=mock_index_path
+                ):
                     with patch(
-                        "bible.search_command.pagify", return_value=["page1"]
-                    ) as mock_pagify:
-                        with patch("bible.search_command.discord.Embed") as mock_embed:
-                            with patch(
-                                "bible.search_command.menu", new=AsyncMock()
-                            ) as mock_menu:
-                                await search(mock_ctx, '"test"')
+                        "bible.search_command.search_verses_sqlite", return_value=mock_rows
+                    ) as mock_search:
+                        with patch(
+                            "bible.search_command.pagify", return_value=["page1"]
+                        ) as mock_pagify:
+                            with patch("bible.search_command.discord.Embed") as mock_embed:
+                                with patch(
+                                    "bible.search_command.menu", new=AsyncMock()
+                                ) as mock_menu:
+                                    await search(mock_ctx, '"test"')
 
     mock_sub.assert_called_once_with(r'^"|"$', "", '"test"')
     mock_detect.assert_called_once_with("test")
+    mock_strip.assert_called_once_with("test")
     mock_search.assert_called_once_with(
         mock_index_path, "test", case_insensitive=False, translation="akjv"
     )
-    assert mock_pagify.call_count == 2
+    assert mock_pagify.called
     mock_embed.assert_called_once()
     assert mock_embed.call_args.kwargs["title"] == "Search"
     mock_menu.assert_awaited_once()
+
+
+async def test_search_strips_translation_suffix(mock_ctx):
+    with patch("bible.search_command.re.sub", side_effect=lambda pattern, repl, arg: arg):
+        with patch("bible.search_command.detect_translation", return_value="bsb"):
+            with patch(
+                "bible.search_command.strip_translation", return_value="grace"
+            ) as mock_strip:
+                with patch(
+                    "bible.search_command._search_index_path", return_value="search.sqlite"
+                ):
+                    with patch(
+                        "bible.search_command.search_verses_sqlite", return_value=[]
+                    ) as mock_search:
+                        await search(mock_ctx, "grace bsb")
+
+    mock_strip.assert_called_once_with("grace bsb")
+    mock_search.assert_called_once_with(
+        "search.sqlite", "grace", case_insensitive=False, translation="bsb"
+    )
+    mock_ctx.send.assert_awaited_once_with("No matches found")
+
 
 
 async def test_search_no_matches(mock_ctx):

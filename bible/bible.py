@@ -87,9 +87,10 @@ class Bible(commands.Cog):
     async def removeallnotes(self, ctx: commands.Context) -> None:
         """Clears all notes"""
         if not await self.bot.is_owner(ctx.author):
+            await ctx.send("Only the bot owner can use this command.")
             return
         await self.config.clear_all()
-        await ctx.send("All Notes removed")
+        await ctx.send("All notes removed")
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx: commands.Context, error: Exception):

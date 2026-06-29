@@ -3,7 +3,7 @@ from pathlib import Path
 
 import discord
 from bible.search_index import search_verses_sqlite
-from bible.search_utils import detect_translation
+from bible.search_utils import detect_translation, strip_translation
 from redbot.core.data_manager import bundled_data_path
 from redbot.core.utils.chat_formatting import pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
@@ -36,6 +36,7 @@ async def search(ctx, arg: str):
 
     arg = re.sub(r'^"|"$', "", arg)
     translation = detect_translation(arg) or "akjv"
+    arg = strip_translation(arg)
     rows = search_verses_sqlite(
         _search_index_path(ctx), arg, case_insensitive=False, translation=translation
     )
@@ -51,6 +52,7 @@ async def isearch(ctx, arg: str):
 
     arg = re.sub(r'^"|"$', "", arg)
     translation = detect_translation(arg) or "akjv"
+    arg = strip_translation(arg)
     rows = search_verses_sqlite(
         _search_index_path(ctx), arg, case_insensitive=True, translation=translation
     )
@@ -64,3 +66,5 @@ async def isearch(ctx, arg: str):
         controls=DEFAULT_CONTROLS,
         timeout=30,
     )
+
+

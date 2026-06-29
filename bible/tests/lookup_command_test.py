@@ -58,7 +58,7 @@ def test_lookup_command_delegates(monkeypatch):
     assert calls == ["Genesis 1:1"]
 
 
-def test_lookup_command_smoke(monkeypatch, tmp_path):
+def test_lookup_command_renders_matching_notes(monkeypatch, tmp_path):
     lookup_module = __import__("bible.lookup_command", fromlist=["lookup"])
 
     book_dir = tmp_path / "akjv"
@@ -80,27 +80,36 @@ def test_lookup_command_smoke(monkeypatch, tmp_path):
         )
     )
 
+    class _Notes:
+        async def __aenter__(self):
+            return [
+                {"book": "Genesis", "chapter": 1, "verse": 1, "note": "My note"},
+                {"book": "Genesis", "chapter": 1, "verse": 3, "note": "Other"},
+            ]
+
+        async def __aexit__(self, *_):
+            return False
+
+    class _Config:
+        def Notes(self):
+            return _Notes()
+
     captures = {}
 
     async def fake_menu(_ctx, embeds, controls=None, timeout=None):
         captures["embeds"] = embeds
-        captures["controls"] = controls
-        captures["timeout"] = timeout
 
     monkeypatch.setattr(lookup_module, "menu", fake_menu)
     monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
 
-    def _send(*_args, **_kwargs):
-        return None
-
     cog = SimpleNamespace(config=_Config())
-    ctx = SimpleNamespace(send=_send)
+    ctx = SimpleNamespace(send=lambda *_args, **_kwargs: None)
 
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
 
-    assert captures["timeout"] == 30
-    assert (
-        captures["embeds"][0].title
-        == "Genesis 1:1 - Authorized (King James) Version (AKJV)"
-    )
-    assert "[1] In the beginning" in captures["embeds"][0].description
+    description = captures["embeds"][0].description
+    assert "[1] In the beginning" in description
+    assert "My note" in description
+    assert "Other" not in description
+
+

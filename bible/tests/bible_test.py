@@ -1,8 +1,8 @@
+from pathlib import Path
+from types import SimpleNamespace
 from typing import Any, cast
 
 import asyncio
-from pathlib import Path
-from types import SimpleNamespace
 
 from bible.bible import Bible, get_book_info
 from bible.search_utils import get_book_extras_from_json
@@ -42,6 +42,58 @@ def test_version_command_sends_version():
     asyncio.run(Bible.__dict__["version"].callback(cog, ctx))
 
     assert sent_messages == ["Bible cog version 1.0.1"]
+
+
+def test_removeallnotes_denies_non_owner(monkeypatch):
+    cog = _make_cog()
+    sent = []
+    cleared = False
+
+    class _Config:
+        async def clear_all(self):
+            nonlocal cleared
+            cleared = True
+
+    async def fake_is_owner(_author):
+        return False
+
+    async def fake_send(message):
+        sent.append(message)
+
+    cog.bot = SimpleNamespace(is_owner=fake_is_owner)
+    cog.config = _Config()
+    ctx = SimpleNamespace(author=object(), send=fake_send)
+
+    asyncio.run(Bible.__dict__["removeallnotes"].callback(cog, ctx))
+
+    assert sent == ["Only the bot owner can use this command."]
+    assert cleared is False
+
+
+def test_removeallnotes_clears_and_confirms(monkeypatch):
+    cog = _make_cog()
+    sent = []
+    cleared = False
+
+    class _Config:
+        async def clear_all(self):
+            nonlocal cleared
+            cleared = True
+
+    async def fake_is_owner(_author):
+        return True
+
+    async def fake_send(message):
+        sent.append(message)
+
+    cog.bot = SimpleNamespace(is_owner=fake_is_owner)
+    cog.config = _Config()
+    ctx = SimpleNamespace(author=object(), send=fake_send)
+
+    asyncio.run(Bible.__dict__["removeallnotes"].callback(cog, ctx))
+
+    assert cleared is True
+    assert sent == ["All notes removed"]
 
 
 def test_search_command_delegates(monkeypatch):
@@ -134,3 +186,9 @@ def test_get_book_name_from_json():
         str(Path(__file__).resolve().parents[1] / "data"), book_info, "bsb"
     )
     assert book_extras == ["- Berean Study Bible"]
+
+
+def test_markdownlint_is_pinned():
+    makefile = Path(__file__).resolve().parents[2] / "Makefile"
+    contents = makefile.read_text()
+    assert "markdownlint-cli2@0.22.1" in contents
