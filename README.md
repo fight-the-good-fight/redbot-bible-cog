@@ -34,6 +34,7 @@ Release tags and release notes are still published for changelog/history trackin
 
 | Command | What it does |
 | --- | --- |
+| `bible version` | Show the Bible cog version. |
 | `bible translations` | List the bundled Bible translations. |
 | `bible lookup <verse>` | Show a verse, chapter, or verse range. |
 | `bible search <text>` | Search for matching text across the Bible. |
@@ -42,7 +43,6 @@ Release tags and release notes are still published for changelog/history trackin
 | `memory remove <id>` | Delete a saved note by its ID. |
 | `memory list` | List saved notes, optionally filtered by book or chapter. |
 | `removeallnotes` | Clear all stored notes (owner only). |
-
 ### Examples
 
 - `bible lookup john 3:16`

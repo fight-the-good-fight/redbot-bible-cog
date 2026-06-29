@@ -3,5 +3,6 @@
     "short": "The Bible cog",
     "description": "A bible cog to look up verses and add notes to them.",
     "name": "Bible",
-    "install_msg": "Thank you for installing the Bible cog!"
+    "version": "1.0.1",
+    "install_msg": "Thank you for installing the Bible cog! Current version: 1.0.1"
 }

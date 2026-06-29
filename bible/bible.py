@@ -15,6 +15,8 @@ __all__ = ["Bible", "get_book_info", "has_translation"]
 
 
 class Bible(commands.Cog):
+    VERSION = "1.0.1"
+
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.config = Config.get_conf(self, identifier=718395193090375700)
@@ -23,8 +25,16 @@ class Bible(commands.Cog):
 
     @commands.hybrid_group(name="bible")
     async def bible(self, ctx: commands.Context):
-        """Searches for a verse or chapter in the bible"""
+        """Searches for a verse or chapter in the bible.
+
+        Use `bible version` to see the cog release.
+        """
         pass
+
+    @bible.command(name="version")
+    async def version(self, ctx: commands.Context):
+        """Shows the Bible cog version"""
+        await ctx.send(f"Bible cog version {self.VERSION}")
 
     @bible.command(name="translations")
     async def translations(self, ctx: commands.Context):
