@@ -1,2 +1,7 @@
 __pycache__
 .vscode
+.venv
+mcp_docker.log
+.coverage
+bible/search_index.sqlite
+docs/superpowers

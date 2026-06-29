@@ -1,0 +1,150 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: make install
+
+      - name: Set up Node
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Run markdown lint
+        run: make markdownlint
+
+      - name: Run tests
+        run: make test
+
+
+      - name: Build coverage summary
+        run: |
+          .venv/bin/python -m coverage json -o coverage.json
+          .venv/bin/python - <<'PY'
+          import json
+          from pathlib import Path
+
+          threshold = 90.0
+          data = json.loads(Path("coverage.json").read_text())
+          total = data["totals"]
+          files = []
+          for filename, info in data["files"].items():
+              missing = info.get("missing_lines", [])
+              if missing:
+                  files.append(
+                      (
+                          info["summary"]["percent_covered"],
+                          len(missing),
+                          filename,
+                          missing,
+                      )
+                  )
+          files.sort(key=lambda item: (item[0], item[1], item[2]))
+
+          def status_icon(coverage: float) -> str:
+              if coverage >= threshold:
+                  return "✅"
+              if coverage >= threshold - 5:
+                  return "⚠️"
+              return "❌"
+
+          total_icon = status_icon(total["percent_covered"])
+
+          lines = [
+              "### Coverage report",
+              "",
+              f"- Total: {total_icon} {total['percent_covered']:.1f}% ({total['covered_lines']}/{total['num_statements']} lines)",
+              f"- Files with misses: {len(files)}",
+              f"- File threshold: {threshold:.0f}%",
+              "",
+              "| Status | Coverage | Missing | File | Missing lines |",
+              "| --- | ---: | ---: | --- | --- |",
+          ]
+          for coverage, miss_count, filename, missing in files[:10]:
+              missing_lines = ", ".join(str(line) for line in missing[:20])
+              if len(missing) > 20:
+                  missing_lines += "…"
+              lines.append(
+                  f"| {status_icon(coverage)} | {coverage:.1f}% | {miss_count} | `{filename}` | {missing_lines} |"
+              )
+          if not files:
+              lines.append("| ✅ | — | — | None | — |")
+
+          Path("coverage-summary.md").write_text("\n".join(lines) + "\n")
+          PY
+
+      - name: Upload coverage summary
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: coverage-summary
+          path: coverage-summary.md
+
+  coverage-comment:
+    if: github.event_name == 'pull_request'
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Download coverage summary
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: coverage-summary
+
+      - name: Update coverage comment
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const fs = require('node:fs');
+            const marker = '<!-- coverage-report -->';
+            const body = `${marker}\n${fs.readFileSync('coverage-summary.md', 'utf8')}`;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find((c) => c.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
