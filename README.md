@@ -43,6 +43,7 @@ Release tags and release notes are still published for changelog/history trackin
 | `memory remove <id>` | Delete a saved note by its ID. |
 | `memory list` | List saved notes, optionally filtered by book or chapter. |
 | `removeallnotes` | Clear all stored notes (owner only). |
+
 ### Examples
 
 - `bible lookup john 3:16`

@@ -30,6 +30,20 @@ def test_translations_command_delegates(monkeypatch):
     assert calls == [ctx]
 
 
+def test_version_command_sends_version():
+    cog = _make_cog()
+    sent_messages = []
+
+    async def fake_send(message):
+        sent_messages.append(message)
+
+    ctx = SimpleNamespace(send=fake_send)
+
+    asyncio.run(Bible.__dict__["version"].callback(cog, ctx))
+
+    assert sent_messages == ["Bible cog version 1.0.1"]
+
+
 def test_search_command_delegates(monkeypatch):
     from bible import bible as bible_module
 

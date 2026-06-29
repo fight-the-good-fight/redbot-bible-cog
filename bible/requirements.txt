@@ -4,5 +4,5 @@ pytest
 pytest-asyncio
 pytest-cov
 ruff
-redbot
 codespell
+
