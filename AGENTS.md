@@ -56,9 +56,13 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 - If imports fail, confirm the environment includes Redbot/discord dependencies before changing code.
 
 ## Critical Rules
+- Follow directions exactly: when user says "not making changes", do NOT modify any files
 - No subagents
+- When in doubt about scope, ask for clarification before proceeding
 - Prefer small files, targeted by category
+- NEVER assume "checking for updates" means "apply updates"
 - Surgical edits
+- Always prioritize user's explicit constraints over default behavior
 - Stay on topic and in scope of task
 - When you write a file or need to modify it, edit it, do not write it from scratch
 - If you need to overwrite a file, create temporary file first, make sure it is correct then replace the target file, do not delete the real file unless these conditions are met
