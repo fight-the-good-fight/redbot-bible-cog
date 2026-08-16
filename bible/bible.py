@@ -94,15 +94,20 @@ class Bible(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx: commands.Context, error: Exception):
-        if isinstance(error, commands.CommandNotFound):
-            return  # Ignore CommandNotFound errors
+        if ctx.command is None or ctx.command.cog is not self:
+            return
 
-        if isinstance(error, (AttributeError, ValueError)):
+        if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send(
-                "Incorrect parameters, please try again. Use `{}help` for more information.".format(
-                    ctx.prefix
-                )
+                f"Missing required argument: `{error.param.name}`. "
+                f"Use `{ctx.prefix}help {ctx.command}` for usage."
             )
-        else:
-            # Re-raise the error if it's not an AttributeError or ValueError
-            raise error
+            return
+
+        if isinstance(error, commands.BadArgument):
+            await ctx.send(
+                f"Incorrect parameters. Use `{ctx.prefix}help {ctx.command}` for usage."
+            )
+            return
+
+        raise error
