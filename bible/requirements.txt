@@ -1,4 +1,4 @@
-Red-DiscordBot==3.5.22
+Red-DiscordBot==3.5.24
 future==1.0.0
 pytest==9.1.1
 pytest-asyncio==1.4.0
