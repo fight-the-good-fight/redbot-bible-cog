@@ -28,6 +28,73 @@ Examples:
 .venv/bin/python scripts/preview_lookup.py "1Corinthians 13:13" --memories /path/to/memories.json
 ```
 
+Sample output:
+
+Default (verse + sample note + live change):
+
+````
+=== Embed 1 of 1 ===
+Title : Genesis 1:1 - Authorized (King James) Version (AKJV)
+Color : #2ecc71
+--- Description ---
+[1] In the beginning God created the heaven and the earth.
+
+```diff
+- Sample note for Genesis 1:1 (display preview).
+```
+
+**Change recorded for Genesis 1:1 (KJV):**
+```diff
+- type: Other
+- notes: The word "heaven" is plural in other translations of KJV, and is plural in Hebrew
+- restored: In the beginning God created the heavens and the earth.
+- source: Authorized King James Bible - 1845
+```
+https://search.thesupernaturalbiblechanges.com/changes/1
+--- End ---
+````
+
+`--no-notes` (verse + change only):
+
+````
+=== Embed 1 of 1 ===
+Title : Genesis 1:1 - Authorized (King James) Version (AKJV)
+Color : #2ecc71
+--- Description ---
+[1] In the beginning God created the heaven and the earth.
+
+**Change recorded for Genesis 1:1 (KJV):**
+```diff
+- type: Other
+- notes: The word "heaven" is plural in other translations of KJV, and is plural in Hebrew
+- restored: In the beginning God created the heavens and the earth.
+- source: Authorized King James Bible - 1845
+```
+https://search.thesupernaturalbiblechanges.com/changes/1
+--- End ---
+````
+
+`--memories PATH` (verse + your note + change):
+
+````
+=== Embed 1 of 1 ===
+Title : 1 Corinthians 13:13 - Authorized (King James) Version (AKJV)
+Color : #2ecc71
+--- Description ---
+[13] And now abideth faith, hope, charity, these three; but the greatest of these is charity.
+
+```diff
+- Commentary: "Faith, hope, and love, but the greatest of these is love."
+```
+
+**Change recorded for 1 Corinthians 13:13 (KJV):**
+```diff
+- type: Other
+```
+https://search.thesupernaturalbiblechanges.com/changes/47
+--- End ---
+````
+
 Notes:
 - The change block only appears for AKJV/KJV lookups with an explicit verse (book ≤ 66),
   matching the cog's gating.
