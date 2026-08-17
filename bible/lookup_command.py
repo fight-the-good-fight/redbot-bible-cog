@@ -6,6 +6,7 @@ from redbot.core.data_manager import bundled_data_path
 from redbot.core.utils.chat_formatting import box, pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
+from bible.changes_api import format_change_lines, get_changes_for_chapter
 from bible.search_utils import (
     detect_translation,
     get_book_info,
@@ -127,6 +128,21 @@ async def lookup(cog, ctx, message: str):
                             str(box(text="- " + note["note"], lang="diff"))
                         )
 
+            changes_by_verse: dict[str, list[str]] = {}
+            if translation == "akjv" and have_chapter_and_verse:
+                book_number = book_info["matched"]["order"]
+                if book_number <= 66 and chapterNumber is not None:
+                    changes = await get_changes_for_chapter(
+                        book_number, int(chapterNumber)
+                    )
+                    for change in changes:
+                        verse_key = str(change.get("verse"))
+                        if verse_key not in verse_numbers:
+                            continue
+                        changes_by_verse.setdefault(verse_key, []).extend(
+                            format_change_lines(change)
+                        )
+
             for verse in verses:
                 if usfmFormat:
                     verseNumber = verse.get("verseNumber")
@@ -139,6 +155,10 @@ async def lookup(cog, ctx, message: str):
                 if note_lines:
                     description_lines.append("")  # blank line between verse and notes
                     description_lines.extend(note_lines)
+                change_lines = changes_by_verse.get(str(verseNumber), [])
+                if change_lines:
+                    description_lines.append("")
+                    description_lines.extend(change_lines)
 
             description = "\n".join(description_lines)
 
