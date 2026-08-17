@@ -84,19 +84,10 @@ def test_lookup_command_renders_matching_notes(monkeypatch, tmp_path):
         )
     )
 
-    class _Notes:
-        async def __aenter__(self):
-            return [
-                {"book": "Genesis", "chapter": 1, "verse": 1, "note": "My note"},
-                {"book": "Genesis", "chapter": 1, "verse": 3, "note": "Other"},
-            ]
-
-        async def __aexit__(self, *_):
-            return False
-
-    class _Config:
-        def Notes(self):
-            return _Notes()
+    notes = [
+        {"book": "Genesis", "chapter": 1, "verse": 1, "note": "My note"},
+        {"book": "Genesis", "chapter": 1, "verse": 3, "note": "Other"},
+    ]
 
     captures = {}
 
@@ -106,8 +97,9 @@ def test_lookup_command_renders_matching_notes(monkeypatch, tmp_path):
     monkeypatch.setattr(lookup_module, "menu", fake_menu)
     monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
     monkeypatch.setattr(lookup_module, "get_changes_for_chapter", _no_changes)
+    monkeypatch.setattr(lookup_module, "load_memories", lambda path=None: notes)
 
-    cog = SimpleNamespace(config=_Config())
+    cog = SimpleNamespace()
     ctx = SimpleNamespace(send=lambda *_args, **_kwargs: None)
 
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
@@ -141,16 +133,7 @@ def test_lookup_command_does_not_duplicate_notes_across_verses(monkeypatch, tmp_
         )
     )
 
-    class _Notes:
-        async def __aenter__(self):
-            return [{"book": "Genesis", "chapter": 1, "verse": 1, "note": "My note"}]
-
-        async def __aexit__(self, *_):
-            return False
-
-    class _Config:
-        def Notes(self):
-            return _Notes()
+    notes = [{"book": "Genesis", "chapter": 1, "verse": 1, "note": "My note"}]
 
     captures = {}
 
@@ -160,8 +143,9 @@ def test_lookup_command_does_not_duplicate_notes_across_verses(monkeypatch, tmp_
     monkeypatch.setattr(lookup_module, "menu", fake_menu)
     monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
     monkeypatch.setattr(lookup_module, "get_changes_for_chapter", _no_changes)
+    monkeypatch.setattr(lookup_module, "load_memories", lambda path=None: notes)
 
-    cog = SimpleNamespace(config=_Config())
+    cog = SimpleNamespace()
     ctx = SimpleNamespace(send=lambda *_args, **_kwargs: None)
 
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1-2"))

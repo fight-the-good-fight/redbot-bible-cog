@@ -7,6 +7,7 @@ from redbot.core.utils.chat_formatting import box, pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
 from bible.changes_api import format_change_lines, get_changes_for_chapter
+from bible.memories_store import load_memories
 from bible.search_utils import (
     detect_translation,
     get_book_info,
@@ -107,26 +108,26 @@ async def lookup(cog, ctx, message: str):
             # Build description and collect notes once per chapter.
             notes_by_verse: dict[str, list[str]] = {}
             if translation == "akjv":
-                async with cog.config.Notes() as notes:
-                    if usfmFormat:
-                        verse_numbers = {
-                            str(verse.get("verseNumber")) for verse in verses if "verseNumber" in verse
-                        }
-                    else:
-                        verse_numbers = {str(verse["verse"]) for verse in verses}
+                notes = load_memories()
+                if usfmFormat:
+                    verse_numbers = {
+                        str(verse.get("verseNumber")) for verse in verses if "verseNumber" in verse
+                    }
+                else:
+                    verse_numbers = {str(verse["verse"]) for verse in verses}
 
-                    chapter_notes = [
-                        note
-                        for note in notes
-                        if note["book"].lower() == book_name
-                        and str(note["chapter"]) == chapterNumber
-                        and str(note["verse"]) in verse_numbers
-                    ]
-                    for note in chapter_notes:
-                        verse_key = str(note["verse"])
-                        notes_by_verse.setdefault(verse_key, []).append(
-                            str(box(text="- " + note["note"], lang="diff"))
-                        )
+                chapter_notes = [
+                    note
+                    for note in notes
+                    if note["book"].lower() == book_name
+                    and str(note["chapter"]) == chapterNumber
+                    and str(note["verse"]) in verse_numbers
+                ]
+                for note in chapter_notes:
+                    verse_key = str(note["verse"])
+                    notes_by_verse.setdefault(verse_key, []).append(
+                        str(box(text="- " + note["note"], lang="diff"))
+                    )
 
             changes_by_verse: dict[str, list[str]] = {}
             if translation == "akjv" and have_chapter_and_verse:

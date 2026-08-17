@@ -45,14 +45,17 @@ def test_version_command_sends_version():
 
 
 def test_removeallnotes_denies_non_owner(monkeypatch):
+    from bible import bible as bible_module
+
     cog = _make_cog()
     sent = []
     cleared = False
 
-    class _Config:
-        async def clear_all(self):
-            nonlocal cleared
-            cleared = True
+    def fake_save_memories(memories, path=None):
+        nonlocal cleared
+        cleared = True
+
+    monkeypatch.setattr(bible_module, "save_memories", fake_save_memories)
 
     async def fake_is_owner(_author):
         return False
@@ -61,7 +64,6 @@ def test_removeallnotes_denies_non_owner(monkeypatch):
         sent.append(message)
 
     cog.bot = SimpleNamespace(is_owner=fake_is_owner)
-    cog.config = _Config()
     ctx = SimpleNamespace(author=object(), send=fake_send)
 
     asyncio.run(Bible.__dict__["removeallnotes"].callback(cog, ctx))
@@ -71,14 +73,17 @@ def test_removeallnotes_denies_non_owner(monkeypatch):
 
 
 def test_removeallnotes_clears_and_confirms(monkeypatch):
+    from bible import bible as bible_module
+
     cog = _make_cog()
     sent = []
     cleared = False
 
-    class _Config:
-        async def clear_all(self):
-            nonlocal cleared
-            cleared = True
+    def fake_save_memories(memories, path=None):
+        nonlocal cleared
+        cleared = True
+
+    monkeypatch.setattr(bible_module, "save_memories", fake_save_memories)
 
     async def fake_is_owner(_author):
         return True
@@ -87,7 +92,6 @@ def test_removeallnotes_clears_and_confirms(monkeypatch):
         sent.append(message)
 
     cog.bot = SimpleNamespace(is_owner=fake_is_owner)
-    cog.config = _Config()
     ctx = SimpleNamespace(author=object(), send=fake_send)
 
     asyncio.run(Bible.__dict__["removeallnotes"].callback(cog, ctx))

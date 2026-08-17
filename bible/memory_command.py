@@ -7,6 +7,7 @@ from redbot.core.utils.chat_formatting import pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
 from bible.search_utils import get_book_info
+from bible.memories_store import load_memories, save_memories
 
 
 def _renumber_notes(notes):
@@ -14,7 +15,7 @@ def _renumber_notes(notes):
         note_data["number"] = i
 
 
-async def add(cog, ctx, *, message: str) -> None:
+async def add(ctx, *, message: str) -> None:
     """Adds a note to a verse or chapter"""
 
     parse_add = re.compile(r"^(.*)\s(\d+:\d+)\s(.*)")
@@ -42,45 +43,45 @@ async def add(cog, ctx, *, message: str) -> None:
         await ctx.send("Verse not found")
         return
 
-    async with cog.config.Notes() as notes:
-        _renumber_notes(notes)
-        notes.append(
-            {
-                "number": len(notes) + 1,
-                "book": display_name,
-                "chapter": chapter,
-                "verse": verse,
-                "note": note,
-            }
-        )
+    notes = load_memories()
+    _renumber_notes(notes)
+    notes.append(
+        {
+            "number": len(notes) + 1,
+            "book": display_name,
+            "chapter": chapter,
+            "verse": verse,
+            "note": note,
+        }
+    )
+    save_memories(notes)
     await ctx.send(
         "Note added for " + display_name + " " + str(chapter) + ":" + str(verse)
     )
 
 
-async def remove(cog, ctx, number: int) -> None:
+async def remove(ctx, number: int) -> None:
     """Removes a note associated with a verse or chapter"""
 
-    async with cog.config.Notes() as notes:
-        notes_copy = notes
+    notes = load_memories()
+    try:
+        notes[number - 1]
+    except IndexError:
+        await ctx.send("Note not found")
+        return
 
-        try:
-            notes_copy[number - 1]
-        except IndexError:
-            await ctx.send("Note not found")
-            return
+    for note in notes:
+        if note["number"] == number:
+            notes.remove(note)
+            await ctx.send("Note removed")
+            break
 
-        for note in notes:
-            if note["number"] == number:
-                notes.remove(note)
-                await ctx.send("Note removed")
-                break
-
-        _renumber_notes(notes_copy)
+    _renumber_notes(notes)
+    save_memories(notes)
 
 
 async def list(
-    cog, ctx, book: Union[str, None] = None, arg: Union[str, None] = None
+    ctx, book: Union[str, None] = None, arg: Union[str, None] = None
 ) -> None:
     """Lists all notes for a verse or chapter"""
 
@@ -104,25 +105,25 @@ async def list(
         verse = None
 
     if display_name is None and arg is None:
-        async with cog.config.Notes() as notes:
-            for note in notes:
-                description += (
-                    f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
-                    f"```diff\n- {note['note']}\n```\n\n"
-                )
+        notes = load_memories()
+        for note in notes:
+            description += (
+                f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
+                f"```diff\n- {note['note']}\n```\n\n"
+            )
     else:
-        async with cog.config.Notes() as notes:
-            for note in notes:
-                if display_name is not None and note["book"] != display_name:
-                    continue
-                if chapter is not None and note["chapter"] != chapter:
-                    continue
-                if verse is not None and note["verse"] != verse:
-                    continue
-                description += (
-                    f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
-                    f"```diff\n- {note['note']}\n```\n\n"
-                )
+        notes = load_memories()
+        for note in notes:
+            if display_name is not None and note["book"] != display_name:
+                continue
+            if chapter is not None and note["chapter"] != chapter:
+                continue
+            if verse is not None and note["verse"] != verse:
+                continue
+            description += (
+                f"** {note['number']}: {note['book']} {note['chapter']}:{note['verse']}**\n"
+                f"```diff\n- {note['note']}\n```\n\n"
+            )
 
     if description == "":
         await ctx.send("No notes found")

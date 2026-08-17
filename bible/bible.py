@@ -1,11 +1,12 @@
 from typing import Union
 
-from redbot.core import Config, commands
+from redbot.core import commands
 
 from bible.lookup_command import lookup as lookup_command
 from bible.memory_command import add as memory_add_command
 from bible.memory_command import list as memory_list_command
 from bible.memory_command import remove as memory_remove_command
+from bible.memories_store import save_memories
 from bible.search_command import isearch as isearch_command
 from bible.search_command import search as search_command
 from bible.search_utils import get_book_info, has_translation
@@ -19,9 +20,6 @@ class Bible(commands.Cog):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-        self.config = Config.get_conf(self, identifier=718395193090375700)
-        default_global = {"Notes": []}
-        self.config.register_global(**default_global)
 
     @commands.hybrid_group(name="bible")
     async def bible(self, ctx: commands.Context):
@@ -55,13 +53,13 @@ class Bible(commands.Cog):
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def add(self, ctx: commands.Context, *, message: str):
         """Adds a note to a verse or chapter"""
-        await memory_add_command(self, ctx, message=message)
+        await memory_add_command(ctx, message=message)
 
     @memory.command(name="remove")
     @commands.cooldown(1, 1, commands.BucketType.guild)
     async def remove(self, ctx: commands.Context, number: int):
         """Removes a note associated with a verse or chapter"""
-        await memory_remove_command(self, ctx, number)
+        await memory_remove_command(ctx, number)
 
     @memory.command(name="list")
     async def list(
@@ -71,7 +69,7 @@ class Bible(commands.Cog):
         arg: Union[str, None] = None,
     ):
         """Lists all notes for a verse or chapter"""
-        await memory_list_command(self, ctx, book=book, arg=arg)
+        await memory_list_command(ctx, book=book, arg=arg)
 
     @bible.command(name="search")
     async def search(self, ctx: commands.Context, *, arg: str):
@@ -89,7 +87,7 @@ class Bible(commands.Cog):
         if not await self.bot.is_owner(ctx.author):
             await ctx.send("Only the bot owner can use this command.")
             return
-        await self.config.clear_all()
+        save_memories([])
         await ctx.send("All notes removed")
 
     @commands.Cog.listener()
@@ -106,7 +104,8 @@ class Bible(commands.Cog):
 
         if isinstance(error, commands.BadArgument):
             await ctx.send(
-                f"Incorrect parameters. Use `{ctx.prefix}help {ctx.command}` for usage."
+                f"Bad argument: `{error.args[0] if error.args else 'unknown'}`. "
+                f"Use `{ctx.prefix}help {ctx.command}` for usage."
             )
             return
 
