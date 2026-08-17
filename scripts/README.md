@@ -103,6 +103,42 @@ Notes:
 - The script makes a live API call; it fails soft (no change block) if the API is
   unreachable.
 
+## render_mockup.py
+
+Render a Discord mockup HTML file to a tight-cropped PNG — the render half of the
+preview loop. `preview_lookup.py` prints the text the cog will send; keep the mockup
+HTML in sync with it, then render the HTML to an image to see how the display looks.
+The script measures the `.message` box, sizes the viewport to it, and screenshots a
+PNG with no grey margin.
+
+```
+.venv/bin/python scripts/render_mockup.py /tmp/discord_mockup.html
+```
+
+Options:
+
+| Flag | Effect |
+| --- | --- |
+| `-o, --output PATH` | Output PNG path (default: `<html>.png` next to the input). |
+| `--selector CSS` | Content box to crop to (default: `.message`). |
+| `--scale N` | Device scale factor for sharper output (default: `1.0`; `2` gives a 2x image). |
+| `--browser NAME` | Browser to use: `chrome` (default, system Google Chrome) or `chromium`. |
+
+Examples:
+
+```
+.venv/bin/python scripts/render_mockup.py /tmp/discord_mockup.html -o /tmp/preview.png
+.venv/bin/python scripts/render_mockup.py /tmp/discord_mockup.html --scale 2
+```
+
+Notes:
+- Dev-only dependency: `.venv/bin/python -m pip install playwright`. Not a cog runtime dep — do not add
+  it to `bible/requirements.txt`.
+- Uses the system Google Chrome by default (no browser download). If Chrome is not
+  installed, run `playwright install chromium` and pass `--browser chromium`.
+- The mockup HTML is a scratch file (kept in `/tmp`, not committed); only this
+  renderer is committed.
+
 ## migrate_memories.py
 
 One-time migration that moves notes out of the cog's `settings.json` into a separate
