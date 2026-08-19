@@ -31,19 +31,16 @@ def format_change_lines(change: dict) -> list[str]:
     bcv = change.get("BCV") or ""
     lines = [f"**Change recorded for {bcv} (KJV):**"]
     detail_lines = []
-    change_type = change.get("changeType")
-    if change_type:
-        detail_lines.append(f"- type: {change_type}")
-    notes = change.get("notes")
+    notes = str(change.get("notes") or "").strip()
     if notes:
-        detail_lines.append(f"- notes: {notes}")
+        detail_lines.append("Notes:")
+        detail_lines.extend(
+            f"- {line.strip()}" for line in notes.splitlines() if line.strip()
+        )
     summary = change.get("memorySummary") or {}
     restored_text = summary.get("restoredText")
     if restored_text:
-        detail_lines.append(f"- restored: {restored_text}")
-    summary_notes = summary.get("notes")
-    if summary_notes:
-        detail_lines.append(f"- source: {summary_notes}")
+        detail_lines.append(f"Possible Restoration: {restored_text}")
     changed_from = summary.get("changedFrom")
     changed_to = summary.get("changedTo")
     if changed_from or changed_to:

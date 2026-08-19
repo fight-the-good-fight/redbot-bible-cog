@@ -98,11 +98,26 @@ def test_format_change_lines_full():
 
     assert lines[0] == "**Change recorded for Genesis 1:2 (KJV):**"
     joined = "\n".join(lines)
-    assert "type: Word" in joined
-    assert "moved and hovered are also changes" in joined
-    assert "and the earth was without form and void" in joined
-    assert "Authorized King James Bible - 1845" in joined
+    assert "Notes:" in joined
+    assert "- moved and hovered are also changes" in joined
+    assert "Possible Restoration: and the earth was without form and void" in joined
+    assert "type:" not in joined
+    assert "Authorized King James Bible - 1845" not in joined
     assert "https://search.thesupernaturalbiblechanges.com/changes/2" in joined
+
+
+def test_format_change_lines_multiple_notes_bulleted():
+    change = {
+        "ID": 8,
+        "BCV": "Genesis 1:3",
+        "notes": "first note\nsecond note",
+    }
+
+    joined = "\n".join(format_change_lines(change))
+
+    assert "Notes:" in joined
+    assert "- first note" in joined
+    assert "- second note" in joined
 
 
 def test_format_change_lines_changed_from_to():
