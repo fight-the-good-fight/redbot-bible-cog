@@ -18,8 +18,10 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 - `README.md` — Discord install/load and command examples.
 
 ## Development Commands
-- Install dependencies: `python -m pip install -r bible/requirements.txt`
-- Run tests: `python -m pytest bible/tests/bible_test.py`
+- Create venv (Python 3.11 via uv): `uv venv .venv -p 3.11`
+- Install dependencies: `uv pip install -r bible/requirements.txt pip --python .venv/bin/python`
+- Run tests: `.venv/bin/python -m pytest bible/tests/`
+- Preview a lookup reply: `PYTHONPATH=. .venv/bin/python scripts/preview_lookup.py "Genesis 1:1"`
 - Load in Redbot: `.repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog`, then `.cog install anvil bible`, `.load bible`
 - Update in Redbot: `.cog update`, `.restart`
 
@@ -43,16 +45,19 @@ This repository is a Red-DiscordBot cog for Bible verse lookup, search, and note
 
 ## Runtime/Tooling Preferences
 - This is a Python/Red-DiscordBot project, not a standalone app.
-- Runtime dependency list is minimal: `Red-DiscordBot==3.5.1`, `future`, `pytest`.
+- Python 3.11 required: `Red-DiscordBot==3.5.24` declares `requires_python >=3.8.1,<3.12`.
+- The venv is uv-managed, not Homebrew: Homebrew python paths move on upgrade/migration and break the venv's interpreter symlink (happened 2026-08); uv keeps builds at a stable path (`~/.local/share/uv/python/cpython-3.11-macos-aarch64-none`).
+- `uv venv` omits pip; install it explicitly or the pytest chain fails on `import pip`.
+- Runtime dependency list is minimal: `Red-DiscordBot==3.5.24`, `future`, `pytest`.
 - The code imports `discord`, so the Redbot/Discord environment must be available when importing the cog.
-- There is no `pyproject.toml`, `setup.py`, or package manager metadata; use plain `pip` + `pytest`.
+- There is no `pyproject.toml`, `setup.py`, or package manager metadata; deps come from `bible/requirements.txt` via `uv pip` (or plain `pip`).
 - Keep `.vscode` and `__pycache__` out of version control (`.gitignore`).
 
 ## Testing & QA
 - Primary test framework: `pytest`.
 - Existing tests cover helper behavior in `bible/tests/bible_test.py`; there are no command-level integration tests in this repo.
 - Add focused unit tests around parsing and metadata helpers when changing behavior.
-- Verify with `python -m pytest bible/tests/bible_test.py`.
+- Verify with `.venv/bin/python -m pytest bible/tests/`.
 - If imports fail, confirm the environment includes Redbot/discord dependencies before changing code.
 
 ## Critical Rules
