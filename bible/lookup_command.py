@@ -3,11 +3,12 @@ import os
 
 import discord
 from redbot.core.data_manager import bundled_data_path
-from redbot.core.utils.chat_formatting import box, pagify
+from redbot.core.utils.chat_formatting import pagify
 from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
-from bible.changes_api import format_change_lines, get_changes_for_chapter
+from bible.changes_api import get_changes_for_chapter
 from bible.memories_store import load_memories
+from bible.verse_blocks import render_verse_lines
 from bible.search_utils import (
     detect_translation,
     get_book_info,
@@ -126,10 +127,10 @@ async def lookup(cog, ctx, message: str):
                 for note in chapter_notes:
                     verse_key = str(note["verse"])
                     notes_by_verse.setdefault(verse_key, []).append(
-                        str(box(text="- " + note["note"], lang="diff"))
+                        str(note["note"])
                     )
 
-            changes_by_verse: dict[str, list[str]] = {}
+            changes_by_verse: dict[str, list[dict]] = {}
             if translation == "akjv" and have_chapter_and_verse:
                 book_number = book_info["matched"]["order"]
                 if book_number <= 66 and chapterNumber is not None:
@@ -140,26 +141,14 @@ async def lookup(cog, ctx, message: str):
                         verse_key = str(change.get("verse"))
                         if verse_key not in verse_numbers:
                             continue
-                        changes_by_verse.setdefault(verse_key, []).extend(
-                            format_change_lines(change)
-                        )
+                        changes_by_verse.setdefault(verse_key, []).append(change)
 
+            ctx = {
+                "notes_by_verse": notes_by_verse,
+                "changes_by_verse": changes_by_verse,
+            }
             for verse in verses:
-                if usfmFormat:
-                    verseNumber = verse.get("verseNumber")
-                    verseText = verse.get("verseText")
-                else:
-                    verseNumber = str(verse["verse"])
-                    verseText = verse["text"]
-                description_lines.append(f"[{verseNumber}] {verseText}")
-                note_lines = notes_by_verse.get(str(verseNumber), [])
-                if note_lines:
-                    description_lines.append("")  # blank line between verse and notes
-                    description_lines.extend(note_lines)
-                change_lines = changes_by_verse.get(str(verseNumber), [])
-                if change_lines:
-                    description_lines.append("")
-                    description_lines.extend(change_lines)
+                description_lines.extend(render_verse_lines(verse, ctx))
 
             description = "\n".join(description_lines)
 

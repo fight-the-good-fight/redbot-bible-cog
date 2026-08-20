@@ -100,7 +100,8 @@ def test_format_change_lines_full():
     joined = "\n".join(lines)
     assert "Notes:" in joined
     assert "- moved and hovered are also changes" in joined
-    assert "Possible Restoration: and the earth was without form and void" in joined
+    assert "**Possible Restoration:**" in joined
+    assert "and the earth was without form and void" in joined
     assert "type:" not in joined
     assert "Authorized King James Bible - 1845" not in joined
     assert "https://search.thesupernaturalbiblechanges.com/changes/2" in joined

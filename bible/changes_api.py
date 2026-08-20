@@ -1,5 +1,4 @@
 import aiohttp
-from redbot.core.utils.chat_formatting import box
 
 CHANGES_API_URL = "https://search.thesupernaturalbiblechanges.com/v1/GetChangesByChapter"
 CHANGES_DETAIL_URL = "https://search.thesupernaturalbiblechanges.com/changes/{change_id}"
@@ -30,23 +29,21 @@ def format_change_lines(change: dict) -> list[str]:
     """Build Discord description lines describing one recorded change."""
     bcv = change.get("BCV") or ""
     lines = [f"**Change recorded for {bcv} (KJV):**"]
-    detail_lines = []
     notes = str(change.get("notes") or "").strip()
     if notes:
-        detail_lines.append("Notes:")
-        detail_lines.extend(
+        lines.append("Notes:")
+        lines.extend(
             f"- {line.strip()}" for line in notes.splitlines() if line.strip()
         )
     summary = change.get("memorySummary") or {}
     restored_text = summary.get("restoredText")
     if restored_text:
-        detail_lines.append(f"Possible Restoration: {restored_text}")
+        lines.append("**Possible Restoration:**")
+        lines.append(str(restored_text))
     changed_from = summary.get("changedFrom")
     changed_to = summary.get("changedTo")
     if changed_from or changed_to:
-        detail_lines.append(f"- changed: {changed_from or '?'} to {changed_to or '?'}")
-    if detail_lines:
-        lines.append(box("\n".join(detail_lines), lang="diff"))
+        lines.append(f"- changed: {changed_from or '?'} to {changed_to or '?'}")
     change_id = change.get("ID")
     if change_id:
         lines.append(CHANGES_DETAIL_URL.format(change_id=change_id))
