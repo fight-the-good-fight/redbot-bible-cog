@@ -1,14 +1,125 @@
 # Discord Message Formatting
 
-Reference for how the Bible cog formats its Discord responses — embeds, links,
-color, and emphasis. Use this when redesigning the lookup / notes / changes
-output.
+Reference for how the Bible cog formats its Discord responses — the templated
+verse-lookup reply, embeds, links, color, and emphasis. Use this when redesigning
+the lookup / notes / changes output.
 
 Preview any change without Discord:
 
 ```bash
 .venv/bin/python scripts/preview_lookup.py "Genesis 1:1"
 ```
+
+Render a visual mockup of a hand-written description (iterates on look without
+Discord):
+
+```bash
+.venv/bin/python scripts/render_mockup.py /tmp/mockup.html -o /tmp/mockup.png --scale 2
+```
+
+## How the lookup reply is built
+
+The verse-lookup description is assembled from **ordered, pure block builders** in
+`bible/verse_blocks.py`. Each block is a function `(verse, ctx) -> list[str] | None`:
+it returns the description lines it contributes for one verse, or `None` to omit
+itself (no data for this verse).
+
+```python
+# bible/verse_blocks.py
+VERSE_BLOCKS = [block_verse_text, block_memories, block_changes]
+
+def render_verse_lines(verse, ctx):
+    out = []
+    for block in VERSE_BLOCKS:
+        lines = block(verse, ctx)
+        if lines:
+            if out:
+                out.append("")   # blank line between non-empty blocks
+            out.extend(lines)
+    return out
+```
+
+Reorder `VERSE_BLOCKS` to reorder the reply; drop a block (or have it return
+`None`) to omit its data. Blocks are pure over plain data, so they unit-test
+without discord.py.
+
+### The context (`ctx`)
+
+`ctx` carries the per-chapter data collected **once** before rendering, in
+`bible/lookup_command.py`:
+
+- `notes_by_verse`: verse number (str) → list of raw note strings. Built from
+  `load_memories()`, filtered to the chapter's verses (AKJV only).
+- `changes_by_verse`: verse number (str) → list of raw change dicts. Built from
+  the live `get_changes_for_chapter()` API, only for single-verse lookups
+  (`have_chapter_and_verse`), AKJV only.
+
+Keying by verse number (str) lets each block look up its own verse's data in O(1).
+
+### The three blocks
+
+| Block | Output | Omits when |
+| --- | --- | --- |
+| `block_verse_text` | `**[N] <verse text>**` — bold; any `changedFrom` word italicized in place | never (always contributes) |
+| `block_memories` | `**Memories:**` header + one `- ` bullet per note | no notes for the verse |
+| `block_changes` | `format_change_lines(change)` per recorded change | no changes for the verse |
+
+`block_verse_text` emphasis: for each change on the verse it reads
+`change["memorySummary"]["changedFrom"]` and, if non-empty, wraps the **first
+occurrence** of that word in the verse text with `*…*` (italics). An empty/absent
+`changedFrom`, or a word not present in the verse, leaves the text untouched.
+
+### The change block (`format_change_lines`)
+
+`bible/changes_api.py` — `format_change_lines(change)` builds plain description
+lines for one recorded change, in order:
+
+1. `**Change recorded for <BCV> (KJV):**`
+2. `Notes:` + one `- ` bullet per non-empty line of `change["notes"]`
+3. `**Possible Restoration:**` + `memorySummary["restoredText"]` (label on its own line)
+4. `- changed: <changedFrom> to <changedTo>` (only if either is set; `?` fills a missing side)
+5. The bare change-detail URL (auto-linked by Discord)
+
+### Assembly and pagination
+
+`bible/lookup_command.py` — after building `ctx`, each verse is rendered and the
+lines joined:
+
+```python
+for verse in verses:
+    description_lines.extend(render_verse_lines(verse, ctx))
+description = "\n".join(description_lines)
+
+for descript in pagify(description, page_length=3950, delims=["```", "\n\n"]):
+    embed = discord.Embed(
+        title=display_name + " " + chapter_verse + " - " + display_extras,
+        description=descript,
+        color=discord.Color.green(),
+    )
+    embeds.append(embed)
+await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
+```
+
+### Why the description, not embed fields
+
+Embed **fields** cap at 1024 chars each — too small for whole-chapter verse text.
+The **description** caps at 4000 chars, and `pagify(..., page_length=3950, ...)`
+splits long chapters into pages just under that. So the blocks emit description
+lines, not field dicts. (The field-based `SECTIONS` pattern in `FORMATTING_ALT.md`
+is the alternative; it fits short, field-shaped data, not long verse text.)
+
+## Design decisions
+
+- **Bold verse, not a heading.** Bold scales to whole chapters; a heading is too
+  heavy for 30+ verses.
+- **`Memories:` header + bullets.** Notes are user-typed free text (often
+  `Commentary: ...`), so we don't parse a label out of them — we group them under
+  a code-generated header instead.
+- **Plain markdown, no `diff` boxes.** `box(..., lang="diff")` rendered notes and
+  changes in monospace with red "deletion" coloring — the font mismatch that
+  motivated this redesign.
+- **`changedFrom` emphasized in the verse text.** The changed word is italicized
+  where it appears in the verse, so it stands out in context.
 
 ## The rule that matters: you cannot color a word
 
@@ -19,11 +130,12 @@ Discord strips HTML and has no text-color markdown. There is no
 2. **`diff` code blocks** — per-line color via a leading `+` or `-`.
 
 Everything else (bold, italics, underline, links) is standard markdown and does
-not affect color.
+not affect color. The current lookup output uses the accent bar (green) plus
+plain markdown; `diff` boxes are available but no longer used.
 
 ## Lever 1 — the embed accent bar
 
-Set on the `discord.Embed` in `bible/lookup_command.py:175`:
+Set on the `discord.Embed` in `bible/lookup_command.py`:
 
 ```python
 embed = discord.Embed(
@@ -64,12 +176,8 @@ box("- old text", lang="diff")        # red line
 box("plain text")                     # no lang -> plain code block
 ```
 
-Already in use:
-
-- Notes render **red**: `bible/lookup_command.py:129` — `box("- " + note["note"], lang="diff")`
-- Changes render **red**: `bible/changes_api.py:52` — `box("\n".join(detail_lines), lang="diff")`
-
-To show a "restored" reading in green, start that line with `+` instead of `-`.
+Not used in the current lookup output (see Design decisions), but available if a
+future redesign wants per-line color.
 
 ## Markdown reference (works in the embed description)
 
@@ -97,29 +205,31 @@ syntax highlighting. `box(text, lang=...)` produces exactly this.
   (`changed_from`, `changed_to`, `memorySummary`). Use `*italics*`, never
   `_italics_`, or the underscores in the data will break the formatting.
 - **Markdown inside `box()` is literal.** A code block does not parse markdown.
-  The `**Change recorded for ...**` header (`bible/changes_api.py:32`) is
-  *outside* the box, so it is bold; the `- type:` lines *inside* the diff box are
-  colored but not markdown-parsed.
+  The current output avoids `box()` for the main reply, so all markdown is live.
 - **Embed description limit is 4000 chars.** `pagify(..., page_length=3950, ...)`
-  (`bible/lookup_command.py:166`) splits long chapters into pages just under that.
+  (`bible/lookup_command.py`) splits long chapters into pages just under that.
 - **Bare URLs auto-link.** The change detail URL is sent bare and Discord links it.
 
 ## Where formatting happens
 
 | Concern | File |
 | --- | --- |
-| Verse + notes + changes assembly, embed, color bar, pagination, menu | `bible/lookup_command.py` |
-| Change block: header, diff box, detail link | `bible/changes_api.py` — `format_change_lines()` |
+| Ordered block builders, `render_verse_lines`, `VERSE_BLOCKS` | `bible/verse_blocks.py` |
+| Change block lines: header, notes, restoration, changed, link | `bible/changes_api.py` — `format_change_lines()` |
+| `ctx` assembly, verse loop, embed, color bar, pagination, menu | `bible/lookup_command.py` |
 | Note add / remove / list text | `bible/memory_command.py` |
-| `box`, `pagify` | `redbot.core.utils.chat_formatting` |
+| `pagify` | `redbot.core.utils.chat_formatting` |
 | `menu`, `DEFAULT_CONTROLS` | `redbot.core.utils.menus` |
 
 ## Recipes for redoing a response
 
-- **Bold heading** (outside any box): `**Genesis 1:1**`
-- **Red "removed" line**: diff box, line starts with `-`
-- **Green "restored" line**: diff box, line starts with `+`
+- **Bold verse line**: `**[1] In the beginning...**`
+- **Emphasize a word in the verse**: `*word*` (see `block_verse_text`)
+- **Section header**: `**Memories:**`
+- **Bullet list**: one `- item` per line
 - **Safe italics**: `*text*`
 - **Underline**: `__text__`
 - **Link with custom text**: `[view change](https://search.thesupernaturalbiblechanges.com/changes/1)`
 - **Link bare**: `https://search.thesupernaturalbiblechanges.com/changes/1`
+- **Reorder the reply**: reorder `VERSE_BLOCKS` in `bible/verse_blocks.py`
+- **Omit a section**: drop the block from `VERSE_BLOCKS`, or make it return `None`
