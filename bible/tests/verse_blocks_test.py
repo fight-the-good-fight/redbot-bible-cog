@@ -24,6 +24,47 @@ def test_block_verse_text_bold_usfm_shape():
     assert block_verse_text(verse, _ctx()) == ["**[2] And the earth**"]
 
 
+def test_block_verse_text_emphasizes_changed_from():
+    verse = {
+        "verse": 1,
+        "text": "In the beginning God created the heaven and the earth.",
+    }
+    change = {
+        "ID": 1,
+        "BCV": "Genesis 1:1",
+        "verse": 1,
+        "memorySummary": {"changedFrom": "heaven", "changedTo": "heavens"},
+    }
+    ctx = _ctx(changes={"1": [change]})
+    assert block_verse_text(verse, ctx) == [
+        "**[1] In the beginning God created the *heaven* and the earth.**"
+    ]
+
+
+def test_block_verse_text_no_emphasis_when_changed_from_empty():
+    verse = {"verse": 1, "text": "In the beginning"}
+    change = {
+        "ID": 1,
+        "BCV": "Genesis 1:1",
+        "verse": 1,
+        "memorySummary": {"changedFrom": "", "changedTo": "heavens"},
+    }
+    ctx = _ctx(changes={"1": [change]})
+    assert block_verse_text(verse, ctx) == ["**[1] In the beginning**"]
+
+
+def test_block_verse_text_no_emphasis_when_word_absent():
+    verse = {"verse": 1, "text": "In the beginning"}
+    change = {
+        "ID": 1,
+        "BCV": "Genesis 1:1",
+        "verse": 1,
+        "memorySummary": {"changedFrom": "zebra", "changedTo": "horse"},
+    }
+    ctx = _ctx(changes={"1": [change]})
+    assert block_verse_text(verse, ctx) == ["**[1] In the beginning**"]
+
+
 def test_block_memories_none_when_no_notes():
     verse = {"verse": 1, "text": "In the beginning"}
     assert block_memories(verse, _ctx()) is None

@@ -30,9 +30,31 @@ def _verse_text(verse):
     return verse["text"]
 
 
+def _emphasize_first(text, word):
+    """Wrap the first occurrence of ``word`` in ``text`` with italics.
+
+    Returns ``text`` unchanged when ``word`` is not present.
+    """
+    idx = text.find(word)
+    if idx == -1:
+        return text
+    return text[:idx] + "*" + word + "*" + text[idx + len(word):]
+
+
 def block_verse_text(verse, ctx):
-    """The verse itself, bold so it stands out from the annotations."""
-    return [f"**[{_verse_number(verse)}] {_verse_text(verse)}**"]
+    """The verse itself, bold so it stands out from the annotations.
+
+    Any ``changedFrom`` word from a recorded change is emphasized (italic) in
+    place so the changed word stands out within the verse. With no change, or
+    an empty ``changedFrom``, the verse renders as-is.
+    """
+    number = _verse_number(verse)
+    text = _verse_text(verse)
+    for change in ctx["changes_by_verse"].get(number, []):
+        changed_from = (change.get("memorySummary") or {}).get("changedFrom")
+        if changed_from:
+            text = _emphasize_first(text, str(changed_from))
+    return [f"**[{number}] {text}**"]
 
 
 def block_memories(verse, ctx):
