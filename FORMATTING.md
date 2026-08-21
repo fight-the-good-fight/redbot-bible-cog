@@ -56,13 +56,26 @@ without discord.py.
 
 Keying by verse number (str) lets each block look up its own verse's data in O(1).
 
-### The three blocks
+### The blocks
+
+Two top-level blocks make up the reply. `block_memories` and `block_changes`
+are the raw line producers that `block_verse_meta` combines into a blockquote.
 
 | Block | Output | Omits when |
 | --- | --- | --- |
 | `block_verse_text` | `**[N] <verse text>**` — bold; any `changedFrom` word italicized in place | never (always contributes) |
+| `block_verse_meta` | the verse's memories + changes as a single `> ` blockquote | no memories and no changes for the verse |
+
+Raw producers (used by `block_verse_meta`, not in `VERSE_BLOCKS`):
+
+| Producer | Output | Omits when |
+| --- | --- | --- |
 | `block_memories` | `**Memories:**` header + one `- ` bullet per note | no notes for the verse |
 | `block_changes` | `format_change_lines(change)` per recorded change | no changes for the verse |
+
+`block_verse_meta` joins the non-empty producers with a blank line, then quotes
+every line (`> …`); the blank line becomes a bare `>` so it stays inside the
+blockquote. This sets the meta apart from the verse text as clearly secondary.
 
 `block_verse_text` emphasis: for each change on the verse it reads
 `change["memorySummary"]["changedFrom"]` and, if non-empty, wraps the **first
@@ -82,13 +95,11 @@ lines for one recorded change, in order:
 
 ### Assembly and pagination
 
-`bible/lookup_command.py` — after building `ctx`, each verse is rendered and the
-lines joined:
+`bible/lookup_command.py` — after building `ctx`, all verses are rendered and
+the lines joined:
 
 ```python
-for verse in verses:
-    description_lines.extend(render_verse_lines(verse, ctx))
-description = "\n".join(description_lines)
+description = "\n".join(render_chapter_lines(verses, ctx))
 
 for descript in pagify(description, page_length=3950, delims=["```", "\n\n"]):
     embed = discord.Embed(
@@ -99,6 +110,11 @@ for descript in pagify(description, page_length=3950, delims=["```", "\n\n"]):
     embeds.append(embed)
 await menu(ctx, embeds, controls=DEFAULT_CONTROLS, timeout=30)
 ```
+
+`render_chapter_lines` renders each verse via `render_verse_lines` and inserts a
+blank line between two consecutive verses only when the preceding verse carries
+meta, so its blockquote is separated from the next verse. Verses without meta
+stay on consecutive lines.
 
 ### Why the description, not embed fields
 
@@ -112,6 +128,9 @@ is the alternative; it fits short, field-shaped data, not long verse text.)
 
 - **Bold verse, not a heading.** Bold scales to whole chapters; a heading is too
   heavy for 30+ verses.
+- **Meta in a blockquote.** Memories and changes are wrapped in a single `> `
+  blockquote so they read as clearly secondary to the bold verse text; a blank
+  line separates the blockquote from the next verse.
 - **`Memories:` header + bullets.** Notes are user-typed free text (often
   `Commentary: ...`), so we don't parse a label out of them — we group them under
   a code-generated header instead.
@@ -214,7 +233,7 @@ syntax highlighting. `box(text, lang=...)` produces exactly this.
 
 | Concern | File |
 | --- | --- |
-| Ordered block builders, `render_verse_lines`, `VERSE_BLOCKS` | `bible/verse_blocks.py` |
+| Ordered block builders, `render_verse_lines`, `render_chapter_lines`, `VERSE_BLOCKS` | `bible/verse_blocks.py` |
 | Change block lines: header, notes, restoration, changed, link | `bible/changes_api.py` — `format_change_lines()` |
 | `ctx` assembly, verse loop, embed, color bar, pagination, menu | `bible/lookup_command.py` |
 | Note add / remove / list text | `bible/memory_command.py` |

@@ -1,0 +1,14 @@
+# markdownlint-cli2 configuration
+# Schema: https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/refs/heads/main/schema/markdownlint-cli2-config-schema.json
+config:
+  MD013:
+    line_length: 120
+    code_blocks: false
+    tables: false
+  # The changelog repeats "### Features" / "### Bug Fixes" under each version
+  # heading; allow those non-sibling duplicates.
+  MD024:
+    siblings_only: true
+globs:
+  - README.md
+  - CHANGELOG.md

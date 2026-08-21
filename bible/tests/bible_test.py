@@ -41,7 +41,7 @@ def test_version_command_sends_version():
 
     asyncio.run(Bible.__dict__["version"].callback(cog, ctx))
 
-    assert sent_messages == ["Bible cog version 1.2.0"]
+    assert sent_messages == ["Bible cog version 1.2.1"]
 
 
 def test_removeallnotes_denies_non_owner(monkeypatch):
@@ -195,4 +195,4 @@ def test_get_book_name_from_json():
 def test_markdownlint_is_pinned():
     makefile = Path(__file__).resolve().parents[2] / "Makefile"
     contents = makefile.read_text()
-    assert "markdownlint-cli2@0.22.1" in contents
+    assert "markdownlint-cli2@0.23.2" in contents

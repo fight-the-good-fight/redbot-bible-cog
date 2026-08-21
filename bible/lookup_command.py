@@ -8,7 +8,7 @@ from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 
 from bible.changes_api import get_changes_for_chapter
 from bible.memories_store import load_memories
-from bible.verse_blocks import render_verse_lines
+from bible.verse_blocks import render_chapter_lines
 from bible.search_utils import (
     detect_translation,
     get_book_info,
@@ -82,7 +82,6 @@ async def lookup(cog, ctx, message: str):
                 await ctx.send("Invalid chapter or verse")
                 return
             chapter = chapters[chapter - 1]
-            description_lines = []
 
             usfmFormat = False
             if "verses" in chapter:
@@ -158,10 +157,7 @@ async def lookup(cog, ctx, message: str):
                 "notes_by_verse": notes_by_verse,
                 "changes_by_verse": changes_by_verse,
             }
-            for verse in verses:
-                description_lines.extend(render_verse_lines(verse, render_ctx))
-
-            description = "\n".join(description_lines)
+            description = "\n".join(render_chapter_lines(verses, render_ctx))
 
             for descript in pagify(
                 description, page_length=3950, delims=["```", "\n\n"]

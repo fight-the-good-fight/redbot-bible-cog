@@ -2,7 +2,9 @@ from bible.verse_blocks import (
     VERSE_BLOCKS,
     block_changes,
     block_memories,
+    block_verse_meta,
     block_verse_text,
+    render_chapter_lines,
     render_verse_lines,
 )
 
@@ -108,18 +110,94 @@ def test_render_verse_lines_separates_blocks_with_blank_line():
     lines = render_verse_lines(verse, ctx)
     assert lines[0] == "**[1] In the beginning**"
     assert lines[1] == ""
-    assert lines[2] == "**Memories:**"
-    assert lines[3] == "- a note"
-    assert lines[4] == ""
-    assert lines[5] == "**Change recorded for Genesis 1:1 (KJV):**"
+    assert lines[2] == "> **Memories:**"
+    assert lines[3] == "> - a note"
+    assert lines[4] == ">"
+    assert lines[5] == "> **Change recorded for Genesis 1:1 (KJV):**"
 
 
 def test_render_verse_lines_skips_empty_blocks():
     verse = {"verse": 1, "text": "In the beginning"}
     ctx = _ctx(notes={"1": ["a note"]})
     lines = render_verse_lines(verse, ctx)
-    assert lines == ["**[1] In the beginning**", "", "**Memories:**", "- a note"]
+    assert lines == ["**[1] In the beginning**", "", "> **Memories:**", "> - a note"]
 
 
-def test_verse_blocks_order_is_verse_memories_changes():
-    assert VERSE_BLOCKS == [block_verse_text, block_memories, block_changes]
+def test_verse_blocks_order_is_verse_meta():
+    assert VERSE_BLOCKS == [block_verse_text, block_verse_meta]
+
+
+def test_block_verse_meta_none_when_no_meta():
+    verse = {"verse": 1, "text": "In the beginning"}
+    assert block_verse_meta(verse, _ctx()) is None
+
+
+def test_block_verse_meta_memories_only():
+    verse = {"verse": 1, "text": "In the beginning"}
+    ctx = _ctx(notes={"1": ["a note"]})
+    assert block_verse_meta(verse, ctx) == ["> **Memories:**", "> - a note"]
+
+
+def test_block_verse_meta_changes_only():
+    verse = {"verse": 1, "text": "In the beginning"}
+    ctx = _ctx(changes={"1": [{"ID": 1, "BCV": "Genesis 1:1", "verse": 1}]})
+    lines = block_verse_meta(verse, ctx)
+    assert lines[0] == "> **Change recorded for Genesis 1:1 (KJV):**"
+    assert lines[-1] == "> https://search.thesupernaturalbiblechanges.com/changes/1"
+
+
+def test_block_verse_meta_combines_memories_and_changes():
+    verse = {"verse": 1, "text": "In the beginning"}
+    ctx = _ctx(
+        notes={"1": ["a note"]},
+        changes={"1": [{"ID": 1, "BCV": "Genesis 1:1", "verse": 1}]},
+    )
+    assert block_verse_meta(verse, ctx) == [
+        "> **Memories:**",
+        "> - a note",
+        ">",
+        "> **Change recorded for Genesis 1:1 (KJV):**",
+        "> https://search.thesupernaturalbiblechanges.com/changes/1",
+    ]
+
+
+def test_render_chapter_lines_no_blank_line_without_meta():
+    verses = [
+        {"verse": 1, "text": "Verse 1"},
+        {"verse": 2, "text": "Verse 2"},
+    ]
+    assert render_chapter_lines(verses, _ctx()) == [
+        "**[1] Verse 1**",
+        "**[2] Verse 2**",
+    ]
+
+
+def test_render_chapter_lines_blank_line_after_meta_verse():
+    verses = [
+        {"verse": 1, "text": "Verse 1"},
+        {"verse": 2, "text": "Verse 2"},
+    ]
+    ctx = _ctx(notes={"1": ["a note"]})
+    assert render_chapter_lines(verses, ctx) == [
+        "**[1] Verse 1**",
+        "",
+        "> **Memories:**",
+        "> - a note",
+        "",
+        "**[2] Verse 2**",
+    ]
+
+
+def test_render_chapter_lines_no_trailing_blank_line():
+    verses = [
+        {"verse": 1, "text": "Verse 1"},
+        {"verse": 2, "text": "Verse 2"},
+    ]
+    ctx = _ctx(notes={"2": ["a note"]})
+    assert render_chapter_lines(verses, ctx) == [
+        "**[1] Verse 1**",
+        "**[2] Verse 2**",
+        "",
+        "> **Memories:**",
+        "> - a note",
+    ]
