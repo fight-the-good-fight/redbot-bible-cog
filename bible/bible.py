@@ -16,7 +16,7 @@ __all__ = ["Bible", "get_book_info", "has_translation"]
 
 
 class Bible(commands.Cog):
-    VERSION = "1.2.1"
+    VERSION = "1.2.1"  # x-release-please-version
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot

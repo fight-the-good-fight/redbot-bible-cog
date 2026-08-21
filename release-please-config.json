@@ -5,5 +5,13 @@
   "prerelease": false,
   "changelog-path": "CHANGELOG.md",
   "pull-request-footer": "Redbot users install this cog from the git repository, not a GitHub release asset. Example: `.repo add anvil https://github.com/fight-the-good-fight/redbot-bible-cog` then `.cog install anvil bible`.",
-  "pull-request-header": "Release notes for the next tagged cog version."
+  "pull-request-header": "Release notes for the next tagged cog version.",
+  "extra-files": [
+    {
+      "type": "json",
+      "path": "bible/info.json",
+      "jsonpath": "$.version"
+    },
+    "bible/bible.py"
+  ]
 }
