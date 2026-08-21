@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 from typing import Union
 
 from redbot.core import commands
@@ -16,7 +18,7 @@ __all__ = ["Bible", "get_book_info", "has_translation"]
 
 
 class Bible(commands.Cog):
-    VERSION = "1.2.1"  # x-release-please-version
+    VERSION = json.loads((Path(__file__).parent / "info.json").read_text())["version"]
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
