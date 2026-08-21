@@ -12,3 +12,4 @@ config:
 globs:
   - README.md
   - CHANGELOG.md
+  - RELEASING.md
