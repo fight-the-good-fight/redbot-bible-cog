@@ -8,7 +8,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Features
 
-- Lookup memories and changes render as a blockquote, set apart from the verse text; a blank line separates the meta from the next verse.
+- Lookup memories and changes render as a blockquote, set apart from the verse
+  text; a blank line separates the meta from the next verse.
 
 ## v1.2.0 (2026-08-21)
 

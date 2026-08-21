@@ -195,4 +195,4 @@ def test_get_book_name_from_json():
 def test_markdownlint_is_pinned():
     makefile = Path(__file__).resolve().parents[2] / "Makefile"
     contents = makefile.read_text()
-    assert "markdownlint-cli2@0.22.1" in contents
+    assert "markdownlint-cli2@0.23.2" in contents
