@@ -41,7 +41,7 @@ def test_version_command_sends_version():
 
     asyncio.run(Bible.__dict__["version"].callback(cog, ctx))
 
-    assert sent_messages == ["Bible cog version 1.0.1"]
+    assert sent_messages == ["Bible cog version 1.1.0"]
 
 
 def test_removeallnotes_denies_non_owner(monkeypatch):
