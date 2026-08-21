@@ -4,42 +4,37 @@ from types import SimpleNamespace
 from bible import memory_command
 
 
-class _MemoryNotes:
-    def __init__(self, notes):
-        self.notes = notes
+def _store(notes):
+    """Return (load, save) fakes that operate on the shared notes list."""
 
-    async def __aenter__(self):
-        return self.notes
+    def load(path=None):
+        return notes
 
-    async def __aexit__(self, exc_type, exc, tb):
-        return False
+    def save(memories, path=None):
+        notes[:] = memories
 
-
-class _Config:
-    def __init__(self, notes):
-        self._notes = notes
-
-    def Notes(self):
-        return _MemoryNotes(self._notes)
+    return load, save
 
 
 def test_add_memory_note_smoke(monkeypatch):
     notes = []
     sent = []
+    load, save = _store(notes)
 
     monkeypatch.setattr(
         memory_command,
         "get_book_info",
         lambda book, translation="akjv": {"matched": {"name": "Genesis"}},
     )
+    monkeypatch.setattr(memory_command, "load_memories", load)
+    monkeypatch.setattr(memory_command, "save_memories", save)
 
     async def send(message):
         sent.append(message)
 
-    cog = SimpleNamespace(config=_Config(notes))
     ctx = SimpleNamespace(send=send)
 
-    asyncio.run(memory_command.add(cog, ctx, message="Genesis 1:1 note text"))
+    asyncio.run(memory_command.add(ctx, message="Genesis 1:1 note text"))
 
     assert notes == [
         {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}
@@ -47,19 +42,22 @@ def test_add_memory_note_smoke(monkeypatch):
     assert sent == ["Note added for Genesis 1:1"]
 
 
-def test_remove_memory_note_smoke():
+def test_remove_memory_note_smoke(monkeypatch):
     notes = [
         {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}
     ]
     sent = []
+    load, save = _store(notes)
+
+    monkeypatch.setattr(memory_command, "load_memories", load)
+    monkeypatch.setattr(memory_command, "save_memories", save)
 
     async def send(message):
         sent.append(message)
 
-    cog = SimpleNamespace(config=_Config(notes))
     ctx = SimpleNamespace(send=send)
 
-    asyncio.run(memory_command.remove(cog, ctx, number=1))
+    asyncio.run(memory_command.remove(ctx, number=1))
 
     assert notes == []
     assert sent == ["Note removed"]
@@ -70,6 +68,7 @@ def test_list_memory_notes_smoke(monkeypatch):
         {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "note text"}
     ]
     captures = {}
+    load, _ = _store(notes)
 
     async def fake_menu(ctx, embeds, controls=None, timeout=None):
         captures["ctx"] = ctx
@@ -78,14 +77,14 @@ def test_list_memory_notes_smoke(monkeypatch):
         captures["timeout"] = timeout
 
     monkeypatch.setattr(memory_command, "menu", fake_menu)
+    monkeypatch.setattr(memory_command, "load_memories", load)
 
     async def send(message):
         captures.setdefault("sent", []).append(message)
 
-    cog = SimpleNamespace(config=_Config(notes))
     ctx = SimpleNamespace(send=send)
 
-    asyncio.run(memory_command.list(cog, ctx))
+    asyncio.run(memory_command.list(ctx))
 
     assert captures["timeout"] == 30
     assert captures["embeds"][0].title == "Memory"

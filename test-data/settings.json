@@ -1,0 +1,43 @@
+{
+  "718395193090375700": {
+    "GLOBAL": {
+      "Notes": [
+        {
+          "number": 1,
+          "book": "1Corinthians",
+          "chapter": 13,
+          "verse": 13,
+          "note": "Commentary: \"Faith, hope, and love, but the greatest of these is love.\""
+        },
+        {
+          "number": 2,
+          "book": "2Thessalonians",
+          "chapter": 2,
+          "verse": 11,
+          "note": "Commentary: Satan sends the lying signs and wonders. God sends the strong delusion to believe the lie."
+        },
+        {
+          "number": 3,
+          "book": "Acts",
+          "chapter": 5,
+          "verse": 34,
+          "note": "Commentary: Maybe a Pharisee, but doctors was not in the kjv."
+        },
+        {
+          "number": 4,
+          "book": "Romans",
+          "chapter": 2,
+          "verse": 16,
+          "note": "Commentary: According to my Gospel? It wasn't known as that back then!"
+        },
+        {
+          "number": 5,
+          "book": "Zechariah",
+          "chapter": 6,
+          "verse": 12,
+          "note": "Commentary: LORD of hosts -> Lord of Hosts. The BRANCH? LORD -> Lord"
+        }
+      ]
+    }
+  }
+}
