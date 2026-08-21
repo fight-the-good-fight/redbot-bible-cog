@@ -5,6 +5,11 @@ the description lines it contributes for one verse, or ``None`` to omit itself
 (no data for this verse). Reorder ``VERSE_BLOCKS`` to reorder the reply; drop a
 block to omit its data.
 
+The reply has two top-level blocks: the bold verse text, and the verse's meta
+(memories + changes) rendered as a single Discord blockquote so it reads as
+clearly secondary to the verse. ``block_memories`` and ``block_changes`` are
+the raw line producers that ``block_verse_meta`` combines and quotes.
+
 ``ctx`` carries the per-chapter data collected once before rendering:
 
 - ``notes_by_verse``: verse number (str) -> list of raw note strings
@@ -78,7 +83,38 @@ def block_changes(verse, ctx):
     return lines
 
 
-VERSE_BLOCKS = [block_verse_text, block_memories, block_changes]
+def _quote(lines):
+    """Prefix each line with ``> `` to form a Discord blockquote.
+
+    A blank line becomes a bare ``>`` so it renders as a blank line *inside*
+    the blockquote, keeping the quoted sections as one continuous quote.
+    """
+    return [f"> {line}" if line else ">" for line in lines]
+
+
+def block_verse_meta(verse, ctx):
+    """The verse's meta (memories + changes) as a single blockquote.
+
+    Combines :func:`block_memories` and :func:`block_changes`, separating the
+    two with a blank line, then quotes every line so the meta is set apart
+    from the verse text. Returns ``None`` when the verse has no meta.
+    """
+    sections = [
+        section
+        for section in (block_memories(verse, ctx), block_changes(verse, ctx))
+        if section
+    ]
+    if not sections:
+        return None
+    lines = []
+    for i, section in enumerate(sections):
+        if i > 0:
+            lines.append("")
+        lines.extend(section)
+    return _quote(lines)
+
+
+VERSE_BLOCKS = [block_verse_text, block_verse_meta]
 
 
 def render_verse_lines(verse, ctx):
@@ -95,4 +131,21 @@ def render_verse_lines(verse, ctx):
             if out:
                 out.append("")
             out.extend(lines)
+    return out
+
+
+def render_chapter_lines(verses, ctx):
+    """Render all verses' description lines for the lookup reply.
+
+    Each verse is rendered via :func:`render_verse_lines`. A blank line is
+    inserted between two consecutive verses only when the preceding verse
+    carries meta (memories or changes), so its blockquote is visually
+    separated from the next verse. Verses without meta stay on consecutive
+    lines.
+    """
+    out = []
+    for i, verse in enumerate(verses):
+        if i > 0 and block_verse_meta(verses[i - 1], ctx) is not None:
+            out.append("")
+        out.extend(render_verse_lines(verse, ctx))
     return out
