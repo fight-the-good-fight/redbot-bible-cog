@@ -143,12 +143,12 @@ async def lookup(cog, ctx, message: str):
                             continue
                         changes_by_verse.setdefault(verse_key, []).append(change)
 
-            ctx = {
+            render_ctx = {
                 "notes_by_verse": notes_by_verse,
                 "changes_by_verse": changes_by_verse,
             }
             for verse in verses:
-                description_lines.extend(render_verse_lines(verse, ctx))
+                description_lines.extend(render_verse_lines(verse, render_ctx))
 
             description = "\n".join(description_lines)
 
