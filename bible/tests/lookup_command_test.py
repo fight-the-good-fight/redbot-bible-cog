@@ -340,3 +340,26 @@ def test_lookup_command_skips_changes_for_chapter_lookup(monkeypatch, tmp_path):
     assert calls == []
     assert "Change recorded" not in captures["embeds"][0].description
 
+
+def test_lookup_command_passes_real_context_to_menu(monkeypatch, tmp_path):
+    lookup_module = __import__("bible.lookup_command", fromlist=["lookup"])
+
+    _write_genesis(tmp_path)
+
+    captures = {}
+
+    async def fake_menu(ctx, embeds, controls=None, timeout=None):
+        captures["ctx"] = ctx
+        captures["embeds"] = embeds
+
+    monkeypatch.setattr(lookup_module, "menu", fake_menu)
+    monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
+    monkeypatch.setattr(lookup_module, "get_changes_for_chapter", _no_changes)
+    monkeypatch.setattr(lookup_module, "load_memories", lambda path=None: [])
+
+    cog = SimpleNamespace()
+    ctx = SimpleNamespace(send=lambda *_args, **_kwargs: None)
+
+    asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
+
+    assert captures["ctx"] is ctx
