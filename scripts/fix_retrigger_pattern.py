@@ -1,64 +1,49 @@
 #!/usr/bin/env python3
 """
-Create the proper ReTrigger regex pattern for Bible verses
+Print the ReTrigger regex pattern for Bible verse references.
+
+The pattern is intentionally generic (no book-name list). The colon after the
+chapter number is the signal that a reference is present; the cog enforces
+"real book" at lookup time and stays silent for books it has no data for.
 """
 
-print('Creating Proper ReTrigger Pattern for Bible Verses')
-print('=' * 60)
+PATTERN = (
+    r"(?i)(?:\b\d+ \w+(?: of \w+)? "
+    r"\d+:(?:\d+(?:-\d+)?(?:,\d+(?:-\d+)?)*)?"
+    r"|\b\w+(?: of \w+)? "
+    r"\d+:(?:\d+(?:-\d+)?(?:,\d+(?:-\d+)?)*)?)"
+    r"(?:\s+(?i:KJV|AKJV|ASV|BSB))?"
+)
+
+print("ReTrigger pattern for Bible verse references")
+print("=" * 60)
 print()
-
-print('Understanding the Issue:')
-print('  The corrupted patterns:')
-print('    \\wong \\wf \\wongs    -> should be "Song of Songs"')
-print('    \\wong \\wf \\wolomon  -> should be "Song of Solomon"')
+print("Pattern:")
+print(f'  "{PATTERN}"')
 print()
-
-print('What These Patterns Mean:')
-print('  - "Song of Songs" is an alternative name for Song of Solomon')
-print('  - This comes from the Hebrew "Shir HaShirim" meaning "Song of Songs"')
-print('  - Both names should be recognized as the same book')
+print("Syntaxes supported (the colon is required):")
+print('  "Genesis 1:"        -> whole chapter')
+print('  "Genesis 1:1"       -> verse 1')
+print('  "Genesis 1:1-3"     -> verses 1 through 3')
+print('  "Genesis 1:1,5"     -> verses 1 and 5 (in the order typed)')
+print('  "Genesis 1:1-3,7"   -> mixed range and single verses')
+print('  "1 John 1:1"        -> numbered books')
+print('  "Song of Songs 2:1" -> multi-word book names')
+print('  "Revelation 21:4 KJV" -> optional translation code')
 print()
-
-print('The Proper Pattern:')
-print('  We need to match:')
-print('    1. Standard: "Book Chapter:Verse" (e.g., "John 3:16")')
-print('    2. Numbered: "1 Book Chapter:Verse" (e.g., "1 John 3:16")')
-print('    3. Alternative names: "Song of Songs Chapter:Verse"')
+print("Why no book-name list:")
+print("  The colon is a strong signal, so a generic \\w+ book name is enough.")
+print("  The cog stays SILENT for books it has no data for (a typo, or an")
+print("  apocryphal book not yet bundled), so a false positive like")
+print('  "step 2:" or "the ratio is 5:3" produces no reply. Adding apocryphal')
+print("  data later makes those references work with no regex change.")
 print()
-
-# The proper regex pattern
-proper_pattern = r'(?:\b\w+(?: of \w+)? \d+:\d+\b|\b\d+ \w+(?: of \w+)? \d+:\d+\b)(?:\s+(?i:KJV|AKJV|ASV|BSB))?'
-
-print('Proper Pattern:')
-print(f'  "{proper_pattern}"')
+print("Out-of-range references (a real book, but a bad chapter or verse)")
+print("reply with:")
+print('  "Invalid chapter or verse"')
 print()
-
-print('This pattern will match:')
-print('  ✓ "John 3:16"')
-print('  ✓ "1 John 3:16"')
-print('  ✓ "Song of Songs 2:1"')
-print('  ✓ "Songs of Solomon 2:1"')
-print('  ✓ "Song of Solomon 2:1"')
-print('  ✓ "1 Corinthians 13:4"')
-print('  ✓ "Revelation 21:4 KJV"')
-print()
-
-print('It will NOT match:')
-print('  ✗ Random text with numbers')
-print('  ✗ Malformed references')
-print('  ✗ Content that causes regex hang')
-print()
-
-print('How to Fix ReTrigger:')
-print('  1. Stop your Redbot Docker container')
-print('  2. Find the ReTrigger configuration file')
-print('  3. Replace the corrupted pattern with the proper one above')
-print('  4. Restart the container')
-print()
-
-print('The corrupted parts should be removed and replaced with:')
-print('  "(?:\\b\\w+(?: of \\w+)? \\d+:\\d+\\b|\\b\\d+ \\w+(?: of \\w+)? \\d+:\\d+\\b)(?:\\s+(?i:KJV|AKJV|ASV|BSB))?"')
-print()
-
-print('This will allow ReTrigger to properly detect all Bible verse')
-print('references in chat without hanging.')
+print("How to apply in ReTrigger:")
+print("  1. Stop your Redbot Docker container")
+print("  2. Find the ReTrigger configuration file")
+print("  3. Replace the pattern with the one above")
+print("  4. Restart the container")

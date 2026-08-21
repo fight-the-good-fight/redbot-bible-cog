@@ -363,3 +363,119 @@ def test_lookup_command_passes_real_context_to_menu(monkeypatch, tmp_path):
     asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
 
     assert captures["ctx"] is ctx
+
+
+def _write_book(tmp_path, translation, book, chapters):
+    book_dir = tmp_path / translation
+    book_dir.mkdir(exist_ok=True)
+    (book_dir / f"{book}.json").write_text(
+        json.dumps({"book": book, "chapters": chapters})
+    )
+
+
+def _verse_chapter(n):
+    return {
+        "chapter": 1,
+        "verses": [{"verse": i, "text": f"Verse {i}"} for i in range(1, n + 1)],
+    }
+
+
+def _usfm_chapter(n):
+    contents = [{"p": None}]
+    contents += [
+        {"verseNumber": str(i), "verseText": f"Verse {i}"} for i in range(1, n + 1)
+    ]
+    return {"chapterNumber": 1, "contents": contents}
+
+
+def _run_lookup(monkeypatch, tmp_path, message, notes=None):
+    lookup_module = __import__("bible.lookup_command", fromlist=["lookup"])
+    captures = {"menu": None, "sent": []}
+
+    async def fake_menu(_ctx, embeds, controls=None, timeout=None):
+        captures["menu"] = [e.description for e in embeds]
+
+    async def fake_send(*args, **kwargs):
+        captures["sent"].append(args[0] if args else kwargs.get("content"))
+
+    monkeypatch.setattr(lookup_module, "menu", fake_menu)
+    monkeypatch.setattr(
+        lookup_module, "bundled_data_path", lambda _cog: str(tmp_path)
+    )
+    monkeypatch.setattr(lookup_module, "get_changes_for_chapter", _no_changes)
+    monkeypatch.setattr(lookup_module, "load_memories", lambda path=None: notes or [])
+
+    cog = SimpleNamespace()
+    ctx = SimpleNamespace(send=fake_send)
+    asyncio.run(lookup_module.lookup(cog, ctx, message))
+    return captures
+
+
+def test_lookup_command_whole_chapter_includes_last_verse(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    for message in ("Genesis 1", "Genesis 1:"):
+        captures = _run_lookup(monkeypatch, tmp_path, message)
+        full = "\n".join(captures["menu"])
+        assert "[1] Verse 1" in full
+        assert "[2] Verse 2" in full
+        assert "[3] Verse 3" in full
+
+
+def test_lookup_command_verse_list_in_typed_order(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(5)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:5,1")
+    full = "\n".join(captures["menu"])
+    assert "[5] Verse 5" in full
+    assert "[1] Verse 1" in full
+    assert full.index("[5] Verse 5") < full.index("[1] Verse 1")
+    for v in (2, 3, 4):
+        assert f"[{v}] Verse {v}" not in full
+
+
+def test_lookup_command_verse_list_mixed_range(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(7)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:1-3,7")
+    full = "\n".join(captures["menu"])
+    for v in (1, 2, 3, 7):
+        assert f"[{v}] Verse {v}" in full
+    for v in (4, 5, 6):
+        assert f"[{v}] Verse {v}" not in full
+
+
+def test_lookup_command_unknown_book_is_silent(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "step 2:")
+    assert captures["menu"] is None
+    assert captures["sent"] == []
+
+
+def test_lookup_command_invalid_chapter(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 99:1")
+    assert captures["menu"] is None
+    assert captures["sent"] == ["Invalid chapter or verse"]
+
+
+def test_lookup_command_invalid_verse(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:999")
+    assert captures["menu"] is None
+    assert captures["sent"] == ["Invalid chapter or verse"]
+
+
+def test_lookup_command_usfm_whole_chapter(monkeypatch, tmp_path):
+    _write_book(tmp_path, "asv", "genesis", [_usfm_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1 asv")
+    full = "\n".join(captures["menu"])
+    assert "[1] Verse 1" in full
+    assert "[2] Verse 2" in full
+    assert "[3] Verse 3" in full
+
+
+def test_lookup_command_usfm_verse_list(monkeypatch, tmp_path):
+    _write_book(tmp_path, "asv", "genesis", [_usfm_chapter(5)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:1,5 asv")
+    full = "\n".join(captures["menu"])
+    assert "[1] Verse 1" in full
+    assert "[5] Verse 5" in full
+    assert "[2] Verse 2" not in full

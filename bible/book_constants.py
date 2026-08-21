@@ -62,7 +62,7 @@ books_new_testament = {
     "2thessalonians": {"name": "2 Thessalonians", "order": 53},
     "1timothy": {"name": "1 Timothy", "order": 54},
     "2timothy": {"name": "2 Timothy", "order": 55},
-    "titus": {"name": "titus", "order": 56},
+    "titus": {"name": "Titus", "order": 56},
     "philemon": {"name": "Philemon", "order": 57},
     "hebrews": {"name": "Hebrews", "order": 58},
     "james": {"name": "James", "order": 59},

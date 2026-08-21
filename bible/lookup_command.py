@@ -12,7 +12,6 @@ from bible.verse_blocks import render_verse_lines
 from bible.search_utils import (
     detect_translation,
     get_book_info,
-    get_verse_offset,
     has_translation,
 )
 
@@ -23,9 +22,7 @@ async def lookup(cog, ctx, message: str):
 
     try:
         translation = "akjv"
-        detected_translation = False
         if has_translation(message):
-            detected_translation = True
             detected = detect_translation(message)
             if detected is not None:
                 translation = detected
@@ -35,14 +32,6 @@ async def lookup(cog, ctx, message: str):
         book = res[0]
         book_info = get_book_info(book, translation)
         if book_info is None:
-            await ctx.send(
-                "Invalid argument: message "
-                + message
-                + " book: "
-                + book
-                + " detected: "
-                + str(detected_translation)
-            )
             return
 
         book_filename = book_info["filename"]
@@ -54,7 +43,8 @@ async def lookup(cog, ctx, message: str):
         if ":" in chapter_verse:
             chapter, verse = chapter_verse.split(":")
             chapter = int(chapter)
-            have_chapter_and_verse = True
+            if verse:
+                have_chapter_and_verse = True
         else:
             chapter = int(chapter_verse)
     except Exception:
@@ -63,18 +53,19 @@ async def lookup(cog, ctx, message: str):
         )
         return
 
+    verse_list = []
     if have_chapter_and_verse:
         try:
-            verse_min, verse_max = verse.split("-")
-            verse_min = int(verse_min)
-            verse_max = int(verse_max)
-        except Exception:
-            try:
-                verse_min = int(verse)
-                verse_max = int(verse)
-            except ValueError:
-                await ctx.send("Invalid argument: verse range " + verse)
-                return
+            for item in verse.split(","):
+                if "-" in item:
+                    a, b = item.split("-")
+                    verse_list.extend(range(int(a), int(b) + 1))
+                else:
+                    verse_list.append(int(item))
+        except (ValueError, AttributeError):
+            await ctx.send("Invalid argument: verse range " + verse)
+            return
+        verse_list = list(dict.fromkeys(verse_list))
 
     path = bundled_data_path(cog)
 
@@ -87,24 +78,44 @@ async def lookup(cog, ctx, message: str):
             display_extras = " ".join(book_info["extras"])
 
             chapters = data["chapters"]
+            if chapter < 1 or chapter > len(chapters):
+                await ctx.send("Invalid chapter or verse")
+                return
             chapter = chapters[chapter - 1]
             description_lines = []
 
-            if not have_chapter_and_verse:
-                verse_min = 1
-                verse_max = len(chapter["verses"]) - 1
-
             usfmFormat = False
             if "verses" in chapter:
-                verses = chapter.get("verses")[verse_min - 1 : verse_max]
+                all_verses = chapter["verses"]
                 chapterNumber = str(chapter["chapter"])
+                by_number = {int(v["verse"]): v for v in all_verses}
+                if have_chapter_and_verse:
+                    if any(n not in by_number for n in verse_list):
+                        await ctx.send("Invalid chapter or verse")
+                        return
+                    verses = [by_number[n] for n in verse_list]
+                else:
+                    verses = all_verses
             if "contents" in chapter:
                 usfmFormat = True
-                verse_offset = get_verse_offset(chapter.get("contents"))
-                range_min = verse_min + verse_offset - 1
-                range_max = verse_max + verse_offset
-                verses = chapter.get("contents")[range_min:range_max]
+                contents = chapter["contents"]
                 chapterNumber = chapter.get("chapterNumber")
+                by_number = {
+                    int(c["verseNumber"]): c
+                    for c in contents
+                    if isinstance(c, dict) and "verseNumber" in c
+                }
+                if have_chapter_and_verse:
+                    if any(n not in by_number for n in verse_list):
+                        await ctx.send("Invalid chapter or verse")
+                        return
+                    verses = [by_number[n] for n in verse_list]
+                else:
+                    verses = [
+                        c
+                        for c in contents
+                        if isinstance(c, dict) and "verseNumber" in c
+                    ]
 
             # Build description and collect notes once per chapter.
             notes_by_verse: dict[str, list[str]] = {}
