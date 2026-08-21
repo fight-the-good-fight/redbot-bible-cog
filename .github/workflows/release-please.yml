@@ -1,6 +1,9 @@
 name: Release Please
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -12,8 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create release PR or tag
+        id: release
         uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+
+      - name: Auto-merge the release PR
+        if: steps.release.outputs.pull-request-number != ''
+        run: gh pr merge "${{ steps.release.outputs.pull-request-number }}" --auto --squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
