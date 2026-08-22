@@ -29,6 +29,7 @@ Redbot installs cogs from the git repository, not from GitHub release assets.
        .load bible
 
 Release tags and release notes are still published for changelog/history tracking.
+See [RELEASING.md](RELEASING.md) for how releases are cut.
 
 ## Commands
 
