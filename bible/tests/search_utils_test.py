@@ -141,3 +141,13 @@ def test_get_book_extras_from_json_edge_cases():
     book_info = get_book_info("exodus")
     extras = get_book_extras_from_json(str(data_dir), book_info, "invalid_translation")
     assert extras == []  # Should return empty list
+
+
+def test_detect_translation_start_word():
+    assert detect_translation("asv Genesis 1:1") == "asv"
+    assert detect_translation("bsb Genesis 1:1") == "bsb"
+    assert detect_translation("akjv Genesis 1:1") == "akjv"
+
+
+def test_fix_book_name_song_of_solomon():
+    assert fix_book_name("Song of Solomon") == "songofsolomon"
