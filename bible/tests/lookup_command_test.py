@@ -479,3 +479,68 @@ def test_lookup_command_usfm_verse_list(monkeypatch, tmp_path):
     assert "[1] Verse 1" in full
     assert "[5] Verse 5" in full
     assert "[2] Verse 2" not in full
+
+
+def test_lookup_command_invalid_message(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis x")
+    assert captures["sent"] == [
+        "Invalid argument: message Genesis x check_path " + str(tmp_path)
+    ]
+
+
+def test_lookup_command_invalid_verse_range(monkeypatch, tmp_path):
+    _write_book(tmp_path, "akjv", "genesis", [_verse_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:x")
+    assert captures["sent"] == ["Invalid argument: verse range x"]
+
+
+def test_lookup_command_usfm_verse_out_of_range(monkeypatch, tmp_path):
+    _write_book(tmp_path, "asv", "genesis", [_usfm_chapter(3)])
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1:5 asv")
+    assert captures["sent"] == ["Invalid chapter or verse"]
+
+
+def test_lookup_command_missing_book_file(monkeypatch, tmp_path):
+    lookup_module = __import__("bible.lookup_command", fromlist=["lookup"])
+    sent = []
+
+    async def fake_send(*args, **kwargs):
+        sent.append(args[0] if args else kwargs.get("content"))
+
+    async def fake_menu(_ctx, embeds, controls=None, timeout=None):
+        pass
+
+    monkeypatch.setattr(lookup_module, "bundled_data_path", lambda _cog: str(tmp_path))
+    monkeypatch.setattr(
+        lookup_module,
+        "get_book_info",
+        lambda book, translation="akjv": {
+            "book": "genesis",
+            "filename": "akjv/missing.json",
+            "matched": {"name": "Genesis", "order": 1},
+            "extras": [],
+        },
+    )
+    monkeypatch.setattr(lookup_module, "load_memories", lambda path=None: [])
+    monkeypatch.setattr(lookup_module, "get_changes_for_chapter", _no_changes)
+    monkeypatch.setattr(lookup_module, "menu", fake_menu)
+
+    cog = SimpleNamespace()
+    ctx = SimpleNamespace(send=fake_send)
+
+    asyncio.run(lookup_module.lookup(cog, ctx, "Genesis 1:1"))
+
+    assert sent == ["Book not found: akjv/missing.json"]
+
+
+def test_lookup_command_usfm_renders_notes(monkeypatch, tmp_path):
+    chapter = _usfm_chapter(3)
+    chapter["chapterNumber"] = "1"  # real USFM data stores chapterNumber as a string
+    _write_book(tmp_path, "akjv", "genesis", [chapter])
+    notes = [
+        {"number": 1, "book": "Genesis", "chapter": 1, "verse": 1, "note": "usfm note"}
+    ]
+    captures = _run_lookup(monkeypatch, tmp_path, "Genesis 1", notes=notes)
+    full = "\n".join(captures["menu"])
+    assert "usfm note" in full

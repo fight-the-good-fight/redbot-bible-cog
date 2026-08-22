@@ -3,6 +3,8 @@ from types import SimpleNamespace
 from typing import Any, cast
 
 import asyncio
+import pytest
+from redbot.core import commands
 
 from bible.bible import Bible, get_book_info
 from bible.search_utils import get_book_extras_from_json
@@ -196,3 +198,170 @@ def test_markdownlint_is_pinned():
     makefile = Path(__file__).resolve().parents[2] / "Makefile"
     contents = makefile.read_text()
     assert "markdownlint-cli2@0.23.2" in contents
+
+
+def test_memory_add_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_add(ctx, *, message):
+        calls.append((ctx, message))
+
+    monkeypatch.setattr(bible_module, "memory_add_command", fake_add)
+
+    cog = _make_cog()
+    ctx = SimpleNamespace()
+
+    asyncio.run(Bible.__dict__["add"].callback(cog, ctx, message="Genesis 1:1 note"))
+
+    assert calls == [(ctx, "Genesis 1:1 note")]
+
+
+def test_memory_remove_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_remove(ctx, number):
+        calls.append((ctx, number))
+
+    monkeypatch.setattr(bible_module, "memory_remove_command", fake_remove)
+
+    cog = _make_cog()
+    ctx = SimpleNamespace()
+
+    asyncio.run(Bible.__dict__["remove"].callback(cog, ctx, number=1))
+
+    assert calls == [(ctx, 1)]
+
+
+def test_memory_list_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_list(ctx, book=None, arg=None):
+        calls.append((ctx, book, arg))
+
+    monkeypatch.setattr(bible_module, "memory_list_command", fake_list)
+
+    cog = _make_cog()
+    ctx = SimpleNamespace()
+
+    asyncio.run(Bible.__dict__["list"].callback(cog, ctx, book="Genesis", arg="1:1"))
+
+    assert calls == [(ctx, "Genesis", "1:1")]
+
+
+def test_bible_lookup_delegates(monkeypatch):
+    from bible import bible as bible_module
+
+    calls = []
+
+    async def fake_lookup(cog, ctx, message):
+        calls.append((cog, ctx, message))
+
+    monkeypatch.setattr(bible_module, "lookup_command", fake_lookup)
+
+    cog = _make_cog()
+    ctx = SimpleNamespace()
+
+    asyncio.run(Bible.__dict__["lookup"].callback(cog, ctx, message="Genesis 1:1"))
+
+    assert calls == [(cog, ctx, "Genesis 1:1")]
+
+
+def test_on_command_error_ignores_no_command():
+    cog = _make_cog()
+    sent = []
+
+    async def send(message):
+        sent.append(message)
+
+    ctx = SimpleNamespace(command=None, prefix="!", send=send)
+
+    asyncio.run(cog.on_command_error(ctx, RuntimeError("boom")))
+
+    assert sent == []
+
+
+def test_on_command_error_ignores_other_cog():
+    cog = _make_cog()
+    sent = []
+
+    async def send(message):
+        sent.append(message)
+
+    ctx = SimpleNamespace(
+        command=SimpleNamespace(cog=object()), prefix="!", send=send
+    )
+
+    asyncio.run(cog.on_command_error(ctx, RuntimeError("boom")))
+
+    assert sent == []
+
+
+def test_on_command_error_missing_required_argument():
+    cog = _make_cog()
+    sent = []
+
+    async def send(message):
+        sent.append(message)
+
+    ctx = SimpleNamespace(command=SimpleNamespace(cog=cog), prefix="!", send=send)
+    error = commands.MissingRequiredArgument(
+        SimpleNamespace(name="message", displayed_name="message")
+    )
+
+    asyncio.run(cog.on_command_error(ctx, error))
+
+    assert sent[0].startswith("Missing required argument: `message`. Use `!help ")
+    assert sent[0].endswith("` for usage.")
+
+
+def test_on_command_error_bad_argument():
+    cog = _make_cog()
+    sent = []
+
+    async def send(message):
+        sent.append(message)
+
+    ctx = SimpleNamespace(command=SimpleNamespace(cog=cog), prefix="!", send=send)
+    error = commands.BadArgument("boom")
+
+    asyncio.run(cog.on_command_error(ctx, error))
+
+    assert sent[0].startswith("Bad argument: `boom`. Use `!help ")
+    assert sent[0].endswith("` for usage.")
+
+
+def test_on_command_error_bad_argument_no_args():
+    cog = _make_cog()
+    sent = []
+
+    async def send(message):
+        sent.append(message)
+
+    ctx = SimpleNamespace(command=SimpleNamespace(cog=cog), prefix="!", send=send)
+    error = commands.BadArgument()
+
+    asyncio.run(cog.on_command_error(ctx, error))
+
+    assert sent[0].startswith("Bad argument: `unknown`. Use `!help ")
+    assert sent[0].endswith("` for usage.")
+
+
+def test_on_command_error_reraises_other_errors():
+    cog = _make_cog()
+
+    ctx = SimpleNamespace(command=SimpleNamespace(cog=cog), prefix="!", send=None)
+
+    with pytest.raises(RuntimeError):
+        asyncio.run(cog.on_command_error(ctx, RuntimeError("boom")))
+
+
+def test_cog_init_stores_bot():
+    bot = SimpleNamespace()
+    cog = Bible(bot)
+    assert cog.bot is bot
